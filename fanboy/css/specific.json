@@ -2327,6 +2327,10 @@
     "gadgetstouse.com": [
         "#scroll-to-top"
     ],
+    "gagadget.com": [
+        ".footer-slide",
+        ".scrolltop"
+    ],
     "galvnews.com": [
         ".asset-paging"
     ],

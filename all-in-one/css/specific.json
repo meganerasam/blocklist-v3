@@ -663,6 +663,7 @@
         ".support-banner"
     ],
     "advrider.com": [
+        "#bigBox",
         ".ad-align",
         ".vsLBBottom",
         ".vsLBTop",
@@ -2784,6 +2785,7 @@
         ".hustle-slidein-content"
     ],
     "bettycrocker.com": [
+        ".adhesiveAdSpacing",
         ".recipeAd"
     ],
     "betway.co.za": [
@@ -10552,6 +10554,12 @@
     "gadgetstouse.com": [
         ".td-ss-main-sidebar",
         "#scroll-to-top"
+    ],
+    "gagadget.com": [
+        ".ads",
+        ".l-inner_wide.l-inner",
+        ".footer-slide",
+        ".scrolltop"
     ],
     "gaiaonline.com": [
         "#gaiaonline_leaderboard_atf",
@@ -21407,7 +21415,10 @@
         "HTML"
     ],
     "popculture.com": [
-        ".wp-block-savage-platform-raptive-ad"
+        ".wp-block-savage-platform-primis-video",
+        ".wp-block-savage-platform-raptive-ad",
+        "div[data-lx-claimed=\"zone-desktop-incontent\"]",
+        "div[data-lx-claimed=\"zone-desktop-index-leaderboard\"]"
     ],
     "popmythology.com": [
         "#toTop"
@@ -21755,6 +21766,7 @@
         ".top-cont"
     ],
     "producthunt.com": [
+        ".cursor-pointer:has(img[alt=\"Promoted\"])",
         ".styles_item__hNPI1",
         "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(a[href=\"/sponsor\"])",
         "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(img[src=\"/i/33b26ee8f2668842e38841253cfde42aa203585e395ff731f21aebffbb38c8e5\"])",
@@ -27874,6 +27886,7 @@
         ".zone-el"
     ],
     "thenextweb.com": [
+        ".sponsored_legal",
         ".tnw-ad"
     ],
     "thenightly.com.au": [
@@ -28845,7 +28858,9 @@
     ],
     "top.gg": [
         ".chakra-stack.css-15xujv4",
-        "[class*=\"__AdContainer-\"]"
+        ".flex-col.items-center.justify-center:has(#desktop-aside-video-ad)",
+        "[class*=\"__AdContainer-\"]",
+        "article.items-start:has(a[rel=\"sponsored\"])"
     ],
     "top100token.com": [
         ".swiper_div.right-pad"
@@ -29171,6 +29186,9 @@
         ".mantine-Center-root:has(.ads-holder)",
         "#promo-ad-free-story-bottom",
         ".top_button"
+    ],
+    "tribuna.com": [
+        "div[class$=\"_ads-container\"]"
     ],
     "tribune.com.pk": [
         ".prev-next-sec"
@@ -32496,8 +32514,11 @@
         ".DirectFeature",
         ".ImagesViewer-SidebarAdv",
         ".ProductGallery",
+        ".google-sticky-adv-banner__desktop-disable-ad-button-wrapper",
         ".search-list-view__advert-offer-banner",
         ".search-snippet-view:has(span.search-advert-badge__advert)",
+        ".sticky-banner-container",
+        ".yandex-sticky-adv-banner__desktop-disable-ad-button-wrapper",
         "a[href^=\"https://yandex.ru/an/count/\"]",
         "div[aria-label=\"Ad\"]",
         "div[data-name=\"adWrapper\"]",

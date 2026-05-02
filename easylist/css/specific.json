@@ -537,6 +537,7 @@
         "div[id^=\"sPost_Layout_Default_\"]:has(> .ad_leaderboard_wrap)"
     ],
     "advrider.com": [
+        "#bigBox",
         ".ad-align",
         ".vsLBBottom",
         ".vsLBTop",
@@ -2252,6 +2253,7 @@
         ".blockPartner"
     ],
     "bettycrocker.com": [
+        ".adhesiveAdSpacing",
         ".recipeAd"
     ],
     "beyondgames.biz": [
@@ -8666,6 +8668,10 @@
     ],
     "gadgetstouse.com": [
         ".td-ss-main-sidebar"
+    ],
+    "gagadget.com": [
+        ".ads",
+        ".l-inner_wide.l-inner"
     ],
     "gaiaonline.com": [
         "#gaiaonline_leaderboard_atf",
@@ -17339,7 +17345,10 @@
         "HTML"
     ],
     "popculture.com": [
-        ".wp-block-savage-platform-raptive-ad"
+        ".wp-block-savage-platform-primis-video",
+        ".wp-block-savage-platform-raptive-ad",
+        "div[data-lx-claimed=\"zone-desktop-incontent\"]",
+        "div[data-lx-claimed=\"zone-desktop-index-leaderboard\"]"
     ],
     "popsci.com": [
         "#pw-iab-leaderboard",
@@ -17593,6 +17602,7 @@
         ".top-cont"
     ],
     "producthunt.com": [
+        ".cursor-pointer:has(img[alt=\"Promoted\"])",
         ".styles_item__hNPI1",
         "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(a[href=\"/sponsor\"])",
         "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(img[src=\"/i/33b26ee8f2668842e38841253cfde42aa203585e395ff731f21aebffbb38c8e5\"])",
@@ -22599,6 +22609,7 @@
         ".zone-el"
     ],
     "thenextweb.com": [
+        ".sponsored_legal",
         ".tnw-ad"
     ],
     "thenipslip.com": [
@@ -23411,7 +23422,9 @@
     ],
     "top.gg": [
         ".chakra-stack.css-15xujv4",
-        "[class*=\"__AdContainer-\"]"
+        ".flex-col.items-center.justify-center:has(#desktop-aside-video-ad)",
+        "[class*=\"__AdContainer-\"]",
+        "article.items-start:has(a[rel=\"sponsored\"])"
     ],
     "top100token.com": [
         ".swiper_div.right-pad"
@@ -23704,6 +23717,9 @@
     "triblive.com": [
         ".ad",
         ".mantine-Center-root:has(.ads-holder)"
+    ],
+    "tribuna.com": [
+        "div[class$=\"_ads-container\"]"
     ],
     "tribune.net.ph": [
         "#mvp-leader-wrap"
@@ -26440,8 +26456,11 @@
         ".DirectFeature",
         ".ImagesViewer-SidebarAdv",
         ".ProductGallery",
+        ".google-sticky-adv-banner__desktop-disable-ad-button-wrapper",
         ".search-list-view__advert-offer-banner",
         ".search-snippet-view:has(span.search-advert-badge__advert)",
+        ".sticky-banner-container",
+        ".yandex-sticky-adv-banner__desktop-disable-ad-button-wrapper",
         "a[href^=\"https://yandex.ru/an/count/\"]",
         "div[aria-label=\"Ad\"]",
         "div[data-name=\"adWrapper\"]",
