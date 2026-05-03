@@ -2073,7 +2073,8 @@
     "audubon.org": [
         ".donation",
         ".dyMonitor",
-        ".engagement-card-sidebar-section"
+        ".engagement-card-sidebar-section",
+        ".magazine-info"
     ],
     "augustman.com": [
         ".masthead-container"
@@ -9254,6 +9255,10 @@
     "fda.gov": [
         "#btn-top"
     ],
+    "fdiintelligence.com": [
+        ".mid-desktop",
+        ".o-ads"
+    ],
     "federalnewsnetwork.com": [
         ".promo-inline"
     ],
@@ -11264,6 +11269,7 @@
         ".device-desktop",
         ".guIlWP",
         ".z-stickyAd",
+        "[class*=\"w-adCarousel\"]",
         "div[class^=\"ads_\"]"
     ],
     "girgitnews.com": [
@@ -22659,6 +22665,11 @@
         "#block-29",
         "#block-31",
         ".widget_media_image"
+    ],
+    "ratehub.ca": [
+        "#main-content > div > section:has([class^=\"Ad__Container-sc-\"])",
+        "#portalLeaderboardAd",
+        "#sidebar-section-advertisement"
     ],
     "ratemds.com": [
         ".ad"

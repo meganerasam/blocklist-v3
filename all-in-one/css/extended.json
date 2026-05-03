@@ -605,6 +605,12 @@
             "type": "extended"
         }
     ],
+    "fdiintelligence.com": [
+        {
+            "selector": ".undefined:has-text(Advertisement)",
+            "type": "extended"
+        }
+    ],
     "filehippo.com": [
         {
             "selector": "article.card-article:has(span.card-article__author:has-text(Sponsored Content))",
