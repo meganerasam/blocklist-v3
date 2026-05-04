@@ -4897,6 +4897,22 @@
                 "main_frame"
             ],
             "initiatorDomains": [
+                "fuckingfast.co"
+            ],
+            "urlFilter": "/?tag="
+        }
+    },
+    {
+        "id": 102,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "main_frame"
+            ],
+            "initiatorDomains": [
                 "piracyproxy.app",
                 "piraproxy.info",
                 "unblocked.club",
@@ -4906,7 +4922,7 @@
         }
     },
     {
-        "id": 102,
+        "id": 103,
         "priority": 1,
         "action": {
             "type": "block"
@@ -4924,7 +4940,7 @@
         }
     },
     {
-        "id": 103,
+        "id": 104,
         "priority": 1,
         "action": {
             "type": "block"
@@ -4937,7 +4953,7 @@
         }
     },
     {
-        "id": 104,
+        "id": 105,
         "priority": 1,
         "action": {
             "type": "block"
@@ -4953,7 +4969,7 @@
         }
     },
     {
-        "id": 105,
+        "id": 106,
         "priority": 1,
         "action": {
             "type": "block"
@@ -4969,7 +4985,7 @@
         }
     },
     {
-        "id": 106,
+        "id": 107,
         "priority": 1,
         "action": {
             "type": "block"
@@ -4982,7 +4998,7 @@
         }
     },
     {
-        "id": 107,
+        "id": 108,
         "priority": 1,
         "action": {
             "type": "block"
@@ -4998,7 +5014,7 @@
         }
     },
     {
-        "id": 108,
+        "id": 109,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5011,7 +5027,7 @@
         }
     },
     {
-        "id": 109,
+        "id": 110,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5024,7 +5040,7 @@
         }
     },
     {
-        "id": 110,
+        "id": 111,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5037,7 +5053,7 @@
         }
     },
     {
-        "id": 111,
+        "id": 112,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5050,7 +5066,7 @@
         }
     },
     {
-        "id": 112,
+        "id": 113,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5063,7 +5079,7 @@
         }
     },
     {
-        "id": 113,
+        "id": 114,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5076,7 +5092,7 @@
         }
     },
     {
-        "id": 114,
+        "id": 115,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5089,7 +5105,7 @@
         }
     },
     {
-        "id": 115,
+        "id": 116,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5102,7 +5118,7 @@
         }
     },
     {
-        "id": 116,
+        "id": 117,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5115,7 +5131,7 @@
         }
     },
     {
-        "id": 117,
+        "id": 118,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5128,7 +5144,7 @@
         }
     },
     {
-        "id": 118,
+        "id": 119,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5144,7 +5160,7 @@
         }
     },
     {
-        "id": 119,
+        "id": 120,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5157,7 +5173,7 @@
         }
     },
     {
-        "id": 120,
+        "id": 121,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5170,7 +5186,7 @@
         }
     },
     {
-        "id": 121,
+        "id": 122,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5183,7 +5199,7 @@
         }
     },
     {
-        "id": 122,
+        "id": 123,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5196,7 +5212,7 @@
         }
     },
     {
-        "id": 123,
+        "id": 124,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5209,7 +5225,7 @@
         }
     },
     {
-        "id": 124,
+        "id": 125,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5222,7 +5238,7 @@
         }
     },
     {
-        "id": 125,
+        "id": 126,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5291,7 +5307,7 @@
         }
     },
     {
-        "id": 126,
+        "id": 127,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5304,7 +5320,7 @@
         }
     },
     {
-        "id": 127,
+        "id": 128,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5318,7 +5334,7 @@
         }
     },
     {
-        "id": 128,
+        "id": 129,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5331,7 +5347,7 @@
         }
     },
     {
-        "id": 129,
+        "id": 130,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5344,7 +5360,7 @@
         }
     },
     {
-        "id": 130,
+        "id": 131,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5357,7 +5373,7 @@
         }
     },
     {
-        "id": 131,
+        "id": 132,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5370,7 +5386,7 @@
         }
     },
     {
-        "id": 132,
+        "id": 133,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5383,7 +5399,7 @@
         }
     },
     {
-        "id": 133,
+        "id": 134,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5396,7 +5412,7 @@
         }
     },
     {
-        "id": 134,
+        "id": 135,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5409,7 +5425,7 @@
         }
     },
     {
-        "id": 135,
+        "id": 136,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5422,7 +5438,7 @@
         }
     },
     {
-        "id": 136,
+        "id": 137,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5435,7 +5451,7 @@
         }
     },
     {
-        "id": 137,
+        "id": 138,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5448,7 +5464,7 @@
         }
     },
     {
-        "id": 138,
+        "id": 139,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5461,7 +5477,7 @@
         }
     },
     {
-        "id": 139,
+        "id": 140,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5474,7 +5490,7 @@
         }
     },
     {
-        "id": 140,
+        "id": 141,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5487,7 +5503,7 @@
         }
     },
     {
-        "id": 141,
+        "id": 142,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5500,7 +5516,7 @@
         }
     },
     {
-        "id": 142,
+        "id": 143,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5513,7 +5529,7 @@
         }
     },
     {
-        "id": 143,
+        "id": 144,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5526,7 +5542,7 @@
         }
     },
     {
-        "id": 144,
+        "id": 145,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5539,7 +5555,7 @@
         }
     },
     {
-        "id": 145,
+        "id": 146,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5552,7 +5568,7 @@
         }
     },
     {
-        "id": 146,
+        "id": 147,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5565,7 +5581,7 @@
         }
     },
     {
-        "id": 147,
+        "id": 148,
         "priority": 1,
         "action": {
             "type": "block"
@@ -5578,19 +5594,6 @@
         }
     },
     {
-        "id": 148,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "resourceTypes": [
-                "main_frame"
-            ],
-            "urlFilter": "||stake.com/*&clickId="
-        }
-    },
-    {
         "id": 149,
         "priority": 1,
         "action": {
@@ -5600,8 +5603,7 @@
             "resourceTypes": [
                 "main_frame"
             ],
-            "domainType": "thirdParty",
-            "urlFilter": "||teenfinder.com/landing/"
+            "urlFilter": "||stake.com/*&clickId="
         }
     },
     {
@@ -5615,7 +5617,7 @@
                 "main_frame"
             ],
             "domainType": "thirdParty",
-            "urlFilter": "||theeverydaygame.com/lg/"
+            "urlFilter": "||teenfinder.com/landing/"
         }
     },
     {
@@ -5628,7 +5630,8 @@
             "resourceTypes": [
                 "main_frame"
             ],
-            "urlFilter": "||unibet.co.uk/*affiliate"
+            "domainType": "thirdParty",
+            "urlFilter": "||theeverydaygame.com/lg/"
         }
     },
     {
@@ -5641,11 +5644,24 @@
             "resourceTypes": [
                 "main_frame"
             ],
-            "urlFilter": "||werbestandard.de/out2/"
+            "urlFilter": "||unibet.co.uk/*affiliate"
         }
     },
     {
         "id": 153,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "main_frame"
+            ],
+            "urlFilter": "||werbestandard.de/out2/"
+        }
+    },
+    {
+        "id": 154,
         "priority": 1,
         "action": {
             "type": "block"

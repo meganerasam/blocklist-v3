@@ -810,6 +810,9 @@
     "brevzin.github.io": [
         "#back-to-top"
     ],
+    "bricklink.com": [
+        ".anchor-to-top"
+    ],
     "bridestoday.in": [
         "#myBtn"
     ],
@@ -1470,6 +1473,10 @@
     ],
     "dailygazette.com": [
         ".asset-paging-container"
+    ],
+    "dailygrail.com": [
+        ".to-top",
+        ".top-bar-message"
     ],
     "dailyhodl.com": [
         "[href=\"https://dailyhodl.com/alerts/\"]"

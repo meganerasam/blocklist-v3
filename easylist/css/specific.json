@@ -10320,9 +10320,12 @@
         "#affiliate-shop-now",
         "#divshopnowRight",
         ".affilaite-widget",
+        ".bottomFixAd",
+        ".h325",
         ".headBanner",
         ".ht_taboola",
         ".m_headBanner",
+        ".middleTaboola",
         ".moreFrom",
         ".noAdLabel",
         ".pramotedWidget",
@@ -11072,6 +11075,7 @@
         ".add-first",
         ".ads-container",
         ".adsizes",
+        ".ie-ads-block-frontend",
         ".ie-adsbox",
         ".ie-adtext",
         ".ie-banner-wrapper",
@@ -15795,6 +15799,9 @@
     "noon.com": [
         "#modules-renderer:has([class*=\"sponsored\"])",
         "#noon-modules:has([class*=\"AdBrandVideo\"])",
+        "#noon-modules:has(div[data-qa=\"widget_AdMultiProductSide\"])",
+        ".PdpRecommendations-module-scss-module__e4nPqG__recosWrapper",
+        ".ProductDetailsDesktop-module-scss-module__AYN9Ya__topSlotWrapper",
         ".visibilitySensorWrapper:has(.adBannerModule)",
         "[data-qa=\"plp-product-box\"]:has([class^=\"SponsoredTag\"])"
     ],
@@ -17350,6 +17357,7 @@
         "HTML"
     ],
     "popculture.com": [
+        ".lngtd-dynamic-inarticle",
         ".wp-block-savage-platform-primis-video",
         ".wp-block-savage-platform-raptive-ad",
         "div[data-lx-claimed=\"zone-desktop-incontent\"]",
@@ -23004,6 +23012,10 @@
         ".styles__PromotedContentContainer-sc-1ul3b7n-3",
         "article[id=\"article-main\"] > div:has(#ad-header)"
     ],
+    "thetimes.com.au": [
+        "[href=\"https://workspace.google.com/lp/solutions/ai/\"]",
+        "[href=\"https://www.oracle.com/anz/database/\"]"
+    ],
     "thetimestribune.com": [
         "#floorboard_block"
     ],
@@ -25141,6 +25153,9 @@
     "watchinamerica.com": [
         ".deskad",
         ".smartmag-widget-codes"
+    ],
+    "watchsports.to": [
+        ".sp-promo-card"
     ],
     "waterford-news.ie": [
         "#ads"
