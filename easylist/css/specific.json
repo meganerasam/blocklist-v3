@@ -13354,6 +13354,9 @@
     "mainichi.jp": [
         "#PC-english-rec1"
     ],
+    "maison-et-domotique.com": [
+        ".sidebar .widget_media_image"
+    ],
     "majorgeeks.com": [
         "#op1-ad",
         ".alford > tbody > tr",
@@ -15803,7 +15806,8 @@
         ".PdpRecommendations-module-scss-module__e4nPqG__recosWrapper",
         ".ProductDetailsDesktop-module-scss-module__AYN9Ya__topSlotWrapper",
         ".visibilitySensorWrapper:has(.adBannerModule)",
-        "[data-qa=\"plp-product-box\"]:has([class^=\"SponsoredTag\"])"
+        "[data-qa=\"plp-product-box\"]:has([class^=\"SponsoredTag\"])",
+        "div[data-qa=\"plp-product-box\"]:has(div[class^=\"STag-module-\"])"
     ],
     "nordot.app": [
         ".main__ad"
@@ -16868,6 +16872,7 @@
     "pexels.com": [
         ".inline-ads",
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([class*=\"AIGCAdShared\"])",
+        "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-label*=\"Sponsored\"])",
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-text=\"Sponsored Photos\"])",
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-title*=\"Sponsored\"])",
         "div[class=\"RowItem_gridItem__OfhML RowItem_fullWidth__cIdtN RowItem_expand__TR5R6\"]",
@@ -17078,7 +17083,8 @@
         ".gettyImagesContainer--7sZnR",
         ".present-g-item",
         "[class^=\"gettySponsored\"]",
-        "div[class=\"cell--UMz-x\"]:has(button[aria-label=\"About this advertiser\"])"
+        "div[class^=\"cell--\"]:has(button[aria-label=\"About this advertiser\"])",
+        "div[class^=\"mrxz\"]:has(button[aria-label=\"About this advertiser\"])"
     ],
     "pixhost.to": [
         ".under-image"
@@ -19684,6 +19690,9 @@
     "scientificamerican.com": [
         ".banner",
         ".footer-banner"
+    ],
+    "scloud.ws": [
+        "a.download-button"
     ],
     "scmp.com": [
         "#after-page-layout-container",
