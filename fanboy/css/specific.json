@@ -4780,7 +4780,8 @@
         "#scrolltop"
     ],
     "pcguide.com": [
-        ".generate-back-to-top"
+        ".generate-back-to-top",
+        ".globalDisclosure"
     ],
     "pcpj.org": [
         "#infinite-footer"
@@ -4793,7 +4794,9 @@
     ],
     "peoplefor.org": [
         "#XLWYBKFZ",
-        ".fun-widget-backdrop-holder"
+        ".fun-widget-backdrop-holder",
+        "[title=\"Persistent Donate Button\"]",
+        "[title=\"Popup\"]"
     ],
     "peoplematters.in": [
         ".scroll-to-top"
@@ -6173,6 +6176,9 @@
     "thalheim.com": [
         ".wso-section-age"
     ],
+    "thatprivacyguy.com": [
+        ".house"
+    ],
     "the-fence.com": [
         ".sf-header-cta-gift"
     ],
@@ -6798,6 +6804,10 @@
     ],
     "unionleader.com": [
         ".asset-paging-container"
+    ],
+    "united24media.com": [
+        ".gtm-article-small",
+        ".gtm-bottom-popup-article"
     ],
     "universetoday.com": [
         ".adv-link"

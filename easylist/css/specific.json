@@ -3471,6 +3471,7 @@
     ],
     "carscoops.com": [
         "._ap_apex_ad",
+        ".ad-placement",
         ".in-asd-content"
     ],
     "carsdirect.com": [
@@ -10199,6 +10200,7 @@
     ],
     "helpnetsecurity.com": [
         "#\\37 7e27088_l1",
+        ".spotlight",
         "[style*=\"max-height: 250\"]"
     ],
     "helpwithwindows.com": [
@@ -21944,6 +21946,9 @@
     "thatmaidguy.su": [
         ".ads"
     ],
+    "thatprivacyguy.com": [
+        ".ws-slotb"
+    ],
     "the-conjugation.com": [
         "#header_pub"
     ],
@@ -25779,7 +25784,8 @@
     ],
     "winaero.com": [
         "#custom_html-10",
-        ".site-content > div > p[style=\"margin: 22px\"]"
+        ".site-content > div > p[style=\"margin: 22px\"]",
+        "a[href=\"/fix-prf-issues/\"]"
     ],
     "windinmyface.com": [
         ".placementInline",

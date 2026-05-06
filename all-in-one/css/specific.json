@@ -4261,6 +4261,7 @@
     ],
     "carscoops.com": [
         "._ap_apex_ad",
+        ".ad-placement",
         ".in-asd-content",
         ".scroll-top"
     ],
@@ -12371,6 +12372,7 @@
     ],
     "helpnetsecurity.com": [
         "#\\37 7e27088_l1",
+        ".spotlight",
         "[style*=\"max-height: 250\"]"
     ],
     "helpwithwindows.com": [
@@ -20644,7 +20646,8 @@
     "pcguide.com": [
         ".wepc-takeover-sides",
         ".wepc-takeover-top",
-        ".generate-back-to-top"
+        ".generate-back-to-top",
+        ".globalDisclosure"
     ],
     "pch.com": [
         "#div-pch-gpt-placement-bottom",
@@ -20734,7 +20737,9 @@
     ],
     "peoplefor.org": [
         "#XLWYBKFZ",
-        ".fun-widget-backdrop-holder"
+        ".fun-widget-backdrop-holder",
+        "[title=\"Persistent Donate Button\"]",
+        "[title=\"Popup\"]"
     ],
     "peoplematters.in": [
         ".alertBar",
@@ -27029,6 +27034,10 @@
     "thatmaidguy.su": [
         ".ads"
     ],
+    "thatprivacyguy.com": [
+        ".ws-slotb",
+        ".house"
+    ],
     "the-conjugation.com": [
         "#header_pub"
     ],
@@ -29933,6 +29942,10 @@
         "#nn_lb1",
         "#nn_lb2"
     ],
+    "united24media.com": [
+        ".gtm-article-small",
+        ".gtm-bottom-popup-article"
+    ],
     "unitedsupermarkets.com": [
         ".item-citrus"
     ],
@@ -31663,7 +31676,8 @@
     ],
     "winaero.com": [
         "#custom_html-10",
-        ".site-content > div > p[style=\"margin: 22px\"]"
+        ".site-content > div > p[style=\"margin: 22px\"]",
+        "a[href=\"/fix-prf-issues/\"]"
     ],
     "windinmyface.com": [
         ".placementInline",
