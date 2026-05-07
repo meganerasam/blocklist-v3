@@ -1248,6 +1248,8 @@
         ".ad-left"
     ],
     "apnews.com": [
+        ".Advertisement",
+        ".LeaderBoardAd-Mobile",
         ".Page-header-leaderboardAd",
         ".leaderboard-container"
     ],
@@ -11698,11 +11700,9 @@
         ".widget_media_image"
     ],
     "jigsawplanet.com": [
-        "#cb984b30f2-4",
-        "#pl25 + div[id]",
-        "[id^=\"tsi-\"][style=\"height:90px;margin:0\"]",
-        "[id^=\"tsi-\"][style=\"height:90px;margin:var(--block-vertical-spacing) 0\"]",
-        "[style=\"min-height:90px\"]"
+        "#ts-toptimes + div[id*=\"-\"]",
+        "[style=\"min-height:90px\"]",
+        "div[id]:has(> [style=\"height: 100%; display: flex; flex-direction: row; overflow: hidden; gap: 0.2em; margin: 0px auto; justify-content: center;\"])"
     ],
     "jigzone.com": [
         "#dz",
@@ -23203,6 +23203,9 @@
     "ticketmaster.com": [
         ".jTNWic",
         ".jUIMbR"
+    ],
+    "ticketnews.com": [
+        ".tnam-content-ad"
     ],
     "tiermaker.com": [
         ".desktop-sticky"

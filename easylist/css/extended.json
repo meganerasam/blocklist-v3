@@ -53,6 +53,14 @@
             "type": "extended"
         },
         {
+            "selector": "div[class=\"e_Rc e_d\"]:has-text(Affiliate links on Android Authority may earn us a commission)",
+            "type": "extended"
+        },
+        {
+            "selector": "div[class=\"e_ei\"]:has-text(Trending Tech Deals)",
+            "type": "extended"
+        },
+        {
             "selector": "div[class=\"e_ic e_d\"]:has-text(Affiliate links on Android Authority may earn us a commission)",
             "type": "extended"
         }

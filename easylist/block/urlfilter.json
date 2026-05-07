@@ -3413,6 +3413,9 @@
                 "websocket",
                 "webtransport"
             ],
+            "excludedInitiatorDomains": [
+                "konograma.com"
+            ],
             "urlFilter": "/adserver."
         }
     },
