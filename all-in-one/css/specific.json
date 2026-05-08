@@ -7322,6 +7322,12 @@
         ".rehub_scroll"
     ],
     "digitalfoundry.net": [
+        "#nn_half",
+        "#nn_mast",
+        "#nn_mid1",
+        "#nn_mpu2",
+        "#nn_mpu3",
+        "#nn_mpu4",
         ".insert",
         ".inset[style=\"min-height:250px;\"]",
         ".item-insert"
@@ -12612,6 +12618,15 @@
     "hockeyfeed.com": [
         ".ads"
     ],
+    "hockeypatrol.com": [
+        "#ppuubb_1_mobile",
+        "#ppuubb_2",
+        "#ppuubb_3",
+        "#ppuubb_4",
+        "#pub_marc",
+        ".l4",
+        ".ppuubb_1"
+    ],
     "hodinkee.com": [
         ".ad",
         ".kl-private-reset-css-Xuajs1.needsclick"
@@ -15522,6 +15537,7 @@
     ],
     "leawo.org": [
         "#banner-top-prom",
+        "#proPop",
         "#single_top",
         "#widget-tracking"
     ],
@@ -17180,6 +17196,7 @@
         ".ads__index__adWrapper--cz7QL",
         ".metro-discounts",
         ".metro-ow-modules",
+        ".wp-block-metro-widget-archive-metro-partners",
         "[rel*=\"sponsored\"]",
         "#we-need-monies",
         ".metro-swipe-prompt"
@@ -21908,7 +21925,8 @@
     "propublica.org": [
         ".fundraising-letter-inline",
         ".module-donate",
-        ".site-header__banner"
+        ".site-header__banner",
+        ".wp-block-propublica-donate-cta"
     ],
     "proreader.io": [
         "#offerModal"

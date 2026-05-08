@@ -3533,6 +3533,7 @@
     ],
     "leawo.org": [
         "#banner-top-prom",
+        "#proPop",
         "#single_top",
         "#widget-tracking"
     ],
@@ -5109,7 +5110,8 @@
     "propublica.org": [
         ".fundraising-letter-inline",
         ".module-donate",
-        ".site-header__banner"
+        ".site-header__banner",
+        ".wp-block-propublica-donate-cta"
     ],
     "prospect.org": [
         ".bright-blue-big",

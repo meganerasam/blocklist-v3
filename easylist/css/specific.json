@@ -5932,6 +5932,12 @@
         ".news_adhide_device"
     ],
     "digitalfoundry.net": [
+        "#nn_half",
+        "#nn_mast",
+        "#nn_mid1",
+        "#nn_mpu2",
+        "#nn_mpu3",
+        "#nn_mpu4",
         ".insert",
         ".inset[style=\"min-height:250px;\"]",
         ".item-insert"
@@ -10403,6 +10409,15 @@
     "hockeyfeed.com": [
         ".ads"
     ],
+    "hockeypatrol.com": [
+        "#ppuubb_1_mobile",
+        "#ppuubb_2",
+        "#ppuubb_3",
+        "#ppuubb_4",
+        "#pub_marc",
+        ".l4",
+        ".ppuubb_1"
+    ],
     "hodinkee.com": [
         ".ad"
     ],
@@ -13997,6 +14012,7 @@
         ".ads__index__adWrapper--cz7QL",
         ".metro-discounts",
         ".metro-ow-modules",
+        ".wp-block-metro-widget-archive-metro-partners",
         "[rel*=\"sponsored\"]"
     ],
     "metro.us": [
