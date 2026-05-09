@@ -4200,6 +4200,9 @@
     "careerkarma.com": [
         ".ant-modal-root"
     ],
+    "carexpert.co.nz": [
+        "._26wjo85"
+    ],
     "carexpert.com.au": [
         "._26wjo85"
     ],
@@ -4911,6 +4914,9 @@
     ],
     "citiblog.co.uk": [
         ".advertisement"
+    ],
+    "citizen.co.za": [
+        ".scroll-to-top"
     ],
     "citizen.digital": [
         ".mid-article-ad"
@@ -10273,6 +10279,8 @@
         ".advertise"
     ],
     "freecodecamp.org": [
+        ".ad-connector",
+        ".discourse-adplugin",
         ".banner"
     ],
     "freecomiconline.me": [

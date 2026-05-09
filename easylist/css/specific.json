@@ -3422,6 +3422,9 @@
         ".cmscontent-top",
         ".inhouse-content"
     ],
+    "carexpert.co.nz": [
+        "._26wjo85"
+    ],
     "carexpert.com.au": [
         "._26wjo85"
     ],
@@ -8415,6 +8418,10 @@
     "freecarrierlookup.com": [
         "#offers",
         ".advertise"
+    ],
+    "freecodecamp.org": [
+        ".ad-connector",
+        ".discourse-adplugin"
     ],
     "freecomiconline.me": [
         ".c-top-sidebar"
