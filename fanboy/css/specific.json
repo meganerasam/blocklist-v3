@@ -5241,6 +5241,9 @@
     "rbatv.com.br": [
         "#back-to-top"
     ],
+    "realestate.com.au": [
+        ".survey-cta-card"
+    ],
     "realitytvworld.com": [
         "#sideheadlinescontainer2"
     ],
@@ -7059,6 +7062,9 @@
     ],
     "wbez.org": [
         ".PagePromoModuleC"
+    ],
+    "wbur.org": [
+        ".section--takeover"
     ],
     "wdel.com": [
         ".asset-paging-container"

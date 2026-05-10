@@ -1350,6 +1350,9 @@
     "archiproducts.com": [
         ".banner-wrapper"
     ],
+    "architecturaldigest.com": [
+        ".ad"
+    ],
     "architecturesideas.com": [
         ".linkpub_right_img"
     ],
@@ -11846,9 +11849,12 @@
     ],
     "justetf.com": [
         "#brokerAd",
+        ".etf-ad-row",
         ".m-sep-l:has(#partnerNewsBox)",
+        ".publift-ad-container",
         ".wAd",
-        "div[id^=\"shadow-teaser-\"]:has(div[class=\"disclaimer mb-1\"])"
+        "div[id^=\"shadow-teaser-\"]:has(div[class=\"disclaimer mb-1\"])",
+        "tr[onclick^=\"gaW\"]"
     ],
     "justinweather.com": [
         ".top-ad-banner-wrapper"
@@ -13697,6 +13703,7 @@
         ".exco",
         ".top-0.sticky > div",
         ".zad",
+        ".ziff-video-container",
         "[data-pogo=\"top\"]",
         "section.mt-4 > div"
     ],
@@ -15246,6 +15253,9 @@
     ],
     "neowin.net": [
         ".ad"
+    ],
+    "nepalicalendar.rat32.com": [
+        "#adsnew"
     ],
     "nepallivetoday.com": [
         ".adsimage",
@@ -18834,9 +18844,12 @@
     ],
     "realestate.com.au": [
         "#headerLeaderBoardSlot",
+        ".header-ad-container",
         ".header-leaderboard",
         ".header-leaderboard-portal",
-        ".media-viewer__sidebar"
+        ".media-viewer__sidebar",
+        ".styles__Medrec1Container-sc-tc1w4x-0",
+        ".styles__Medrec2Container-sc-tc1w4x-1"
     ],
     "realestatemagazine.ca": [
         ".caroufredsel_wrapper"
