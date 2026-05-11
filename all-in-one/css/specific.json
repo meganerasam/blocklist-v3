@@ -2611,7 +2611,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "beautifyjson.org": [
         ".ad_header_box",
@@ -4844,6 +4845,7 @@
         ".b-gray300.bt",
         ".mnh90px",
         ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])",
         "[data-block-type=\"ad\"]"
     ],
     "chronicle-tribune.com": [
@@ -6210,7 +6212,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".md\\:block.y100",
-        ".mnh90px"
+        ".mnh90px",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "ctovision.com": [
         ".bottomcontainerBox"
@@ -6219,7 +6222,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "ctrlq.org": [
         ".labnolFB"
@@ -8966,7 +8970,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "extract.me": [
         ".extension-popup"
@@ -11854,7 +11859,8 @@
         "#un-button"
     ],
     "greenwichtime.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "greyhound-data.com": [
         ".non-sticky-publift",
@@ -12877,7 +12883,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "houstonherald.com": [
         ".wp-block-image"
@@ -16083,7 +16090,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "lmtribune.com": [
         "#tncms-region-page_sticky_anchor",
@@ -16637,7 +16645,8 @@
         ".scroll-up"
     ],
     "manisteenews.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "manitobacooperator.ca": [
         ".inline--2",
@@ -17294,7 +17303,8 @@
         ".wp-block-newspack-blocks-wp-block-newspack-ads-blocks-ad-unit"
     ],
     "michigansthumb.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "microchip.com": [
         ".scrolltotop"
@@ -17313,7 +17323,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "midhudsonnews.com": [
         ".midhu-target"
@@ -18111,7 +18122,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "mrw.co.uk": [
         ".adv-banner-top"
@@ -18399,7 +18411,8 @@
         "[href^=\"https://go.nordvpn.net/\"]"
     ],
     "myjournalcourier.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "mykhel.com": [
         "#verticleLinks",
@@ -18443,7 +18456,8 @@
         ".product-base:has(.product-waterMark)"
     ],
     "myplainview.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "mypraiseatl.com": [
         ".module-recommended"
@@ -18472,7 +18486,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "myspiritdc.com": [
         ".module-recommended"
@@ -19242,7 +19257,8 @@
     "newstimes.com": [
         ".ar16-9",
         ".b-gray300.bt",
-        ".mnh90px"
+        ".mnh90px",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "newsweek.com": [
         ".ArticleTwoColumnLayout_stickyAdContainer__fQzyz",
@@ -19344,7 +19360,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "niagarafallsreview.ca": [
         ".adLabelWrapper",
@@ -20283,7 +20300,8 @@
         "img[width=\"300\"]"
     ],
     "ourmidland.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "ourworldindata.org": [
         ".donate-footer"
@@ -22093,6 +22111,9 @@
         ".ad-container",
         "img[width=\"300\"]"
     ],
+    "purediablo.com": [
+        "#leader-desktop"
+    ],
     "pureinfotech.com": [
         ".code-block"
     ],
@@ -23336,7 +23357,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "reinsurancene.ws": [
         "#upprev_box"
@@ -24593,6 +24615,7 @@
         ".b-gray300.bt",
         ".scrl-block > .scrl-block-inner:has(.ad-module--ad--16cf1)",
         ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])",
         "[data-block-type=\"ad\"]"
     ],
     "sfexaminer.com": [
@@ -24601,7 +24624,8 @@
     "sfgate.com": [
         ".ar16-9",
         ".b-gray300.bt",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "sfist.com": [
         "#related-module"
@@ -25007,6 +25031,7 @@
     "sltrib.com": [
         ".ad",
         ".grid-ad-container-2",
+        ".sltrib_medrec_sidebar_atf",
         ".sponsored-card",
         ".stickyTopAd",
         ".donation-a-test"
@@ -25705,7 +25730,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "standard.co.uk": [
         "#mpu_bottom_sb_2_parent",
@@ -27683,7 +27709,8 @@
     "thehour.com": [
         ".ar16-9",
         ".b-gray300.bt",
-        ".mnh90px"
+        ".mnh90px",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "thehulltruth.com": [
         "div[class^=\"ad-placeholder\"]"
@@ -27704,7 +27731,8 @@
         ".inertia-contribute-home"
     ],
     "theintelligencer.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "theintercept.com": [
         ".sticky-sidebar__donate",

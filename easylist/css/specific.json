@@ -2108,7 +2108,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "beautifyjson.org": [
         ".ad_header_box",
@@ -3962,6 +3963,7 @@
         ".b-gray300.bt",
         ".mnh90px",
         ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])",
         "[data-block-type=\"ad\"]"
     ],
     "chronicle.com": [
@@ -5065,13 +5067,15 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".md\\:block.y100",
-        ".mnh90px"
+        ".mnh90px",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "ctpost.com": [
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "ctvnews.ca": [
         ".b-ads-custom"
@@ -7269,7 +7273,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "extraetf.com": [
         "app-ad-block"
@@ -9788,7 +9793,8 @@
         "div[style=\"font-size:x-small;text-align:center;padding-top:10px\"]"
     ],
     "greenwichtime.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "greyhound-data.com": [
         ".non-sticky-publift",
@@ -10612,7 +10618,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "houstonherald.com": [
         ".wp-block-image"
@@ -13112,7 +13119,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "lnkworld.com": [
         ".chk",
@@ -13542,7 +13550,8 @@
         ".article-body-content > .fixed-gray-color"
     ],
     "manisteenews.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "manitobacooperator.ca": [
         ".inline--2",
@@ -14085,7 +14094,8 @@
         ".wp-block-newspack-blocks-wp-block-newspack-ads-blocks-ad-unit"
     ],
     "michigansthumb.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "mid-day.com": [
         ".add-300x250",
@@ -14100,7 +14110,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "midweekherald.co.uk": [
         ".advert"
@@ -14692,7 +14703,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "mrw.co.uk": [
         ".adv-banner-top"
@@ -14931,7 +14943,8 @@
         "[href^=\"https://go.nordvpn.net/\"]"
     ],
     "myjournalcourier.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "mykhel.com": [
         "#verticleLinks",
@@ -14967,7 +14980,8 @@
         ".product-base:has(.product-waterMark)"
     ],
     "myplainview.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "mypunepulse.com": [
         ".n2-padding",
@@ -14993,7 +15007,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "mytelly.co.uk": [
         ".custom-min-height-242"
@@ -15628,7 +15643,8 @@
     "newstimes.com": [
         ".ar16-9",
         ".b-gray300.bt",
-        ".mnh90px"
+        ".mnh90px",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "newsweek.com": [
         ".ArticleTwoColumnLayout_stickyAdContainer__fQzyz",
@@ -15725,7 +15741,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "niagarafallsreview.ca": [
         ".adLabelWrapper",
@@ -16429,7 +16446,8 @@
         "img[width=\"300\"]"
     ],
     "ourmidland.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "ourworldofenergy.com": [
         "#sponsors_container"
@@ -17859,6 +17877,9 @@
         ".ad-container",
         "img[width=\"300\"]"
     ],
+    "purediablo.com": [
+        "#leader-desktop"
+    ],
     "pureinfotech.com": [
         ".code-block"
     ],
@@ -18997,7 +19018,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "reklambladerbjudanden.se": [
         ".anchor-wrapper"
@@ -20029,12 +20051,14 @@
         ".b-gray300.bt",
         ".scrl-block > .scrl-block-inner:has(.ad-module--ad--16cf1)",
         ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])",
         "[data-block-type=\"ad\"]"
     ],
     "sfgate.com": [
         ".ar16-9",
         ".b-gray300.bt",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "sgcarmart": [
         ".dealer_banner"
@@ -20329,6 +20353,7 @@
     "sltrib.com": [
         ".ad",
         ".grid-ad-container-2",
+        ".sltrib_medrec_sidebar_atf",
         ".sponsored-card",
         ".stickyTopAd"
     ],
@@ -20896,7 +20921,8 @@
         ".ar16-9",
         ".b-gray300.bt",
         ".mnh90px",
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "standard.co.uk": [
         "#mpu_bottom_sb_2_parent",
@@ -22464,7 +22490,8 @@
     "thehour.com": [
         ".ar16-9",
         ".b-gray300.bt",
-        ".mnh90px"
+        ".mnh90px",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "thehulltruth.com": [
         "div[class^=\"ad-placeholder\"]"
@@ -22484,7 +22511,8 @@
         "[data-spotim-module=\"tag-tester\"]"
     ],
     "theintelligencer.com": [
-        ".x100.bg-gray100"
+        ".x100.bg-gray100",
+        ".y100:has([data-block-type=\"ad\"])"
     ],
     "theinventory.com": [
         ".ay-ad-slot"
