@@ -17806,7 +17806,8 @@
     ],
     "monocle.com": [
         ".leaderboard",
-        ".super-leaderboard"
+        ".super-leaderboard",
+        "[href^=\"https://a1.adform.net/C/\"]"
     ],
     "monsoonjournal.com": [
         ".mom-e3lanat-wrap"
@@ -25710,6 +25711,9 @@
     ],
     "stadiumtalk.com": [
         ".story-section-inStory-inline"
+    ],
+    "stagatv.com": [
+        "a.download-button"
     ],
     "staige.tv": [
         "fanpage-club-sponsor"
