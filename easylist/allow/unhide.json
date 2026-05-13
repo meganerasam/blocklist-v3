@@ -586,6 +586,9 @@
     "ienohikari.net": [
         ".ad_btn"
     ],
+    "ifate.com": [
+        ".adsbygoogle-noablate"
+    ],
     "iine-tachikawa.net": [
         ".category-ads:not(html):not(body)"
     ],

@@ -25921,6 +25921,9 @@
     "stellenpool.eu": [
         "#scroll-up"
     ],
+    "stemcell.ucla.edu": [
+        ".site-banner"
+    ],
     "steroid.com": [
         ".header_right",
         "[href*=\"anabolics.com\"]"

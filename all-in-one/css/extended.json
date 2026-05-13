@@ -2035,6 +2035,12 @@
             "type": "extended"
         }
     ],
+    "woolworths.com.au": [
+        {
+            "selector": "div[class^=\"recipe-card_component_recipe-card-container-\"]:has-text(Sponsored)",
+            "type": "extended"
+        }
+    ],
     "woot.com": [
         {
             "selector": "[dir=\"auto\"]:has-text(ADVERTISEMENT)",
