@@ -15605,6 +15605,7 @@
                 "friday.gold",
                 "friday.kodansha.co.jp",
                 "handelsblatt.com",
+                "hochi.news",
                 "inquirer.com",
                 "journaldequebec.com",
                 "ksml.fi",
@@ -15634,6 +15635,7 @@
                 "cxpublic.com",
                 "diamond.jp",
                 "handelsblatt.com",
+                "hochi.news",
                 "inquirer.com",
                 "mainichi.jp",
                 "marketwatch.com",
@@ -15662,6 +15664,7 @@
                 "cyclestyle.net",
                 "diamond.jp",
                 "handelsblatt.com",
+                "hochi.news",
                 "inquirer.com",
                 "journaldequebec.com",
                 "ksml.fi",
@@ -16113,6 +16116,24 @@
         },
         "condition": {
             "resourceTypes": [
+                "image"
+            ],
+            "initiatorDomains": [
+                "hochi.news"
+            ],
+            "requestDomains": [
+                "content-thumbnail.cxpublic.com"
+            ]
+        }
+    },
+    {
+        "id": 1026,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "resourceTypes": [
                 "script"
             ],
             "initiatorDomains": [
@@ -16125,7 +16146,7 @@
         }
     },
     {
-        "id": 1026,
+        "id": 1027,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16142,7 +16163,7 @@
         }
     },
     {
-        "id": 1027,
+        "id": 1028,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16161,7 +16182,7 @@
         }
     },
     {
-        "id": 1028,
+        "id": 1029,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16177,7 +16198,7 @@
         }
     },
     {
-        "id": 1029,
+        "id": 1030,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16193,7 +16214,7 @@
         }
     },
     {
-        "id": 1030,
+        "id": 1031,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16209,7 +16230,7 @@
         }
     },
     {
-        "id": 1031,
+        "id": 1032,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16222,7 +16243,7 @@
         }
     },
     {
-        "id": 1032,
+        "id": 1033,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16235,7 +16256,7 @@
         }
     },
     {
-        "id": 1033,
+        "id": 1034,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16248,7 +16269,7 @@
         }
     },
     {
-        "id": 1034,
+        "id": 1035,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16264,7 +16285,7 @@
         }
     },
     {
-        "id": 1035,
+        "id": 1036,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16278,7 +16299,7 @@
         }
     },
     {
-        "id": 1036,
+        "id": 1037,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16291,7 +16312,7 @@
         }
     },
     {
-        "id": 1037,
+        "id": 1038,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16302,7 +16323,7 @@
         }
     },
     {
-        "id": 1038,
+        "id": 1039,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16316,7 +16337,7 @@
         }
     },
     {
-        "id": 1039,
+        "id": 1040,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16329,7 +16350,7 @@
         }
     },
     {
-        "id": 1040,
+        "id": 1041,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16345,7 +16366,7 @@
         }
     },
     {
-        "id": 1041,
+        "id": 1042,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -16359,7 +16380,7 @@
         }
     },
     {
-        "id": 1042,
+        "id": 1043,
         "priority": 2,
         "action": {
             "type": "allow"

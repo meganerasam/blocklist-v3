@@ -11271,8 +11271,10 @@
     "insidehighered.com": [
         "#block-dfptagarticle-sidebar-bottom",
         "#block-dfptagarticle-sidebar-top",
+        "#block-ihe-views-block-events-views-block-5",
         ".adslot-top-container",
-        ".pane-dfp"
+        ".pane-dfp",
+        ".wp-block-ihe-ad"
     ],
     "insidehook.com": [
         ".ad-container"
@@ -15403,7 +15405,8 @@
     ],
     "newrepublic.com": [
         "#nxs-video-iframe",
-        ".ad-container"
+        ".ad-container",
+        ".ad-unit"
     ],
     "newryreporter.com": [
         ".banner",
@@ -23531,7 +23534,8 @@
         ".chakra-stack.css-15xujv4",
         ".flex-col.items-center.justify-center:has(#desktop-aside-video-ad)",
         "[class*=\"__AdContainer-\"]",
-        "article.items-start:has(a[rel=\"sponsored\"])"
+        "article.items-start:has(a[rel=\"sponsored\"])",
+        "article.w-full.flex.flex-col:has(a[rel=\"sponsored\"])"
     ],
     "top100token.com": [
         ".swiper_div.right-pad"

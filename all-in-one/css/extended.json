@@ -1643,6 +1643,12 @@
             "type": "extended"
         }
     ],
+    "star-history.com": [
+        {
+            "selector": ".items-start.sidebar-sticky:has-text(Featured Products)",
+            "type": "extended"
+        }
+    ],
     "starmarket.com": [
         {
             "selector": ".product-card-col:has-text(Sponsored)",
