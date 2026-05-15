@@ -11,6 +11,72 @@
             "type": "extended"
         }
     ],
+    "6abc.com": [
+        {
+            "selector": ".nav.sticky {top:0px;}",
+            "type": "css-injection"
+        }
+    ],
+    "abc11.com": [
+        {
+            "selector": ".nav.sticky {top:0px;}",
+            "type": "css-injection"
+        }
+    ],
+    "abc13.com": [
+        {
+            "selector": ".nav.sticky {top:0px;}",
+            "type": "css-injection"
+        }
+    ],
+    "abc30.com": [
+        {
+            "selector": ".nav.sticky {top:0px;}",
+            "type": "css-injection"
+        }
+    ],
+    "abc7.com": [
+        {
+            "selector": ".nav.sticky {top:0px;}",
+            "type": "css-injection"
+        }
+    ],
+    "abc7chicago.com": [
+        {
+            "selector": ".nav.sticky {top:0px;}",
+            "type": "css-injection"
+        }
+    ],
+    "abc7news.com": [
+        {
+            "selector": ".nav.sticky {top:0px;}",
+            "type": "css-injection"
+        }
+    ],
+    "abc7ny.com": [
+        {
+            "selector": ".nav.sticky {top:0px;}",
+            "type": "css-injection"
+        }
+    ],
+    "abcnews.com": [
+        {
+            "selector": ".navigation--has-subnav {top:0;}",
+            "type": "css-injection"
+        }
+    ],
+    "abcnews.go.com": [
+        {
+            "selector": ".navigation--has-subnav {top:0;}",
+            "type": "css-injection"
+        }
+    ],
+    "abcotvs.net": [
+        {
+            "selector": ".nav.sticky {top:0px;}",
+            "type": "css-injection"
+        }
+    ],
     "acmemarkets.com": [
         {
             "selector": ".product-card-col:has-text(Sponsored)",
@@ -219,6 +285,12 @@
             "type": "extended"
         }
     ],
+    "birminghammail.co.uk": [
+        {
+            "selector": ".sticky ~ header {top:0;}",
+            "type": "css-injection"
+        }
+    ],
     "bitchute.com": [
         {
             "selector": ".row.justify-center:has-text(Advertisement)",
@@ -275,6 +347,12 @@
         {
             "selector": ".oct-listers-hits__item:has-text(Sponsored)",
             "type": "extended"
+        }
+    ],
+    "bristolpost.co.uk": [
+        {
+            "selector": ".sticky ~ header {top:0;}",
+            "type": "css-injection"
         }
     ],
     "businessday.co.za": [
@@ -417,6 +495,12 @@
             "type": "extended"
         }
     ],
+    "dailyrecord.co.uk": [
+        {
+            "selector": ".sticky ~ header {top:0;}",
+            "type": "css-injection"
+        }
+    ],
     "dailystar.co.uk": [
         {
             "selector": "[data-testid=\"commercial-above-header-box-1\"] {remove:true;}",
@@ -473,6 +557,12 @@
         {
             "selector": "article.relative:has(div:has-text(SPONSORED))",
             "type": "extended"
+        }
+    ],
+    "distrowatch.com": [
+        {
+            "selector": ".TablesTitle > div:not([style=\"padding\"]) {width:100%;}",
+            "type": "css-injection"
         }
     ],
     "docs.openwebui.com": [
@@ -725,6 +815,12 @@
             "type": "extended"
         }
     ],
+    "hindustantimes.com": [
+        {
+            "selector": "body {padding-top:0;}",
+            "type": "css-injection"
+        }
+    ],
     "historic-uk.com": [
         {
             "selector": ".article-sidebar:has-text(Advertisement)",
@@ -739,6 +835,24 @@
         {
             "selector": ".b-gray300:has-text(Advertisement)",
             "type": "extended"
+        }
+    ],
+    "hulldailymail.co.uk": [
+        {
+            "selector": ".sticky ~ header {top:0;}",
+            "type": "css-injection"
+        }
+    ],
+    "iflscience.com": [
+        {
+            "selector": "#Billboard {height:0px;}",
+            "type": "css-injection"
+        }
+    ],
+    "ilmeteo.it": [
+        {
+            "selector": "#banner-mnz-topleft {height:80px;}",
+            "type": "css-injection"
         }
     ],
     "infographicjournal.com": [
@@ -877,6 +991,12 @@
             "type": "extended"
         }
     ],
+    "liverpoolecho.co.uk": [
+        {
+            "selector": ".sticky ~ header {top:0;}",
+            "type": "css-injection"
+        }
+    ],
     "livpost.co.uk": [
         {
             "selector": ".kg-cta-link-accent:has-text(SPONSORED)",
@@ -927,6 +1047,12 @@
         {
             "selector": ".bg-rpi-grey-100:has-text(Advertisement)",
             "type": "extended"
+        }
+    ],
+    "manchestereveningnews.co.uk": [
+        {
+            "selector": ".sticky ~ header {top:0;}",
+            "type": "css-injection"
         }
     ],
     "manisteenews.com": [
@@ -985,6 +1111,16 @@
             "type": "extended"
         }
     ],
+    "metoffice.gov.uk": [
+        {
+            "selector": ".header {top:0;}",
+            "type": "css-injection"
+        },
+        {
+            "selector": ".map {top:52px;}",
+            "type": "css-injection"
+        }
+    ],
     "michigansthumb.com": [
         {
             "selector": ".mb32.b-gray300:has-text(Advertisement)",
@@ -1003,6 +1139,18 @@
         {
             "selector": ".b-gray300:has-text(Advertisement)",
             "type": "extended"
+        }
+    ],
+    "mindbodygreen.com": [
+        {
+            "selector": "aside {background:transparent;}",
+            "type": "css-injection"
+        }
+    ],
+    "mirror.co.uk": [
+        {
+            "selector": ".sticky ~ header {top:0px;}",
+            "type": "css-injection"
         }
     ],
     "mobalytics.gg": [
@@ -1089,6 +1237,12 @@
         {
             "selector": "[style=\"text-align:center\"]:has-text(ADVERTISEMENT)",
             "type": "extended"
+        }
+    ],
+    "netmoms.de": [
+        {
+            "selector": "#G32 {grid-template-rows:unset;}",
+            "type": "css-injection"
         }
     ],
     "newegg.com": [
@@ -1219,6 +1373,18 @@
         {
             "selector": "[data-testid=\"column\"] [data-testid=\"item\"]:has-text(Sponsored)",
             "type": "extended"
+        }
+    ],
+    "praxistipps.chip.de": [
+        {
+            "selector": "#G32 {grid-template-rows:unset;}",
+            "type": "css-injection"
+        }
+    ],
+    "praxistipps.focus.de": [
+        {
+            "selector": "#G32 {grid-template-rows:unset;}",
+            "type": "css-injection"
         }
     ],
     "producthunt.com": [
@@ -1465,6 +1631,12 @@
             "type": "extended"
         }
     ],
+    "sneakernews.com": [
+        {
+            "selector": ".site-header {top:0;}",
+            "type": "css-injection"
+        }
+    ],
     "songbpm.com": [
         {
             "selector": "div.mb-6:has-text(Advertisement)",
@@ -1547,6 +1719,12 @@
             "type": "extended"
         }
     ],
+    "stokesentinel.co.uk": [
+        {
+            "selector": ".sticky ~ header {top:0;}",
+            "type": "css-injection"
+        }
+    ],
     "target.com": [
         {
             "selector": ".ProductRecsLink-sc-4mw94v-0:has(p:has-text(sponsored))",
@@ -1583,6 +1761,12 @@
         {
             "selector": "div[data-test=\"addToCartSuccessModalRecommendationsTile\"]:has(p.h-text-xs:has-text(Sponsored))",
             "type": "extended"
+        }
+    ],
+    "taste.com.au": [
+        {
+            "selector": ".main-header {top:0;}",
+            "type": "css-injection"
         }
     ],
     "techonthenet.com": [
@@ -1685,6 +1869,12 @@
             "type": "extended"
         }
     ],
+    "tribuna.com": [
+        {
+            "selector": "body {overflow:auto;}",
+            "type": "css-injection"
+        }
+    ],
     "tripadvisor.*": [
         {
             "selector": ".AaFRW:has-text(Sponsored)",
@@ -1767,6 +1957,12 @@
             "type": "extended"
         }
     ],
+    "velo.outsideonline.com": [
+        {
+            "selector": "main {margin-top:10px;}",
+            "type": "css-injection"
+        }
+    ],
     "vons.com": [
         {
             "selector": ".product-card-col:has-text(Sponsored)",
@@ -1777,6 +1973,16 @@
         {
             "selector": ".ipsSideBlock.clearfix:has-text(Affiliates)",
             "type": "extended"
+        }
+    ],
+    "w3schools.com": [
+        {
+            "selector": "#tryitLeaderboard ~ #container {top:48px;}",
+            "type": "css-injection"
+        },
+        {
+            "selector": ".trytopnav {top:0;}",
+            "type": "css-injection"
         }
     ],
     "walmart.*": [
@@ -1835,6 +2041,12 @@
             "type": "extended"
         }
     ],
+    "wunderground.com": [
+        {
+            "selector": ".content-wrap #inner-wrap {height:100vh;}",
+            "type": "css-injection"
+        }
+    ],
     "www.yahoo.com": [
         {
             "selector": ".uppercase.text-xs:has-text(Advertisement)",
@@ -1865,6 +2077,12 @@
         {
             "selector": "main[class^=\"searchResultsContainer\"] li h2:has-text(Sponsored)",
             "type": "extended"
+        }
+    ],
+    "yourdictionary.com": [
+        {
+            "selector": ".header {top:0;}",
+            "type": "css-injection"
         }
     ],
     "yourindependentgrocer.ca": [

@@ -3124,6 +3124,9 @@
         ".g_bar",
         "div[style=\"width:100%;clear:both;\"]"
     ],
+    "israelnationalnews.com": [
+        "#tbl-next-up"
+    ],
     "israeltoday.co.il": [
         "a[href=\"#top\"]"
     ],

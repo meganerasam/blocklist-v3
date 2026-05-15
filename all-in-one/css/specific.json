@@ -4739,6 +4739,9 @@
         ".medium-rectangle-btf-ad-wrapper",
         ".short-sidebar-ad-component"
     ],
+    "chessgames.com": [
+        "div[style=\"min-height:250px; text-align:center; margin:10px auto;\"]"
+    ],
     "chesterlestreetadvertiser.co.uk": [
         ".promoted-block"
     ],
@@ -14092,7 +14095,8 @@
         ".banner-top",
         ".home-subsections-banner",
         ".sideInf",
-        ".taboola-top"
+        ".taboola-top",
+        "#tbl-next-up"
     ],
     "israeltoday.co.il": [
         "a[href=\"#top\"]"
@@ -15573,6 +15577,10 @@
     "ledger-enquirer.com": [
         ".zone",
         ".zone-el"
+    ],
+    "leeapk.com": [
+        ".acrp-ad-box-1",
+        ".acrp-ad-box-2"
     ],
     "leeds-live.co.uk": [
         ".topbox-cls-placeholder",
@@ -18789,8 +18797,7 @@
         ".nejm_jobs"
     ],
     "nelomanga.net": [
-        ".ads-contain",
-        ".fly-ads-chapter-page"
+        ".ads-contain"
     ],
     "nen.nl": [
         ".scrolltotop"
@@ -22022,6 +22029,11 @@
         ".item-sponsored",
         ".slot",
         "a[href*=\"/sponsored/\"]"
+    ],
+    "prydwen.gg": [
+        "#pw-footer-ad-1",
+        "[class*=\"promo-\"]",
+        "[id^=\"pw-header-ad\"]"
     ],
     "przoom.com": [
         ".sponsortd"
