@@ -5543,6 +5543,7 @@
         ".leaderboard"
     ],
     "commondreams.org": [
+        ".donate-button-placeholder",
         ".donation_banner",
         ".lead_post_post_body.message-post"
     ],
@@ -5900,6 +5901,7 @@
         ".bottomAdsection"
     ],
     "cpu-monkey.com": [
+        "#sticky-header-mobile",
         ".werb"
     ],
     "cpubenchmark.net": [
@@ -8679,6 +8681,9 @@
     "etf.com": [
         ".advert"
     ],
+    "etfstream.com": [
+        ".ad-inline-leaderboard"
+    ],
     "eth-converter.com": [
         "#banner"
     ],
@@ -11131,6 +11136,7 @@
         "#scrollup"
     ],
     "genius.com": [
+        "#lyrics-root > div[data-exclude-from-selection][class^=\"sc-\"]",
         ".InreadContainer-sc-b078f8b1-0",
         ".Leaderboard-sc-78e1105d-0",
         ".SectionLeaderboard-sc-dbc68f4-0",
@@ -12181,6 +12187,9 @@
         "[class*=\"ad-zone-container-content-character-count-repeatable\"]",
         "[id^=\"adsninja-ad-zone-adsninja-ad-unit-footer\"]"
     ],
+    "harddrivebenchmark.net": [
+        ".banner-block"
+    ],
     "hardwaretimes.com": [
         ".stream-item-size"
     ],
@@ -12869,7 +12878,8 @@
         "div[data-testid=\"bbtype-video\"]"
     ],
     "hotukdeals.com": [
-        ".ad"
+        ".bRad--a",
+        ".listLayout-box:has(> .bRad--a)"
     ],
     "housefresh.com": [
         ".gb-container-eda5dcfe"
@@ -17418,7 +17428,8 @@
         ".antiblock-wrapper"
     ],
     "minerstat.com": [
-        ".sevioads"
+        ".sevioads",
+        "[style$=\"min-height:90px;display:flex;justify-content:center;\"]"
     ],
     "mini-ielts.com": [
         ".ads"
@@ -24966,7 +24977,9 @@
         ".follow"
     ],
     "slashdot.org": [
+        "#ai-stud-coding-bar",
         "#announcement",
+        "#mongo-stick-it",
         "#slashdot_deals",
         ".ad-blocked-newsletter",
         ".banner-wrapper",
@@ -25346,6 +25359,8 @@
         ".adbox"
     ],
     "sourceforge.net": [
+        "#ai-studio-coding-bar",
+        "#mongo-stick-bn",
         "#top-placeholder"
     ],
     "southernliving.com": [
@@ -27584,6 +27599,8 @@
         "#mpu"
     ],
     "thefpsreview.com": [
+        ".adthrive-sidebar-ad",
+        ".adthrive-sidebar-ad-sticky",
         ".fps-supporter"
     ],
     "thefreedictionary.com": [
@@ -28399,6 +28416,7 @@
     ],
     "thestreamable.com": [
         "#promo-signup-bottom-sheet",
+        ".ad-728x90-min-height",
         ".d-md-flex"
     ],
     "thestreet.com": [

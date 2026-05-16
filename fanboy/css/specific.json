@@ -1238,6 +1238,7 @@
         ".midtc-article-navigation"
     ],
     "commondreams.org": [
+        ".donate-button-placeholder",
         ".donation_banner",
         ".lead_post_post_body.message-post"
     ],
