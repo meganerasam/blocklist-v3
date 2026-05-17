@@ -1243,6 +1243,9 @@
     "ambotv.com": [
         "#post-nav"
     ],
+    "americanbanker.com": [
+        ".PageAboveTopicBar"
+    ],
     "americanexpress.com": [
         "#floating-nav-section",
         ".disruptor-banner-wrapper"
@@ -12878,7 +12881,6 @@
         "div[data-testid=\"bbtype-video\"]"
     ],
     "hotukdeals.com": [
-        ".bRad--a",
         ".listLayout-box:has(> .bRad--a)"
     ],
     "housefresh.com": [
@@ -21815,6 +21817,7 @@
         ".placeholder-a-block",
         ".recirculation__placeholder--latest",
         ".topbarplaceholder",
+        ".video-player",
         "div[id^=\"sPost_Layout_Default_\"]:has(> .ad_leaderboard_wrap)"
     ],
     "primagames.com": [
@@ -23721,6 +23724,7 @@
         ".sidewall-ad-component"
     ],
     "rogerebert.com": [
+        "#PostInlineVideoContainer",
         ".advertisement",
         ".mailing-list"
     ],
@@ -24978,12 +24982,13 @@
     ],
     "slashdot.org": [
         "#ai-stud-coding-bar",
+        "#aistdo-coding-bar",
         "#announcement",
-        "#mongo-stick-it",
         "#slashdot_deals",
         ".ad-blocked-newsletter",
         ".banner-wrapper",
         ".deals-wrapper",
+        "[id*=\"mongo-\"]",
         "#stackcommerce-adwrap",
         ".deals-footer"
     ],
@@ -25359,9 +25364,10 @@
         ".adbox"
     ],
     "sourceforge.net": [
+        "#ai-stud-coding-bar",
         "#ai-studio-coding-bar",
-        "#mongo-stick-bn",
-        "#top-placeholder"
+        "#top-placeholder",
+        "[id*=\"mongo-\"]"
     ],
     "southernliving.com": [
         ".karma-sticky-rail",
@@ -28669,6 +28675,9 @@
         ".sticky-container",
         ".watermark",
         ".prevNextWrapper-1Vg7e"
+    ],
+    "thisquality.com": [
+        ".code-block"
     ],
     "thomhartmann.com": [
         "img[height=\"200\"]"

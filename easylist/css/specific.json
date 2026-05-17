@@ -975,6 +975,9 @@
         ".header-billboard",
         ".style_k8mr7b-o_O-style_1ts1q2h"
     ],
+    "americanbanker.com": [
+        ".PageAboveTopicBar"
+    ],
     "americanfreepress.net": [
         ".wppopups-whole",
         "[width=\"600\"]",
@@ -10618,7 +10621,6 @@
         "div[data-testid=\"bbtype-video\"]"
     ],
     "hotukdeals.com": [
-        ".bRad--a",
         ".listLayout-box:has(> .bRad--a)"
     ],
     "housing.com": [
@@ -17646,6 +17648,7 @@
         ".placeholder-a-block",
         ".recirculation__placeholder--latest",
         ".topbarplaceholder",
+        ".video-player",
         "div[id^=\"sPost_Layout_Default_\"]:has(> .ad_leaderboard_wrap)"
     ],
     "primagames.com": [
@@ -19302,6 +19305,7 @@
         ".sidewall-ad-component"
     ],
     "rogerebert.com": [
+        "#PostInlineVideoContainer",
         ".advertisement"
     ],
     "rok.guide": [
@@ -20317,12 +20321,13 @@
     ],
     "slashdot.org": [
         "#ai-stud-coding-bar",
+        "#aistdo-coding-bar",
         "#announcement",
-        "#mongo-stick-it",
         "#slashdot_deals",
         ".ad-blocked-newsletter",
         ".banner-wrapper",
-        ".deals-wrapper"
+        ".deals-wrapper",
+        "[id*=\"mongo-\"]"
     ],
     "slashfilm.com": [
         "#primis-container"
@@ -20640,9 +20645,10 @@
         ".adbox"
     ],
     "sourceforge.net": [
+        "#ai-stud-coding-bar",
         "#ai-studio-coding-bar",
-        "#mongo-stick-bn",
-        "#top-placeholder"
+        "#top-placeholder",
+        "[id*=\"mongo-\"]"
     ],
     "southernliving.com": [
         ".karma-sticky-rail",
@@ -23260,6 +23266,9 @@
         ".connatix-wrapper",
         ".sticky-container",
         ".watermark"
+    ],
+    "thisquality.com": [
+        ".code-block"
     ],
     "thomhartmann.com": [
         "img[height=\"200\"]"

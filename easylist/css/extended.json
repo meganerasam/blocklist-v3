@@ -83,6 +83,12 @@
             "type": "extended"
         }
     ],
+    "advocate.com": [
+        {
+            "selector": ".component.module-headline:has-text(FROM OUR SPONSORS)",
+            "type": "extended"
+        }
+    ],
     "agoda.com": [
         {
             "selector": ".PropertyCardItem:has(div:has-text(Promoted))",
@@ -1357,6 +1363,12 @@
             "type": "extended"
         }
     ],
+    "out.com": [
+        {
+            "selector": ".component.module-headline:has-text(FROM OUR SPONSORS)",
+            "type": "extended"
+        }
+    ],
     "pavilions.com": [
         {
             "selector": ".product-card-col:has-text(Sponsored)",
@@ -1385,6 +1397,12 @@
         {
             "selector": "#G32 {grid-template-rows:unset;}",
             "type": "css-injection"
+        }
+    ],
+    "pride.com": [
+        {
+            "selector": ".component.module-headline:has-text(FROM OUR SPONSORS)",
+            "type": "extended"
         }
     ],
     "producthunt.com": [

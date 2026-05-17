@@ -83,6 +83,12 @@
             "type": "extended"
         }
     ],
+    "advocate.com": [
+        {
+            "selector": ".component.module-headline:has-text(FROM OUR SPONSORS)",
+            "type": "extended"
+        }
+    ],
     "aeon.co": [
         {
             "selector": ".print\\:hidden.mb-9:has-text(I would like to donate)",
@@ -1467,6 +1473,12 @@
             "type": "extended"
         }
     ],
+    "out.com": [
+        {
+            "selector": ".component.module-headline:has-text(FROM OUR SPONSORS)",
+            "type": "extended"
+        }
+    ],
     "pavilions.com": [
         {
             "selector": ".product-card-col:has-text(Sponsored)",
@@ -1501,6 +1513,12 @@
         {
             "selector": "#G32 {grid-template-rows:unset;}",
             "type": "css-injection"
+        }
+    ],
+    "pride.com": [
+        {
+            "selector": ".component.module-headline:has-text(FROM OUR SPONSORS)",
+            "type": "extended"
         }
     ],
     "producthunt.com": [
