@@ -21622,6 +21622,9 @@
         "#text-4",
         ".g"
     ],
+    "postwrestling.com": [
+        ".widget_media_image"
+    ],
     "potatonewstoday.com": [
         ".custom-html-widget",
         ".widget_media_image"
@@ -23615,8 +23618,10 @@
         ".memberEngagementOverlay"
     ],
     "ringsidenews.com": [
+        "#rsn-ap-sticky-bar",
         ".ad-container",
-        ".elementor-shortcode"
+        ".elementor-shortcode",
+        ".rsn-laai-ad"
     ],
     "ripplesnigeria.com": [
         "[href*=\"bit.ly/\"]"
@@ -24603,6 +24608,9 @@
         "#bottom-footer-fixed-slot",
         "#inline-top",
         "#sticky-bottom"
+    ],
+    "sescoops.com": [
+        ".incontent-ad-container"
     ],
     "setapp.com": [
         ".promo-banner",
@@ -28407,6 +28415,9 @@
     "thestate.com": [
         ".zone",
         ".zone-el"
+    ],
+    "thestateofbrand.com": [
+        ".cta-trail_component"
     ],
     "thestayathomechef.com": [
         ".top-hat"
@@ -32325,6 +32336,9 @@
         ".pb-f-phanzu-phanzu-ad-code",
         ".b-marketing-disruptor",
         ".b-text-button-cta"
+    ],
+    "wwfoldschool.com": [
+        ".wwfol-entity-placement"
     ],
     "wwltv.com": [
         ".ad"
