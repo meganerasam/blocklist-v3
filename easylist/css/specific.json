@@ -13241,7 +13241,8 @@
     "lowes.com": [
         "#lws_hp_recommendations_belowimage_1",
         ".lws_pdp_recommendations_southdeep",
-        "div[data-testid=\"playwright-gam-carousel-banner\"]"
+        "div[data-testid=\"playwright-gam-carousel-banner\"]",
+        "div[data-testid=\"product-carousel\"]:has(.sponsored-tag)"
     ],
     "lowestoftjournal.co.uk": [
         ".advert"
@@ -26847,7 +26848,8 @@
         ".munder-fn5udnsn"
     ],
     "zeroupload.com": [
-        ".download-page a[rel=\"noopener\"] > img"
+        ".download-page a[rel=\"noopener\"] > img",
+        "a[onclick][href^=\"javascript\"]"
     ],
     "zillow.com": [
         "[data-testid=\"right-rail-ad\"]",

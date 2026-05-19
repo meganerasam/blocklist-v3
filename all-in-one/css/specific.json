@@ -16246,6 +16246,7 @@
         "#lws_hp_recommendations_belowimage_1",
         ".lws_pdp_recommendations_southdeep",
         "div[data-testid=\"playwright-gam-carousel-banner\"]",
+        "div[data-testid=\"product-carousel\"]:has(.sponsored-tag)",
         ".sticky-returnTop"
     ],
     "lowestoftjournal.co.uk": [
@@ -27722,7 +27723,8 @@
         ".custom-link",
         ".dog_two",
         ".okfix",
-        "div.rocking"
+        "div.rocking",
+        ".webinar-con"
     ],
     "thehandbook.com": [
         ".m-site-sticky-footer__btt-link"
@@ -28229,7 +28231,8 @@
         ".my-\\[40px\\]"
     ],
     "theregister.com": [
-        ".wptl"
+        ".wptl",
+        ".source_intelligence_webinar_feed"
     ],
     "therep.co.za": [
         "img[width=\"300\"]"
@@ -32972,7 +32975,8 @@
         ".backto"
     ],
     "zeroupload.com": [
-        ".download-page a[rel=\"noopener\"] > img"
+        ".download-page a[rel=\"noopener\"] > img",
+        "a[onclick][href^=\"javascript\"]"
     ],
     "zh.wikipedia.org": [
         ".wp25eastereggs-vector-sitenotice-landmark"

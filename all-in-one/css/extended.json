@@ -721,6 +721,12 @@
             "type": "extended"
         }
     ],
+    "findagrave.com": [
+        {
+            "selector": ".rounded-pill:has-text(Remove Ads)",
+            "type": "extended"
+        }
+    ],
     "fiverr.com": [
         {
             "selector": ".gig-card-layout:has-text(Ad by)",

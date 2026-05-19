@@ -6339,6 +6339,9 @@
         "[name=\"SlotBodyEnd\"]",
         "[name=\"StickyBottomBanner\"]"
     ],
+    "thehackernews.com": [
+        ".webinar-con"
+    ],
     "thehandbook.com": [
         ".m-site-sticky-footer__btt-link"
     ],
@@ -6498,6 +6501,9 @@
     "therecord.media": [
         ".mb-\\[20px\\]",
         ".my-\\[40px\\]"
+    ],
+    "theregister.com": [
+        ".source_intelligence_webinar_feed"
     ],
     "therover.ca": [
         ".indietech-support-widget"
