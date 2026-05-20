@@ -3983,6 +3983,9 @@
     "missionlocal.org": [
         ".np-campaign--donation--staff-photo"
     ],
+    "mississippitoday.org": [
+        ".above-footer-widgets"
+    ],
     "mitsubishicorp.com": [
         "#GoTop"
     ],
@@ -4159,6 +4162,9 @@
     ],
     "mozilla.org": [
         ".mzp-c-sticky-promo"
+    ],
+    "mp1st.com": [
+        ".scroll-to-top"
     ],
     "mp3cut.net": [
         "#allapps-extension-popup"

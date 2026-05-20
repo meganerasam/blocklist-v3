@@ -3873,6 +3873,7 @@
         ".ad",
         ".ad-container",
         ".commerce-coupons-module",
+        ".dynamic-module",
         ".in-post-sticky",
         ".l-ad",
         ".rail-container:has(> .ad-label)",
@@ -13911,8 +13912,7 @@
         ".market-banner"
     ],
     "invezz.com": [
-        ".homepage-beneath-hero",
-        ".mx-auto"
+        ".homepage-beneath-hero"
     ],
     "invictaracing.com": [
         ".partners"
@@ -17513,6 +17513,9 @@
         ".widget_block",
         ".np-campaign--donation--staff-photo"
     ],
+    "mississippitoday.org": [
+        ".above-footer-widgets"
+    ],
     "mitsubishicorp.com": [
         "#GoTop"
     ],
@@ -18110,7 +18113,8 @@
         ".mzp-c-sticky-promo"
     ],
     "mp1st.com": [
-        ".adthrive"
+        ".adthrive",
+        ".scroll-to-top"
     ],
     "mp3andvideoconverter.com": [
         ".BannerReAds_horizontal-area__5JNuE"
@@ -19097,6 +19101,7 @@
         ".ad300x250",
         ".adbox",
         ".add_section",
+        ".adwpr",
         ".article_mad",
         ".desktopad",
         ".desktopadh",
