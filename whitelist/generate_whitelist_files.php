@@ -2,24 +2,25 @@
 /**
  * PHP Compiler Script for Whitelists
  * Extracts, cleans, deduplicates, and splits domains from whitelist1-5 into dedicated files.
- * Output: dedicated JSON files for global_core, general_global, and each country in /whitelist/ folder.
+ * Output: dedicated JSON files for global_core, general_global, and each country in /all-in-one/whitelist-json/ folder.
  */
 
 ini_set('memory_limit', '512M');
 set_time_limit(300);
 
 $prodDir = __DIR__;
-$outputDir = $prodDir . '/whitelist';
+// Put inside the all-in-one/whitelist-json folder relative to this directory
+$outputDir = dirname($prodDir) . '/all-in-one/whitelist-json';
 
 // Create output folder if it doesn't exist
 if (!is_dir($outputDir)) {
     mkdir($outputDir, 0777, true);
 }
 
-// Clean up any old .js files in the output directory
+// Clean up any old .json files in the output directory
 if (is_dir($outputDir)) {
-    foreach (glob($outputDir . '/*.js') as $jsFile) {
-        unlink($jsFile);
+    foreach (glob($outputDir . '/*.json') as $jsonFile) {
+        unlink($jsonFile);
     }
 }
 
