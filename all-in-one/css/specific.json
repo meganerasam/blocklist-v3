@@ -1359,6 +1359,7 @@
     "androidauthority.com": [
         "[class] > [class] > [class]:has(div[data-ad-type=\"leaderboard_atf\"])",
         "[data-ad-type]",
+        "a[data-sel=\"db-link-el\"]",
         "div[class]:has(> .pw-incontent)"
     ],
     "androidcentral.com": [
@@ -2189,6 +2190,11 @@
     ],
     "automotive-fleet.com": [
         ".top-banner"
+    ],
+    "autonocion.com": [
+        ".Mobile_Bottom",
+        ".Mobile_Top",
+        ".od-sticky-wrap"
     ],
     "autoplius.lt": [
         "#banner_right",
@@ -21512,6 +21518,9 @@
     "pollunit.com": [
         ".btn[href$=\"?feature=ads\"]",
         ".owl-carousel:has(.carousel-ad)"
+    ],
+    "polygon.com": [
+        ".video"
     ],
     "pons.com": [
         "#pons-ad-footer",
