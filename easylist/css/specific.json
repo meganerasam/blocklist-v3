@@ -3168,7 +3168,6 @@
         ".ad",
         ".ad-container",
         ".commerce-coupons-module",
-        ".dynamic-module",
         ".in-post-sticky",
         ".l-ad",
         ".rail-container:has(> .ad-label)",

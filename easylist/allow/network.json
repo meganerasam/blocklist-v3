@@ -5592,6 +5592,7 @@
                 "myspace.com",
                 "nettavisen.no",
                 "newsweek.com",
+                "njbeachcams.com",
                 "open.video",
                 "paralympic.org",
                 "paramountplus.com",
@@ -7584,11 +7585,8 @@
             "type": "allow"
         },
         "condition": {
-            "resourceTypes": [
-                "image"
-            ],
             "domainType": "firstParty",
-            "urlFilter": "||anitasrecipes.com/Content/Images/Recipes/"
+            "urlFilter": "||47news.jp/static/special/*/300x250_640x480.webp"
         }
     },
     {
@@ -7602,7 +7600,7 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||arnhemland-safaris.com/images/made/"
+            "urlFilter": "||anitasrecipes.com/Content/Images/Recipes/"
         }
     },
     {
@@ -7616,7 +7614,7 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||banner-hiroba.com/wp-content/uploads/"
+            "urlFilter": "||arnhemland-safaris.com/images/made/"
         }
     },
     {
@@ -7630,7 +7628,7 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||crystalmark.info/wp-content/uploads/*-300x250."
+            "urlFilter": "||banner-hiroba.com/wp-content/uploads/"
         }
     },
     {
@@ -7644,7 +7642,7 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||crystalmark.info/wp-content/uploads/sites/"
+            "urlFilter": "||crystalmark.info/wp-content/uploads/*-300x250."
         }
     },
     {
@@ -7654,8 +7652,11 @@
             "type": "allow"
         },
         "condition": {
+            "resourceTypes": [
+                "image"
+            ],
             "domainType": "firstParty",
-            "urlFilter": "||esko.cloud^*_300x600_"
+            "urlFilter": "||crystalmark.info/wp-content/uploads/sites/"
         }
     },
     {
@@ -7665,11 +7666,8 @@
             "type": "allow"
         },
         "condition": {
-            "resourceTypes": [
-                "image"
-            ],
             "domainType": "firstParty",
-            "urlFilter": "||government-and-constitution.org/images/presidential-seal-300-250.gif"
+            "urlFilter": "||esko.cloud^*_300x600_"
         }
     },
     {
@@ -7683,7 +7681,7 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||hiveworkscomics.com/frontboxes/300x250_"
+            "urlFilter": "||government-and-constitution.org/images/presidential-seal-300-250.gif"
         }
     },
     {
@@ -7697,11 +7695,25 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||img.tile.expert/*/*_300x600_"
+            "urlFilter": "||hiveworkscomics.com/frontboxes/300x250_"
         }
     },
     {
         "id": 503,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "resourceTypes": [
+                "image"
+            ],
+            "domainType": "firstParty",
+            "urlFilter": "||img.tile.expert/*/*_300x600_"
+        }
+    },
+    {
+        "id": 504,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7712,7 +7724,7 @@
         }
     },
     {
-        "id": 504,
+        "id": 505,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7726,7 +7738,7 @@
         }
     },
     {
-        "id": 505,
+        "id": 506,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7740,7 +7752,7 @@
         }
     },
     {
-        "id": 506,
+        "id": 507,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7754,7 +7766,7 @@
         }
     },
     {
-        "id": 507,
+        "id": 508,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7768,7 +7780,7 @@
         }
     },
     {
-        "id": 508,
+        "id": 509,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7782,7 +7794,7 @@
         }
     },
     {
-        "id": 509,
+        "id": 510,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7796,7 +7808,7 @@
         }
     },
     {
-        "id": 510,
+        "id": 511,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7810,7 +7822,7 @@
         }
     },
     {
-        "id": 511,
+        "id": 512,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7824,7 +7836,7 @@
         }
     },
     {
-        "id": 512,
+        "id": 513,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7838,7 +7850,7 @@
         }
     },
     {
-        "id": 513,
+        "id": 514,
         "priority": 2,
         "action": {
             "type": "allow"
