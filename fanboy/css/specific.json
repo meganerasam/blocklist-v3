@@ -462,7 +462,8 @@
         ".to-top"
     ],
     "asiaone.com": [
-        ".ant-back-top"
+        ".ant-back-top",
+        ".marquee-container"
     ],
     "askubuntu.com": [
         ".hero-box",
@@ -5080,6 +5081,10 @@
     "primecables.ca": [
         "#scrollUp"
     ],
+    "prismreports.org": [
+        ".has-dark-gray-background-color",
+        ".has-light-gray-background-color"
+    ],
     "privacyguides.org": [
         ".md-banner"
     ],
@@ -5124,6 +5129,7 @@
         ".fundraising-letter-inline",
         ".module-donate",
         ".site-header__banner",
+        ".wp-block-propublica-callout",
         ".wp-block-propublica-donate-cta"
     ],
     "prospect.org": [

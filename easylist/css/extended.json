@@ -735,6 +735,12 @@
             "type": "extended"
         }
     ],
+    "gamepadla.com": [
+        {
+            "selector": ".sliderBlock:has-text(ADS)",
+            "type": "extended"
+        }
+    ],
     "gamersnexus.net": [
         {
             "selector": ".moduleContent:has-text(Advertisement)",
@@ -979,11 +985,11 @@
             "type": "extended"
         },
         {
-            "selector": "[componentkey*=\"MAIN_FEED_RECENT\"] > [data-view-name]:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/)",
+            "selector": "[componentkey*=\"MAIN_FEED_RECENT\"] > [data-display-contents]:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/)",
             "type": "extended"
         },
         {
-            "selector": "[componentkey*=\"MAIN_FEED_RELEVANCE\"] > [data-view-name]:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/)",
+            "selector": "[componentkey*=\"MAIN_FEED_RELEVANCE\"] > [data-display-contents]:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/)",
             "type": "extended"
         },
         {
@@ -1412,6 +1418,10 @@
         }
     ],
     "producthunt.com": [
+        {
+            "selector": ".cursor-pointer:has-text(Promoted)",
+            "type": "extended"
+        },
         {
             "selector": ".text-12:has-text(Promoted)",
             "type": "extended"

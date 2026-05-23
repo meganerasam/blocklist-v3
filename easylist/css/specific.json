@@ -3319,6 +3319,9 @@
     "camfuze.com": [
         ".banner_inner"
     ],
+    "campaignlive.com": [
+        ".optanon-category-3"
+    ],
     "canada411.ca": [
         ".c411TopBanner"
     ],
@@ -4146,6 +4149,7 @@
     ],
     "clickondetroit.com": [
         ".floatingWrapper",
+        ".hRmgEt",
         ".topWrapper"
     ],
     "clickorlando.com": [
@@ -5691,7 +5695,9 @@
         ".banner-block"
     ],
     "defenseone.com": [
-        ".ad"
+        ".ad",
+        ".advert-placeholder",
+        ".promo-rail-img-container"
     ],
     "defensescoop.com": [
         ".ad"
@@ -9873,6 +9879,51 @@
         ".offcanvas-inner > .tncms-region",
         ".polarBlock"
     ],
+    "guessthe.game": [
+        "#sister-sites-ad",
+        ".fallback-footer-ad-shell",
+        ".fallback-side-ad"
+    ],
+    "guessthe.house": [
+        "#sister-sites-ad",
+        ".fallback-footer-ad-shell",
+        ".fallback-side-ad"
+    ],
+    "guesstheangle.wtf": [
+        "#sister-sites-ad",
+        ".fallback-footer-ad-shell",
+        ".fallback-side-ad"
+    ],
+    "guesstheaudio.com": [
+        "#sister-sites-ad",
+        ".fallback-footer-ad-shell",
+        ".fallback-side-ad"
+    ],
+    "guessthebook.app": [
+        "#sister-sites-ad",
+        ".fallback-footer-ad-shell",
+        ".fallback-side-ad"
+    ],
+    "guessthegrid.xyz": [
+        "#sister-sites-ad",
+        ".fallback-footer-ad-shell",
+        ".fallback-side-ad"
+    ],
+    "guessthelogo.wtf": [
+        "#sister-sites-ad",
+        ".fallback-footer-ad-shell",
+        ".fallback-side-ad"
+    ],
+    "guessthemovie.name": [
+        "#sister-sites-ad",
+        ".fallback-footer-ad-shell",
+        ".fallback-side-ad"
+    ],
+    "guessthephrase.xyz": [
+        "#sister-sites-ad",
+        ".fallback-footer-ad-shell",
+        ".fallback-side-ad"
+    ],
     "guidedhacking.com": [
         "[href*=\"bit.ly/\"]"
     ],
@@ -12248,6 +12299,9 @@
     ],
     "knutsfordguardian.co.uk": [
         ".promoted-block"
+    ],
+    "koaa.com": [
+        "#outstream_connatix_container"
     ],
     "koat.com": [
         ".ad-container"
@@ -18197,6 +18251,7 @@
         "div[data-testid=\"productAdsMicrosoft.container\"]"
     ],
     "qz.com": [
+        ".ay-ad-slot",
         ".k3mqd",
         "div[class*=\":block\"]:has(> .ay-ad-slot)",
         "div[class*=\"my-\"]:has(> .ay-ad-slot)",
@@ -22345,7 +22400,8 @@
     ],
     "thedrive.com": [
         "#pw-iab-leaderboard",
-        "#pw-top-right-sidebar-aib"
+        "#pw-top-right-sidebar-aib",
+        ".sellwild-container"
     ],
     "thedriven.io": [
         "#solarchoice_banner_1",
@@ -24605,7 +24661,8 @@
         "#upworthyFreeStarVideoAdContainer",
         ".freestar-in-content",
         ".upworthy_infinite_scroll_ad",
-        ".upworthy_infinte_scroll_outer_wrap"
+        ".upworthy_infinte_scroll_outer_wrap",
+        ".wp-container-30"
     ],
     "uquiz.com": [
         ".side_bar"
@@ -26259,6 +26316,7 @@
         "#exco",
         ".ad",
         ".ad-container",
+        ".exco-wrapper",
         ".promotion",
         ".vw3Klj"
     ],

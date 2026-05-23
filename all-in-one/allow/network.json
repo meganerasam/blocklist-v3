@@ -1948,6 +1948,7 @@
                 "script"
             ],
             "initiatorDomains": [
+                "painprophet.com",
                 "propanefitness.com"
             ],
             "urlFilter": "||app.clickfunnels.com/assets/lander.js"
