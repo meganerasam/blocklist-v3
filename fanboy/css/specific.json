@@ -8,6 +8,10 @@
     "15min.lt": [
         "#scroll-top"
     ],
+    "19thnews.org": [
+        ".js-site-banner",
+        ".wp-block-join-cta"
+    ],
     "1achterhoek.nl": [
         "#newsmatic-scroll-to-top"
     ],

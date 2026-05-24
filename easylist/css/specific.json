@@ -7435,6 +7435,7 @@
     "fandom.com": [
         "#featured-video__player-container",
         ".aff-unit__wrapper",
+        ".fandom-ad-wrapper",
         ".marketplace",
         ".top_leaderboard-odyssey-wrapper"
     ],
@@ -8593,6 +8594,7 @@
         ".supportImg"
     ],
     "ft.com": [
+        ".slot-wrapper",
         "pg-slot.pg-slot[id]"
     ],
     "ftvlive.com": [

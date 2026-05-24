@@ -79,7 +79,9 @@
     ],
     "19thnews.org": [
         ".article-ad-default-top",
-        ".front-page-ad-takeover"
+        ".front-page-ad-takeover",
+        ".js-site-banner",
+        ".wp-block-join-cta"
     ],
     "1achterhoek.nl": [
         "#newsmatic-scroll-to-top"
@@ -9149,6 +9151,7 @@
     "fandom.com": [
         "#featured-video__player-container",
         ".aff-unit__wrapper",
+        ".fandom-ad-wrapper",
         ".marketplace",
         ".top_leaderboard-odyssey-wrapper",
         ".marketing-notifications",
@@ -10475,6 +10478,7 @@
         "#inhouse-pushdown"
     ],
     "ft.com": [
+        ".slot-wrapper",
         "pg-slot.pg-slot[id]",
         ".n-feedback__container"
     ],
