@@ -9836,6 +9836,9 @@
     "folletosofertas.es": [
         ".anchor-wrapper"
     ],
+    "followstalker.com": [
+        ".sponsor-ad"
+    ],
     "fonearena.com": [
         "#header-banner"
     ],
@@ -16200,6 +16203,10 @@
         ".box--top-wide",
         ".floatingWrapper",
         ".topWrapper"
+    ],
+    "localgovernmentlawyer.co.uk": [
+        "#gk-mainbody-top",
+        ".mod-banners"
     ],
     "localjewishnews.com": [
         "div[class^=\"local-feed-banner-ads\"]"
