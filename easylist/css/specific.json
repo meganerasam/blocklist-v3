@@ -1204,6 +1204,7 @@
         ".pov_recirc__ad"
     ],
     "apexcharts.com": [
+        "#revealDemandbaseAwarenesAnimationContainer",
         ".featured-sponsor"
     ],
     "apkaward.com": [
@@ -11453,6 +11454,7 @@
         "#video",
         ".generalOverlay",
         ".midHeader",
+        "[data-ad-label=\"Advertisement\"]",
         "div.text-\\[\\#5b616e\\]",
         "div[class^=\"ad_\"]",
         "div[data-test=\"ad-slot-visible\"]"
@@ -12524,7 +12526,8 @@
         "#date-banner"
     ],
     "laist.com": [
-        ".AdModule-container"
+        ".AdModule-container",
+        ".Page-above"
     ],
     "lakeconews.com": [
         ".mod_ijoomlazone"
@@ -12881,6 +12884,7 @@
         "aside > center"
     ],
     "lgbtqnation.com": [
+        ".bg-gray-100",
         ".index-bottom-ad",
         ".single-bottom-ad"
     ],
@@ -14194,6 +14198,9 @@
     "middleeasteye.net": [
         ".region-before-navigation",
         ".sidebar-photo-extend"
+    ],
+    "middleeastmonitor.com": [
+        ".lb24-base-list-ad"
     ],
     "middletownpress.com": [
         ".ar16-9",
@@ -19870,6 +19877,7 @@
         ".page-container__left-native-ad-container",
         "[data-qa=\"AppBar-renderLayout-AdSlotContainer\"]",
         "[data-qa=\"ArticleContentRightSection-AdSlot\"]",
+        "[data-qa=\"OutstreamAdSlot-Container\"]",
         "div[data-qa=\"AdSlot-Container\"]",
         "div[data-qa=\"AppBar-AdSlotContainer\"]",
         "div[data-qa=\"ArticleHeaderAdSlot-Placeholder\"]",

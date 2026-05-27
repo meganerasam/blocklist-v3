@@ -3070,7 +3070,8 @@
         "#backtoTop"
     ],
     "investing.com": [
-        ".promo-strip-wrapper"
+        ".promo-strip-wrapper",
+        "[data-article-pro-hook=\"CTA button\"]"
     ],
     "investopedia.com": [
         ".signup",
