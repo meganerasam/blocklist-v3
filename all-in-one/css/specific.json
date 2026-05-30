@@ -784,6 +784,9 @@
     "agriexpo.online": [
         "#header-banner"
     ],
+    "aha-music.com": [
+        ".countdown-ad-wrap"
+    ],
     "ahaan.co.uk": [
         ".MuiSnackbar-anchorOriginBottomCenter",
         "[href^=\"https://go.nordvpn.net/\"]"
@@ -10163,6 +10166,8 @@
         "#middle-of-page",
         "#wp_piano_top_wrapper",
         "div.sticky-container:first-child",
+        "#after-post-content-widget-wrapper",
+        ".Campaign__canvas",
         ".promo-carousel"
     ],
     "forza.nu": [
@@ -10908,6 +10913,7 @@
         ".pub_header"
     ],
     "gamespot.com": [
+        ".fandom-ad-wrapper",
         "#in-page-nav"
     ],
     "gamesradar.com": [
@@ -16574,6 +16580,7 @@
     "majorgeeks.com": [
         "#op1-ad",
         ".alford > tbody > tr",
+        ".mg-giveaway-banner",
         "a[href*=\"/affiliate.php?\"]",
         "div > [style]:has([style]:has([href*=\"&utm\"]))",
         "div[style=\"background-color: #F5F5E3; color: #333333; padding: 10px 10px; border: 2px solid #666633; border-radius: 5px; font-size: 16px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; white-space: nowrap;\"]",
@@ -19839,6 +19846,10 @@
     ],
     "ntdeals.net": [
         "div[class^=\"ads-\"]"
+    ],
+    "ntv.cx": [
+        ".hdr-strip",
+        ".ntvx-sheet"
     ],
     "ntvkenya.co.ke": [
         ".ad_flex"
@@ -25064,6 +25075,7 @@
         "div[class*=\"ItineraryInlinePlusWrapper\" i]:has(button[class*=\"SponsoredInfoButton\" i])",
         "div[class^=\"InlineAd_container_\"]",
         "div[class^=\"ItineraryInlinePlusWrapper_\"]:has(button[class^=\"SponsoredInfoButton_\"])",
+        "div[data-backpack-ds-component]:has(#inline-ad-button)",
         "div[id*=\"-first-result\" i]:has(button[class*=\"SponsoredInfoButton\" i])",
         "section[data-testid=\"inline-ad-panel-desktop-layout\"]"
     ],
