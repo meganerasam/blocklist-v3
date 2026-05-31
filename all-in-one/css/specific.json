@@ -10704,6 +10704,9 @@
     "gamenguides.com": [
         ".wp-block-image"
     ],
+    "gamepadla.com": [
+        ".pMain:has(.asd_fa0ad9)"
+    ],
     "gamepix.com": [
         "div[id^=\"gpx-banner\"]"
     ],
