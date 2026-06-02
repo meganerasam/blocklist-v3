@@ -8795,7 +8795,7 @@
         ".wp-block-image"
     ],
     "gamepadla.com": [
-        ".pMain:has(.asd_fa0ad9)"
+        ".pMain:has(div[class^=\"asd_\"])"
     ],
     "gamepix.com": [
         "div[id^=\"gpx-banner\"]"
