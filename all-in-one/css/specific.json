@@ -7450,6 +7450,9 @@
     "discover.is": [
         ".widget_custom_html"
     ],
+    "discoverairdrie.com": [
+        ".inline-billboard"
+    ],
     "discoverhumboldt.com": [
         ".inline-billboard"
     ],
@@ -10128,7 +10131,8 @@
         "div[onclick^=\"MyAdvertisements.\"]"
     ],
     "forums.redflagdeals.com": [
-        "#primisContainer"
+        "#primisContainer",
+        ".topic-card:has(> .sponsored-offer)"
     ],
     "forums.sailinganarchy.com": [
         ".samBannerUnit"
@@ -10906,6 +10910,9 @@
         ".leaderboard",
         ".leaderboard-container",
         ".mpu"
+    ],
+    "gameskinny.com": [
+        ".wp-block-gamurs-ad"
     ],
     "gamesleech.com": [
         "a[href^=\"https://foldgun.xyz/\"]"
@@ -11962,6 +11969,7 @@
     "gsmarena.com": [
         "#subHeader:has(> #topAdv)",
         ".adv",
+        ".adv-mid",
         ".d-flex:has(pgs-ad)",
         ".deal",
         "div[style=\"margin-left: -10px; margin-top: 30px; height: 145px;\"]",
@@ -12058,7 +12066,8 @@
         ".wp-block-affiliate-plugin-lasso"
     ],
     "guitarworld.com": [
-        ".sponsored-card"
+        ".sponsored-card",
+        ".vid-present"
     ],
     "gulf-times.com": [
         ".gt-horizontal-ad",
@@ -12397,6 +12406,8 @@
         ".code-block"
     ],
     "healthing.ca": [
+        ".adslot",
+        ".desktop-sticky-ad",
         ".sticky-ad-spacer-desktop"
     ],
     "healthleadersmedia.com": [
@@ -16529,6 +16540,9 @@
     "maginative.com": [
         ".sb-services"
     ],
+    "magma.com": [
+        ".partnership-content-wrapper"
+    ],
     "magnoliastatelive.com": [
         ".one_by_one_group"
     ],
@@ -16573,6 +16587,9 @@
     ],
     "maison-et-domotique.com": [
         ".sidebar .widget_media_image"
+    ],
+    "maisonsdumonde.com": [
+        "[data-el=\"product-card-grid\"] article:has([data-el=\"product-card__sponsored\"])"
     ],
     "majic945.com": [
         ".module-recommended"
@@ -17589,6 +17606,18 @@
     "miruro.*": [
         ".a-ads"
     ],
+    "miruro.bz": [
+        ".monkey"
+    ],
+    "miruro.ru": [
+        ".monkey"
+    ],
+    "miruro.to": [
+        ".monkey"
+    ],
+    "miruro.tv": [
+        ".monkey"
+    ],
     "mishaptube.com": [
         ".table"
     ],
@@ -17840,6 +17869,9 @@
     "modyolo.com": [
         "a[href^=\"https://referencemen.net/\"]"
     ],
+    "mojeek.com": [
+        "[aria-label=\"Sponsored products\"]"
+    ],
     "momjunction.com": [
         ".advert",
         ".advertinside",
@@ -17957,6 +17989,7 @@
     ],
     "montrealgazette.com": [
         "#zoneContainer",
+        ".pmd-ad-content",
         ".zone-el"
     ],
     "moodiedavittreport.com": [
@@ -20788,6 +20821,7 @@
         "#coupons",
         ".listingResult:has(> .sponsored-post)",
         ".sponsored-card",
+        ".vid-present",
         "div[class*=\"ad-unit\"]"
     ],
     "pcgamesn.com": [
@@ -22170,6 +22204,9 @@
     ],
     "pspad.com": [
         ".google"
+    ],
+    "psprices.com": [
+        ".base-banners"
     ],
     "pstream.org": [
         ".group > .border-buttons-purple:has(> button[aria-label=\"Dismiss ad\"])"
@@ -24162,7 +24199,9 @@
     ],
     "salon.com": [
         ".advertise_text",
-        ".outer_ad_container"
+        ".outer_ad_container",
+        ".raptive-salon-content",
+        ".raptive-salon-header"
     ],
     "saltwire.com": [
         ".sw-banner",
@@ -25521,6 +25560,7 @@
         ".scadslot-widget"
     ],
     "space.com": [
+        ".aspect-video",
         ".jwplayer__wrapper",
         ".sponsored-card"
     ],
@@ -26843,6 +26883,7 @@
     ],
     "techcrunch.com": [
         "div[class*=\"ad-unit\"]",
+        "#js-promo-banner-countdown",
         ".rightrail-promo",
         ".wp-block-techcrunch-inline-cta"
     ],
@@ -26969,7 +27010,8 @@
         ".hawk-main-editorialized",
         ".hawk-merchant-link-widget-container",
         ".hawk-nest",
-        ".sponsored-card"
+        ".sponsored-card",
+        ".vid-present"
     ],
     "techraptor.net": [
         "#nn_lb1",
@@ -27796,8 +27838,8 @@
     "theglobeandmail.com": [
         ".c-ad--base",
         ".c-ad-sticky",
-        "div[class^=\"BaseAd_\"]",
-        ".marketing-container-drivers"
+        ".recommender-wrapper",
+        "div[class^=\"BaseAd_\"]"
     ],
     "thegolfnewsnet.com": [
         ".g"
@@ -28032,6 +28074,9 @@
     "thelondoneconomic.com": [
         ".wpnp_anchor_js"
     ],
+    "them.us": [
+        ".ad"
+    ],
     "themainewire.com": [
         "a[aria-label^=\"The Maine Wire Banner Ad\"]"
     ],
@@ -28051,7 +28096,8 @@
     ],
     "themarysue.com": [
         "#right-rail-atf",
-        ".primis-player-container"
+        ".primis-player-container",
+        ".wp-block-gamurs-ad"
     ],
     "themedialine.org": [
         "#tmlPopupDonate",
@@ -29964,6 +30010,7 @@
         ".recurrent-inline-leaderboard"
     ],
     "tyla.com": [
+        ".floating-video-player_container__u4D9_",
         "div[class^=\"advert-placeholder_\"]"
     ],
     "tympanus.net": [
@@ -31768,7 +31815,8 @@
     ],
     "whitecoatinvestor.com": [
         ".abc",
-        ".widget_abc"
+        ".widget_abc",
+        "[class*=\"blog-\"][class*=\"-as\"]"
     ],
     "who-called.co.uk": [
         "#snigel_ads-mobile",
@@ -31801,6 +31849,9 @@
     "whosdatedwho.com": [
         ".block-global-adDFP_HomeFooter",
         ".ff-adblock"
+    ],
+    "whoseno.com": [
+        ".wn-ad-wrap"
     ],
     "whoswho.mt": [
         ".footer__second"
@@ -31952,7 +32003,8 @@
         ".brdx-unit",
         ".hawk-deal-widget-hero",
         ".hawk-master-widget-hawk-wrapper",
-        ".sponsored-card"
+        ".sponsored-card",
+        ".vid-present"
     ],
     "windowslatest.com": [
         ".ai_widget",
@@ -31980,6 +32032,9 @@
     ],
     "winnipegfreepress.com": [
         ".ad"
+    ],
+    "winnipegsun.com": [
+        ".asset-paging-container"
     ],
     "winscp.net": [
         ".promo-block"

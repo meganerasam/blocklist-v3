@@ -6115,6 +6115,7 @@
         ".ui-widget-overlay"
     ],
     "techcrunch.com": [
+        "#js-promo-banner-countdown",
         ".rightrail-promo",
         ".wp-block-techcrunch-inline-cta"
     ],
@@ -6340,9 +6341,6 @@
     ],
     "thegamecrater.com": [
         "#to-top-wrap"
-    ],
-    "theglobeandmail.com": [
-        ".marketing-container-drivers"
     ],
     "thegrayzone.com": [
         ".to-top"
@@ -7237,6 +7235,9 @@
     ],
     "windowslatest.com": [
         ".support-dropdown-wrapper"
+    ],
+    "winnipegsun.com": [
+        ".asset-paging-container"
     ],
     "winzzguitars.com": [
         "#site-scroll"

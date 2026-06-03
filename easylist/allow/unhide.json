@@ -433,6 +433,9 @@
         ".ad-content",
         ".ad-img"
     ],
+    "flightaware.com": [
+        ".sticky-footer-ad"
+    ],
     "flightview.com": [
         ".ad-160-600"
     ],
