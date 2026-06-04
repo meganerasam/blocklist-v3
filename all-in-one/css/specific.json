@@ -10132,7 +10132,7 @@
     ],
     "forums.redflagdeals.com": [
         "#primisContainer",
-        ".topic-card:has(> .sponsored-offer)"
+        ".topiclist > .topic:has(span.sponsored)"
     ],
     "forums.sailinganarchy.com": [
         ".samBannerUnit"
@@ -12649,6 +12649,7 @@
         ".ht_taboola",
         ".m_headBanner",
         ".middleTaboola",
+        ".minHeight325",
         ".moreFrom",
         ".noAdLabel",
         ".pramotedWidget",
@@ -19876,6 +19877,9 @@
     "nssmag.com": [
         ".header-banners"
     ],
+    "nst.com.my": [
+        ".ad"
+    ],
     "ntd.com": [
         "[style=\"min-height:266px\"]",
         "[style=\"min-height:296px\"]"
@@ -21726,6 +21730,9 @@
     ],
     "portageonline.com": [
         ".inline-billboard"
+    ],
+    "portalmybot.com": [
+        "a[href^=\"https://otixer.com/?ref=\"]"
     ],
     "portlandmonthlymag.com": [
         ".adlabel"
@@ -25052,6 +25059,9 @@
     ],
     "sinaval.org.br": [
         ".to-top-container"
+    ],
+    "sinchew.com.my": [
+        ".ads-frame"
     ],
     "singaporeexpats.com": [
         ".skyscrapers"
