@@ -4158,6 +4158,7 @@
     ],
     "clickorlando.com": [
         ".floatingWrapper",
+        ".full-width:has([id*=\"exco-player-\"])",
         ".topWrapper"
     ],
     "climatechangenews.com": [
@@ -5272,6 +5273,9 @@
     "dailyboulder.com": [
         ".ad-image-wrap",
         ".ad-wrap"
+    ],
+    "dailycal.org": [
+        ".dfp-ad"
     ],
     "dailycaller.com": [
         "#dailycaller_incontent_1",
@@ -12336,6 +12340,9 @@
     ],
     "kob.com": [
         "#Header_1"
+    ],
+    "koco.com": [
+        ".ad-track"
     ],
     "kodinerds.net": [
         ".boxesSidebarRight"
@@ -20391,6 +20398,9 @@
         ".SimklTVDetailEpisodeLinksItemHref",
         ".blockplacecente"
     ],
+    "simonwillison.net": [
+        "#sponsored-banner"
+    ],
     "simpasian.net": [
         ".hideme"
     ],
@@ -20484,7 +20494,8 @@
         ".ad-blocked-newsletter",
         ".banner-wrapper",
         ".deals-wrapper",
-        "[id*=\"mongo-\"]"
+        "[id*=\"mongo-\"]",
+        "div[id*=\"vibe\"]"
     ],
     "slashfilm.com": [
         "#primis-container"
@@ -20805,7 +20816,8 @@
         "#ai-stud-coding-bar",
         "#ai-studio-coding-bar",
         "#top-placeholder",
-        "[id*=\"mongo-\"]"
+        "[id*=\"mongo-\"]",
+        "div[id*=\"vibe\"]"
     ],
     "southernliving.com": [
         ".karma-sticky-rail",
@@ -21190,9 +21202,6 @@
     ],
     "startup.ch": [
         ".smallbanner"
-    ],
-    "startuphub.ai": [
-        ".newsletter-ad-container"
     ],
     "statenews.com": [
         ".ad"
@@ -23825,6 +23834,7 @@
         ".sjm-dfp-wrapper"
     ],
     "torquenews.com": [
+        ".adsense",
         ".header-wrapper"
     ],
     "torrends.to": [

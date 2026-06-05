@@ -1735,11 +1735,11 @@
     ],
     "startuphub.ai": [
         {
-            "selector": ".p-4.rounded-xl:has-text(Sponsored)",
+            "selector": ".duration-700.bg-card:has-text(Partner)",
             "type": "extended"
         },
         {
-            "selector": "a.block.group:has-text(Sponsored)",
+            "selector": ".group.block:has-text(Partner)",
             "type": "extended"
         }
     ],

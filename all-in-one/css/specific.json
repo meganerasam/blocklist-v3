@@ -4499,6 +4499,9 @@
         "[data-concert=\"desktop_leaderboard_variable\"]",
         "[data-concert=\"leaderboard_top_tablet_desktop\"]"
     ],
+    "cen.acs.org": [
+        "#backToTop"
+    ],
     "census.gov": [
         "#pagetop",
         "#thumbs_div"
@@ -5106,6 +5109,7 @@
     ],
     "clickorlando.com": [
         ".floatingWrapper",
+        ".full-width:has([id*=\"exco-player-\"])",
         ".topWrapper"
     ],
     "climatechangenews.com": [
@@ -6488,6 +6492,11 @@
         ".ad-image-wrap",
         ".ad-wrap"
     ],
+    "dailycal.org": [
+        ".dfp-ad",
+        "#tncms-region-article_bottom",
+        ".asset-paging-container"
+    ],
     "dailycaller.com": [
         "#dailycaller_incontent_1",
         "#dailycaller_incontent_2",
@@ -7398,7 +7407,8 @@
         ".dtcc-affiliate"
     ],
     "digitbin.com": [
-        "[href*=\"bit.ly/\"]"
+        "[href*=\"bit.ly/\"]",
+        "#scroll-to-top"
     ],
     "digitimes.com": [
         "#adspace",
@@ -13307,6 +13317,9 @@
         ".carbon-card-ad__loader",
         ".top-banner"
     ],
+    "idahocapitalsun.com": [
+        ".donateContainer"
+    ],
     "idahostatesman.com": [
         ".zone",
         ".zone-el"
@@ -15108,6 +15121,9 @@
     ],
     "kob.com": [
         "#Header_1"
+    ],
+    "koco.com": [
+        ".ad-track"
     ],
     "kodinerds.net": [
         ".boxesSidebarRight"
@@ -25034,6 +25050,9 @@
         ".SimklTVDetailEpisodeLinksItemHref",
         ".blockplacecente"
     ],
+    "simonwillison.net": [
+        "#sponsored-banner"
+    ],
     "simpasian.net": [
         ".hideme"
     ],
@@ -25159,6 +25178,7 @@
         ".banner-wrapper",
         ".deals-wrapper",
         "[id*=\"mongo-\"]",
+        "div[id*=\"vibe\"]",
         "#stackcommerce-adwrap",
         ".deals-footer"
     ],
@@ -25537,7 +25557,8 @@
         "#ai-stud-coding-bar",
         "#ai-studio-coding-bar",
         "#top-placeholder",
-        "[id*=\"mongo-\"]"
+        "[id*=\"mongo-\"]",
+        "div[id*=\"vibe\"]"
     ],
     "southernliving.com": [
         ".karma-sticky-rail",
@@ -26044,9 +26065,6 @@
     ],
     "startup.ch": [
         ".smallbanner"
-    ],
-    "startuphub.ai": [
-        ".newsletter-ad-container"
     ],
     "stash.clash.gg": [
         "#ad-scroll-banner",
@@ -26575,7 +26593,8 @@
     "swimswam.com": [
         ".homepage_block_ads",
         ".polls-461",
-        ".swimswam-acf"
+        ".swimswam-acf",
+        ".scroll-to-top"
     ],
     "swindonadvertiser.co.uk": [
         ".promoted-block"
@@ -29306,6 +29325,7 @@
         ".sjm-dfp-wrapper"
     ],
     "torquenews.com": [
+        ".adsense",
         ".header-wrapper"
     ],
     "torrends.to": [

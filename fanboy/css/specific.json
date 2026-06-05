@@ -1014,6 +1014,9 @@
     "celebritycruises.com": [
         ".back-to-top"
     ],
+    "cen.acs.org": [
+        "#backToTop"
+    ],
     "census.gov": [
         "#pagetop",
         "#thumbs_div"
@@ -1477,6 +1480,10 @@
     "dailyartmagazine.com": [
         ".donate-row"
     ],
+    "dailycal.org": [
+        "#tncms-region-article_bottom",
+        ".asset-paging-container"
+    ],
     "dailyevergreen.com": [
         ".wppopups-whole"
     ],
@@ -1724,6 +1731,9 @@
     "digitalrev.com": [
         "#uvTab",
         "uvTab"
+    ],
+    "digitbin.com": [
+        "#scroll-to-top"
     ],
     "digitimes.com": [
         ".gotop"
@@ -2905,6 +2915,9 @@
     ],
     "iclarified.com": [
         ".article_footer"
+    ],
+    "idahocapitalsun.com": [
+        ".donateContainer"
     ],
     "ifixit.com": [
         "#notifications"
@@ -6019,6 +6032,9 @@
     ],
     "swappz.com": [
         "#age-verification-container"
+    ],
+    "swimswam.com": [
+        ".scroll-to-top"
     ],
     "swiowanewssource.com": [
         ".asset-paging-container"
