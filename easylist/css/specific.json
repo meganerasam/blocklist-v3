@@ -9013,6 +9013,7 @@
         ".pub_header"
     ],
     "gamespot.com": [
+        "#block-72",
         ".fandom-ad-wrapper"
     ],
     "gamesradar.com": [
@@ -15202,6 +15203,9 @@
         "[height=\"60\"]",
         "[width=\"600\"]"
     ],
+    "namibian.com.na": [
+        ".gofollow"
+    ],
     "namibtimes.net": [
         ".ad"
     ],
@@ -17086,7 +17090,7 @@
     "pexels.com": [
         ".inline-ads",
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([class*=\"AIGCAdShared\"])",
-        "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-label*=\"Sponsored\"])",
+        "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-heading*=\"Sponsored\"])",
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-text=\"Sponsored Photos\"])",
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-title*=\"Sponsored\"])",
         "div[class=\"RowItem_gridItem__OfhML RowItem_fullWidth__cIdtN RowItem_expand__TR5R6\"]",
@@ -17296,6 +17300,7 @@
         ".external-media",
         ".gettyImagesContainer--7sZnR",
         ".present-g-item",
+        "[class^=\"adsSection\"]",
         "[class^=\"gettySponsored\"]",
         "div[class^=\"cell--\"]:has(button[aria-label=\"About this advertiser\"])",
         "div[class^=\"mrxz\"]:has(button[aria-label=\"About this advertiser\"])"
@@ -18596,6 +18601,9 @@
         "#GRID_AD_SLOT_1",
         ".ad",
         ".nativeAdSlot_nativeAdContainer__NzSO_"
+    ],
+    "rankiapro.com": [
+        ".undefined.relative"
     ],
     "ranobes.top": [
         ".free-support-top"
@@ -25326,6 +25334,9 @@
         "div[id*=\"SponsoredProductCarousel\"]",
         "li.items-center:has(div[data-ad-component-type=\"wpa-tile\"])",
         "section[data-dca-type=\"module\"]:has(img[src^=\"https://i5.walmartimages.ca/dfw/8822aef6-854b/k2-_cb5cd2e8-b2ce-4ab7-b954-e86bea1e7648.v1.jpg\"])"
+    ],
+    "walmart.com": [
+        "[data-testid=\"skyline-ad\"]"
     ],
     "walterfootball.com": [
         "#top_S",
