@@ -1171,9 +1171,6 @@
     "safeframe.googlesyndication.com": [
         "div[id^=\"ad_position_\"]"
     ],
-    "sagepub.com": [
-        ".scrollToTop"
-    ],
     "saitama-np.co.jp": [
         "[id^=\"div-gpt-ad\"]",
         "div[id^=\"div-gpt-\"]"

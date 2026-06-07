@@ -61473,11 +61473,41 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "://www.vinted.*/relay/events"
+            "urlFilter": "://tralut.*/collect/value?"
         }
     },
     {
         "id": 6027,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "://tralut.*/js/script-dynamic.js"
+        }
+    },
+    {
+        "id": 6028,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "://tralut.*/js/tracking.js"
+        }
+    },
+    {
+        "id": 6029,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "://www.vinted.*/relay/events"
+        }
+    },
+    {
+        "id": 6030,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61490,7 +61520,7 @@
         }
     },
     {
-        "id": 6028,
+        "id": 6031,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61500,7 +61530,7 @@
         }
     },
     {
-        "id": 6029,
+        "id": 6032,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61516,7 +61546,7 @@
         }
     },
     {
-        "id": 6030,
+        "id": 6033,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61532,7 +61562,7 @@
         }
     },
     {
-        "id": 6031,
+        "id": 6034,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61545,7 +61575,7 @@
         }
     },
     {
-        "id": 6032,
+        "id": 6035,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61555,7 +61585,7 @@
         }
     },
     {
-        "id": 6033,
+        "id": 6036,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61565,7 +61595,7 @@
         }
     },
     {
-        "id": 6034,
+        "id": 6037,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61579,7 +61609,7 @@
         }
     },
     {
-        "id": 6035,
+        "id": 6038,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61593,7 +61623,7 @@
         }
     },
     {
-        "id": 6036,
+        "id": 6039,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61603,7 +61633,7 @@
         }
     },
     {
-        "id": 6037,
+        "id": 6040,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61613,7 +61643,7 @@
         }
     },
     {
-        "id": 6038,
+        "id": 6041,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61627,7 +61657,7 @@
         }
     },
     {
-        "id": 6039,
+        "id": 6042,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61641,7 +61671,7 @@
         }
     },
     {
-        "id": 6040,
+        "id": 6043,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61655,7 +61685,7 @@
         }
     },
     {
-        "id": 6041,
+        "id": 6044,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61665,7 +61695,7 @@
         }
     },
     {
-        "id": 6042,
+        "id": 6045,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61675,7 +61705,7 @@
         }
     },
     {
-        "id": 6043,
+        "id": 6046,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61685,7 +61715,7 @@
         }
     },
     {
-        "id": 6044,
+        "id": 6047,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61695,7 +61725,7 @@
         }
     },
     {
-        "id": 6045,
+        "id": 6048,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61705,7 +61735,7 @@
         }
     },
     {
-        "id": 6046,
+        "id": 6049,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61715,7 +61745,7 @@
         }
     },
     {
-        "id": 6047,
+        "id": 6050,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61725,7 +61755,7 @@
         }
     },
     {
-        "id": 6048,
+        "id": 6051,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61741,7 +61771,7 @@
         }
     },
     {
-        "id": 6049,
+        "id": 6052,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61751,7 +61781,7 @@
         }
     },
     {
-        "id": 6050,
+        "id": 6053,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61761,7 +61791,7 @@
         }
     },
     {
-        "id": 6051,
+        "id": 6054,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61771,7 +61801,7 @@
         }
     },
     {
-        "id": 6052,
+        "id": 6055,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61781,7 +61811,7 @@
         }
     },
     {
-        "id": 6053,
+        "id": 6056,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61791,7 +61821,7 @@
         }
     },
     {
-        "id": 6054,
+        "id": 6057,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61807,7 +61837,7 @@
         }
     },
     {
-        "id": 6055,
+        "id": 6058,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61817,7 +61847,7 @@
         }
     },
     {
-        "id": 6056,
+        "id": 6059,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61827,7 +61857,7 @@
         }
     },
     {
-        "id": 6057,
+        "id": 6060,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61837,7 +61867,7 @@
         }
     },
     {
-        "id": 6058,
+        "id": 6061,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61847,7 +61877,7 @@
         }
     },
     {
-        "id": 6059,
+        "id": 6062,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61857,7 +61887,7 @@
         }
     },
     {
-        "id": 6060,
+        "id": 6063,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61867,7 +61897,7 @@
         }
     },
     {
-        "id": 6061,
+        "id": 6064,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61877,7 +61907,7 @@
         }
     },
     {
-        "id": 6062,
+        "id": 6065,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61887,7 +61917,7 @@
         }
     },
     {
-        "id": 6063,
+        "id": 6066,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61901,7 +61931,7 @@
         }
     },
     {
-        "id": 6064,
+        "id": 6067,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61914,7 +61944,7 @@
         }
     },
     {
-        "id": 6065,
+        "id": 6068,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61927,7 +61957,7 @@
         }
     },
     {
-        "id": 6066,
+        "id": 6069,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61940,7 +61970,7 @@
         }
     },
     {
-        "id": 6067,
+        "id": 6070,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61953,7 +61983,7 @@
         }
     },
     {
-        "id": 6068,
+        "id": 6071,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61966,7 +61996,7 @@
         }
     },
     {
-        "id": 6069,
+        "id": 6072,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61979,7 +62009,7 @@
         }
     },
     {
-        "id": 6070,
+        "id": 6073,
         "priority": 1,
         "action": {
             "type": "block"
@@ -61992,7 +62022,7 @@
         }
     },
     {
-        "id": 6071,
+        "id": 6074,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62005,7 +62035,7 @@
         }
     },
     {
-        "id": 6072,
+        "id": 6075,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62018,7 +62048,7 @@
         }
     },
     {
-        "id": 6073,
+        "id": 6076,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62031,7 +62061,7 @@
         }
     },
     {
-        "id": 6074,
+        "id": 6077,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62041,7 +62071,7 @@
         }
     },
     {
-        "id": 6075,
+        "id": 6078,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62051,7 +62081,7 @@
         }
     },
     {
-        "id": 6076,
+        "id": 6079,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62068,7 +62098,7 @@
         }
     },
     {
-        "id": 6077,
+        "id": 6080,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62084,7 +62114,7 @@
         }
     },
     {
-        "id": 6078,
+        "id": 6081,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62097,7 +62127,7 @@
         }
     },
     {
-        "id": 6079,
+        "id": 6082,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62107,7 +62137,7 @@
         }
     },
     {
-        "id": 6080,
+        "id": 6083,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62123,7 +62153,7 @@
         }
     },
     {
-        "id": 6081,
+        "id": 6084,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62136,7 +62166,7 @@
         }
     },
     {
-        "id": 6082,
+        "id": 6085,
         "priority": 1,
         "action": {
             "type": "block"
@@ -62149,7 +62179,7 @@
         }
     },
     {
-        "id": 6083,
+        "id": 6086,
         "priority": 1,
         "action": {
             "type": "block"

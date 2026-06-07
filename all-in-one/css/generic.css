@@ -1,7 +1,7 @@
 /*
  * generic.css 
  * Merged from adult, easylist, easyprivacy, fanboy
- * Generated: 2026-06-06 00:29:22 UTC
+ * Generated: 2026-06-07 00:30:18 UTC
  */
 
 #AC_ad,
@@ -12685,7 +12685,7 @@
 .scroll-up-button-wrapper,
 .scroll-up-cta,
 .scroll2top,
-.scrollToTop,
+.scrollToTop:not(.dropdown-content-wrapper),
 .scrollToTopBtn,
 .scrollToTopButton,
 .scrollToTopLink,

@@ -4084,6 +4084,9 @@
     "campaignlive.com": [
         ".optanon-category-3"
     ],
+    "campbellrivermirror.com": [
+        ".one_by_one_group"
+    ],
     "canada411.ca": [
         ".c411TopBanner"
     ],
@@ -8219,7 +8222,8 @@
     ],
     "edmunds.com": [
         ".car-news-marquee",
-        ".leaderboard"
+        ".leaderboard",
+        ".overflow-hidden.w-100:has(.exco-player)"
     ],
     "edn.com": [
         "#SideBarWrap",
@@ -8812,6 +8816,7 @@
     ],
     "euronews.com": [
         "#connatix-container",
+        ".c-ad",
         ".c-card-sponsor",
         ".enw-MPU",
         ".m-object:has(.m-object__spons-quote)",
@@ -12828,6 +12833,9 @@
         ".gb-sponsored-wrapper",
         ".productslider"
     ],
+    "homedepot.ca": [
+        "sponsored-banner"
+    ],
     "homedepot.com": [
         "#revjet_container",
         ".browse-search__pod:has([id^=\"plp_pod_sponsored\"])",
@@ -16582,7 +16590,8 @@
     "mail.google.com": [
         ".aeF > .nH > .nH[role=\"main\"] > .aKB",
         ".nH.PS",
-        "a[href^=\"http://li.blogtrottr.com/click?\"]"
+        "a[href^=\"http://li.blogtrottr.com/click?\"]",
+        "div[data-is-inner-content-recommendation]"
     ],
     "mail.yahoo.com": [
         "#commerce_card_group_container:has([data-test-id*=\"affiliate\"])",
@@ -16976,6 +16985,7 @@
         ".zad",
         ".ziff-video-container",
         "[data-pogo=\"top\"]",
+        "[data-seamless-ad]",
         "section.mt-4 > div"
     ],
     "mashed.com": [
@@ -18327,6 +18337,7 @@
         ".eocb-ads",
         ".galleryPage_eoabContent_new-DS-EntryPoint1-1",
         ".galleryPage_eoabNativeAd_new-DS-EntryPoint1-1",
+        ".gem-display-ad-wrapper",
         ".intra-article-ad-full",
         ".intra-article-ad-half",
         ".me-stripe-tile-content:has(a[href*=\"?\"] .me-stripe-title-subtitle)",
@@ -28766,8 +28777,7 @@
         ".connatix-feature-desktop",
         ".duet--layout--rail > div:has(> div > [data-concert])",
         ".m-ad__btf_leaderboard_variable",
-        "div[data-concert]",
-        ".zephr-zone-footer"
+        "div[data-concert]"
     ],
     "thevivant.com": [
         "#acquisition-bar-wrapper"
@@ -30359,6 +30369,9 @@
     ],
     "upjoke.com": [
         "div[style=\"margin-bottom:0.5rem; min-height:250px;\"]"
+    ],
+    "upload-apk.com": [
+        ".vr-adv-unit"
     ],
     "upload.ee": [
         "[href*=\".php\"]"

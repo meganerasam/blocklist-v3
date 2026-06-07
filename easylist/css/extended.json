@@ -873,6 +873,12 @@
             "type": "css-injection"
         }
     ],
+    "inc.com": [
+        {
+            "selector": ".pr-\\[25px\\].py-\\[27px\\]:has-text(Apply Now)",
+            "type": "extended"
+        }
+    ],
     "infographicjournal.com": [
         {
             "selector": ".et_pb_module:has-text(Partners)",

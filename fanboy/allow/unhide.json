@@ -26,9 +26,6 @@
     "realme.com": [
         ".btn-back-to-top"
     ],
-    "sagepub.com": [
-        ".scrollToTop"
-    ],
     "skadden.com": [
         ".back-to-top:not(body):not(html)",
         ".js-back-to-top",

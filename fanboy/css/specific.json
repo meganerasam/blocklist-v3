@@ -3774,6 +3774,9 @@
     "mahou-sanmiguel.com": [
         "#filtro"
     ],
+    "mail.google.com": [
+        "div[data-is-inner-content-recommendation]"
+    ],
     "mail.zoho.com": [
         ".jsBookmarkExtn"
     ],
@@ -6600,9 +6603,6 @@
     ],
     "thetyee.ca": [
         ".article-footer--builder-ask"
-    ],
-    "theverge.com": [
-        ".zephr-zone-footer"
     ],
     "thevivant.com": [
         "#acquisition-bar-wrapper"
