@@ -977,6 +977,10 @@
     "carscoops.com": [
         ".scroll-top"
     ],
+    "carwow.co.uk": [
+        ".centred-inner",
+        ".news-article__buy_sell_wow"
+    ],
     "casinodelavallee.com": [
         "#go-top"
     ],
@@ -5734,7 +5738,8 @@
         ".kadence-scroll-to-top"
     ],
     "sltrib.com": [
-        ".donation-a-test"
+        ".donation-a-test",
+        ".fp-marketing-message-wrapper"
     ],
     "smashingmagazine.com": [
         ".feature-panel"

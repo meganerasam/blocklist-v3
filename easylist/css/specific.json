@@ -3522,6 +3522,7 @@
         ".top-ad-blank-div"
     ],
     "carwow.co.uk": [
+        ".google-ad__disclaimer",
         ".stock-cars-v2__card-wrapper:has(> [data-controller=\"spdeal\"])"
     ],
     "caspianpost.com": [
@@ -5314,6 +5315,7 @@
         ".dd-dda"
     ],
     "dailyecho.co.uk": [
+        ".mar-leaderboard--top",
         ".promoted-block"
     ],
     "dailyedge.ie": [
@@ -6069,7 +6071,8 @@
         ".bc_random_banner"
     ],
     "dissmercury.co.uk": [
-        ".advert"
+        ".advert",
+        ".mar-leaderboard--top"
     ],
     "distractify.com": [
         ".hNIPOc",
@@ -6112,7 +6115,6 @@
     "dnaindia.com": [
         ".ads-box-300x250",
         ".ads-box-970x90",
-        ".ads-box-d90-m300",
         "div[class^=\"ads-box\"]"
     ],
     "dnsleak.com": [
@@ -9832,8 +9834,8 @@
         ".divider"
     ],
     "greekcitytimes.com": [
-        ".greek-adlabel",
-        ".greek-after-content"
+        ".greek-2after-post",
+        ".greek-2content"
     ],
     "greekreporter.com": [
         ".code-block",
@@ -13299,6 +13301,9 @@
     "lolvvv.com": [
         "iframe[src]"
     ],
+    "londonlovesbusiness.com": [
+        ".code-block"
+    ],
     "londonworld.com": [
         ".banner",
         "[data-type=\"AdRowBillboard\"]",
@@ -14271,6 +14276,8 @@
     ],
     "military.com": [
         ".page__top",
+        ".sidebar-first",
+        ".sticky-header",
         "article.embedded-entity"
     ],
     "militaryleak.com": [
@@ -15373,25 +15380,15 @@
         ".ab"
     ],
     "ndtv.com": [
-        "#parentDiv0",
+        "#header-ad-slot",
+        "#right-ad-slot",
+        ".CustomAdWidget-module-scss-module__xgZgtW__ads-wrp",
         ".TpGnAd_ad-cn",
-        ".TpGnAd_ad-wr",
-        ".add-section",
         ".add-wrp",
-        ".add__txt",
-        ".add__wrp",
-        ".add_dxt-non",
         ".ads-wrp",
-        ".hmpage_rhs",
-        "[class^=\"ads_\"]",
-        "[class^=\"firework\"]",
-        "[id^=\"firework\"]",
+        ".taboola-slot",
         "div:has(> [id^=\"adslot\"])",
         "div[class^=\"add_\"]"
-    ],
-    "ndtv.in": [
-        "[class^=\"firework\"]",
-        "[id^=\"firework\"]"
     ],
     "ndtvgames.com": [
         "#div-ad",
@@ -17638,6 +17635,7 @@
     ],
     "portsmouth.co.uk": [
         ".banner",
+        ".exco-video-player",
         "[data-type=\"AdRowBillboard\"]",
         "div[class^=\"AdLoadingText\"]",
         "div[class^=\"SidebarAds_\"]",
@@ -18566,6 +18564,9 @@
     ],
     "radiotunes.com": [
         ".sidewall-ad-component"
+    ],
+    "radioworld.com": [
+        ".site-ad"
     ],
     "radiox.co.uk": [
         ".download"
@@ -24728,6 +24729,10 @@
         "a[href^=\"https://s.click.aliexpress.com/\"]",
         "img[width=\"300\"]"
     ],
+    "upday.com": [
+        ".AdsSolutionsSlot",
+        ".OutbrainSlotWidget"
+    ],
     "upfivedown.com": [
         "#block-4",
         "#block-6",
@@ -26169,12 +26174,7 @@
         ".style_k8mr7b-o_O-style_1ts1q2h"
     ],
     "wionews.com": [
-        "#parentDiv0",
-        ".ads-box-300x250",
-        ".ads-box-300x300",
-        ".ads-box-970x90",
-        ".ads-box-d90-m300",
-        ".ads-div-style"
+        ".ads_adsBlock__8hCp1"
     ],
     "wired.com": [
         ".MobileProductCardOuter-kMqsSf",

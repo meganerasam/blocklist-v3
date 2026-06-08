@@ -501,6 +501,12 @@
             "type": "extended"
         }
     ],
+    "cyberchef.org": [
+        {
+            "selector": "#workspace-wrapper > [id][style*=\"height\"] {height: 100% !important}",
+            "type": "css-injection"
+        }
+    ],
     "dailyrecord.co.uk": [
         {
             "selector": ".sticky ~ header {top:0;}",
