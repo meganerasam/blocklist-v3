@@ -6358,7 +6358,8 @@
     "dribbble.com": [
         ".service-result:has([data-promoted-badge])",
         "[data-ad-data*=\"ad_link\"]",
-        "drb-infinite-scroll div[data-username]:has(drb-tooltip[data-promoted-badge])"
+        "drb-infinite-scroll .service-result:has(drb-tooltip[data-featured-badge])",
+        "drb-infinite-scroll div[data-username]:has(drb-tooltip[data-featured-badge])"
     ],
     "drive.com.au": [
         ".adSpacing-module-scss-module__5jWT7q__drive-ad-spacing",
@@ -16488,7 +16489,7 @@
         ".e17e77tq6",
         ".e17e77tq8",
         ".h-\\[287px\\]",
-        ".md\\:max-w-\\[1080px\\]",
+        ".md\\:max-w-\\[1080px\\]:not(.h-\\[205px\\])",
         ".min-h-\\[100px\\]",
         ".min-h-\\[250px\\]",
         ".min-h-\\[50px\\]",
@@ -20489,6 +20490,7 @@
         "div[class*=\"InlineAd_card-wrapper\"]",
         "div[class*=\"InlineBrandBanner\" i]:has(button[class*=\"SponsoredInfoButton\" i])",
         "div[class*=\"ItineraryInlinePlusWrapper\" i]:has(button[class*=\"SponsoredInfoButton\" i])",
+        "div[class^=\"FlightsInlineAdContainer_\"]",
         "div[class^=\"InlineAd_container_\"]",
         "div[class^=\"ItineraryInlinePlusWrapper_\"]:has(button[class^=\"SponsoredInfoButton_\"])",
         "div[data-backpack-ds-component]:has(#inline-ad-button)",
@@ -21174,6 +21176,7 @@
         "#searchResultsContainer [data-id^=\"tile\"]:has(.standard-tile__sponsored_badge_holder)",
         ".SearchRootUX2__bannerAndSkuContainer",
         ".flexible-banner-configurator__flexibleBannerWrapper:has(a[aria-label*=\"Sponsored by\"])",
+        "[role=\"complementary\"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)",
         "div[class^=\"sku-configurator__banner\"]:has([aria-label=\"Sponsored Products\"])"
     ],
     "star-history.com": [
@@ -21777,6 +21780,7 @@
     ],
     "target.com": [
         ".h-position-fixed-bottom",
+        "[data-module-type=\"GlobalRecommendedProducts\"]:has(> [data-test*=\"sponsored_items\"])",
         "[data-test=\"featuredProducts\"]",
         "[data-test=\"recommended_products_placement_adaptpdp_sponsored_items\"]",
         "[data-test=\"sponsored-text\"]",
@@ -24798,9 +24802,6 @@
     "urbanartassociation.com": [
         "[href^=\"http://redirect.viglink.com\"]"
     ],
-    "urbandictionary.com": [
-        ".mb-4.justify-center"
-    ],
     "urih.com": [
         ".ad193"
     ],
@@ -26286,7 +26287,8 @@
     ],
     "woolworths.com.au": [
         ".product-grid-v2--tile:has(.sponsored-text)",
-        "div[class^=\"aem-video-ad-unit_component_video-container_\"]"
+        "div[class^=\"aem-video-ad-unit_component_video-container_\"]",
+        "shared-header-adaptive-menu-panel.category-list .featured"
     ],
     "woot.com": [
         "#cdm-zone-02",
@@ -26519,6 +26521,9 @@
     "wtatennis.com": [
         ".advert",
         ".footer-sponsors"
+    ],
+    "wtmj.com": [
+        ".code-block"
     ],
     "wtop.com": [
         ".hubb-at-rad-header",
