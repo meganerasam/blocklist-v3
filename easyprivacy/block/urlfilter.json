@@ -31002,7 +31002,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "/*JmVu.js?tg="
+            "urlFilter": "/.netlify/scripts/rum"
         }
     },
     {
@@ -31012,7 +31012,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "/.netlify/scripts/rum"
+            "urlFilter": "/.rum/@adobe/helix-"
         }
     },
     {
@@ -31022,7 +31022,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "/.rum/@adobe/helix-"
+            "urlFilter": "/ns.html?id=GTM-"
         }
     },
     {
@@ -31032,7 +31032,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "/ns.html?id=GTM-"
+            "urlFilter": "/send_ga4_params?"
         }
     },
     {
@@ -31042,7 +31042,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "/send_ga4_params?"
+            "urlFilter": "/tag/proxy?id=G-"
         }
     },
     {
@@ -31052,21 +31052,11 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "/tag/proxy?id=G-"
-        }
-    },
-    {
-        "id": 3045,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
             "urlFilter": "://gtm.*.js?st="
         }
     },
     {
-        "id": 3046,
+        "id": 3045,
         "priority": 1,
         "action": {
             "type": "block"
@@ -31077,7 +31067,7 @@
         }
     },
     {
-        "id": 3047,
+        "id": 3046,
         "priority": 1,
         "action": {
             "type": "block"
@@ -31087,7 +31077,7 @@
         }
     },
     {
-        "id": 3048,
+        "id": 3047,
         "priority": 1,
         "action": {
             "type": "block"
@@ -31097,13 +31087,24 @@
         }
     },
     {
-        "id": 3049,
+        "id": 3048,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
             "urlFilter": "://tagging.*/settings.js"
+        }
+    },
+    {
+        "id": 3049,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "domainType": "firstParty",
+            "urlFilter": ".js?tg="
         }
     },
     {

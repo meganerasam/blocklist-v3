@@ -10605,6 +10605,9 @@
         "#fxs-sposorBroker-topBanner",
         ".fxs_leaderboard"
     ],
+    "fylio.com": [
+        "div[data-slot]"
+    ],
     "g.doubleclick.net": [
         "#ads"
     ],
@@ -16661,6 +16664,8 @@
         ".ad-zone-sidebar-default",
         ".ad-zone-sidebar-first",
         ".ad-zone-size-container-content-above-latest",
+        ".sidebar-default",
+        ".sidebar-first",
         "[class*=\"ad-zone-container-content-character-count-repeatable\"]",
         "[id^=\"adsninja-ad-zone-adsninja-ad-unit-footer\"]"
     ],
@@ -19590,6 +19595,7 @@
         "#totop"
     ],
     "nine.com.au": [
+        "div[data-ad-target^=\"header-ad\"]",
         ".ninemsn-footer-top"
     ],
     "nintandbox.net": [

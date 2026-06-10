@@ -1,7 +1,7 @@
 /*
  * generic.css 
  * Merged from adult, easylist, easyprivacy, fanboy
- * Generated: 2026-06-09 00:26:16 UTC
+ * Generated: 2026-06-10 00:32:57 UTC
  */
 
 #AC_ad,
@@ -14399,6 +14399,7 @@ amp-fx-flying-carpet,
 app-ad,
 app-advertisement,
 app-large-ad,
+aside[aria-label="retailmedia.complimentarySponsored"],
 aside[id^="adrotate_widgets-"],
 atf-ad-slot,
 bottomadblock,
