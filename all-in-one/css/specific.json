@@ -278,6 +278,9 @@
         "[class*=\"ImgPrmo\"]",
         "[id^=\"Image_bner_\"]"
     ],
+    "82-0.com": [
+        ".md\\:max-w-\\[480px\\]"
+    ],
     "8days.sg": [
         ".programtic-ads"
     ],
@@ -4277,6 +4280,7 @@
         ".vehicle-card.inventory-ad",
         "[aria-label=\"Listings\"] li:has(card-gallery[card-link*=\"?attribution_type\"])",
         "[id$=\"-sponsored\"]",
+        "li:has(> fuse-card[data-listing-id] .spr)",
         "li[data-phx-id]:has([phx-value-source=\"sponsored_trending_search_card\"])"
     ],
     "carsales.com.au": [
@@ -10328,6 +10332,9 @@
     ],
     "freealts.pw": [
         "#banner"
+    ],
+    "freeartgen.com": [
+        ".aff-card"
     ],
     "freebeacon.com": [
         ".inline-campaign-wrapper"
@@ -20304,6 +20311,10 @@
     ],
     "onthesnow.com": [
         "#leaderboard"
+    ],
+    "onthisday.com": [
+        ".sponsor--center",
+        ".sponsor--footer"
     ],
     "ontvtonight.com": [
         ".body-container > div:has(script[src^=\"https://live.primis.tech/\"])",

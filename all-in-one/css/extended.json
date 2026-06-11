@@ -991,6 +991,12 @@
             "type": "extended"
         }
     ],
+    "interestingengineering.com": [
+        {
+            "selector": ".overline-small:has-text(advertisement)",
+            "type": "extended"
+        }
+    ],
     "jewelosco.com": [
         {
             "selector": ".product-card-col:has-text(Sponsored)",
