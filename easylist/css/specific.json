@@ -6406,6 +6406,9 @@
         "#inf_bnr_2",
         "#inf_bnr_3"
     ],
+    "dronexl.co": [
+        ".ct-header-content-block"
+    ],
     "drudgereport.com": [
         ".DR-AD-SPACE",
         "div[style^=\"height: 250px;\"]"
@@ -8821,7 +8824,8 @@
         ".wp-block-image"
     ],
     "gamepadla.com": [
-        ".pMain:has(div[class^=\"asd_\"])"
+        ".pMain:has(div[class^=\"asd_\"])",
+        ".pMain:has(div[title=\"Partner placement\"])"
     ],
     "gamepix.com": [
         "div[id^=\"gpx-banner\"]"

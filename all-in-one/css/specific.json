@@ -7868,6 +7868,9 @@
         "#inf_bnr_2",
         "#inf_bnr_3"
     ],
+    "dronexl.co": [
+        ".ct-header-content-block"
+    ],
     "drsinatra.com": [
         ".ui-dialog",
         ".ui-widget-overlay"
@@ -10739,7 +10742,8 @@
         ".wp-block-image"
     ],
     "gamepadla.com": [
-        ".pMain:has(div[class^=\"asd_\"])"
+        ".pMain:has(div[class^=\"asd_\"])",
+        ".pMain:has(div[title=\"Partner placement\"])"
     ],
     "gamepix.com": [
         "div[id^=\"gpx-banner\"]"
