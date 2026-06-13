@@ -1892,6 +1892,11 @@
     "econotimes.com": [
         "#adPopup"
     ],
+    "ecosia.org": [
+        ".main-footer-visual__cards",
+        ".main-header__install-cta",
+        ".notice-modal"
+    ],
     "ecowatch.com": [
         ".article-author-box-support-bubble"
     ],
@@ -6812,9 +6817,6 @@
     ],
     "twistedvoxel.com": [
         ".tt-shortcode-1"
-    ],
-    "twitch.tv": [
-        "#twilight-sticky-footer-root"
     ],
     "twitchquotes.com": [
         ".ad-parent"

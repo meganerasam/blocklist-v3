@@ -230,6 +230,12 @@
         "[class*=\"ImgPrmo\"]",
         "[id^=\"Image_bner_\"]"
     ],
+    "808fubo808.com": [
+        ".at-class",
+        ".banner",
+        ".gg-cat-bnner",
+        ".gg-popunder"
+    ],
     "82-0.com": [
         ".md\\:max-w-\\[480px\\]"
     ],
@@ -3635,6 +3641,9 @@
     ],
     "ccjdigital.com": [
         ".ad-container"
+    ],
+    "ccvaults.com": [
+        "div.sidebar-slide-in.md\\:block.hidden"
     ],
     "cdkeyit.it": [
         ".background-link-left",
@@ -11350,6 +11359,9 @@
         ".css-1vj1npn",
         "a.css-1yw960t"
     ],
+    "ingenuityfantasy.com": [
+        "[id^=\"snack-\"]"
+    ],
     "inhabitat.com": [
         ".ad",
         ".mn-wrapper"
@@ -14422,9 +14434,6 @@
     ],
     "missingremote.com": [
         "#top-bar"
-    ],
-    "missionlocal.org": [
-        ".widget_block"
     ],
     "mitsubishiforum.com": [
         "#sidetilewidth",
@@ -22267,7 +22276,8 @@
         "#header_pub"
     ],
     "the-decoder.com": [
-        ".ad"
+        ".ad",
+        ".ad-container"
     ],
     "the-express.com": [
         "#mantis-recommender-placeholder",

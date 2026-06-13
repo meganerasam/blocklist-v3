@@ -278,6 +278,12 @@
         "[class*=\"ImgPrmo\"]",
         "[id^=\"Image_bner_\"]"
     ],
+    "808fubo808.com": [
+        ".at-class",
+        ".banner",
+        ".gg-cat-bnner",
+        ".gg-popunder"
+    ],
     "82-0.com": [
         ".md\\:max-w-\\[480px\\]"
     ],
@@ -4449,6 +4455,9 @@
     "ccjdigital.com": [
         ".ad-container"
     ],
+    "ccvaults.com": [
+        "div.sidebar-slide-in.md\\:block.hidden"
+    ],
     "cdispatch.com": [
         ".ui-dialog",
         ".ui-widget-overlay"
@@ -8186,7 +8195,10 @@
     "ecosia.org": [
         ".product-ads-carousel",
         "div[data-test-id=\"mainline-result-ad\"]",
-        "div[data-test-id=\"mainline-result-productAds\"]"
+        "div[data-test-id=\"mainline-result-productAds\"]",
+        ".main-footer-visual__cards",
+        ".main-header__install-cta",
+        ".notice-modal"
     ],
     "ecoticias.com": [
         ".code-block"
@@ -13796,6 +13808,9 @@
     "infoworld.com": [
         ".section-block--announcementbar"
     ],
+    "ingenuityfantasy.com": [
+        "[id^=\"snack-\"]"
+    ],
     "ingolstadt-today.de": [
         ".scroll-to-top"
     ],
@@ -17685,7 +17700,6 @@
         "#prompt-background"
     ],
     "missionlocal.org": [
-        ".widget_block",
         ".np-campaign--donation--staff-photo"
     ],
     "mississippitoday.org": [
@@ -27394,7 +27408,8 @@
         "#header_pub"
     ],
     "the-decoder.com": [
-        ".ad"
+        ".ad",
+        ".ad-container"
     ],
     "the-express.com": [
         "#mantis-recommender-placeholder",
@@ -30055,8 +30070,7 @@
     "twitch.tv": [
         ".stream-display-ad__wrapper",
         "[data-test-selector=\"sda-wrapper\"]",
-        "button[aria-label=\"Learn more about this ad\"]",
-        "#twilight-sticky-footer-root"
+        "button[aria-label=\"Learn more about this ad\"]"
     ],
     "twitchquotes.com": [
         ".ad-parent"
