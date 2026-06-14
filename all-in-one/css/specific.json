@@ -2425,6 +2425,9 @@
         ".banner-l",
         ".banner-premium"
     ],
+    "ballroomdancers.com": [
+        "#adspace"
+    ],
     "balls.ie": [
         ".gray-ad-title",
         "[type=\"doubleclick\"]",
@@ -6631,6 +6634,7 @@
     ],
     "dailymail.com": [
         ".billboard-container",
+        ".mol-products-module",
         "#next-story",
         ".prevNextButton-VWXta"
     ],
@@ -12689,6 +12693,8 @@
     "hindustantimes.com": [
         "#affiliate-shop-now",
         "#divshopnowRight",
+        ".adHeight270",
+        ".adHeight313",
         ".affilaite-widget",
         ".bottomFixAd",
         ".h325",
@@ -17268,7 +17274,10 @@
         ".ads"
     ],
     "meidasnews.com": [
-        ".m-outbrain"
+        ".exco-player-wrapper",
+        ".header-ad-slot",
+        ".m-outbrain",
+        ".styles_container__C9F6R"
     ],
     "meijer.com": [
         ".criteo-banner",
@@ -21373,6 +21382,9 @@
         "#credential_picker_container",
         "#credential_picker_iframe"
     ],
+    "pintprice.com": [
+        "#adspace"
+    ],
     "piquenewsmagazine.com": [
         ".item-sponsored",
         ".slot"
@@ -23608,6 +23620,9 @@
     "refinery29.com": [
         ".ad",
         ".ad-container"
+    ],
+    "refooty.com": [
+        ".ad-placement-wrapper"
     ],
     "reformer.com": [
         ".asset-paging-container"
@@ -31777,6 +31792,9 @@
         "#banner-bottom",
         "#banner-top"
     ],
+    "weworkremotely.com": [
+        ".feature--ad"
+    ],
     "wfaa.com": [
         ".ad"
     ],
@@ -32269,6 +32287,10 @@
     ],
     "woldcnews.com": [
         ".module-recommended"
+    ],
+    "wolfsgamingblog.com": [
+        ".inline",
+        ".wpa-about"
     ],
     "wolverine.com": [
         ".feedback-button"

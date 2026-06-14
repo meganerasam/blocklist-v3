@@ -1952,6 +1952,9 @@
         ".banner-l",
         ".banner-premium"
     ],
+    "ballroomdancers.com": [
+        "#adspace"
+    ],
     "balls.ie": [
         ".gray-ad-title",
         "[type=\"doubleclick\"]",
@@ -5385,7 +5388,8 @@
         "[data-is-sponsored=\"true\"]"
     ],
     "dailymail.com": [
-        ".billboard-container"
+        ".billboard-container",
+        ".mol-products-module"
     ],
     "dailymaverick.co.za": [
         ".sponsored"
@@ -10478,6 +10482,8 @@
     "hindustantimes.com": [
         "#affiliate-shop-now",
         "#divshopnowRight",
+        ".adHeight270",
+        ".adHeight313",
         ".affilaite-widget",
         ".bottomFixAd",
         ".h325",
@@ -14075,7 +14081,10 @@
         ".ads"
     ],
     "meidasnews.com": [
-        ".m-outbrain"
+        ".exco-player-wrapper",
+        ".header-ad-slot",
+        ".m-outbrain",
+        ".styles_container__C9F6R"
     ],
     "meijer.com": [
         ".criteo-banner",
@@ -17312,6 +17321,9 @@
         "a[href*=\"&epik=\"]",
         "div[data-grid-item]:has([data-test-pin-id] [data-test-id^=\"one-tap-desktop\"] > a[href^=\"http\"][rel=\"nofollow\"]):not(body > div)"
     ],
+    "pintprice.com": [
+        "#adspace"
+    ],
     "piquenewsmagazine.com": [
         ".item-sponsored",
         ".slot"
@@ -19242,6 +19254,9 @@
     "refinery29.com": [
         ".ad",
         ".ad-container"
+    ],
+    "refooty.com": [
+        ".ad-placement-wrapper"
     ],
     "regexlearn.com": [
         ".w-full.mb-3:has(a[href=\"/learn/regex-for-seo\"])"
@@ -25883,6 +25898,9 @@
         "#banner-bottom",
         "#banner-top"
     ],
+    "weworkremotely.com": [
+        ".feature--ad"
+    ],
     "wfaa.com": [
         ".ad"
     ],
@@ -26296,6 +26314,10 @@
     "wogx.com": [
         ".ad-container",
         ".vendor-unit"
+    ],
+    "wolfsgamingblog.com": [
+        ".inline",
+        ".wpa-about"
     ],
     "womanandhome.com": [
         ".sponsored-card-centred"
