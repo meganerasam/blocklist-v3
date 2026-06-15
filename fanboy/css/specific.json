@@ -2391,6 +2391,9 @@
     "gamespot.com": [
         "#in-page-nav"
     ],
+    "gamesradar.com": [
+        "#sticky-nav--floating"
+    ],
     "gamestar.de": [
         "#backtotop"
     ],
@@ -6715,6 +6718,7 @@
         "#tosdisclaimer"
     ],
     "tomsguide.com": [
+        "#sticky-nav--floating",
         ".scrollUp__button"
     ],
     "topauto.co.za": [

@@ -1422,9 +1422,6 @@
         ".ad-text",
         ".advertorial"
     ],
-    "video.tv-tokyo.co.jp": [
-        "#adspace"
-    ],
     "videosalon.jp": [
         ".ad-widget",
         ".adwidget"
@@ -1697,7 +1694,6 @@
         ".sponsoredItem"
     ],
     "zeirishi-web.com": [
-        "#adspace",
         "#header_ad"
     ],
     "zlinked.com": [

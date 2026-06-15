@@ -4631,6 +4631,9 @@
         ".fast-ads-wrapper",
         ".programtic-ads"
     ],
+    "character.ai": [
+        ".z-40.max-w-\\[970px\\]"
+    ],
     "chardandilminsternews.co.uk": [
         ".promoted-block"
     ],
@@ -8109,6 +8112,7 @@
         ".s-feedback"
     ],
     "ebay.com": [
+        ".leaderboard_ad",
         ".srp-1p__link",
         "div[title=\"ADVERTISEMENT\"]",
         "#gh-bt",
@@ -10978,10 +10982,12 @@
         "#in-page-nav"
     ],
     "gamesradar.com": [
+        ".dfp-leaderboard-container",
         ".in-article",
         ".jwplayer__widthsetter",
         ".sponsored-card",
-        ".vid-present"
+        ".vid-present",
+        "#sticky-nav--floating"
     ],
     "gamestar.de": [
         "#backtotop"
@@ -23622,7 +23628,8 @@
         ".ad-container"
     ],
     "refooty.com": [
-        ".ad-placement-wrapper"
+        ".ad-placement-wrapper",
+        ".mobile-sticky-ad"
     ],
     "reformer.com": [
         ".asset-paging-container"
@@ -24772,6 +24779,7 @@
         "#block-59"
     ],
     "securityweek.com": [
+        ".sw-block-webinar",
         ".sw-bulletin",
         ".sw-home-ads",
         ".zox-post-ad-wrap"
@@ -29273,6 +29281,7 @@
         ".sponsored-card",
         ".vid-present",
         "div[class*=\"ad-unit\"]",
+        "#sticky-nav--floating",
         ".scrollUp__button"
     ],
     "tomshardware.com": [

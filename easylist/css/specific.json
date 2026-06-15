@@ -3778,6 +3778,9 @@
         ".fast-ads-wrapper",
         ".programtic-ads"
     ],
+    "character.ai": [
+        ".z-40.max-w-\\[970px\\]"
+    ],
     "chardandilminsternews.co.uk": [
         ".promoted-block"
     ],
@@ -6612,6 +6615,7 @@
         ".srp-1p__link"
     ],
     "ebay.com": [
+        ".leaderboard_ad",
         ".srp-1p__link",
         "div[title=\"ADVERTISEMENT\"]"
     ],
@@ -9052,6 +9056,7 @@
         ".fandom-ad-wrapper"
     ],
     "gamesradar.com": [
+        ".dfp-leaderboard-container",
         ".in-article",
         ".jwplayer__widthsetter",
         ".sponsored-card",
@@ -19256,7 +19261,8 @@
         ".ad-container"
     ],
     "refooty.com": [
-        ".ad-placement-wrapper"
+        ".ad-placement-wrapper",
+        ".mobile-sticky-ad"
     ],
     "regexlearn.com": [
         ".w-full.mb-3:has(a[href=\"/learn/regex-for-seo\"])"
@@ -20199,6 +20205,7 @@
         "#block-59"
     ],
     "securityweek.com": [
+        ".sw-block-webinar",
         ".sw-bulletin",
         ".sw-home-ads",
         ".zox-post-ad-wrap"

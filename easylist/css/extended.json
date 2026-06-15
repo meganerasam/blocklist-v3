@@ -379,6 +379,12 @@
             "type": "extended"
         }
     ],
+    "character.ai": [
+        {
+            "selector": ".space-y-4 > .w-full:has-text(Advertisement)",
+            "type": "extended"
+        }
+    ],
     "china.ahk.de": [
         {
             "selector": ".b-main__section:has(h2.homepage-headline:has-text(Advertisement))",

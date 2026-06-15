@@ -395,6 +395,12 @@
             "type": "extended"
         }
     ],
+    "character.ai": [
+        {
+            "selector": ".space-y-4 > .w-full:has-text(Advertisement)",
+            "type": "extended"
+        }
+    ],
     "chatgpt.com": [
         {
             "selector": ".fixed.bottom-0:has-text(Try Atlas)",
