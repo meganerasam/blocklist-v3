@@ -751,6 +751,7 @@
         ".topbanner"
     ],
     "alibaba.com": [
+        ".creative-dot-wrapper",
         ".gallery-card:has(.searchx-card-e-ad)",
         ".is-creative",
         ".list-card:has([data-role=\"ad-area\"])",
@@ -3073,8 +3074,11 @@
         ".bannerBox"
     ],
     "bsc.news": [
+        "#bscn-banner",
+        "#igaming-carousel-container",
         ".banner",
-        ".banner-one"
+        ".banner-one",
+        "div[id^=\"bscn-ad-\"]"
     ],
     "btimesonline.com": [
         ".ad"
@@ -10016,6 +10020,12 @@
         ".gt-square-desktop-ad",
         ".gt-vertical-ad"
     ],
+    "gulfcoastnewsnow.com": [
+        ".css-1cm6ir6:has(.ad-container)",
+        ".css-1tumxm:has(.ad-container)",
+        "aside > div:has(> div > div > div.ad-container)",
+        "aside > div:has(> div > div.ad-container)"
+    ],
     "gulflive.com": [
         "#below-toprail"
     ],
@@ -10263,6 +10273,7 @@
         "a[href*=\"/linkout/\"]"
     ],
     "headforpoints.com": [
+        ".advert",
         ".widget--aside.widget"
     ],
     "headlineintime.com": [
@@ -12163,6 +12174,10 @@
     "kcentv.com": [
         ".ad"
     ],
+    "kcra.com": [
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
+    ],
     "kdnuggets.com": [
         ".a2t-link",
         ".hp-main-content-2",
@@ -12207,6 +12222,12 @@
         ".custom-html-widget",
         "[href^=\"https://lootbar.gg/\"]",
         "[href^=\"https://noveltranslator.com\"]"
+    ],
+    "ketv.com": [
+        ".css-1cm6ir6:has(.ad-container)",
+        ".css-1tumxm:has(.ad-container)",
+        "aside > div:has(> div > div > div.ad-container)",
+        "aside > div:has(> div > div.ad-container)"
     ],
     "keybr.com": [
         ".l6Z8JM3mch"
@@ -12365,7 +12386,9 @@
         "#list-imga center:has(a[href^=\"https://olimposcans.com/\"])"
     ],
     "kmbc.com": [
-        ".article-content--body-wrapper-side-floater"
+        ".ad-track",
+        ".article-content--body-wrapper-side-floater",
+        ".css-1tumxm:has(.ad-container)"
     ],
     "kmplayer.com": [
         ".dim-layer",
@@ -12385,13 +12408,16 @@
         "#outstream_connatix_container"
     ],
     "koat.com": [
-        ".ad-container"
+        ".ad-container",
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
     ],
     "kob.com": [
         "#Header_1"
     ],
     "koco.com": [
-        ".ad-track"
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
     ],
     "kodinerds.net": [
         ".boxesSidebarRight"
@@ -12516,6 +12542,10 @@
     "ksat.com": [
         ".floatingWrapper",
         ".topWrapper"
+    ],
+    "ksbw.com": [
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
     ],
     "ksdk.com": [
         ".ad"
@@ -15180,6 +15210,8 @@
         ".code-block"
     ],
     "mynbc5.com": [
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)",
         ".listing-page-ad"
     ],
     "mynorthwest.com": [
@@ -25442,6 +25474,7 @@
     "wapt.com": [
         ".ad-rectangle",
         ".ad-track",
+        ".css-1tumxm:has(.ad-container)",
         ".leaderboard"
     ],
     "waptrick.one": [
@@ -25601,6 +25634,10 @@
         ".sponsors",
         ".wbal-banner"
     ],
+    "wbaltv.com": [
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
+    ],
     "wbir.com": [
         ".ad"
     ],
@@ -25643,6 +25680,10 @@
     ],
     "wdhafm.com": [
         ".ad"
+    ],
+    "wdsu.com": [
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
     ],
     "wdwmagic.com": [
         ".adthrive-homepage-header",
@@ -25916,6 +25957,9 @@
     ],
     "wftv.com": [
         ".arcad_feature"
+    ],
+    "wgal.com": [
+        ".ad-track"
     ],
     "wgnsradio.com": [
         ".bw-special-image",
@@ -26261,6 +26305,12 @@
         ".article-body-banner",
         ".home-banner"
     ],
+    "wisn.com": [
+        ".css-1cm6ir6:has(.ad-container)",
+        ".css-1tumxm:has(.ad-container)",
+        "aside > div:has(> div > div > div.ad-container)",
+        "aside > div:has(> div > div.ad-container)"
+    ],
     "witneygazette.co.uk": [
         ".promoted-block"
     ],
@@ -26272,6 +26322,12 @@
         "a[href^=\"https://stjude.org/radio/\"]",
         "a[href^=\"https://www.farmweeknow.com/rfd_radio/\"]",
         "a[href^=\"https://www.menards.com/main/home.html\"]"
+    ],
+    "wjcl.com": [
+        ".css-1cm6ir6:has(.ad-container)",
+        ".css-1tumxm:has(.ad-container)",
+        "aside > div:has(> div > div > div.ad-container)",
+        "aside > div:has(> div > div.ad-container)"
     ],
     "wjla.com": [
         ".style_medTopAdsWrapper__rd6bz"
@@ -26303,8 +26359,19 @@
     "wltx.com": [
         ".ad"
     ],
+    "wlwt.com": [
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
+    ],
     "wmtips.com": [
         ".a3f17"
+    ],
+    "wmtw.com": [
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
+    ],
+    "wmur.com": [
+        ".ad-track"
     ],
     "wncv.com": [
         ".simple-image",
@@ -26580,6 +26647,10 @@
     "wsvn.com": [
         "#leader_1"
     ],
+    "wtae.com": [
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
+    ],
     "wtatennis.com": [
         ".advert",
         ".footer-sponsors"
@@ -26607,6 +26678,10 @@
     ],
     "wvnews.com": [
         ".automatic-ad"
+    ],
+    "wvtm13.com": [
+        ".ad-track",
+        ".css-1tumxm:has(.ad-container)"
     ],
     "wwe.com": [
         ".l-hybrid-col-frame_rail-wrap"
@@ -26663,6 +26738,9 @@
         "[style=\"top: calc(-90px + 100vh);\"]",
         "body#news-content-app li:has(.inset-0)",
         "body.font-yahoobeta > div.items-center:has(style)"
+    ],
+    "wxii12.com": [
+        ".ad-track"
     ],
     "wyff4.com": [
         ".ad",
