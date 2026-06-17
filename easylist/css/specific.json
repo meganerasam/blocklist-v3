@@ -942,6 +942,7 @@
         ".a-cardui[class*=\"_new-detail-faceout-box_\"]:has(.dynamicSponsoredLabelClass)",
         ".amzn-safe-frame-container",
         ".dp-widget-card-deck:has([data-ad-placement-metadata])",
+        ".s-result-item:has(.puis-sponsored-label-text)",
         ".s-result-item:has([data-ad-feedback-label-id])",
         ".s-result-item:has([data-ad-feedback])",
         ".s-result-list > .a-section:has(.sbv-ad-content-container)",
