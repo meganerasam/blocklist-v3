@@ -12032,7 +12032,9 @@
         ".top-ad-banner-wrapper"
     ],
     "justjared.com": [
-        ".top_rail_shell"
+        ".header-container__main",
+        ".top_rail_shell",
+        ".widget_tpd_ad_widget"
     ],
     "justjaredjr.com": [
         ".top_rail_shell"
@@ -19295,6 +19297,7 @@
     ],
     "refooty.com": [
         ".ad-placement-wrapper",
+        ".mobile-sponsor-banner",
         ".mobile-sticky-ad"
     ],
     "regexlearn.com": [
@@ -19612,6 +19615,9 @@
     "romsmania.games": [
         "#click-widget-banner",
         ".aawp"
+    ],
+    "romsworlds.com": [
+        ".code-block"
     ],
     "roosterteeth.com": [
         ".vjs-marker"
@@ -24127,7 +24133,8 @@
         ".nya-slot"
     ],
     "trendhunter.com": [
-        ".hcamp"
+        ".hcamp",
+        ".tha__adph"
     ],
     "trendingpoliticsnews.com": [
         ".code-block",
@@ -24447,6 +24454,9 @@
     ],
     "turkmenportal.com": [
         "a[data-content=\"promotion\"]"
+    ],
+    "turtlecute.org": [
+        ".sponsor_banner_wrap"
     ],
     "tutiempo.net": [
         ".ContBannerTop",

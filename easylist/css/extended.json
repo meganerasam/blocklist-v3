@@ -931,6 +931,16 @@
             "type": "extended"
         }
     ],
+    "justjared.com": [
+        {
+            "selector": ".banner-spacer-top {max-height: 50px !important;}",
+            "type": "css-injection"
+        },
+        {
+            "selector": "[role=\"banner\"] {top:0 !important}",
+            "type": "css-injection"
+        }
+    ],
     "kaufland.*": [
         {
             "selector": ".recommender-wrapper:has-text(Gesponsert)",
