@@ -1699,6 +1699,9 @@
     "devonlive.com": [
         ".swipe-prompt"
     ],
+    "dexerto.com": [
+        ".text-neutral-black.bg-primary-accent"
+    ],
     "dhgate.com": [
         ".drainagebanner",
         ".new-pack-mask",
@@ -6777,6 +6780,7 @@
         ".before-you-go"
     ],
     "truthout.org": [
+        ".fixed-bottom.hello",
         ".truth-post-content-after",
         ".wp-block-truthout-related-article-block"
     ],

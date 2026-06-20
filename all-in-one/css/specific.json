@@ -7301,12 +7301,15 @@
         ".inline-block",
         ".lg\\:min-h-\\[290px\\]",
         ".min-h-\\[114px\\]",
+        ".min-h-\\[278px\\]",
         ".min-h-\\[400px\\]",
         ".min-h-\\[56px\\].z-30",
+        ".min-h-\\[60px\\]",
         ".text-center.italic",
         ".top-0.justify-center",
         ".top-10",
-        "[data-ad-unit-id]"
+        "[data-ad-unit-id]",
+        ".text-neutral-black.bg-primary-accent"
     ],
     "dexscreener.com": [
         ".custom-1hol5du",
@@ -12654,6 +12657,9 @@
     ],
     "hete-profielen.nl": [
         "#importantnotification"
+    ],
+    "hexload.com": [
+        "a[href*=\"?key=\"]"
     ],
     "hianime.to": [
         ".pizza"
@@ -19790,7 +19796,8 @@
         ".ProductDetailsDesktop-module-scss-module__AYN9Ya__topSlotWrapper",
         ".visibilitySensorWrapper:has(.adBannerModule)",
         "[data-qa=\"plp-product-box\"]:has([class^=\"SponsoredTag\"])",
-        "div[data-qa=\"plp-product-box\"]:has(div[class^=\"STag-module-\"])"
+        "div[data-qa=\"plp-product-box\"]:has(div[class^=\"STag-module-\"])",
+        "div[id*=\"-adProductsListBanner-\"]"
     ],
     "nordot.app": [
         ".main__ad"
@@ -21191,6 +21198,7 @@
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-heading*=\"Sponsored\"])",
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-text=\"Sponsored Photos\"])",
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-title*=\"Sponsored\"])",
+        "[data-testid=\"column\"] [data-testid=\"item\"]:has(a[rel*=\"sponsored\"])",
         "div[class=\"RowItem_gridItem__OfhML RowItem_fullWidth__cIdtN RowItem_expand__TR5R6\"]",
         "div[class^=\"FullWidth_container_\"]:has(a[rel=\"sponsored noopener\"])",
         ".NameChangeBanner_container__GyQTG"
@@ -21465,8 +21473,10 @@
         ".present-g-item",
         "[class^=\"adsSection\"]",
         "[class^=\"gettySponsored\"]",
+        "div[class^=\"adSponsoredMediaContainer-\"]",
         "div[class^=\"cell--\"]:has(button[aria-label=\"About this advertiser\"])",
         "div[class^=\"mrxz\"]:has(button[aria-label=\"About this advertiser\"])",
+        "div[class^=\"sponsoredSection-\"]",
         ".container--GV-ux"
     ],
     "pixhost.to": [
@@ -29951,6 +29961,7 @@
         ".before-you-go"
     ],
     "truthout.org": [
+        ".fixed-bottom.hello",
         ".truth-post-content-after",
         ".wp-block-truthout-related-article-block"
     ],
@@ -33251,6 +33262,7 @@
         ".ytp-pause-overlay"
     ],
     "youtube.com": [
+        "#contents > ytd-rich-item-renderer:has(> ytd-ad-slot-renderer)",
         "#description-inner > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer",
         "#shopping-timely-shelf",
         "#shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)",
