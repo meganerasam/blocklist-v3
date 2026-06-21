@@ -1351,6 +1351,10 @@
         ".bottombox",
         ".colunit1"
     ],
+    "arcadeheroes.com": [
+        ".site-advertisement",
+        ".widget_media_image"
+    ],
     "arcadepunks.com": [
         ".header-banner",
         ".widget_custom_html",
@@ -2245,6 +2249,7 @@
         ".atwb-display-ad",
         ".display-ad-wrapper",
         ".generic-morpher:has(.spns-label)",
+        ".marquee-ad-wrapper",
         ".product-list-sponsored-wrapper-grid-view",
         ".shop-dedicated-sponsored-carousel",
         ".shop-pushdown-ad",
@@ -21672,6 +21677,9 @@
     "superhumanradio.net": [
         ".rotating_zone"
     ],
+    "supermarketnews.co.nz": [
+        ".sidebar"
+    ],
     "supersport.com": [
         ".leaderboard"
     ],
@@ -23959,6 +23967,10 @@
     ],
     "torontolife.com": [
         ".sjm-dfp-wrapper"
+    ],
+    "torontosun.com": [
+        ".mia-outstream",
+        "section[aria-describedby*=\"advertisment\"]"
     ],
     "torquenews.com": [
         ".adsense",

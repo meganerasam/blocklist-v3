@@ -429,6 +429,9 @@
     "arabtimesonline.com": [
         "#check-also-box"
     ],
+    "arcadeheroes.com": [
+        ".page-scroll-up"
+    ],
     "archdaily.com": [
         "#article-navigation"
     ],
@@ -461,6 +464,9 @@
     ],
     "asia.nikkei.com": [
         "#pianoj_ribbon"
+    ],
+    "asiae.co.kr": [
+        ".btn_scroll_top"
     ],
     "asianews.it": [
         ".to-top"

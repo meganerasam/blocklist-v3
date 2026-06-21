@@ -1711,6 +1711,11 @@
         ".bottombox",
         ".colunit1"
     ],
+    "arcadeheroes.com": [
+        ".site-advertisement",
+        ".widget_media_image",
+        ".page-scroll-up"
+    ],
     "arcadepunks.com": [
         ".header-banner",
         ".widget_custom_html",
@@ -1867,6 +1872,9 @@
     ],
     "asia.nikkei.com": [
         "#pianoj_ribbon"
+    ],
+    "asiae.co.kr": [
+        ".btn_scroll_top"
     ],
     "asianews.it": [
         ".to-top"
@@ -2769,6 +2777,7 @@
         ".atwb-display-ad",
         ".display-ad-wrapper",
         ".generic-morpher:has(.spns-label)",
+        ".marquee-ad-wrapper",
         ".product-list-sponsored-wrapper-grid-view",
         ".shop-dedicated-sponsored-carousel",
         ".shop-pushdown-ad",
@@ -26619,6 +26628,9 @@
     "superhumanradio.net": [
         ".rotating_zone"
     ],
+    "supermarketnews.co.nz": [
+        ".sidebar"
+    ],
     "supermarkt-inside.de": [
         ".spu-bg"
     ],
@@ -29462,6 +29474,10 @@
     ],
     "torontolife.com": [
         ".sjm-dfp-wrapper"
+    ],
+    "torontosun.com": [
+        ".mia-outstream",
+        "section[aria-describedby*=\"advertisment\"]"
     ],
     "torquenews.com": [
         ".adsense",
