@@ -2303,6 +2303,9 @@
     "avxhm.se": [
         "[data-localize]:has(a[href^=\"https://canv.ai/\"])"
     ],
+    "awealthofcommonsense.com": [
+        "#block-9"
+    ],
     "awesomeopensource.com": [
         ".adsense_uas"
     ],
@@ -3216,6 +3219,9 @@
     ],
     "blizzardwatch.com": [
         ".patreon-sidebar"
+    ],
+    "blockchain.com": [
+        "a[href^=\"https://snapmarkets.com/?utm_\"]"
     ],
     "blog.avast.com": [
         ".blog-sidebar-ad-img"
@@ -5917,6 +5923,10 @@
         "#highline-leaderboard",
         ".right-hand-adunit",
         ".sponsored-card-centred"
+    ],
+    "countryroadsmagazine.com": [
+        ".content-teaser-ad",
+        ".mp-ad-sprocket"
     ],
     "courier-journal.com": [
         ".feedback",
@@ -11579,6 +11589,9 @@
         ".topbox-cls-placeholder",
         ".swipe-prompt"
     ],
+    "glowing.com": [
+        ".adsWrapper-0-0-136"
+    ],
     "gmanetwork.com": [
         "#mrec-container",
         ".ad",
@@ -15958,10 +15971,13 @@
         "aside > center"
     ],
     "lgbtqnation.com": [
+        ".adb-ln-inarticle",
+        ".aspect-video",
         ".bg-gray-100",
         ".index-bottom-ad",
         ".single-bottom-ad",
-        ".contribute-stripe"
+        ".contribute-stripe",
+        ".stripe-container"
     ],
     "lgr.co.uk": [
         ".advert"
@@ -21787,6 +21803,7 @@
         ".owl-carousel:has(.carousel-ad)"
     ],
     "polygon.com": [
+        ".sidebar-default",
         ".video"
     ],
     "pons.com": [
@@ -28575,6 +28592,9 @@
     ],
     "therep.co.za": [
         "img[width=\"300\"]"
+    ],
+    "theretirementmanifesto.com": [
+        "#text-15"
     ],
     "therichest.com": [
         ".ad-zone-container-sidebar-default",

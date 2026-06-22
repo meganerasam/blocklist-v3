@@ -3626,7 +3626,8 @@
         ".kg-product-card"
     ],
     "lgbtqnation.com": [
-        ".contribute-stripe"
+        ".contribute-stripe",
+        ".stripe-container"
     ],
     "libertynation.com": [
         "#memberZoneFullSub",
