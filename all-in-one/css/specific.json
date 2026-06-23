@@ -4899,6 +4899,10 @@
         ".dn-widget",
         ".dn-widget-sm"
     ],
+    "christiantoday.com": [
+        ".cp-widget-container",
+        ".cpdeals-square"
+    ],
     "chrome-stats.com": [
         "div[id*=\"billboard_responsive\"]"
     ],
@@ -6650,20 +6654,16 @@
         ".mpu_puff_wrapper",
         ".puff_pastel",
         ".watermark",
-        "[data-is-sponsored=\"true\"]",
-        "#chromelessPlayer",
-        "#next-story",
-        "#swipeIndicator",
-        ".prevNextWrapper-Eq6gu",
-        ".rss_feeds_buttons",
-        ".swipe-bar",
-        ".swipe-tutorial"
+        "[data-is-sponsored=\"true\"]"
     ],
     "dailymail.com": [
         ".billboard-container",
         ".mol-products-module",
         "#next-story",
-        ".prevNextButton-VWXta"
+        "#swipeIndicator",
+        ".prevNextButton-VWXta",
+        ".socialShareContainer",
+        ".swipe-tutorial"
     ],
     "dailymaverick.co.za": [
         ".sponsored",
@@ -7849,6 +7849,9 @@
     ],
     "draxe.com": [
         ".g"
+    ],
+    "dreadcentral.com": [
+        ".widget_tpd_ad_widget"
     ],
     "dreamgf.ai": [
         "#termsMessage"
@@ -9080,6 +9083,11 @@
         ".x100.bg-gray100",
         ".y100:has([data-block-type=\"ad\"])"
     ],
+    "extra.ie": [
+        "#ex_desktop_mpu1",
+        ".ex_billboard_single",
+        ".jw-player-video-widget"
+    ],
     "extract.me": [
         ".extension-popup"
     ],
@@ -9704,6 +9712,13 @@
     ],
     "fitandwell.com": [
         ".sponsored-post--placeholder"
+    ],
+    "fitbook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
     ],
     "fivebooks.com": [
         ".Leaderboard-container",
@@ -18701,6 +18716,13 @@
     "mygenefood.com": [
         ".back-to-top"
     ],
+    "myhomebook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
+    ],
     "myhoustonmajic.com": [
         ".module-recommended"
     ],
@@ -21165,6 +21187,13 @@
     "petapixel.com": [
         ".banners",
         ".video-aspect-wrapper"
+    ],
+    "petbook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
     ],
     "petco.com": [
         ".rmn-container:has([class*=\"SponsoredText\"])",
@@ -27064,6 +27093,13 @@
     "techbone.net": [
         ".mb-5.bg-light"
     ],
+    "techbook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
+    ],
     "techcentral.co.za": [
         ".a-wrap"
     ],
@@ -29654,6 +29690,13 @@
     ],
     "travelandtourworld.com": [
         ".g"
+    ],
+    "travelbook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
     ],
     "travelhost.com": [
         ".exco-player-wrapper",

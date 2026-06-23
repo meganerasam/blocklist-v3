@@ -4009,6 +4009,10 @@
         ".bs-article-cell",
         ".home-videoplayer"
     ],
+    "christiantoday.com": [
+        ".cp-widget-container",
+        ".cpdeals-square"
+    ],
     "chrome-stats.com": [
         "div[id*=\"billboard_responsive\"]"
     ],
@@ -6394,6 +6398,9 @@
     "draxe.com": [
         ".g"
     ],
+    "dreadcentral.com": [
+        ".widget_tpd_ad_widget"
+    ],
     "drgraduate.com": [
         ".ya-slot"
     ],
@@ -7363,6 +7370,11 @@
         ".x100.bg-gray100",
         ".y100:has([data-block-type=\"ad\"])"
     ],
+    "extra.ie": [
+        "#ex_desktop_mpu1",
+        ".ex_billboard_single",
+        ".jw-player-video-widget"
+    ],
     "extraetf.com": [
         "app-ad-block"
     ],
@@ -7881,6 +7893,13 @@
     ],
     "fitandwell.com": [
         ".sponsored-post--placeholder"
+    ],
+    "fitbook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
     ],
     "fivebooks.com": [
         ".Leaderboard-container"
@@ -15202,6 +15221,13 @@
     "mygaming.co.za": [
         ".ad"
     ],
+    "myhomebook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
+    ],
     "myinstants.com": [
         ".desktop-larger-banner-ad",
         ".large-rectangle-ad",
@@ -17160,6 +17186,13 @@
     "petapixel.com": [
         ".banners",
         ".video-aspect-wrapper"
+    ],
+    "petbook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
     ],
     "petco.com": [
         ".rmn-container:has([class*=\"SponsoredText\"])",
@@ -22005,6 +22038,13 @@
     "techbone.net": [
         ".mb-5.bg-light"
     ],
+    "techbook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
+    ],
     "techcentral.co.za": [
         ".a-wrap"
     ],
@@ -24127,6 +24167,13 @@
     ],
     "travelandtourworld.com": [
         ".g"
+    ],
+    "travelbook-magazine.com": [
+        "#billboard_btf_rlWr",
+        "#mrec",
+        "#superbanner",
+        ".float-lg-end",
+        ".has-mark"
     ],
     "travelhost.com": [
         ".exco-player-wrapper",
