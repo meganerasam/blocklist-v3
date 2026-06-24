@@ -1867,6 +1867,9 @@
     "ascii-code.com": [
         ".text-center.mb-3"
     ],
+    "ascopost.com": [
+        ".ad-text"
+    ],
     "asheville.com": [
         ".injected-ads"
     ],
@@ -9426,12 +9429,19 @@
         ".modal-backdrop",
         ".overlay-wrapper"
     ],
+    "feedzop.com": [
+        "div[data-gzp-display-ad-status]"
+    ],
     "femalefirst.co.uk": [
         ".ad",
         ".browsi_home"
     ],
     "femdomempire.com": [
         "#warningpopup"
+    ],
+    "fermanaghherald.com": [
+        ".ad-spaces",
+        ".ad-text"
     ],
     "feross.org": [
         ".next",
@@ -22773,6 +22783,9 @@
     "quizlet.com": [
         "#targetDiv-setpage_billboard"
     ],
+    "quizzop.com": [
+        ".display-ad_displayAdWrapper__nO4Kb"
+    ],
     "quora.com": [
         ".dom_annotate_ad_image_ad",
         ".dom_annotate_ad_promoted_answer",
@@ -30420,6 +30433,9 @@
     ],
     "umod.org": [
         "ins[data-revive-id]"
+    ],
+    "umogames.com": [
+        ".style-module_gam_container__9KUaZ"
     ],
     "umpcportal.com": [
         ".bottomcontainerBox"

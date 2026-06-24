@@ -65,9 +65,6 @@
     "airplaydirect.com": [
         "#header_ad"
     ],
-    "alliedwindow.com": [
-        ".ad-text"
-    ],
     "alluc.org": [
         ".adsbottombox"
     ],
@@ -629,9 +626,6 @@
     "isc2.org": [
         "[id^=\"div-gpt-ad\"]"
     ],
-    "isewanferry.co.jp": [
-        ".ad-text"
-    ],
     "iwakuni-fudosan.jp": [
         ".ad__item",
         ".top-ad"
@@ -707,17 +701,11 @@
     "joins.com": [
         ".ad_bottom"
     ],
-    "jreu-h.jp": [
-        ".ad-text"
-    ],
     "jtbc.co.kr": [
         ".ad_bottom"
     ],
     "juicesky.com": [
         ".ads-title"
-    ],
-    "junkmail.co.za": [
-        ".ad-text"
     ],
     "jw.org": [
         ".adsBlock"
@@ -992,9 +980,6 @@
     "news4jax.com": [
         ".ac-widget-placeholder",
         ".anyClipWrapper"
-    ],
-    "nexco-hoken.co.jp": [
-        ".ad-text"
     ],
     "nextbigtrade.com": [
         "ins.adsbygoogle[data-ad-client]",
@@ -1318,7 +1303,6 @@
         "#side-ad"
     ],
     "techradar.com": [
-        ".sponsored-article",
         "[href^=\"https://www.hostg.xyz/aff_c\"]"
     ],
     "techymedies.com": [
@@ -1384,9 +1368,6 @@
     "timesofoman.com": [
         "[id^=\"div-gpt-ad\"]"
     ],
-    "toimitilat.kauppalehti.fi": [
-        ".sponsored-article"
-    ],
     "transparencyreport.google.com": [
         ".ad-icon"
     ],
@@ -1419,7 +1400,6 @@
         ".contentAds"
     ],
     "version2.dk": [
-        ".ad-text",
         ".advertorial"
     ],
     "videosalon.jp": [

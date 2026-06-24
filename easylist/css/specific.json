@@ -1480,6 +1480,9 @@
     "ascii-code.com": [
         ".text-center.mb-3"
     ],
+    "ascopost.com": [
+        ".ad-text"
+    ],
     "asheville.com": [
         ".injected-ads"
     ],
@@ -7660,9 +7663,16 @@
     "feedicons.com": [
         "#footerboard"
     ],
+    "feedzop.com": [
+        "div[data-gzp-display-ad-status]"
+    ],
     "femalefirst.co.uk": [
         ".ad",
         ".browsi_home"
+    ],
+    "fermanaghherald.com": [
+        ".ad-spaces",
+        ".ad-text"
     ],
     "ferrarichat.com": [
         ".funzone",
@@ -18475,6 +18485,9 @@
     "quizlet.com": [
         "#targetDiv-setpage_billboard"
     ],
+    "quizzop.com": [
+        ".display-ad_displayAdWrapper__nO4Kb"
+    ],
     "quora.com": [
         ".dom_annotate_ad_image_ad",
         ".dom_annotate_ad_promoted_answer",
@@ -24807,6 +24820,9 @@
     ],
     "umod.org": [
         "ins[data-revive-id]"
+    ],
+    "umogames.com": [
+        ".style-module_gam_container__9KUaZ"
     ],
     "unb.com.bd": [
         ".ads",

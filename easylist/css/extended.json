@@ -751,6 +751,10 @@
         {
             "selector": ".sliderBlock:has-text(ADS)",
             "type": "extended"
+        },
+        {
+            "selector": ".pMain:has-text(Partner)",
+            "type": "extended"
         }
     ],
     "gamersnexus.net": [
