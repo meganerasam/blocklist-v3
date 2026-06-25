@@ -6350,7 +6350,8 @@
         ".ad"
     ],
     "downdetector.com": [
-        ".ad"
+        ".ad",
+        "div[data-service-list-ad]"
     ],
     "downdetector.in": [
         ".ad"
@@ -21640,6 +21641,7 @@
     "stuff.co.nz": [
         ".between-ad-slot",
         ".header-ads-block",
+        ".header-container",
         ".horizontal-ad-slot",
         ".min-h-\\[133px\\]"
     ],
