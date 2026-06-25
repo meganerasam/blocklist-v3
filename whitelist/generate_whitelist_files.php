@@ -1,56 +1,70 @@
 <?php
 /**
  * PHP Compiler Script for Whitelists
- * Extracts, cleans, deduplicates, and splits domains from whitelist1-5 into dedicated files.
- * Output: dedicated JSON files for global_core, general_global, and each country in /all-in-one/whitelist-json/ folder.
+ *
+ * Source: a single published Google Sheet (CSV) of real usage analytics with the
+ * columns `market, hostname, nb_click`. Each hostname appears once per market it
+ * was used in, with a click count.
+ *
+ * Instead of guessing a domain's scope from its TLD, this compiler DERIVES scope
+ * from the usage spread across markets:
+ *   - A hostname used meaningfully in several markets (no single market dominating)
+ *     is GLOBAL (works for everyone) -> global.json
+ *   - A hostname whose usage is concentrated in one market belongs to that market
+ *     -> <market>.json (e.g. fr.json)
+ *
+ * On top of the per-country files, a few regional rollup files are written as the
+ * UNION of their member markets (latam, apac, nordics). A domain may legitimately
+ * appear in both its country file and its region file.
+ *
+ * Output: flat-array JSON files in /all-in-one/whitelist-json/.
  */
 
 ini_set('memory_limit', '512M');
 set_time_limit(300);
 
-$prodDir = __DIR__;
-// Put inside the all-in-one/whitelist-json folder relative to this directory
+// ---------------------------------------------------------------------------
+// Configuration
+// ---------------------------------------------------------------------------
+
+// Published Google Sheet, "File > Share > Publish to web > CSV".
+$CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSDUJ4FRIJrxAAgLBI7e1JPWwVaxB4LxS8fKrJjgRLoy-2Rf70jLNjItwPh0DCPVMzzkOje3RpaiVPN/pub?gid=1704568972&single=true&output=csv';
+
+// Classification thresholds (tune these to shift the global/local boundary).
+$NOISE_FLOOR_PCT  = 0.05; // a market counts as "real" only above 5% of the host's total clicks...
+$NOISE_FLOOR_MIN  = 3;    // ...or at least this many clicks, whichever is larger.
+$DOMINANCE_MAX    = 0.80; // if one market holds >= 80% of clicks, the host belongs to that market.
+$GLOBAL_MIN_MKTS  = 2;    // a host is global if it has real usage in at least this many markets...
+$SPREAD_GLOBAL_MAX = 0.50; // ...or if no single market even reaches 50% of total clicks.
+
+// Regional rollups: each region file is the union of these (uppercase) market codes.
+// NOTE: the Nordic region is named "nordics" so it does not collide with se.json (Sweden).
+$regions = [
+    'latam'   => ['BR', 'MX', 'AR', 'CO', 'CL', 'PE', 'VE', 'EC', 'GT', 'CU', 'BO', 'DO', 'HN', 'PY', 'SV', 'NI', 'CR', 'PA', 'UY', 'PR'], // Latin America (incl. Brazil)
+    'apac'    => ['SG', 'MY', 'ID', 'TH', 'VN', 'PH', 'IN', 'JP', 'KR', 'CN', 'TW', 'HK', 'NZ'], // Asia-Pacific
+    'nordics' => ['SE', 'DK', 'FI', 'NO'], // Scandinavia / Nordics
+];
+
+$prodDir   = __DIR__;
 $outputDir = dirname($prodDir) . '/all-in-one/whitelist-json';
 
-// Create output folder if it doesn't exist
-if (!is_dir($outputDir)) {
-    mkdir($outputDir, 0777, true);
-}
-
-// Clean up any old .json files in the output directory
-if (is_dir($outputDir)) {
-    foreach (glob($outputDir . '/*.json') as $jsonFile) {
-        unlink($jsonFile);
-    }
-}
-
-$whitelist1Path = $prodDir . '/whitelist1.js';
-$whitelist2Path = $prodDir . '/whitelist2.js';
-$whitelist3Path = $prodDir . '/whitelist3.js';
-$whitelist4Path = $prodDir . '/whitelist4.txt';
-$whitelist5Path = $prodDir . '/whitelist5.txt';
-
-echo "Reading files...\n";
-
-$whitelist1Content = file_get_contents($whitelist1Path);
-$whitelist2Content = file_get_contents($whitelist2Path);
-$whitelist3Content = file_get_contents($whitelist3Path);
-$whitelist4Content = file_get_contents($whitelist4Path);
-$whitelist5Content = file_get_contents($whitelist5Path);
+// ---------------------------------------------------------------------------
+// Domain cleaning (kept from the original compiler)
+// ---------------------------------------------------------------------------
 
 // Robust domain cleaning function to fix typos and malformed domains
 function cleanDomain($domain) {
     if (!$domain) return null;
     $domain = trim(strtolower($domain));
-    
+
     // 1. Basic validation
     if (!$domain || strpos($domain, '.') === false || strpos($domain, ' ') !== false || strpos($domain, '[') !== false || strpos($domain, ']') !== false) {
         return null;
     }
-    
+
     // 2. Remove leading/trailing quotes, dots, commas, slashes
     $domain = preg_replace('/^["\'\.\/]+|["\',\.\/]+$/', '', $domain);
-    
+
     // 3. Detect and fix double-domain typos
     // E.g., amazon.deamazon.de -> amazon.de
     $len = strlen($domain);
@@ -60,7 +74,7 @@ function cleanDomain($domain) {
             $domain = substr($domain, 0, $half);
         }
     }
-    
+
     // Fix common double-domain typos with TLD repeating
     $duplicateBrands = ['amazon.de', 'amazon.fr', 'amazon.it', 'amazon.es', 'amazon.co.uk', 'amazon.com.br', 'amazon.nl', 'amazon.com', '5-mejores.es'];
     foreach ($duplicateBrands as $brand) {
@@ -80,208 +94,197 @@ function cleanDomain($domain) {
     return $domain;
 }
 
-// Parse comments/metadata from whitelist1.js
-$domainComments = [];
-$lines = preg_split('/\r?\n/', $whitelist1Content);
+// ---------------------------------------------------------------------------
+// 1. Fetch the CSV
+// ---------------------------------------------------------------------------
+
+echo "Fetching CSV from published sheet...\n";
+
+$ctx = stream_context_create([
+    'http' => [
+        'method'         => 'GET',
+        'follow_location' => 1,
+        'max_redirects'  => 10,
+        'timeout'        => 60,
+        'user_agent'     => 'Mozilla/5.0 (whitelist-compiler)',
+    ],
+    'https' => [
+        'method'         => 'GET',
+        'follow_location' => 1,
+        'max_redirects'  => 10,
+        'timeout'        => 60,
+        'user_agent'     => 'Mozilla/5.0 (whitelist-compiler)',
+    ],
+]);
+
+$csvContent = @file_get_contents($CSV_URL, false, $ctx);
+if ($csvContent === false || trim($csvContent) === '') {
+    fwrite(STDERR, "ERROR: could not fetch the CSV from {$CSV_URL}\n");
+    exit(1);
+}
+
+// Strip a UTF-8 BOM if present (double-quoted so the bytes are interpreted).
+$csvContent = preg_replace("/^\xEF\xBB\xBF/", '', $csvContent);
+
+// ---------------------------------------------------------------------------
+// 2. Parse rows and aggregate clicks per (hostname, market)
+// ---------------------------------------------------------------------------
+
+echo "Parsing rows and aggregating per hostname...\n";
+
+$lines = preg_split('/\r\n|\r|\n/', $csvContent);
+
+// Locate columns from the header so we are resilient to column reordering.
+$header = str_getcsv(array_shift($lines));
+$idx = ['market' => null, 'hostname' => null, 'nb_click' => null];
+foreach ($header as $i => $col) {
+    $key = strtolower(trim($col));
+    if (array_key_exists($key, $idx)) {
+        $idx[$key] = $i;
+    }
+}
+if ($idx['market'] === null || $idx['hostname'] === null || $idx['nb_click'] === null) {
+    fwrite(STDERR, "ERROR: expected columns market, hostname, nb_click. Got: " . implode(',', $header) . "\n");
+    exit(1);
+}
+
+$totalByHost   = [];  // host => total clicks (including blank-market rows)
+$clicksByHost  = [];  // host => [ MARKET => clicks ] (non-blank markets only)
+$rowCount      = 0;
+$skippedBlank  = 0;
+
 foreach ($lines as $line) {
-    $line = trim($line);
-    if (!$line) continue;
-    if (preg_match('/^([\'"])(.*?)\1/', $line, $domainMatch)) {
-        $domain = trim(strtolower($domainMatch[2]));
-        $comment = '';
-        $commentIndex = strpos($line, '//');
-        if ($commentIndex !== false) {
-            $comment = trim(substr($line, $commentIndex));
-        }
-        if ($comment) {
-            $domainComments[$domain] = $comment;
-        }
+    if ($line === '') continue;
+    $cols = str_getcsv($line);
+
+    $rawHost = isset($cols[$idx['hostname']]) ? trim($cols[$idx['hostname']]) : '';
+    if ($rawHost === '') { $skippedBlank++; continue; }
+
+    $host = cleanDomain($rawHost);
+    if (!$host) { $skippedBlank++; continue; }
+
+    $market = isset($cols[$idx['market']]) ? strtoupper(trim($cols[$idx['market']])) : '';
+    $clicks = isset($cols[$idx['nb_click']]) ? (int) $cols[$idx['nb_click']] : 0;
+
+    $rowCount++;
+
+    if (!isset($totalByHost[$host]))  $totalByHost[$host]  = 0;
+    if (!isset($clicksByHost[$host])) $clicksByHost[$host] = [];
+
+    $totalByHost[$host] += $clicks;
+    if ($market !== '') {
+        if (!isset($clicksByHost[$host][$market])) $clicksByHost[$host][$market] = 0;
+        $clicksByHost[$host][$market] += $clicks;
     }
 }
 
-// Collect unique domains in a hash map for fast O(1) deduplication
-$allDomains = [];
+$hostCount = count($totalByHost);
+echo "Parsed {$rowCount} data rows ({$skippedBlank} blank/invalid hostnames skipped); {$hostCount} distinct hostnames.\n";
 
-function extractFromJs($content, &$allDomains) {
-    preg_match_all('/(["\'])(.*?)\1/', $content, $matches);
-    if (!empty($matches[2])) {
-        foreach ($matches[2] as $match) {
-            $cleaned = cleanDomain($match);
-            if ($cleaned) {
-                $allDomains[$cleaned] = true;
-            }
-        }
+// ---------------------------------------------------------------------------
+// 3. Classify each hostname: global vs dominant market
+// ---------------------------------------------------------------------------
+
+echo "Classifying domains by usage spread...\n";
+
+$globalSet = [];           // domain => true
+$byMarket  = [];           // MARKET => [ domain => true ]
+
+foreach ($totalByHost as $host => $total) {
+    $markets = $clicksByHost[$host];
+
+    // No country signal at all -> global.
+    if (empty($markets)) {
+        $globalSet[$host] = true;
+        continue;
+    }
+
+    $floor = max($NOISE_FLOOR_MIN, $NOISE_FLOOR_PCT * $total);
+
+    $nsig    = 0;
+    $topMkt  = null;
+    $topClk  = -1;
+    foreach ($markets as $mkt => $clk) {
+        if ($clk >= $floor) $nsig++;
+        if ($clk > $topClk) { $topClk = $clk; $topMkt = $mkt; }
+    }
+
+    $topShare = $total > 0 ? $topClk / $total : 1.0;
+
+    $isGlobal = ($topShare < $DOMINANCE_MAX) &&
+                ($nsig >= $GLOBAL_MIN_MKTS || $topShare < $SPREAD_GLOBAL_MAX);
+
+    if ($isGlobal) {
+        $globalSet[$host] = true;
+    } else {
+        if (!isset($byMarket[$topMkt])) $byMarket[$topMkt] = [];
+        $byMarket[$topMkt][$host] = true;
     }
 }
 
-function extractFromTxt($content, &$allDomains) {
-    $lines = preg_split('/\r?\n/', $content);
-    foreach ($lines as $line) {
-        $line = trim($line);
-        if (!$line || strpos($line, '//') === 0 || strpos($line, '#') === 0) continue;
-        $cleaned = cleanDomain($line);
-        if ($cleaned) {
-            $allDomains[$cleaned] = true;
-        }
-    }
-}
+// ---------------------------------------------------------------------------
+// 4. Regional rollups (union of member markets)
+// ---------------------------------------------------------------------------
 
-echo "Extracting domains...\n";
-extractFromJs($whitelist1Content, $allDomains);
-extractFromJs($whitelist2Content, $allDomains);
-extractFromJs($whitelist3Content, $allDomains);
-extractFromTxt($whitelist4Content, $allDomains);
-extractFromTxt($whitelist5Content, $allDomains);
-
-$uniqueCount = count($allDomains);
-echo "Total unique domains collected across all 5 files: {$uniqueCount}\n";
-
-// Define Global Core Brands/Keywords (including their localized variations)
-$globalCoreKeywords = [
-    'google', 'gmail', 'gstatic', 'googleapis', 'googleusercontent', 'goog',
-    'youtube', 'youtu.be', 'ytimg', 'ggpht', 'googlevideo', 'youtubei',
-    'microsoft', 'office', 'outlook', 'onedrive', 'live.com', 'windows', '1drv', 'msauth', 'msftauth', 'teams.microsoft', 'microsoft365',
-    'apple', 'icloud', 'itunes',
-    'slack', 'discord', 'github', 'gitlab', 'trello', 'asana', 'notion', 'figma', 'miro', 'dropbox', 'box.com', 'salesforce', 'zoom.us', 'zoom.com',
-    'stripe', 'paypal', 'adyen', 'checkout.com', 'visa.com', 'mastercard.com', 'cardinalcommerce',
-    'chatgpt', 'claude.ai', 'openai', 'midjourney', 'copilot', 'deepseek', 'groq', 'anthropic', 'huggingface',
-    'netflix', 'spotify', 'hulu', 'disneyplus',
-    'instagram', 'facebook', 'fbcdn', 'tiktok', 'twitter', 'x.com',
-    'amazon', 'ebay', 'wikipedia', 'stackoverflow', 'adobe', 'canva'
-];
-
-// Initialize category containers
-$globalCore = [];
-$byCountry = [
-    'fr' => [],
-    'de' => [],
-    'it' => [],
-    'es' => [],
-    'nl' => [], // Netherlands & Belgium
-    'uk' => [],
-    'se' => [], // Scandinavia
-    'au' => [], // Australia & New Zealand
-    'br' => [],
-    'latam' => [], // Latin America (excluding Brazil)
-    'apac' => [] // Asia-Pacific & India
-];
-$generalGlobal = [];
-
-// Helper to check if a domain contains any keyword
-function containsAny($domain, $keywords) {
-    foreach ($keywords as $kw) {
-        if (strpos($domain, $kw) !== false) {
-            return true;
+$byRegion = []; // region => [ domain => true ]
+foreach ($regions as $region => $members) {
+    $byRegion[$region] = [];
+    foreach ($members as $mkt) {
+        $mkt = strtoupper($mkt);
+        if (!isset($byMarket[$mkt])) continue;
+        foreach ($byMarket[$mkt] as $domain => $_) {
+            $byRegion[$region][$domain] = true;
         }
     }
-    return false;
 }
 
-// Helper to check if domain ends with
-function endsWith($domain, $suffix) {
-    return substr($domain, -strlen($suffix)) === $suffix;
-}
+// ---------------------------------------------------------------------------
+// 5. Sort everything
+// ---------------------------------------------------------------------------
 
-echo "Classifying domains...\n";
-foreach (array_keys($allDomains) as $domain) {
-    // 1. Check if it matches any global core keywords (Option A - goes strictly to Global Core)
-    if (containsAny($domain, $globalCoreKeywords)) {
-        $globalCore[] = $domain;
-        continue;
-    }
+$global = array_keys($globalSet);
+sort($global);
 
-    // 2. Country/Region Check
-    // France
-    if (endsWith($domain, '.fr') || endsWith($domain, '.re') || endsWith($domain, '.yt') || 
-        containsAny($domain, ['leboncoin', 'cdiscount', 'fnac', 'darty', 'boulanger', 'manomano'])) {
-        $byCountry['fr'][] = $domain;
-        continue;
-    }
-
-    // Germany
-    if (endsWith($domain, '.de') || containsAny($domain, ['otto', 'adac'])) {
-        $byCountry['de'][] = $domain;
-        continue;
-    }
-
-    // Italy
-    if (endsWith($domain, '.it')) {
-        $byCountry['it'][] = $domain;
-        continue;
-    }
-
-    // Spain
-    if (endsWith($domain, '.es')) {
-        $byCountry['es'][] = $domain;
-        continue;
-    }
-
-    // Netherlands & Belgium
-    if (endsWith($domain, '.nl') || endsWith($domain, '.be') || containsAny($domain, ['bol.com', '123inkt', '123accu', 'ah.nl'])) {
-        $byCountry['nl'][] = $domain;
-        continue;
-    }
-
-    // United Kingdom
-    if (endsWith($domain, '.co.uk') || endsWith($domain, '.org.uk') || endsWith($domain, '.me.uk')) {
-        $byCountry['uk'][] = $domain;
-        continue;
-    }
-
-    // Scandinavia
-    if (endsWith($domain, '.se') || endsWith($domain, '.dk') || endsWith($domain, '.no') || endsWith($domain, '.fi') || endsWith($domain, '.is') || 
-        containsAny($domain, ['elgiganten', 'apotea', 'apoteket'])) {
-        $byCountry['se'][] = $domain;
-        continue;
-    }
-
-    // Australia & New Zealand
-    if (endsWith($domain, '.com.au') || endsWith($domain, '.net.au') || endsWith($domain, '.co.nz') || 
-        containsAny($domain, ['bunnings', 'amaysim'])) {
-        $byCountry['au'][] = $domain;
-        continue;
-    }
-
-    // Brazil
-    if (endsWith($domain, '.com.br') || endsWith($domain, '.net.br')) {
-        $byCountry['br'][] = $domain;
-        continue;
-    }
-
-    // Latin America
-    if (endsWith($domain, '.com.mx') || endsWith($domain, '.cl') || endsWith($domain, '.co') || endsWith($domain, '.ar') || endsWith($domain, '.pe') || 
-        containsAny($domain, ['mercadolibre', 'falabella'])) {
-        $byCountry['latam'][] = $domain;
-        continue;
-    }
-
-    // Asia-Pacific & India
-    if (endsWith($domain, '.cn') || endsWith($domain, '.hk') || endsWith($domain, '.tw') || endsWith($domain, '.jp') || endsWith($domain, '.kr') || endsWith($domain, '.in') || endsWith($domain, '.sg') || endsWith($domain, '.ph') || endsWith($domain, '.id') || endsWith($domain, '.vn') || 
-        containsAny($domain, ['taobao', 'tmall', 'jd.com', 'temu', 'shopee', 'lazada', 'flipkart', 'myntra', 'coupang'])) {
-        $byCountry['apac'][] = $domain;
-        continue;
-    }
-
-    // 3. Fallback to General Global
-    $generalGlobal[] = $domain;
-}
-
-// Sort all lists alphabetically
-sort($globalCore);
-sort($generalGlobal);
-foreach ($byCountry as $lang => &$list) {
+$marketLists = [];
+foreach ($byMarket as $mkt => $set) {
+    $list = array_keys($set);
     sort($list);
+    $marketLists[$mkt] = $list;
 }
-unset($list); // clean reference
+ksort($marketLists);
+
+$regionLists = [];
+foreach ($byRegion as $region => $set) {
+    $list = array_keys($set);
+    sort($list);
+    $regionLists[$region] = $list;
+}
+
+// ---------------------------------------------------------------------------
+// 6. Stats
+// ---------------------------------------------------------------------------
 
 echo "\nStats:\n";
-echo "- globalCore: " . count($globalCore) . "\n";
-foreach ($byCountry as $lang => $list) {
-    echo "- byCountry.{$lang}: " . count($list) . "\n";
+echo "- global: " . count($global) . "\n";
+foreach ($marketLists as $mkt => $list) {
+    echo "- " . strtolower($mkt) . ": " . count($list) . "\n";
 }
-echo "- generalGlobal: " . count($generalGlobal) . "\n";
+foreach ($regionLists as $region => $list) {
+    echo "- {$region} (region): " . count($list) . "\n";
+}
 
-// Helper function to write a JSON file
+// ---------------------------------------------------------------------------
+// 7. Write output JSON files
+// ---------------------------------------------------------------------------
+
+if (!is_dir($outputDir)) {
+    mkdir($outputDir, 0777, true);
+}
+// Clean up any old .json files in the output directory.
+foreach (glob($outputDir . '/*.json') as $jsonFile) {
+    unlink($jsonFile);
+}
+
 function writeJsonFile($filePath, $list) {
     $content = json_encode($list, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
     file_put_contents($filePath, $content, LOCK_EX);
@@ -289,18 +292,18 @@ function writeJsonFile($filePath, $list) {
 
 echo "\nWriting dedicated JSON files to folder: {$outputDir}\n";
 
-// Write global_core.json
-writeJsonFile($outputDir . '/global_core.json', $globalCore);
-echo "Written: global_core.json\n";
+writeJsonFile($outputDir . '/global.json', $global);
+echo "Written: global.json\n";
 
-// Write general_global.json
-writeJsonFile($outputDir . '/general_global.json', $generalGlobal);
-echo "Written: general_global.json\n";
-
-// Write each country file
-foreach ($byCountry as $lang => $list) {
-    writeJsonFile($outputDir . "/{$lang}.json", $list);
-    echo "Written: {$lang}.json\n";
+foreach ($marketLists as $mkt => $list) {
+    $name = strtolower($mkt) . '.json';
+    writeJsonFile($outputDir . '/' . $name, $list);
+    echo "Written: {$name}\n";
 }
 
-echo "\nSuccessfully completed whitelist merge, categorization, and dedicated JSON file splitting!\n";
+foreach ($regionLists as $region => $list) {
+    writeJsonFile($outputDir . "/{$region}.json", $list);
+    echo "Written: {$region}.json\n";
+}
+
+echo "\nSuccessfully compiled whitelist files from usage analytics!\n";
