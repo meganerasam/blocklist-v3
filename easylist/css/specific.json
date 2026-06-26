@@ -727,6 +727,9 @@
     "alaskapublic.org": [
         "[href*=\"bit.ly/\"]"
     ],
+    "albernivalleynews.com": [
+        "div.one_by_one_group"
+    ],
     "albertsons.com": [
         ".abs-carousel-proxy > [aria-label=\"Promo or Ad Banner\"]",
         ".master-product-carousel:has([data-carousel-driven=\"sponsored-products\"])"
@@ -1954,8 +1957,14 @@
         "[data-concert=\"desktop_leaderboard_variable\"]",
         "[data-concert=\"leaderboard_top_tablet_desktop\"]"
     ],
+    "bainbridgereview.com": [
+        "div.one_by_one_group"
+    ],
     "bakeitwithlove.com": [
         ".code-block"
+    ],
+    "bakercityherald.com": [
+        "div.one_by_one_group"
     ],
     "baking-forums.com": [
         "div.message--post.message"
@@ -2302,6 +2311,9 @@
     ],
     "beyondgames.biz": [
         "#zox-lead-bot"
+    ],
+    "bgdailynews.com": [
+        "div.one_by_one_group"
     ],
     "bgr.com": [
         ".bg-black"
@@ -2669,6 +2681,9 @@
         ".border-b-0.border-border-primary.overflow-hidden",
         "[href^=\"https://amzn.to/\"]"
     ],
+    "bluemountaineagle.com": [
+        "div.one_by_one_group"
+    ],
     "bluesnews.com": [
         ".leaderboard-gutter"
     ],
@@ -2855,6 +2870,9 @@
     ],
     "bostonreview.net": [
         ".promotop"
+    ],
+    "bothell-reporter.com": [
+        "div.one_by_one_group"
     ],
     "bottradionetwork.com": [
         ".partner-block"
@@ -3569,6 +3587,9 @@
         "div[style*=\"width:300px;\"]",
         "div[style*=\"width:640px;\"]"
     ],
+    "castlegarnews.com": [
+        "div.one_by_one_group"
+    ],
     "catalogosofertas.cl": [
         ".anchor-wrapper"
     ],
@@ -3712,6 +3733,11 @@
     "celticsblog.com": [
         "[data-concert=\"desktop_leaderboard_variable\"]",
         "[data-concert=\"leaderboard_top_tablet_desktop\"]"
+    ],
+    "celtsarehere.com": [
+        "#snack_dex3",
+        "#snack_dex4",
+        ".code-block"
     ],
     "centos.org": [
         ".sponsor"
@@ -4241,6 +4267,9 @@
     ],
     "clover.fm": [
         "div[style*=\"width:975px; height:90px;\"]"
+    ],
+    "cloverdalereporter.com": [
+        "div.one_by_one_group"
     ],
     "cltampa.com": [
         ".PromoTopBar",
@@ -4853,6 +4882,9 @@
         ".leaderboar_promo",
         ".promo-placeholder"
     ],
+    "cowichanvalleycitizen.com": [
+        "div.one_by_one_group"
+    ],
     "cozyberries.com": [
         ".widget_media_image"
     ],
@@ -5399,6 +5431,9 @@
         ".ad_leaderboard__container",
         ".ad_right_rail",
         ".story-banner-ad-placeholder"
+    ],
+    "dailyleader.com": [
+        "div.one_by_one_group"
     ],
     "dailylobo.com": [
         ".ad"
@@ -6581,6 +6616,9 @@
     "eagle1065.com": [
         ".featureRotator"
     ],
+    "eaglevalleynews.com": [
+        "div.one_by_one_group"
+    ],
     "ealingtimes.co.uk": [
         ".promoted-block"
     ],
@@ -6603,6 +6641,9 @@
     ],
     "eastlothiancourier.com": [
         ".mpu"
+    ],
+    "eastoregonian.com": [
+        "div.one_by_one_group"
     ],
     "easypet.com": [
         ".kadence-conversion-inner",
@@ -7653,6 +7694,9 @@
     ],
     "federalnewsnetwork.com": [
         ".promo-inline"
+    ],
+    "federalwaymirror.com": [
+        "div.one_by_one_group"
     ],
     "fedex.com": [
         "#shop-runner-banner-link",
@@ -9688,6 +9732,9 @@
     "goldradio.com": [
         ".dac__mpu-card"
     ],
+    "goldstreamgazette.com": [
+        "div.one_by_one_group"
+    ],
     "golf.com": [
         ".golf-ad"
     ],
@@ -11564,6 +11611,9 @@
         ".adbox",
         "div[style^=\"width:728px;\"]"
     ],
+    "interior-news.com": [
+        "div.one_by_one_group"
+    ],
     "intouchweekly.com": [
         "#listProductWidgetData",
         ".ad-container",
@@ -11735,6 +11785,9 @@
         ".arcad-feature",
         ".cs-teaser",
         "a[href*=\"/sponsored/\"]"
+    ],
+    "irontontribune.com": [
+        "div.one_by_one_group"
     ],
     "isidewith.com": [
         ".overlayBG",
@@ -12249,7 +12302,8 @@
         ".promoted-block"
     ],
     "kelownacapnews.com": [
-        "#leaderboard-container"
+        "#leaderboard-container",
+        "div.one_by_one_group"
     ],
     "kens5.com": [
         ".ad"
@@ -12261,6 +12315,9 @@
         ".LeaderBack",
         ".PSDRGC",
         ".mpu"
+    ],
+    "kentreporter.com": [
+        "div.one_by_one_group"
     ],
     "kentucky.com": [
         ".zone",
@@ -13383,6 +13440,9 @@
     "loblaws.ca": [
         ".block-wrapper:has([data-track-product-component=\"carousel||rmp_sponsored\"])"
     ],
+    "lobservateur.com": [
+        "div.one_by_one_group"
+    ],
     "local10.com": [
         ".ad-htl-slot",
         ".box--top-wide",
@@ -13461,6 +13521,9 @@
     "looktothestars.org": [
         ".ad",
         ".adsense"
+    ],
+    "looper.com": [
+        ".under-art"
     ],
     "looperman.com": [
         "#header-top",
@@ -13893,6 +13956,9 @@
     ],
     "map.riftkit.net": [
         ".coachify_wrapper"
+    ],
+    "mapleridgenews.com": [
+        "div.one_by_one_group"
     ],
     "mapquest.com": [
         ".bg-primary-12",
@@ -14345,6 +14411,9 @@
     ],
     "mgnetu.com": [
         "[href*=\"bit.ly/\"]"
+    ],
+    "mi-reporter.com": [
+        "div.one_by_one_group"
     ],
     "miamiherald.com": [
         "#zoneContainer",
@@ -15363,6 +15432,9 @@
     "namibtimes.net": [
         ".ad"
     ],
+    "nanaimobulletin.com": [
+        "div.one_by_one_group"
+    ],
     "nanaimonewsnow.com": [
         "#banner-header",
         "#bumper-cars",
@@ -16214,6 +16286,9 @@
         "div[class^=\"helper__AdContainer\"]",
         "div[data-ads-params]"
     ],
+    "northernsentinel.com": [
+        "div.one_by_one_group"
+    ],
     "northernstar.info": [
         ".leaderboardwrap"
     ],
@@ -16905,6 +16980,9 @@
         ".panner_2",
         ".side_panner"
     ],
+    "panews.com": [
+        "div.one_by_one_group"
+    ],
     "panow.com": [
         "#banner-header",
         "#bumper-cars",
@@ -17134,6 +17212,9 @@
     "pdftoimage.com": [
         "div[class^=\"ha\"]"
     ],
+    "peacearchnews.com": [
+        "div.one_by_one_group"
+    ],
     "peacemakeronline.com": [
         "#above_top_banner",
         "#front_mid_right > center",
@@ -17157,6 +17238,9 @@
     ],
     "penny-arcade.com": [
         "#leaderboard"
+    ],
+    "pentictonwesternnews.com": [
+        "div.one_by_one_group"
     ],
     "people.com": [
         ".articleContainer__rail",
@@ -17860,6 +17944,9 @@
     ],
     "ppv.cx": [
         "[href=\"https://duel.com/r/PPV\"]"
+    ],
+    "pqbnews.com": [
+        "div.one_by_one_group"
     ],
     "pr0gramm.com": [
         ".side-wide-skyscraper"
@@ -19310,7 +19397,8 @@
         ".fw-ad"
     ],
     "reddeeradvocate.com": [
-        "#leaderboard-container"
+        "#leaderboard-container",
+        "div.one_by_one_group"
     ],
     "reddit.com": [
         ".promotedlink:not([style^=\"height: 1px;\"])",
@@ -19410,6 +19498,9 @@
     "rent.ie": [
         "#sresult_banner"
     ],
+    "rentonreporter.com": [
+        "div.one_by_one_group"
+    ],
     "rentry.co": [
         ".asd_1"
     ],
@@ -19487,7 +19578,8 @@
         "[data-testid=\"ResponsiveAdSlot\"]"
     ],
     "revelstokereview.com": [
-        "#leaderboard-container"
+        "#leaderboard-container",
+        "div.one_by_one_group"
     ],
     "reverso.net": [
         "#bottom-mega-rca-box",
@@ -19646,6 +19738,7 @@
     ],
     "rogerebert.com": [
         "#PostInlineVideoContainer",
+        "#ReviewInlineVideoContainer",
         ".advertisement"
     ],
     "rok.guide": [
@@ -19705,6 +19798,9 @@
     "roseindia.net": [
         ".col-md-4",
         ".tutorialsstaticdata"
+    ],
+    "rosslandnews.com": [
+        "div.one_by_one_group"
     ],
     "rotherhamadvertiser.co.uk": [
         ".banner",
@@ -19841,6 +19937,9 @@
         ".baner",
         ".code-block"
     ],
+    "saanichnews.com": [
+        "div.one_by_one_group"
+    ],
     "saashub.com": [
         ".sponsored"
     ],
@@ -19916,7 +20015,8 @@
         ".promoted-block"
     ],
     "salisburypost.com": [
-        ".ad"
+        ".ad",
+        "div.one_by_one_group"
     ],
     "salixos.org": [
         ".sponsors-container"
@@ -19978,6 +20078,9 @@
     ],
     "sansabanews.com": [
         "#leader"
+    ],
+    "saobserver.net": [
+        "div.one_by_one_group"
     ],
     "sashares.co.za": [
         "#elementor-popup-modal-89385",
@@ -20302,6 +20405,9 @@
         ".tall-rect",
         ".u-df.revcontent__recommended-wrapper"
     ],
+    "seattleweekly.com": [
+        "div.one_by_one_group"
+    ],
     "secretchicago.com": [
         ".google-ad-manager-ads-header",
         ".smn-new-gpt-ad"
@@ -20357,7 +20463,10 @@
         "._adHeaderMargin_psyvh_111",
         "._adMargin_psyvh_211",
         "._homeMiddleAd_x95p9_29",
-        "div[class^=\"styles_ad\"]"
+        "div[class^=\"_adDivider_\"]",
+        "div[class^=\"styles_ad\"]",
+        "div[data-testid=\"ad-body\"]",
+        "div[data-testid=\"ad-sticky-header\"]"
     ],
     "semiconductor-today.com": [
         "#Header-Standard-Middle-Evatec",
@@ -20381,6 +20490,9 @@
         ".rmn-banner",
         "[data-comp*=\"RMNCarousel\"]",
         "[data-comp*=\"RmnBanner\"]"
+    ],
+    "sequimgazette.com": [
+        "div.one_by_one_group"
     ],
     "seroundtable.com": [
         "#ninja_box"
@@ -20984,6 +21096,9 @@
     "sonyalpharumors.com": [
         "#custom_html-15",
         "#custom_html-25"
+    ],
+    "sookenewsmirror.com": [
+        "div.one_by_one_group"
     ],
     "sootoday.com": [
         "#leaderboard-container"
@@ -21781,7 +21896,8 @@
         ".promoted-block"
     ],
     "surreynowleader.com": [
-        "#leaderboard-container"
+        "#leaderboard-container",
+        "div.one_by_one_group"
     ],
     "surreyworld.co.uk": [
         ".banner",
@@ -21907,6 +22023,9 @@
     "t3.com": [
         ".leaderboard__container",
         ".sponsored-card-centred"
+    ],
+    "tacomadailyindex.com": [
+        "div.one_by_one_group"
     ],
     "taiyangnews.info": [
         ".widget-module__widgetWrapper__Rzg0s",
@@ -22359,6 +22478,9 @@
     "terminal.hackernoon.com": [
         ".right"
     ],
+    "terracestandard.com": [
+        "div.one_by_one_group"
+    ],
     "terraria.wiki.gg": [
         "[href^=\"https://store.steampowered.com/app/\"]"
     ],
@@ -22666,6 +22788,9 @@
         "#dsspHS",
         ".top-leaderboard"
     ],
+    "thedailyworld.com": [
+        "div.one_by_one_group"
+    ],
     "thedailywtf.com": [
         "#top-banner"
     ],
@@ -22791,6 +22916,9 @@
     "thefreedictionary.com": [
         "#Content_CA_AD_0_BC",
         "#Content_CA_AD_1_BC"
+    ],
+    "thefreepress.ca": [
+        "div.one_by_one_group"
     ],
     "thefreshgrocer.com": [
         "div[class^=\"ColListing\"]:has(div[data-testid^=\"Sponsored\"])"
@@ -23134,6 +23262,9 @@
     "thenorthernecho.co.uk": [
         ".promoted-block"
     ],
+    "thenorthernview.com": [
+        "div.one_by_one_group"
+    ],
     "theodysseyonline.com": [
         ".distroscale_p2",
         ".distroscale_side",
@@ -23235,7 +23366,8 @@
         ".code-block"
     ],
     "theprogress.com": [
-        "#leaderboard-container"
+        "#leaderboard-container",
+        "div.one_by_one_group"
     ],
     "theprospectordaily.com": [
         ".leaderboardwrap"
@@ -24516,6 +24648,9 @@
         "div[item=\"[object Object]\"]:has(path[d=\"M17 7l-10 10\"])",
         "div[item=\"[object Object]\"]:has(path[d=\"M9.83333 1.83398H16.5M16.5 1.83398V8.50065M16.5 1.83398L9.83333 8.50065L6.5 5.16732L1.5 10.1673\"])"
     ],
+    "tryondailybulletin.com": [
+        "div.one_by_one_group"
+    ],
     "tryorthokeys.com": [
         "[width=\"728\"]"
     ],
@@ -25126,6 +25261,9 @@
     "vacations.info": [
         "#leaderboard"
     ],
+    "valdostadailytimes.com": [
+        "div.one_by_one_group"
+    ],
     "valetmag.com": [
         ".ad-constrained-container",
         ".ad-full_span-container",
@@ -25141,6 +25279,9 @@
     "vancouverisawesome.com": [
         "#leaderboard-container",
         ".slot"
+    ],
+    "vancouverislandfreedaily.com": [
+        "div.one_by_one_group"
     ],
     "vancouversun.com": [
         ".ad",
@@ -25161,6 +25302,9 @@
     ],
     "varsity.com": [
         ".promo"
+    ],
+    "vashonbeachcomber.com": [
+        "div.one_by_one_group"
     ],
     "vaughn.live": [
         ".browsePageAbvs300x600",
@@ -25215,6 +25359,9 @@
         ".parallax-breakout",
         ".pos-top",
         ".vc_single_image-wrapper"
+    ],
+    "vernonmorningstar.com": [
+        "div.one_by_one_group"
     ],
     "versus.com": [
         "#bill_bottom",
@@ -25422,6 +25569,10 @@
     "vpnmentor.com": [
         ".side-top-vendors-wrap"
     ],
+    "vpntierlists.com": [
+        ".bottom-6",
+        ".mt-\\[500px\\]"
+    ],
     "vr-compare.com": [
         "div[style=\"min-height: 250px; background-color: rgba(0, 0, 0, 0.133); display: flex; justify-content: center; align-items: center;\"]"
     ],
@@ -25530,6 +25681,9 @@
     ],
     "wallhere.com": [
         "div[id^=\"bsa-zone_\"]"
+    ],
+    "wallowa.com": [
+        "div.one_by_one_group"
     ],
     "wallpaperaccess.com": [
         "[src=\"/continue.png\"]"
@@ -26189,6 +26343,9 @@
     "whichcar.com.au": [
         ".advertisement"
     ],
+    "whidbeynewstimes.com": [
+        "div.one_by_one_group"
+    ],
     "whio.com": [
         ".arcad_feature"
     ],
@@ -26472,6 +26629,9 @@
         ".code-block",
         ".code-block-label",
         ".top-banner"
+    ],
+    "wltribune.com": [
+        "div.one_by_one_group"
     ],
     "wltx.com": [
         ".ad"
@@ -26847,6 +27007,9 @@
         "div[jsdata*=\"SinglePLA-\"][data-id^=\"SinglePLA-\"]",
         "html[itemtype=\"http://schema.org/SearchResultsPage\"] #cnt div[class$=\"sh-sr__bau\"]",
         "html[itemtype=\"http://schema.org/SearchResultsPage\"] #cnt div[class$=\"sh-sr__tau\"][style]"
+    ],
+    "www.kirklandreporter.com": [
+        "div.one_by_one_group"
     ],
     "www.yahoo.com": [
         ".ad-container",
@@ -27254,6 +27417,9 @@
         ".ai_widget",
         "[href*=\"bit.ly/\"]",
         "a[href^=\"https://yugatech.ph/\"]"
+    ],
+    "yukon-news.com": [
+        "div.one_by_one_group"
     ],
     "yummy.ph": [
         ".ads"

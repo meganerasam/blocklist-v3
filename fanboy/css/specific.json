@@ -551,6 +551,9 @@
     "avtoradio.ru": [
         ".rss"
     ],
+    "awardswatch.com": [
+        "#scroll-up"
+    ],
     "azernews.az": [
         "#btn-up"
     ],
@@ -2748,6 +2751,9 @@
     ],
     "hiclipart.com": [
         "#scrolltop"
+    ],
+    "highonfilms.com": [
+        "#kt-scroll-up"
     ],
     "hindawi.com": [
         ".advWrapper"
