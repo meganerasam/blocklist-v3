@@ -2801,6 +2801,7 @@
         ".shop-pushdown-ad",
         ".slContainer:has(> .sponsored)",
         ".spotlight-ad",
+        "[data-testid=\"sponsored-listing\"]",
         "[data-testid=\"story-wrapper-row\"] div:has(> [data-story-name=\"sponsored_grid\"])",
         "[id^=\"atwb-ninja-carousel\"]",
         "li.embedded-sponsored-listing"
@@ -7147,6 +7148,13 @@
         ".ad-container",
         ".css-3oqygl"
     ],
+    "deliveroo.*": [
+        ".splide__slide:has(p[data-testid=\"sponsored-label\"])",
+        "div[class^=\"HomeFeedScrollTracker-\"]:has(div[data-testid=\"sponsored-badge\"] > p[data-testid=\"sponsored-tag\"])",
+        "div[class^=\"HomeFeedScrollTracker-\"]:has(p[data-testid=\"sponsored-rating-distance\"] > span[data-testid=\"label-prefix\"])",
+        "li[class^=\"Slide-\"]:has(div[data-testid=\"sponsored-tag\"] > p[data-testid=\"label\"])",
+        "li[class^=\"Slide-\"]:has(div[data-testid=\"sponsored-tag\"] > p[data-testid=\"sponsored-tag-label\"])"
+    ],
     "delta-optimist.com": [
         ".ga-ext",
         ".item-sponsored",
@@ -9287,6 +9295,7 @@
         "#featured-video__player-container",
         ".aff-unit__wrapper",
         ".fandom-ad-wrapper",
+        ".featured-video-player-container",
         ".marketplace",
         ".top_leaderboard-odyssey-wrapper",
         ".marketing-notifications",
@@ -18306,8 +18315,10 @@
         ".widget"
     ],
     "motherless.com": [
-        ".media-action-networks",
         ".page-to-top-link-wrapper"
+    ],
+    "motherless.xxx": [
+        ".media-action-networks"
     ],
     "mothership.sg": [
         "#block-imu1",
@@ -33308,6 +33319,7 @@
         ".darla-lrec-ad",
         ".darla_ad",
         ".ds_promo_ymobile",
+        ".dynamic-inline-ad",
         ".gam-placeholder",
         ".gemini-ad",
         ".gemini-ad-feedback",
@@ -33315,13 +33327,16 @@
         ".mx-\\[-50vw\\]",
         ".ntk-ad-item",
         ".searchCenterBottomAds",
+        ".searchCenterBottomAdsPLA",
         ".searchCenterTopAds",
+        ".searchSuperTopAds",
         ".sticky.bottom-0:has(.ad-container)",
         ".sys_shopleguide",
         ".top-\\[92px\\]",
         ".viewer-sda-container",
         "[data-content=\"Advertisement\"]",
         "[data-wf-beacons]",
+        "[style*=\"300px;\"]",
         "a[data-test-id=\"large-image-ad\"]",
         "a[href^=\"https://api.taboola.com/\"]",
         "div[class*=\"ads-\"]",
@@ -33334,10 +33349,8 @@
         "div[id^=\"defaultWFPAD\"]",
         "div[id^=\"gemini-item-\"]",
         "div[style*=\"/ads/\"]",
-        "div[style=\"height: 250px; width: 300px;\"]",
         "div[style=\"height: 250px; width: 970px;\"]",
         "div[style=\"height: 90px; width: 728px;\"]",
-        "div[style=\"height:250px;width:300px\"]",
         "div[style=\"height:250px;width:970px\"]",
         "div[style=\"height:90px;width:728px\"]",
         "li.min-h-\\[8\\.125rem\\]",

@@ -4131,8 +4131,10 @@
         ".widget"
     ],
     "motherless.com": [
-        ".media-action-networks",
         ".page-to-top-link-wrapper"
+    ],
+    "motherless.xxx": [
+        ".media-action-networks"
     ],
     "motociclismo.it": [
         ".top"
