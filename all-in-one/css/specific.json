@@ -4723,7 +4723,8 @@
         ".assmbly-ad-wrapper"
     ],
     "chatgpt.com": [
-        ".border-token-border-default.mt-2.border-t:has(button[aria-label=\"Ad options\"])"
+        ".border-token-border-default.mt-2.border-t:has(button[aria-label=\"Ad options\"])",
+        "[data-testid=\"bazaar-v2-elevated-box\"]:has([data-ad-card-root=\"true\"])"
     ],
     "chatnewstoday.ca": [
         "#banner-header",
