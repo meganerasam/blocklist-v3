@@ -533,7 +533,8 @@
         ".top-ban-wrapper"
     ],
     "advisorperspectives.com": [
-        "#dfp-ap-2016-interstitial"
+        "#dfp-ap-2016-interstitial",
+        ".adspace-landscape"
     ],
     "advocate.com": [
         "#sad_wrapper_0_0_1_0_0_0_1_0_1",
@@ -642,6 +643,9 @@
     ],
     "agriexpo.online": [
         "#header-banner"
+    ],
+    "agupubs.onlinelibrary.wiley.com": [
+        ".pb-las"
     ],
     "aha-music.com": [
         ".countdown-ad-wrap"
@@ -6384,6 +6388,9 @@
     "downbeachbuzz.com": [
         ".widget_sp_image"
     ],
+    "downdetector.*": [
+        "div[data-service-list-ad]"
+    ],
     "downdetector.co.nz": [
         ".ad"
     ],
@@ -6394,8 +6401,7 @@
         ".ad"
     ],
     "downdetector.com": [
-        ".ad",
-        "div[data-service-list-ad]"
+        ".ad"
     ],
     "downdetector.in": [
         ".ad"
@@ -9885,6 +9891,11 @@
         ".leaderboardbg",
         "[style=\"margin:10px auto 10px auto; text-align:center; width:100%; overflow:hidden; min-height: 250px;\"]"
     ],
+    "gpone.com": [
+        "#block-gpone-advhome",
+        "#block-gpone-advvideo",
+        ".dh250-mh600"
+    ],
     "gpro.net": [
         ".boxy:has(#blockblockA)"
     ],
@@ -11363,6 +11374,9 @@
         ".ad--articlerectangle",
         ".slot1",
         ".slot4"
+    ],
+    "indexclix.com": [
+        "[id^=\"promo\"]"
     ],
     "india.com": [
         ".ad5",
@@ -20232,6 +20246,9 @@
         ".article-videoplayer",
         ".player"
     ],
+    "sciencewatch.blog": [
+        "#popup-banner"
+    ],
     "sciencing.com": [
         ".sticky-leaderboard-container"
     ],
@@ -21081,6 +21098,10 @@
     ],
     "songbpm.com": [
         ".mb-6:has(> section > div[id^=\"ad--searches\"])"
+    ],
+    "songfacts.com": [
+        ".sf_leaderboard_2025",
+        ".wp-block-savage-platform-raptive-ad"
     ],
     "songkick.com": [
         ".ad-container",

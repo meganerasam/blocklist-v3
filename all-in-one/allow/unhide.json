@@ -825,9 +825,6 @@
     "lovepanky.com": [
         ".category-ad:not(html):not(body)"
     ],
-    "m.motonet.fi": [
-        ".ProductAd"
-    ],
     "m.nettiauto.com": [
         ".ad_caption"
     ],
@@ -1465,6 +1462,9 @@
         ".ad_div"
     ],
     "wallpaperaccess.com": [
+        ".ads1"
+    ],
+    "wallpaperbat.com": [
         ".ads1"
     ],
     "wallpapercosmos.com": [

@@ -7277,7 +7277,8 @@
         ".has-promo"
     ],
     "windowslatest.com": [
-        ".support-dropdown-wrapper"
+        ".support-dropdown-wrapper",
+        ".wl-support-box"
     ],
     "winnipegsun.com": [
         ".asset-paging-container"
