@@ -4209,6 +4209,7 @@
                 "script"
             ],
             "initiatorDomains": [
+                "bbc.com",
                 "time.com"
             ],
             "urlFilter": "||pub.doubleverify.com/dvtag/"
@@ -15144,7 +15145,6 @@
                 "cram.com",
                 "devclass.com",
                 "dholic.co.jp",
-                "docs.wps.com",
                 "ecmweb.com",
                 "ejgiftcards.com",
                 "enmotive.com",
@@ -15212,6 +15212,7 @@
                 "webstatus.dev",
                 "winefolly.com",
                 "winhappy.com",
+                "wps.com",
                 "xl-bygg.no",
                 "zf1.tohoku-epco.co.jp",
                 "zipair.net"

@@ -4028,6 +4028,7 @@
                 "script"
             ],
             "initiatorDomains": [
+                "bbc.com",
                 "time.com"
             ],
             "urlFilter": "||pub.doubleverify.com/dvtag/"
