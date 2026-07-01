@@ -17600,6 +17600,9 @@
         ".dkpw",
         ".dkpw-billboard-margin"
     ],
+    "meteoradar.co.uk": [
+        ".banner"
+    ],
     "methodshop.com": [
         ".mai-aec"
     ],
@@ -32688,6 +32691,11 @@
     "wolfsgamingblog.com": [
         ".inline",
         ".wpa-about"
+    ],
+    "wolt.com": [
+        "div[data-test-id=\"MainDiscoveryContent\"] li > div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"])",
+        "div[data-test-id=\"SearchResultVenueSection\"] li > div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"])",
+        "ul[data-test-id=\"VenueVerticalListGrid\"] > li > div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"])"
     ],
     "wolverine.com": [
         ".feedback-button"
