@@ -192,16 +192,9 @@
     "4399.cn": [
         ".gotop"
     ],
-    "456movie.net": [
-        ".advertisement"
-    ],
     "48hills.org": [
         ".hills-adlabel",
         ".hills-inline-full-width"
-    ],
-    "4anime.gg": [
-        "[style*=\"width: 100% !important;\"]",
-        "[style*=\"z-index:\"]"
     ],
     "4cc.com.au": [
         ".adv"
@@ -709,9 +702,6 @@
         ".billboard",
         ".l-side-banner",
         ".s-banner"
-    ],
-    "aether.mom": [
-        "[href^=\"https://a.acebet.com/api/click?a=\"]"
     ],
     "afar.com": [
         ".Page-header-hat"
@@ -1482,10 +1472,9 @@
         ".gutter",
         ".iab"
     ],
-    "animetrilogy.com": [
-        "#close-teaser",
-        "#floatcenter",
-        "#overplay"
+    "animeschedule.net": [
+        "#site-theme",
+        "#site-theme-foot"
     ],
     "aninews.in": [
         "#parentDiv0"
@@ -3003,9 +2992,6 @@
     ],
     "bintv.net": [
         ".pinned-ad"
-    ],
-    "bintvs.fun": [
-        ".chat-overlay-ad"
     ],
     "bioinformant.com": [
         "#text-15",
@@ -4728,7 +4714,8 @@
     ],
     "chatgpt.com": [
         ".border-token-border-default.mt-2.border-t:has(button[aria-label=\"Ad options\"])",
-        "[data-testid=\"bazaar-v2-elevated-box\"]:has([data-ad-card-root=\"true\"])"
+        "[data-testid=\"bazaar-v2-elevated-box\"]:has([data-ad-card-root=\"true\"])",
+        "div[data-assistant-ads]"
     ],
     "chatnewstoday.ca": [
         "#banner-header",
@@ -5505,11 +5492,6 @@
     "coingolive.com": [
         "[href*=\"bit.ly/\"]",
         "[href^=\"https://bitpreco.com/\"]"
-    ],
-    "coinhub.wiki": [
-        "#container_coinhub_sidead",
-        ".container_coinhub_footerad",
-        ".container_coinhub_topwidgetad"
     ],
     "coinlore.com": [
         "#topbutton"
@@ -7622,9 +7604,6 @@
         ".right-rail-ads",
         ".back-to-top"
     ],
-    "dlhd.link": [
-        ".site-ad"
-    ],
     "dllme.com": [
         ".captchabox > div"
     ],
@@ -7646,9 +7625,6 @@
     ],
     "dmv-practice-test.com": [
         "#pop-up-show"
-    ],
-    "dna-launcher.apkrabi.com": [
-        ".ads12"
     ],
     "dnaindia.com": [
         ".ads-box-300x250",
@@ -7954,9 +7930,6 @@
         ".photos-add",
         ".photos-left-ad",
         "div[id^=\"taboola-\"]"
-    ],
-    "drivevideo.xyz": [
-        "#overlays"
     ],
     "driving.ca": [
         ".ad"
@@ -9288,10 +9261,6 @@
         ".ad2"
     ],
     "famouslyarrested.com": [
-        ".ad1",
-        ".ad2"
-    ],
-    "famouslyscandalous.com": [
         ".ad1",
         ".ad2"
     ],
@@ -22265,7 +22234,8 @@
     ],
     "priceline.com": [
         "[class*=\"ListingCardWrapper\"]:has([class*=\"PromoText\"])",
-        "div[data-testid=\"HTL_NEW_LISTING_CARD_RESP\"]:has(a[aria-label*=\" Promoted\"])"
+        "div[data-testid=\"HTL_NEW_LISTING_CARD_RESP\"]:has(a[aria-label*=\" Promoted\"])",
+        "div[id^=\"listing-\"]:has(span[class*=\"Promoted\"])"
     ],
     "priceritemarketplace.com": [
         "div[class^=\"ColListing\"]:has(div[data-testid^=\"Sponsored\"])"
@@ -22391,10 +22361,6 @@
     ],
     "prokerala.com": [
         ".adm-unit"
-    ],
-    "promiseee.com": [
-        "#DetailButtonFloatAd",
-        "#HomeButtonFloatAd"
     ],
     "promocatalogues.fr": [
         ".anchor-wrapper"
@@ -24486,6 +24452,8 @@
         "#slidein"
     ],
     "sacurrent.com": [
+        "#pw-ATF-rectangle",
+        "#pw-BTF-rectangle",
         ".code-block",
         ".fdn-interstitial-slideshow-block",
         ".KeepFreeBanner",
@@ -26639,9 +26607,6 @@
     ],
     "streamed.st": [
         "div[role=\"alert\"]"
-    ],
-    "streamfree.to": [
-        ".ad-container"
     ],
     "streami.su": [
         "div[role=\"alert\"]"
@@ -30265,9 +30230,6 @@
     "tubeoffline.com": [
         "[href*=\"://go.nordvpn.net/\"]"
     ],
-    "tuberipper.com": [
-        "div[style=\"margin: 0px -15px 30px; overflow: hidden;\"]"
-    ],
     "tuborg.com": [
         ".cbg_cp_root--hcpPp"
     ],
@@ -31321,9 +31283,6 @@
     ],
     "vogue.in": [
         ".ad"
-    ],
-    "voiranime.com": [
-        "#mg_vd"
     ],
     "volcanodiscovery.com": [
         "#supportPopup",
@@ -33725,10 +33684,6 @@
     ],
     "zoeken-op-nummer.nl": [
         "#top"
-    ],
-    "zonatmo.com": [
-        ".pbm",
-        "[style*=\"z-index:\"]"
     ],
     "zoohit.*": [
         "div[class^=\"SearchSuggestion-module_suggestionItem_\"]:has(.z-sponsored-tag)",

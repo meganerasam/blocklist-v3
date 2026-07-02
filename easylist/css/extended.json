@@ -553,6 +553,12 @@
             "type": "extended"
         }
     ],
+    "deliveroo.*": [
+        {
+            "selector": "div[class^=\"HomeFeedScrollTracker-\"]:has(span[class^=\"HomeFeedUILines-\"]:has-text(Sponsored))",
+            "type": "extended"
+        }
+    ],
     "dev.to": [
         {
             "selector": "div[data-display-unit]:has(span:has-text(Promoted))",
@@ -1344,6 +1350,10 @@
     "nextdoor.com": [
         {
             "selector": "[data-v3-view-type=\"V3Wrapper\"]:has(> [data-testid=\"feed-item-visibility-tracker\"]:has-text(Sponsored))",
+            "type": "extended"
+        },
+        {
+            "selector": "div[data-testid=\"feed-item-card\"]:has(span[class^=\"reset_\"]:has-text(А⁠d))",
             "type": "extended"
         }
     ],
