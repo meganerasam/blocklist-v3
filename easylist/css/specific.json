@@ -13843,7 +13843,9 @@
     ],
     "mangakakalot.gg": [
         "#fly_chapter_01",
-        ".ads-contain-v2"
+        ".ads-contain-v2",
+        ".pinned-ad-popular",
+        "[href^=\"https://bit.ly/\"]"
     ],
     "mangapill.com": [
         ".mx-auto.m-3.z-0"
