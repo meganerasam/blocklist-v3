@@ -19110,6 +19110,9 @@
         ".gdm-recommended-reports",
         ".sponsored"
     ],
+    "navalnews.com": [
+        ".pubLateral"
+    ],
     "navyamedia.com": [
         ".widget_text:has(> .textwidget .adsbygoogle)",
         ".wpb_single_image",
@@ -30318,6 +30321,9 @@
     "tvguide.com": [
         ".c-tvListingsSchedule_adRow",
         ".c-tvListingsSchedule_video"
+    ],
+    "tvinsider.com": [
+        ".banner-ad"
     ],
     "tvline.com": [
         "._video_ti56x_1"
