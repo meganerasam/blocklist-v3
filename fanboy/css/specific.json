@@ -4419,6 +4419,9 @@
     "news.crunchbase.com": [
         ".blog-sidebar-ad"
     ],
+    "news.exeter.ac.uk": [
+        "#scroll-up"
+    ],
     "news.ki.se": [
         "#backtotop"
     ],
