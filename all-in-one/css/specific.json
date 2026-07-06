@@ -1461,6 +1461,10 @@
     "anime-sharing.com": [
         ".samUnitWrapper"
     ],
+    "animecorner.me": [
+        ".ezoic_sidebar_advertisement_1",
+        ".ezoic_sidebar_advertisement_2"
+    ],
     "animehub.ac": [
         "#main-content > center",
         ".sb-subs"
@@ -31121,6 +31125,7 @@
     "vice.com": [
         ".adph",
         ".ai-viewport-1",
+        ".code-block",
         ".docked-slot-renderer",
         ".fixed-slot",
         ".lngtd-dynamic-rr",
@@ -33351,7 +33356,6 @@
         ".viewer-sda-container",
         "[data-content=\"Advertisement\"]",
         "[data-wf-beacons]",
-        "[style*=\"300px;\"]",
         "a[data-test-id=\"large-image-ad\"]",
         "a[href^=\"https://api.taboola.com/\"]",
         "div[class*=\"ads-\"]",
