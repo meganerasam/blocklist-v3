@@ -22862,6 +22862,9 @@
     "quantamagazine.org": [
         ".series-nav__link"
     ],
+    "quantpedia.com": [
+        "#media_image-2"
+    ],
     "queerty.com": [
         ".adb-box-large",
         ".adb-top-lb"
@@ -24459,7 +24462,8 @@
     ],
     "sacbee.com": [
         ".zone",
-        ".zone-el"
+        ".zone-el",
+        ".transparency"
     ],
     "sacobserver.com": [
         "img[width=\"300\"]"
@@ -31485,6 +31489,9 @@
         "#prod-sponsored",
         "#searchSponsoredProductContainer",
         "li.owned-brands:has(figure.sponsored)"
+    ],
+    "wallethacks.com": [
+        "#custom_html-18"
     ],
     "walletinvestor.com": [
         ".code-block",

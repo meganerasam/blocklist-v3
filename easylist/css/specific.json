@@ -18564,6 +18564,9 @@
         ".adthrive-placeholder-static-sidebar",
         ".gb-sponsored-wrapper"
     ],
+    "quantpedia.com": [
+        "#media_image-2"
+    ],
     "queerty.com": [
         ".adb-box-large",
         ".adb-top-lb"
@@ -25693,6 +25696,9 @@
         "#prod-sponsored",
         "#searchSponsoredProductContainer",
         "li.owned-brands:has(figure.sponsored)"
+    ],
+    "wallethacks.com": [
+        "#custom_html-18"
     ],
     "walletinvestor.com": [
         ".code-block",
