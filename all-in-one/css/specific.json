@@ -7864,6 +7864,9 @@
         "#spo",
         "#spo2"
     ],
+    "downloadsource.net": [
+        "[href^=\"https://amzn.to/\"]"
+    ],
     "downornot.net": [
         "div.grid > div.flex.flex-col:has([href*=\"aff_c?\"])"
     ],
