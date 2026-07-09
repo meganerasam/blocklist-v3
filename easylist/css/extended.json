@@ -437,7 +437,7 @@
             "type": "extended"
         },
         {
-            "selector": "[role=\"presentation\"]:has([data-testid=\"product-tile\"]:has-text(Sponsored))",
+            "selector": ".list-item[role=\"presentation\"]:has([data-testid=\"product-tile\"]:has-text(Sponsored))",
             "type": "extended"
         }
     ],

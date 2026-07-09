@@ -10929,6 +10929,10 @@
     "htmldog.com": [
         ".bsa_it_ad"
     ],
+    "http.dog": [
+        "a[href^=\"https://http.app/\"]",
+        "a[href^=\"https://searchbrothers.com/\"]"
+    ],
     "hubcloud.club": [
         ".ads-btns"
     ],
