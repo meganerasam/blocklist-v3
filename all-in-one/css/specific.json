@@ -1156,6 +1156,7 @@
         "a[href^=\"http://www.amazon.com/gp/product\"]"
     ],
     "amazon.*": [
+        "#desktop-ad-btf",
         "#faceoutContainer:has(> [class$=\"sponsored-label\"])",
         "#nav-swmslot",
         "#sc-rec-bottom",
@@ -1167,7 +1168,9 @@
         "#typ-recommendations-stripe-2",
         ".AdsCard_container__K6vmo",
         ".a-cardui[class*=\"_new-detail-faceout-box_\"]:has(.dynamicSponsoredLabelClass)",
+        ".ad-center",
         ".amzn-safe-frame-container",
+        ".celwidget[data-ref_$=\"displayAds\"]",
         ".dp-widget-card-deck:has([data-ad-placement-metadata])",
         ".s-result-item:has(.puis-sponsored-label-text)",
         ".s-result-item:has([data-ad-feedback-label-id])",
@@ -3210,6 +3213,7 @@
         "[href^=\"https://www.threatlocker.com/\"]",
         "[href^=\"https://ztw.com/\"]",
         "[src*=\"https://www.bleepstatic.com/c/t/threatlocker/\"]",
+        "div[style=\"width:98%; margin:0 auto; text-align:center; padding:4px; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;\"]",
         ".stackcommerce-widget"
     ],
     "blenderartists.org": [
@@ -10309,6 +10313,7 @@
     "forward.com": [
         "#middle-of-page",
         "#wp_piano_top_wrapper",
+        ".ad",
         "div.sticky-container:first-child",
         "#after-post-content-widget-wrapper",
         ".Campaign__canvas",
@@ -10623,6 +10628,7 @@
         ".midpageAdvert"
     ],
     "frzyc.github.io": [
+        ".adsbygoogle",
         ".go-ad-wrapper",
         "[alt*=\"Banner\"]"
     ],
@@ -12543,6 +12549,9 @@
     ],
     "headlineintime.com": [
         ".banner-add"
+    ],
+    "headlinesplus.com": [
+        ".aspect-video"
     ],
     "health.clevelandclinic.org": [
         ".bottom-0.fixed",
@@ -16274,6 +16283,9 @@
     "listaabonatilor.ro": [
         "#top"
     ],
+    "listdle.com": [
+        ".sponsored-card-bg"
+    ],
     "listennotes.com": [
         "#ln_homepage_banner",
         "#ln_side_banner"
@@ -16304,7 +16316,8 @@
         ".wp-block-jci-ad-area-two"
     ],
     "live-tennis.eu": [
-        ".copyright"
+        ".copyright",
+        ".mbad"
     ],
     "live94today.com": [
         ".js-demo-avd"
@@ -21740,7 +21753,8 @@
         ".HeaderAdArea__HeaderAdContainer-sc-1lqw6d0-0"
     ],
     "play.typeracer.com": [
-        ".newNorthWidget"
+        ".newNorthWidget",
+        "td:has(> .newEastWidget)"
     ],
     "play.usatoday.com": [
         ".zdFVI1__zdFVI1"
@@ -22176,6 +22190,9 @@
     ],
     "precinctreporter.com": [
         ".widget_custom_html"
+    ],
+    "predb.net": [
+        ".lambo-wrapper"
     ],
     "premier.org.uk": [
         ".advertising"
@@ -26387,11 +26404,13 @@
         ".pub-container"
     ],
     "startpage.com": [
+        "#main > div:not([class], [id]):has(> div[class^=\"css-\"] > .pa-amp)",
         ".a-bg-result",
         ".css-1j5r2ie",
         ".pa-bg",
         ".pa-bg + section",
         "a[href^=\"https://ww44.affinity.net/\"]",
+        "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"M2.31179\"])",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"m6.07067\"])",
         "div[style=\"display: block; padding: 12px; margin: 0px 0px 10px; border-radius: 4px; border: 1px solid rgb(59, 67, 91);\"]",
         "#block-display",
@@ -26401,11 +26420,13 @@
         ".widget-install-legacy"
     ],
     "startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion": [
+        "#main > div:not([class], [id]):has(> div[class^=\"css-\"] > .pa-amp)",
         ".a-bg-result",
         ".css-1j5r2ie",
         ".pa-bg",
         ".pa-bg + section",
         "a[href^=\"https://ww44.affinity.net/\"]",
+        "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"M2.31179\"])",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"m6.07067\"])",
         "div[style=\"display: block; padding: 12px; margin: 0px 0px 10px; border-radius: 4px; border: 1px solid rgb(59, 67, 91);\"]",
         "#block-display",
@@ -27005,6 +27026,9 @@
         "div[class*=\"-adInner\"]",
         "div[data-resultid]:has(a.IZSg-adlink)",
         "div[id^=\"inline-\"]"
+    ],
+    "swooon.com": [
+        ".advert-holder"
     ],
     "swordscomic.com": [
         ".dialog-invitation"
@@ -30349,7 +30373,8 @@
         ".c-tvListingsSchedule_video"
     ],
     "tvinsider.com": [
-        ".banner-ad"
+        ".banner-ad",
+        ".inline-promo"
     ],
     "tvline.com": [
         "._video_ti56x_1"
@@ -30857,6 +30882,9 @@
         "#acm-ad-tag-lawrence_dfp_desktop_arkadium_after_share",
         ".affiliate-widget-wrapper",
         ".feedback"
+    ],
+    "usdoku.com": [
+        "[id^=\"usdoku-com_\"]"
     ],
     "usedcarnews.com": [
         ".bannergroup",

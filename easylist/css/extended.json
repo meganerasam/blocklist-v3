@@ -317,6 +317,14 @@
     ],
     "bleepingcomputer.com": [
         {
+            "selector": ".cz-line-heading:has-text(Sponsor Posts)",
+            "type": "extended"
+        },
+        {
+            "selector": ".cz-line-heading:has-text(Sponsor Posts) + ul[style=\"padding-top:5px;\"]",
+            "type": "extended"
+        },
+        {
             "selector": ".post_wrap:has-text(AdBot)",
             "type": "extended"
         },
