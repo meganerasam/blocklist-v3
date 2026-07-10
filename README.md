@@ -31,6 +31,20 @@ It contains four subfolders:
 
 ---
 
+## 🛡️ Do-Not-Block Whitelist
+
+`all-in-one/generate_all.php` fetches a list of protected domains from
+[whitelist-domains/whitelistes3.txt](https://raw.githubusercontent.com/meganerasam/whitelist-domains/refs/heads/master/whitelistes3.txt)
+and guarantees none of them can be matched by a block rule in the merged output. This is **not** an allow list — no allow rules are created. Instead (logic in `all-in-one/scrub_whitelist.php`):
+
+*   Whitelisted domains (and their subdomains) are **removed** from `requestDomains` batches; rules left empty are dropped.
+*   `urlFilter` rules anchored on a whitelisted domain (`||domain^...`) are dropped.
+*   If a rule blocks a *parent* of a whitelisted domain, the parent stays blocked but the whitelisted domain is carved out via `excludedRequestDomains`.
+
+If the whitelist cannot be downloaded, the merge aborts so a stale/unscrubbed list is never published. The per-category folders (`adult/`, `easylist/`, ...) are left untouched; the scrub happens at merge time, so both `all-in-one/block/` and `all-in-one/merged-dnr/` outputs are always clean.
+
+---
+
 ## 🚀 How to Add a New Source
 
 If you find a new blocklist or whitelist source that you want to include in the project, follow these steps:
