@@ -551,6 +551,9 @@
     "avtoradio.ru": [
         ".rss"
     ],
+    "awardswatch.com": [
+        "#scroll-up"
+    ],
     "azernews.az": [
         "#btn-up"
     ],
@@ -2749,6 +2752,9 @@
     "hiclipart.com": [
         "#scrolltop"
     ],
+    "highonfilms.com": [
+        "#kt-scroll-up"
+    ],
     "hindawi.com": [
         ".advWrapper"
     ],
@@ -4125,8 +4131,10 @@
         ".widget"
     ],
     "motherless.com": [
-        ".media-action-networks",
         ".page-to-top-link-wrapper"
+    ],
+    "motherless.xxx": [
+        ".media-action-networks"
     ],
     "motociclismo.it": [
         ".top"
@@ -4410,6 +4418,9 @@
     ],
     "news.crunchbase.com": [
         ".blog-sidebar-ad"
+    ],
+    "news.exeter.ac.uk": [
+        "#scroll-up"
     ],
     "news.ki.se": [
         "#backtotop"
@@ -5477,6 +5488,9 @@
     ],
     "sabcnews.com": [
         "#floating-nextprev"
+    ],
+    "sacbee.com": [
+        ".transparency"
     ],
     "sacurrent.com": [
         ".KeepFreeBanner",
@@ -7269,7 +7283,8 @@
         ".has-promo"
     ],
     "windowslatest.com": [
-        ".support-dropdown-wrapper"
+        ".support-dropdown-wrapper",
+        ".wl-support-box"
     ],
     "winnipegsun.com": [
         ".asset-paging-container"

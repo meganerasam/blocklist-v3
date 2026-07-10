@@ -317,6 +317,14 @@
     ],
     "bleepingcomputer.com": [
         {
+            "selector": ".cz-line-heading:has-text(Sponsor Posts)",
+            "type": "extended"
+        },
+        {
+            "selector": ".cz-line-heading:has-text(Sponsor Posts) + ul[style=\"padding-top:5px;\"]",
+            "type": "extended"
+        },
+        {
             "selector": ".post_wrap:has-text(AdBot)",
             "type": "extended"
         },
@@ -437,7 +445,7 @@
             "type": "extended"
         },
         {
-            "selector": "[role=\"presentation\"]:has([data-testid=\"product-tile\"]:has-text(Sponsored))",
+            "selector": ".list-item[role=\"presentation\"]:has([data-testid=\"product-tile\"]:has-text(Sponsored))",
             "type": "extended"
         }
     ],
@@ -550,6 +558,12 @@
     "defkey.com": [
         {
             "selector": ".visible-lg:has-text(Advertisement)",
+            "type": "extended"
+        }
+    ],
+    "deliveroo.*": [
+        {
+            "selector": "div[class^=\"HomeFeedScrollTracker-\"]:has(span[class^=\"HomeFeedUILines-\"]:has-text(Sponsored))",
             "type": "extended"
         }
     ],
@@ -748,6 +762,10 @@
         }
     ],
     "gamepadla.com": [
+        {
+            "selector": ".pMain:has(div:-abp-properties(Partner))",
+            "type": "extended"
+        },
         {
             "selector": ".sliderBlock:has-text(ADS)",
             "type": "extended"
@@ -1340,6 +1358,10 @@
     "nextdoor.com": [
         {
             "selector": "[data-v3-view-type=\"V3Wrapper\"]:has(> [data-testid=\"feed-item-visibility-tracker\"]:has-text(Sponsored))",
+            "type": "extended"
+        },
+        {
+            "selector": "div[data-testid=\"feed-item-card\"]:has(span[class^=\"reset_\"]:has-text(А⁠d))",
             "type": "extended"
         }
     ],
