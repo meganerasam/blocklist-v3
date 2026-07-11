@@ -934,8 +934,6 @@
         "#similarities_feature_div:has(span.sponsored_label_tap_space)",
         "#sponsoredProducts2_feature_div",
         "#sponsoredProducts_feature_div",
-        "#typ-recommendations-stripe-1",
-        "#typ-recommendations-stripe-2",
         ".AdsCard_container__K6vmo",
         ".a-cardui[class*=\"_new-detail-faceout-box_\"]:has(.dynamicSponsoredLabelClass)",
         ".ad-center",
@@ -978,6 +976,7 @@
         "div[data-csa-c-slot-id^=\"loom-mobile-top-slot_hsa-id-\"]",
         "div[id^=\"sims-simsContainer_feature_div_\"]:has(.sp_info_link)",
         "div[id^=\"sp_detail\"]",
+        "li[role=\"listitem\"]:has(.hybrid-widget-sponsored-label)",
         "span[cel_widget_id^=\"MAIN-FEATURED_ASINS_LIST-\"]",
         "span[cel_widget_id^=\"MAIN-loom-desktop-brand-footer-slot_hsa-id-CARDS-\"]",
         "span[cel_widget_id^=\"MAIN-loom-desktop-top-slot_hsa-id-CARDS-\"]"
@@ -3865,6 +3864,7 @@
     "chatgpt.com": [
         ".border-token-border-default.mt-2.border-t:has(button[aria-label=\"Ad options\"])",
         "[data-testid=\"bazaar-v2-elevated-box\"]:has([data-ad-card-root=\"true\"])",
+        "div.opacity-100.transition-opacity.ease-out:has(button[aria-label=\"Sponsored options\"], button[aria-label=\"Ad options\"])",
         "div[data-assistant-ads]"
     ],
     "chatnewstoday.ca": [
@@ -6446,6 +6446,8 @@
         ".ya-slot"
     ],
     "dribbble.com": [
+        ".resume-user-card:has(.user-card-profile__highlighted-trigger)",
+        ".service-result:has(.service-result__highlighted-trigger)",
         ".service-result:has([data-promoted-badge])",
         "[data-ad-data*=\"ad_link\"]",
         "drb-infinite-scroll .service-result:has(drb-tooltip[data-featured-badge])",
@@ -17364,7 +17366,8 @@
         "[data-testid=\"column\"] [data-testid=\"item\"]:has([data-title*=\"Sponsored\"])",
         "[data-testid=\"column\"] [data-testid=\"item\"]:has(a[rel*=\"sponsored\"])",
         "div[class=\"RowItem_gridItem__OfhML RowItem_fullWidth__cIdtN RowItem_expand__TR5R6\"]",
-        "div[class^=\"FullWidth_container_\"]:has(a[rel=\"sponsored noopener\"])"
+        "div[class^=\"FullWidth_container_\"]:has(a[rel=\"sponsored noopener\"])",
+        "div[data-testid=\"item\"]:has(a[href^=\"https://www.pexels.com/g/\"])"
     ],
     "pgatour.com": [
         ".css-18v0in8",
@@ -17581,6 +17584,7 @@
         "div[class^=\"adSponsoredMediaContainer-\"]",
         "div[class^=\"cell--\"]:has(button[aria-label=\"About this advertiser\"])",
         "div[class^=\"mrxz\"]:has(button[aria-label=\"About this advertiser\"])",
+        "div[class^=\"sponsorMediaContainer\"]",
         "div[class^=\"sponsoredSection-\"]"
     ],
     "pixhost.to": [
@@ -25609,6 +25613,9 @@
     "vortexscans.org": [
         "a[href*=\"https://toffee.ai/\"]",
         "img[alt*=\"Advertisement\"]"
+    ],
+    "votebeat.org": [
+        ".b-ads-block"
     ],
     "vox.com": [
         ".dfp-ad--connatix",

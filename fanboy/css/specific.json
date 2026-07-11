@@ -279,6 +279,8 @@
     ],
     "amazon.*": [
         "#desktop-banner",
+        "#typ-recommendations-stripe-1",
+        "#typ-recommendations-stripe-2",
         ".maple-banner"
     ],
     "amazon.ae": [
@@ -7049,6 +7051,9 @@
     ],
     "voopoo.com": [
         "#warning-message"
+    ],
+    "votebeat.org": [
+        ".GenericPagePromoModule"
     ],
     "vov.vn": [
         "#backToTop"

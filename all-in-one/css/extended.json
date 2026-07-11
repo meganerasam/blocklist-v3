@@ -603,6 +603,10 @@
     ],
     "deliveroo.*": [
         {
+            "selector": "a[role=\"button\"]:has(p:has-text(Sponsored))",
+            "type": "extended"
+        },
+        {
             "selector": "div[class^=\"HomeFeedScrollTracker-\"]:has(span[class^=\"HomeFeedUILines-\"]:has-text(Sponsored))",
             "type": "extended"
         }
