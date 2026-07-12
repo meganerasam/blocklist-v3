@@ -62755,5 +62755,18 @@
             ],
             "urlFilter": "||curos.ca/res/*/resources/scripts/lib/fingerprint.js"
         }
+    },
+    {
+        "id": 6143,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "script"
+            ],
+            "urlFilter": "||abs.twimg.com/responsive-web/client-web/main."
+        }
     }
 ]
