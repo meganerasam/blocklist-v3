@@ -5780,6 +5780,7 @@
                 "airtelxstream.in",
                 "danet.vn",
                 "einthusan.tv",
+                "sonyliv.com",
                 "spotify.com"
             ],
             "urlFilter": "||imasdk.googleapis.com/js/core/bridge*.html"

@@ -17048,6 +17048,21 @@
             "type": "block"
         },
         "condition": {
+            "resourceTypes": [
+                "font",
+                "image",
+                "main_frame",
+                "media",
+                "object",
+                "other",
+                "ping",
+                "script",
+                "stylesheet",
+                "sub_frame",
+                "webbundle",
+                "websocket",
+                "webtransport"
+            ],
             "urlFilter": "/outbrain.js"
         }
     },
@@ -24020,6 +24035,21 @@
             "type": "block"
         },
         "condition": {
+            "resourceTypes": [
+                "font",
+                "image",
+                "main_frame",
+                "media",
+                "object",
+                "other",
+                "ping",
+                "script",
+                "stylesheet",
+                "sub_frame",
+                "webbundle",
+                "websocket",
+                "webtransport"
+            ],
             "urlFilter": "/taboola.js"
         }
     },

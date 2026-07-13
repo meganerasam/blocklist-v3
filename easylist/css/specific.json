@@ -2034,6 +2034,9 @@
         "[data-concert=\"desktop_leaderboard_variable\"]",
         "[data-concert=\"leaderboard_top_tablet_desktop\"]"
     ],
+    "barcelonadestinations.com": [
+        "#homead"
+    ],
     "barchart.com": [
         "#bc-cnx-player",
         ".ad",
@@ -7608,6 +7611,12 @@
         "#sellwyld",
         ".top_right_container"
     ],
+    "farmads.co.uk": [
+        "#homead"
+    ],
+    "farmersguide.co.uk": [
+        "#homead"
+    ],
     "farmersjournal.ie": [
         "#farmersmarket-embed-code",
         ".gadvertisementheader",
@@ -10790,6 +10799,9 @@
     "hondaforum.com": [
         "#sidetilewidth",
         "aside > center"
+    ],
+    "honeybeekeeping.co.uk": [
+        "#homead"
     ],
     "hongkongfp.com": [
         "#custom_html-6"
@@ -24276,6 +24288,9 @@
         "#sp-feature",
         "#sp-right",
         "[href=\"http://roz-tilefona.xbomb.net/\"]"
+    ],
+    "towindustryweek.com": [
+        "#homead"
     ],
     "towleroad.com": [
         ".towletarget"
