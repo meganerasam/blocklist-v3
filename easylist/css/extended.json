@@ -321,7 +321,7 @@
             "type": "extended"
         },
         {
-            "selector": ".cz-line-heading:has-text(Sponsor Posts) + ul[style=\"padding-top:5px;\"]",
+            "selector": ".cz-line-heading:has-text(Sponsor Posts) + ul",
             "type": "extended"
         },
         {

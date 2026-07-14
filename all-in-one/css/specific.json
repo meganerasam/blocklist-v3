@@ -23037,6 +23037,7 @@
     ],
     "radio.net": [
         "#headerTopBar ~ div > div:has(div#RAD_D_station_top)",
+        "#sticky-reklame-header",
         ".lg\\:h-\\[270px\\]",
         ".min-h-\\[250px\\]",
         ".my-\\[5px\\].mx-auto.w-full.hidden.md\\:flex.md\\:min-h-\\[90px\\].lg\\:min-h-\\[250px\\].items-center.justify-center",
@@ -33638,6 +33639,7 @@
         ".ytd-watch-flexy > .ytd-watch-next-secondary-results-renderer > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer",
         ".ytd-watch-flexy > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer",
         ".ytp-suggested-action > .ytp-suggested-action-badge",
+        "yt-overlay-product-sticker",
         "ytd-item-section-renderer > .ytd-item-section-renderer > ytd-ad-slot-renderer.style-scope",
         "ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)",
         "#yt-feedback",
