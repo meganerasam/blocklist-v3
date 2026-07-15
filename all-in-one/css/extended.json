@@ -1925,16 +1925,6 @@
             "type": "extended"
         }
     ],
-    "startuphub.ai": [
-        {
-            "selector": ".duration-700.bg-card:has-text(Partner)",
-            "type": "extended"
-        },
-        {
-            "selector": ".group.block:has-text(Partner)",
-            "type": "extended"
-        }
-    ],
     "stocktwits.com": [
         {
             "selector": ".is-visible:has-text(Remove ads)",

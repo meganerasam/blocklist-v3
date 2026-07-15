@@ -2906,6 +2906,9 @@
         ".ai_widget",
         ".code-block"
     ],
+    "boxingnewsonline.net": [
+        "[ad-slot]"
+    ],
     "boxofficemojo.com": [
         ".slot_wrapper"
     ],
@@ -21577,6 +21580,9 @@
     "startup.ch": [
         ".smallbanner"
     ],
+    "startuphub.ai": [
+        "a[href*=\"/go/\"]"
+    ],
     "statenews.com": [
         ".ad"
     ],
@@ -24869,7 +24875,9 @@
         "[rel*=\"sponsored\"]"
     ],
     "twitch.tv": [
+        ".online-video-ad-container",
         ".stream-display-ad__wrapper",
+        "[data-a-target=\"outstream-ax-overlay\"]",
         "[data-test-selector=\"sda-wrapper\"]",
         "button[aria-label=\"Learn more about this ad\"]"
     ],
