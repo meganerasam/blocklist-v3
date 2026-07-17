@@ -1229,7 +1229,8 @@
     ],
     "apkcombo.com": [
         ".calc-container",
-        ".diseanmevrtt"
+        ".diseanmevrtt",
+        "[style=\"margin-bottom: 10px; max-height: 260px; min-height: 260px; overflow: hidden\"]"
     ],
     "apkdone.com": [
         "div[style^=\"height:250px\"]"
@@ -3870,6 +3871,7 @@
     "chatgpt.com": [
         ".border-token-border-default.mt-2.border-t:has(button[aria-label=\"Ad options\"])",
         "[data-testid=\"bazaar-v2-elevated-box\"]:has([data-ad-card-root=\"true\"])",
+        "[data-testid=\"bazaar-v2-elevated-box\"]:has([data-testid=\"image-card-v2-elevated-disclosure\"])",
         "div.opacity-100.transition-opacity.ease-out:has(button[aria-label=\"Sponsored options\"], button[aria-label=\"Ad options\"])",
         "div[data-assistant-ads]"
     ],
@@ -8027,7 +8029,8 @@
         "#sb-site > .hidden-xs.container",
         ".bannerdiv_twopage",
         ".forsideboks2",
-        "[data-aa-adunit]"
+        "[data-aa-adunit]",
+        "[data-onpage=\"true\"]"
     ],
     "flatpickerhangout.com": [
         ".premiere-sponsors"
@@ -17621,12 +17624,15 @@
         ".gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [id^=\"adsdk-\"])",
         ".list-none:has(> div > [id^=\"adsdk\"])",
         "[data-gtm-recommend-zone=\"index\"] li:has(> div > iframe[name$=\"rectangle\"])",
+        "[style=\"display: block; width: 100%; height: 520px;\"]",
+        "div[class^=\"sc-\"]:has(> [style^=\"display\"][style*=\"468px;\"][style*=\"60px\"])",
         "div[id^=\"adsdk-\"]",
         "div[style=\"font-size: 0px;\"] a[target=\"premium_noads\"]",
         "div[style=\"height: 540px; opacity: 1;\"]",
         "iframe[height=\"300\"][name=\"responsive\"]",
         "iframe[height=\"520\"][name=\"expandedFooter\"]",
-        "iframe[width=\"300\"][height=\"250\"]"
+        "iframe[width=\"300\"][height=\"250\"]",
+        "li.overflow-hidden:has(> .pt-0 > [style=\"display: block; width: 300px; height: 250px;\"])"
     ],
     "pixnoy.com": [
         ".as-bar"
