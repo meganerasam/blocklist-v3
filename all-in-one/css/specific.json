@@ -3952,6 +3952,7 @@
         ".rail-container:has(> .ad-label)",
         ".rail.has-video-ad",
         ".right-rail-min-height-250",
+        ".with-markets-insider-banner",
         ".targeted-recommended"
     ],
     "businessmirror.com.ph": [
@@ -10877,7 +10878,8 @@
     ],
     "gamepadla.com": [
         ".pMain:has(div[class^=\"asd_\"])",
-        ".pMain:has(div[title=\"Partner placement\"])"
+        ".pMain:has(div[title=\"Partner placement\"])",
+        "a[href^=\"https://www.amazon.com/\"] + div + picture"
     ],
     "gamepix.com": [
         "div[id^=\"gpx-banner\"]"
@@ -20417,6 +20419,7 @@
         "bam-promotion-list"
     ],
     "oilprice.com": [
+        ".banner--header_mobile",
         ".banner--inPage",
         ".dianomi_context",
         ".JoinCommunityBtnContainer"
@@ -21710,6 +21713,8 @@
         ".list-none:has(> div > [id^=\"adsdk\"])",
         "[data-gtm-recommend-zone=\"index\"] li:has(> div > iframe[name$=\"rectangle\"])",
         "[style=\"display: block; width: 100%; height: 520px;\"]",
+        "[style=\"display: block; width: 300px; height: 250px;\"]",
+        "[style^=\"display: block; width: 100%; height\"]:has(> iframe[data-uid])",
         "div[class^=\"sc-\"]:has(> [style^=\"display\"][style*=\"468px;\"][style*=\"60px\"])",
         "div[id^=\"adsdk-\"]",
         "div[style=\"font-size: 0px;\"] a[target=\"premium_noads\"]",
@@ -30252,6 +30257,7 @@
         "#mpu-2",
         "#mpu-3",
         ".ad-wrap",
+        ".dyn-lb",
         ".lb_holder",
         ".nn_player",
         ".vr-auction"

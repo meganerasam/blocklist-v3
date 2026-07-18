@@ -767,7 +767,7 @@
     ],
     "gamepadla.com": [
         {
-            "selector": ".pMain:has(div:-abp-properties(Partner))",
+            "selector": ".pMain:has-text(Partner)",
             "type": "extended"
         },
         {
@@ -775,7 +775,7 @@
             "type": "extended"
         },
         {
-            "selector": ".pMain:has-text(Partner)",
+            "selector": ".pMain:has(div:-abp-properties(Partner))",
             "type": "extended"
         }
     ],
