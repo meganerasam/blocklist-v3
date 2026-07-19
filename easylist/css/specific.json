@@ -976,6 +976,7 @@
         "div[data-csa-c-slot-id^=\"loom-mobile-top-slot_hsa-id-\"]",
         "div[id^=\"sims-simsContainer_feature_div_\"]:has(.sp_info_link)",
         "div[id^=\"sp_detail\"]",
+        "div[id^=\"typ-recommendations-stripe-\"]:has(div[data-is-sponsored-label-active=\"true\"])",
         "li[role=\"listitem\"]:has(.hybrid-widget-sponsored-label)",
         "span[cel_widget_id^=\"MAIN-FEATURED_ASINS_LIST-\"]",
         "span[cel_widget_id^=\"MAIN-loom-desktop-brand-footer-slot_hsa-id-CARDS-\"]",
@@ -2609,7 +2610,8 @@
         "[href^=\"https://www.threatlocker.com/\"]",
         "[href^=\"https://ztw.com/\"]",
         "[src*=\"https://www.bleepstatic.com/c/t/threatlocker/\"]",
-        "div[style=\"width:98%; margin:0 auto; text-align:center; padding:4px; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;\"]"
+        "div[style=\"width:98%; margin:0 auto; text-align:center; padding:4px; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;\"]",
+        "div[style=\"width:98%; margin:0 auto; text-align:center; padding:5px; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;\"]"
     ],
     "blenderartists.org": [
         "#friends"
@@ -17624,11 +17626,16 @@
         ".ad-footer",
         ".ad-frame-container",
         ".ad-mobile-anchor",
-        ".gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [id^=\"adsdk-\"])",
-        ".list-none:has(> div > [id^=\"adsdk\"])",
+        ".grid-flow-dense > .aspect-square.overflow-hidden",
+        ".grid-flow-dense > div:has(> [style=\"display: block; width: 184px; height: 232px;\"] > iframe)",
+        ".gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [style=\"display: block; width: 300px; height: 250px;\"])",
+        ".gtm-toppage-thumbnail-manga-recommend-works-zone li:has(> [style=\"display: block; width: 184px; height: 232px;\"])",
         "[data-gtm-recommend-zone=\"index\"] li:has(> div > iframe[name$=\"rectangle\"])",
+        "[span=\"1\"]:has(> div > div > div[style=\"display: block; width: 100%; height: 434px;\"])",
+        "[style=\"display: block; height: 345px; width: 500px;\"]",
         "[style=\"display: block; width: 100%; height: 520px;\"]",
         "[style=\"display: block; width: 300px; height: 250px;\"]",
+        "[style=\"margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;\"]",
         "[style^=\"display: block; width: 100%; height\"]:has(> iframe[data-uid])",
         "div[class^=\"sc-\"]:has(> [style^=\"display\"][style*=\"468px;\"][style*=\"60px\"])",
         "div[id^=\"adsdk-\"]",
@@ -17637,7 +17644,8 @@
         "iframe[height=\"300\"][name=\"responsive\"]",
         "iframe[height=\"520\"][name=\"expandedFooter\"]",
         "iframe[width=\"300\"][height=\"250\"]",
-        "li.overflow-hidden:has(> .pt-0 > [style=\"display: block; width: 300px; height: 250px;\"])"
+        "li.overflow-hidden:has(> .pt-0 > [style=\"display: block; width: 300px; height: 250px;\"])",
+        "section:has(> div > div > iframe[name=\"illusttop_appeal\"])"
     ],
     "pixnoy.com": [
         ".as-bar"

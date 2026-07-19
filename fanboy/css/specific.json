@@ -279,8 +279,6 @@
     ],
     "amazon.*": [
         "#desktop-banner",
-        "#typ-recommendations-stripe-1",
-        "#typ-recommendations-stripe-2",
         ".maple-banner"
     ],
     "amazon.ae": [
