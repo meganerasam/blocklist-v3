@@ -2840,6 +2840,9 @@
     "houzz.com": [
         "#hzScrollTop"
     ],
+    "hp.com": [
+        ".scrollUpButton"
+    ],
     "hr-bigband.de": [
         ".toplink"
     ],
@@ -6155,6 +6158,7 @@
         ".button-scroll-top"
     ],
     "tech.hindustantimes.com": [
+        "#affiliate-pl-story-banner",
         ".entryPointBanner"
     ],
     "tech4gamers.com": [

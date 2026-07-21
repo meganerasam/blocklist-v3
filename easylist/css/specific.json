@@ -1078,7 +1078,8 @@
     ],
     "androidcentral.com": [
         ".hawk-multi-model-review-container",
-        ".sponsored-card"
+        ".sponsored-card",
+        ".vid-present"
     ],
     "androidcommunity.com": [
         ".td-header-rec-wrap"
@@ -3874,8 +3875,7 @@
     "chatgpt.com": [
         ".border-token-border-default.mt-2.border-t:has(button[aria-label=\"Ad options\"])",
         "[class*=\"_assistantAds\"]",
-        "[data-testid=\"bazaar-v2-elevated-box\"]:has([data-ad-card-root=\"true\"])",
-        "[data-testid=\"bazaar-v2-elevated-box\"]:has([data-testid=\"image-card-v2-elevated-disclosure\"])",
+        "[data-testid=\"bazaar-v2-elevated-box\"]",
         "div.opacity-100.transition-opacity.ease-out:has(button[aria-label=\"Sponsored options\"], button[aria-label=\"Ad options\"])",
         "div[data-assistant-ads]"
     ],
@@ -16279,6 +16279,9 @@
     "nogomania.com": [
         "div[data-ocm-ad]"
     ],
+    "nokiapoweruser.com": [
+        ".code-block"
+    ],
     "nondoc.com": [
         ".g"
     ],
@@ -16568,6 +16571,9 @@
     ],
     "ocregister.com": [
         ".advertising"
+    ],
+    "octavestreaming.com": [
+        "[href^=\"https://cloakgpt.ca\"]"
     ],
     "odditycentral.com": [
         "#add_160x600"
@@ -20897,6 +20903,7 @@
     ],
     "slashgear.com": [
         ".before-ad",
+        ".linked-image-holder",
         ".recommended-heading"
     ],
     "slaynews.com": [
@@ -22260,6 +22267,7 @@
         ".vc_col-sm-4"
     ],
     "tech.hindustantimes.com": [
+        "#affiliate-pl-story-banner",
         ".ProductAffilateWrapper",
         ".adsHeight720x90",
         ".amazonWidget",
@@ -22416,7 +22424,10 @@
         "#bottom-footer-fixed-slot",
         "#leader-bottom",
         "#leader-plus-top",
-        "#nav-ad"
+        "#nav-ad",
+        ".ad-container",
+        "[data-ad-slot]",
+        "sticky-footer-ad"
     ],
     "techrounder.com": [
         "#footerFixBanner",
@@ -24152,7 +24163,7 @@
         ".hawk-base",
         ".hawk-main-editorialised",
         ".hawk-master-widget-hawk-main-wrapper",
-        ".hawk-processed",
+        ".hawk-root",
         ".sponsored-card",
         ".vid-present",
         "div[class*=\"ad-unit\"]"
