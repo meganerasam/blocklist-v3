@@ -922,11 +922,14 @@
     "alibaba.com": [
         ".creative-dot-wrapper",
         ".gallery-card:has(.searchx-card-e-ad)",
+        ".gallery-card[data-aplus-auto-offer*=\"&is_ad=true\"]",
         ".is-creative",
         ".list-card:has([data-role=\"ad-area\"])",
         ".searchx-offer-item[data-aplus-auto-offer*=\"ad_adgroup_toprank\"]",
         "[id^=\"sse-fluent-wending\"]:has(.creative-ad-tag)",
-        "a[campaignid][target=\"_blank\"]"
+        "a[campaignid][target=\"_blank\"]",
+        "div[data-search-floor^=\"area=wending&\"]",
+        "div[data-spm=\"wending-bottom\"]"
     ],
     "aliexpress.com": [
         "a[class^=\"manhattan--container--\"][class*=\"main--card--\"]:has(span[style=\"background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px\"])",
@@ -1121,6 +1124,7 @@
         ".AdsenseAd-module-scss-module__6YBNDG__adLeaderboard",
         ".AdsenseAd-module-scss-module__6YBNDG__adRectangle",
         ".bannerLink",
+        "[aria-label=\"Official partner\"]",
         "div[data-testid=\"adsense-wrapper\"]",
         "div[style=\"min-height: 280px;\"]",
         "div[style=\"min-height:280px\"]"
@@ -4735,7 +4739,8 @@
         "[class*=\"_assistantAds\"]",
         "[data-testid=\"bazaar-v2-elevated-box\"]",
         "div.opacity-100.transition-opacity.ease-out:has(button[aria-label=\"Sponsored options\"], button[aria-label=\"Ad options\"])",
-        "div[data-assistant-ads]"
+        "div[data-assistant-ads]",
+        "div[data-message-supplement]:has(aside[data-partial-island=\"assistant-ads\"])"
     ],
     "chatnewstoday.ca": [
         "#banner-header",
@@ -22593,7 +22598,8 @@
         ".google"
     ],
     "psprices.com": [
-        ".base-banners"
+        ".base-banners",
+        ".creative"
     ],
     "pstream.org": [
         ".group > .border-buttons-purple:has(> button[aria-label=\"Dismiss ad\"])"
