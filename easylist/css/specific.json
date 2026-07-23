@@ -6295,6 +6295,7 @@
     "doordash.com": [
         ".carousel-virtual-wrapper:has([href*=\"collection_type=sponsored_brand\"])",
         ".ccdtLs:has([data-testid=\"sponsored:Sponsored\"])",
+        ".hDHYLH.sc-bd87b8a6-0",
         "div:has(> a[data-anchor-id=\"SponsoredStoreCard\"])"
     ],
     "dormtherapy.com": [
@@ -8852,9 +8853,6 @@
         "#fxs-sposorBroker-topBanner",
         ".fxs_leaderboard"
     ],
-    "fylio.com": [
-        "div[data-slot]"
-    ],
     "g.doubleclick.net": [
         "#ads"
     ],
@@ -10427,6 +10425,9 @@
     "healthday.com": [
         ".aside-collection-ad-slot"
     ],
+    "healthgrades.com": [
+        "[data-qa-target=\"leaderboard-ad\"]"
+    ],
     "healthinfo.healthengine.com.au": [
         ".code-block"
     ],
@@ -11697,7 +11698,9 @@
         "div[data-test=\"ad-slot-visible\"]"
     ],
     "investmentnews.com": [
-        ".advertisement"
+        ".advertisement",
+        ".top-down-list--sponsored",
+        "[class^=\"ad-wrapper\"]"
     ],
     "investmentweek.co.uk": [
         ".bhide-768"
