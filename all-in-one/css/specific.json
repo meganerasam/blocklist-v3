@@ -15019,6 +15019,7 @@
         "div[class$=\"-result-item-container\"]:has(div[class$=\"-ad-badge\"])",
         "div[class*=\"-ad-card\"]",
         "div[class*=\"-adInner\"]",
+        "div[class*=\"-sponsored-result\"]",
         "div[data-resultid$=\"-sponsored\"]",
         "div[data-resultid]:has(a.IZSg-adlink)",
         "div[id^=\"inline-\"]",
