@@ -2165,7 +2165,6 @@
         },
         "condition": {
             "resourceTypes": [
-                "main_frame",
                 "sub_frame"
             ],
             "initiatorDomains": [
@@ -14799,6 +14798,7 @@
                 "herculesstands.com",
                 "hobbyhall.fi",
                 "hobbystock.jp",
+                "hokkaido-np.co.jp",
                 "homeinspector.org",
                 "hostingvergelijker.nl",
                 "hotelfountaingate.com.au",

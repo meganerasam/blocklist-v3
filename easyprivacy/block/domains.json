@@ -37765,6 +37765,7 @@
                 "fishingtoolsbox.com",
                 "fjordsand.com",
                 "fontserif.com",
+                "funtoyplanet.com",
                 "glasscoyote.com",
                 "goddesslamps.com",
                 "hop.clickbank.net",
@@ -37915,26 +37916,6 @@
         },
         "condition": {
             "resourceTypes": [
-                "image"
-            ],
-            "domainType": "thirdParty",
-            "requestDomains": [
-                "klarnaservices.com",
-                "newsletters.nationalgeographic.com",
-                "slidedeck.com",
-                "trib.al",
-                "urldefense.com"
-            ]
-        }
-    },
-    {
-        "id": 16,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "resourceTypes": [
                 "ping"
             ],
             "requestDomains": [
@@ -37952,7 +37933,7 @@
         }
     },
     {
-        "id": 17,
+        "id": 16,
         "priority": 1,
         "action": {
             "type": "block"
@@ -37964,6 +37945,25 @@
             ],
             "requestDomains": [
                 "m.stripe.com"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "image"
+            ],
+            "domainType": "thirdParty",
+            "requestDomains": [
+                "newsletters.nationalgeographic.com",
+                "slidedeck.com",
+                "trib.al",
+                "urldefense.com"
             ]
         }
     },

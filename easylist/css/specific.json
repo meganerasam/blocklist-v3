@@ -2180,6 +2180,10 @@
     "beckershospitalreview.com": [
         ".moduletable > .becker_doubleclick"
     ],
+    "becleverwithyourcash.com": [
+        ".in-post-ad-wrapper",
+        ".sidebar-ad-section"
+    ],
     "bedbathandbeyond.com": [
         "[data-testid=\"newArrivals\"]",
         "[data-testid=\"ospRecommendations\"]",
@@ -4308,10 +4312,10 @@
         ".samBannerUnit"
     ],
     "clutchpoints.com": [
-        ".RzKEf",
         ".cafemedia-clutchpoints-header",
         ".ehgtMe.sc-ed3f1eaf-1",
-        ".hYrQwu"
+        ".hYrQwu",
+        ".overflow-x-hidden.text-center.my-2\\.5"
     ],
     "cmr24.net": [
         ".ne-banner-layout1"
@@ -5387,6 +5391,10 @@
         ".sidebar-box",
         ".site-top-ad-desktop",
         ".story-ad-horizontal"
+    ],
+    "dailydispatch.co.za": [
+        ".b-ads-block",
+        ".right-rail__ad"
     ],
     "dailydooh.com": [
         "#leaddiv",
@@ -13441,6 +13449,7 @@
     ],
     "livescore.com": [
         "#ad-holder-gad-news-article-item",
+        ".Qh",
         "div[class^=\"HeaderAdsHolder_\"]"
     ],
     "livescore.in": [
