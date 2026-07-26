@@ -12138,6 +12138,7 @@
                 "script"
             ],
             "initiatorDomains": [
+                "cntraveler.com",
                 "wired.com"
             ],
             "urlFilter": "||martech.condenastdigital.com/lib/martech.js"

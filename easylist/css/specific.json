@@ -3886,7 +3886,8 @@
         "[data-testid=\"bazaar-v2-elevated-box\"]",
         "div.opacity-100.transition-opacity.ease-out:has(button[aria-label=\"Sponsored options\"], button[aria-label=\"Ad options\"])",
         "div[data-assistant-ads]",
-        "div[data-message-supplement]:has(aside[data-partial-island=\"assistant-ads\"])"
+        "div[data-message-supplement]:has(aside[data-partial-island=\"assistant-ads\"])",
+        "div[data-testid=\"bazaar-single-card-container\"]"
     ],
     "chatnewstoday.ca": [
         "#banner-header",
