@@ -123,6 +123,12 @@
             "type": "extended"
         }
     ],
+    "sfgate.com": [
+        {
+            "selector": ".p20.mxa:has-text(BECOME A FRIEND)",
+            "type": "extended"
+        }
+    ],
     "spaceweatherlive.com": [
         {
             "selector": "div.my-2:has-text(Support SpaceWeatherLive.com!)",

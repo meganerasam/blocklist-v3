@@ -8522,7 +8522,8 @@
     ],
     "eloshapes.com": [
         "[id^=\"ads-\"]",
-        "div[id^=\"prmos-\"]"
+        "div[id^=\"prmos-\"]",
+        "div[id^=\"side-banners-\"]"
     ],
     "elpais.com": [
         ".ad"
@@ -33840,6 +33841,9 @@
     ],
     "ziperto.com": [
         ".code-block"
+    ],
+    "zman.co.il": [
+        ".bottom-bar-join"
     ],
     "zmescience.com": [
         "[href*=\"bit.ly/\"]"

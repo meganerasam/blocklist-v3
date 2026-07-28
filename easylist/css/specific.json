@@ -6932,7 +6932,8 @@
     ],
     "eloshapes.com": [
         "[id^=\"ads-\"]",
-        "div[id^=\"prmos-\"]"
+        "div[id^=\"prmos-\"]",
+        "div[id^=\"side-banners-\"]"
     ],
     "elpais.com": [
         ".ad"

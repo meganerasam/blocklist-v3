@@ -1803,6 +1803,10 @@
         {
             "selector": ".mb32.b-gray300:has-text(Advertisement)",
             "type": "extended"
+        },
+        {
+            "selector": ".p20.mxa:has-text(BECOME A FRIEND)",
+            "type": "extended"
         }
     ],
     "sfyimby.com": [
