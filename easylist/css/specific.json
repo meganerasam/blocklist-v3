@@ -7039,6 +7039,7 @@
         ".bg-adBackground"
     ],
     "english.nv.ua": [
+        ".nts-ad",
         ".nts-video-wrapper"
     ],
     "enjoy4fun.com": [
@@ -11394,6 +11395,7 @@
         "#stickyFooterRoot",
         "#taboola-mid-article-thumbnails-iii",
         "#top-banner-wrapper",
+        ".lfyduH",
         ".teads:has(.third-party-ad)",
         "[class] > :has(> [data-mpu])",
         "[class]:has(> [data-mpu])",
@@ -16166,7 +16168,9 @@
     "nexusmods.com": [
         ".agroup",
         ".border-b:has(> div[data-testid^=\"ad-container\"])",
-        "[data-testid=\"ad-container-player\"]"
+        ".max-h-\\[250px\\]",
+        "[data-testid=\"ad-container-player\"]",
+        "[data-testid]"
     ],
     "nfcw.com": [
         ".leaderboard",
@@ -24810,6 +24814,9 @@
     ],
     "tubeoffline.com": [
         "[href*=\"://go.nordvpn.net/\"]"
+    ],
+    "tuberipper.click": [
+        "a[href=\"/r/dl\"]"
     ],
     "tucsonweekly.com": [
         ".Ad"

@@ -8658,6 +8658,7 @@
         ".bg-adBackground"
     ],
     "english.nv.ua": [
+        ".nts-ad",
         ".nts-video-wrapper"
     ],
     "enjoy4fun.com": [
@@ -13817,11 +13818,14 @@
         "#stickyFooterRoot",
         "#taboola-mid-article-thumbnails-iii",
         "#top-banner-wrapper",
+        ".lfyduH",
         ".teads:has(.third-party-ad)",
         "[class] > :has(> [data-mpu])",
         "[class]:has(> [data-mpu])",
         "[data-mpu1]",
         "#article-im-prompt",
+        "#next-click-btn",
+        "[data-component=\"SupportNSCNative\"]",
         "[data-testid=\"nsc-wrapper-support-us\"]"
     ],
     "independent.com": [
@@ -19825,7 +19829,10 @@
     "nexusmods.com": [
         ".agroup",
         ".border-b:has(> div[data-testid^=\"ad-container\"])",
+        ".max-h-\\[250px\\]",
         "[data-testid=\"ad-container-player\"]",
+        "[data-testid]",
+        ".border-premium-moderate",
         ".f7ff6e98380",
         "[title=\"Back to top\"]"
     ],
@@ -30381,6 +30388,9 @@
     "tubeoffline.com": [
         "[href*=\"://go.nordvpn.net/\"]"
     ],
+    "tuberipper.click": [
+        "a[href=\"/r/dl\"]"
+    ],
     "tuborg.com": [
         ".cbg_cp_root--hcpPp"
     ],
@@ -30580,6 +30590,9 @@
     ],
     "tyretradenews.co.uk": [
         ".ai-track"
+    ],
+    "u-news.com.ua": [
+        "#totop"
     ],
     "u.today": [
         ".card--something-md",

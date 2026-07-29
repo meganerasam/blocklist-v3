@@ -2994,6 +2994,8 @@
     ],
     "independent.co.uk": [
         "#article-im-prompt",
+        "#next-click-btn",
+        "[data-component=\"SupportNSCNative\"]",
         "[data-testid=\"nsc-wrapper-support-us\"]"
     ],
     "independent.com.mt": [
@@ -4481,6 +4483,7 @@
         ".banner"
     ],
     "nexusmods.com": [
+        ".border-premium-moderate",
         ".f7ff6e98380",
         "[title=\"Back to top\"]"
     ],
@@ -6860,6 +6863,9 @@
         "aside[role=\"complementary\"]:has(> a[href=\"/i/premium_sign_up\"])",
         "div[data-testid=\"profileAnalyticsUpsell\"]",
         "div[data-testid=\"verified_profile_upsell\"]"
+    ],
+    "u-news.com.ua": [
+        "#totop"
     ],
     "uberhumor.com": [
         "#bluenext",

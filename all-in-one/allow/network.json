@@ -352,7 +352,6 @@
                 "newsweek.com"
             ],
             "requestDomains": [
-                "client.aps.amazon-adsystem.com",
                 "config.aps.amazon-adsystem.com"
             ]
         }
@@ -2447,6 +2446,8 @@
                 "script"
             ],
             "initiatorDomains": [
+                "foxnews.com",
+                "newsweek.com",
                 "thestreet.com"
             ],
             "urlFilter": "||client.aps.amazon-adsystem.com/publisher.js"
