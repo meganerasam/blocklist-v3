@@ -577,6 +577,12 @@
             "type": "extended"
         }
     ],
+    "deviantart.com": [
+        {
+            "selector": "[role=\"complementary\"] ._ern3r:has-text(Promoted)",
+            "type": "extended"
+        }
+    ],
     "dexscreener.com": [
         {
             "selector": ".chakra-link:has-text(Advertise)",

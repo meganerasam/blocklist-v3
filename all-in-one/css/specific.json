@@ -985,6 +985,7 @@
         ".atbs-ceris-go-top"
     ],
     "allaboutcookies.org": [
+        "#offer-review-widget",
         "#offer-review-widget-container",
         ".ad-container"
     ],
@@ -4745,7 +4746,8 @@
         "div.opacity-100.transition-opacity.ease-out:has(button[aria-label=\"Sponsored options\"], button[aria-label=\"Ad options\"])",
         "div[data-assistant-ads]",
         "div[data-message-supplement]:has(aside[data-partial-island=\"assistant-ads\"])",
-        "div[data-testid=\"bazaar-single-card-container\"]"
+        "div[data-testid=\"bazaar-single-card-container\"]",
+        "section:has(> [aria-label=\"Sponsored\"])"
     ],
     "chatnewstoday.ca": [
         "#banner-header",
@@ -6236,6 +6238,7 @@
         "#go-top"
     ],
     "cryptobriefing.com": [
+        ".ad-banner",
         ".ai-track",
         ".code-block",
         ".na-item.item"
@@ -7443,7 +7446,9 @@
         ".feedback-container-bottom"
     ],
     "dicoall.com": [
-        ".googleAdMain"
+        ".googleAdMain",
+        ".sidebarListMenu > button:has([class^=\"item_adsMark\"])",
+        "[href^=\"/ads/\"]"
     ],
     "dict.cc": [
         "#adrig",
@@ -10786,6 +10791,7 @@
         ".product-head__leads"
     ],
     "g2a.com": [
+        ".trust_banner",
         "div[data-testid=\"placement\"]",
         "#upPageToolbar"
     ],
@@ -15476,7 +15482,8 @@
         "#koreatimes_MinterplayPB_b_300_250",
         "#koreatimes_inarticle6thpg_b_580_400",
         "#koreatimes_righttop4_b_300_250",
-        ".TopButton_wrap__h9JwN"
+        ".Detail_ad-container__TXWnJ",
+        ".TopButton_wrap__PI2SB"
     ],
     "korinthostv.gr": [
         ".masthead-banner"
@@ -19831,7 +19838,7 @@
         ".border-b:has(> div[data-testid^=\"ad-container\"])",
         ".max-h-\\[250px\\]",
         "[data-testid=\"ad-container-player\"]",
-        "[data-testid]",
+        "[data-testid^=\"ad-\"]",
         ".border-premium-moderate",
         ".f7ff6e98380",
         "[title=\"Back to top\"]"
@@ -29146,7 +29153,8 @@
         ".m-detail--feature-spacer",
         ".m-in-content-ad-row",
         ".m-video-unit",
-        ".styles_headerAdSlot__f4Z0n"
+        ".styles_headerAdSlot__f4Z0n",
+        "[class^=\"styles_container\"]:has(.OUTBRAIN)"
     ],
     "thestrongtraveller.com": [
         ".widget_block"
@@ -29462,6 +29470,7 @@
     ],
     "tiktok.com": [
         ".banner-ads",
+        "[class*=\"DivCardWrapper\"]:has([data-e2e=\"ad-tag\"])",
         ".app-promotion",
         ".feedback",
         ".show-top",
