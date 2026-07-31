@@ -14225,6 +14225,7 @@
         "#ad3",
         "#findABroker",
         "#generalOverlay",
+        "#promo-strip",
         "#video",
         ".generalOverlay",
         ".midHeader",
@@ -20393,7 +20394,8 @@
         ".advertising"
     ],
     "octavestreaming.com": [
-        "[href^=\"https://cloakgpt.ca\"]"
+        "[href^=\"https://cloakgpt.ca\"]",
+        "a[href=\"/cloakgpt\"]"
     ],
     "octoprint.org": [
         "#banner"
