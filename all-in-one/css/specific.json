@@ -21468,6 +21468,7 @@
         "div[class=\"RowItem_gridItem__OfhML RowItem_fullWidth__cIdtN RowItem_expand__TR5R6\"]",
         "div[class^=\"FullWidth_container_\"]:has(a[rel=\"sponsored noopener\"])",
         "div[data-testid=\"item\"]:has(a[href^=\"https://www.pexels.com/g/\"])",
+        "div[data-testid=\"item\"]:has(h4[data-heading][class*=\"inlineTitleText\"])",
         ".NameChangeBanner_container__GyQTG"
     ],
     "pgatour.com": [
@@ -21743,6 +21744,7 @@
         ".present-g-item",
         "[class^=\"adsSection\"]",
         "[class^=\"gettySponsored\"]",
+        "div[class]:has(> [class^=\"title--\"] a[href*=\"sponsored\"])",
         "div[class^=\"adSponsoredMediaContainer-\"]",
         "div[class^=\"cell--\"]:has(button[aria-label=\"About this advertiser\"])",
         "div[class^=\"mrxz\"]:has(button[aria-label=\"About this advertiser\"])",
@@ -32845,6 +32847,7 @@
         ".wpa-about"
     ],
     "wolt.com": [
+        "[data-test-id=\"MainDiscoveryContent\"] li[draggable]:has(a[aria-label*=\"Sponsored\"])",
         "div[data-test-id=\"MainDiscoveryContent\"] li > div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"])",
         "div[data-test-id=\"SearchResultVenueSection\"] li > div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"])",
         "ul[data-test-id=\"VenueVerticalListGrid\"] > li > div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"])"
