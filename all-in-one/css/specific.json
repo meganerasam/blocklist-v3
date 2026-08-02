@@ -2328,7 +2328,8 @@
     "axios.com": [
         ".lg\\:min-h-\\[200px\\]",
         ".min-h-\\[200px\\]",
-        ".shortFormNativeAd"
+        ".shortFormNativeAd",
+        "[data-ad-status=\"AD\"]"
     ],
     "axn-asia.com": [
         ".advertisement",
@@ -4725,6 +4726,9 @@
         ".zone",
         ".zone-el"
     ],
+    "chartkidmatt.com": [
+        ".dream-post-content-htmlSnippet"
+    ],
     "chaser.com.au": [
         ".chaser-banner-ad"
     ],
@@ -4924,6 +4928,9 @@
     ],
     "chloeting.com": [
         "div[class^=\"StickyFooterAds__Wrapper\"]"
+    ],
+    "choosefi.com": [
+        "[data-block-type=\"credit-card-top-offers\"]"
     ],
     "chortle.co.uk": [
         "#adBanner"
@@ -8150,6 +8157,9 @@
     ],
     "earlygame.com": [
         ".ad"
+    ],
+    "earlyretirementnow.com": [
+        ".widget_custom_html"
     ],
     "earth.com": [
         ".AdZone_adZone__2w4TC",
@@ -20190,6 +20200,9 @@
         ".giqFf"
     ],
     "novelfire.net": [
+        ".nf-ads"
+    ],
+    "novelphoenix.com": [
         ".nf-ads"
     ],
     "novinite.com": [
