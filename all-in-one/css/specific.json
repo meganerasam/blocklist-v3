@@ -26684,6 +26684,11 @@
         ".min-w-\\[300px\\]",
         ".sticky-inner-wrapper"
     ],
+    "stockx.com": [
+        "[data-component=\"brand-tile\"]:has([data-testid=\"sponsored-tag\"])",
+        "[data-component=\"product-tile\"]:has([data-testid=\"sponsored-tag\"])",
+        "[data-testid=\"banner-collage\"] .chakra-aspect-ratio:has(a[title*=\"Promo\"])"
+    ],
     "stokesentinel.co.uk": [
         ".react-loading-skeleton",
         ".shop-window[data-impr-tracking=\"true\"]",

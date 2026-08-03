@@ -393,6 +393,12 @@
             "type": "extended"
         }
     ],
+    "chatgpt.com": [
+        {
+            "selector": ".opacity-100.transition-opacity.ease-out:has-text(Sponsored options)",
+            "type": "extended"
+        }
+    ],
     "china.ahk.de": [
         {
             "selector": ".b-main__section:has(h2.homepage-headline:has-text(Advertisement))",

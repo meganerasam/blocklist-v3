@@ -411,6 +411,10 @@
     ],
     "chatgpt.com": [
         {
+            "selector": ".opacity-100.transition-opacity.ease-out:has-text(Sponsored options)",
+            "type": "extended"
+        },
+        {
             "selector": ".fixed.bottom-0:has-text(Try Atlas)",
             "type": "extended"
         }
