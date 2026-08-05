@@ -1043,6 +1043,9 @@
         ".gb-sponsored",
         ".productslider"
     ],
+    "anagram-solver.io": [
+        "[data-adbridg-ad-class]"
+    ],
     "analyticsindiamag.com": [
         ".border-b.bg-muted\\/50"
     ],
@@ -20969,7 +20972,8 @@
         ".commentsAd",
         ".displayAdContainer",
         ".frontpageGrid__bannerAd",
-        ".frontpageGrid__feedItem:has(.dealCardBadge--promoted)"
+        ".frontpageGrid__feedItem:has(.dealCardBadge--promoted)",
+        ".kevelYouMightLikeDealCard:has(.dealCardBadge--promoted)"
     ],
     "slidehunter.com": [
         ".custom-ad-text",
@@ -23957,7 +23961,8 @@
         ".connatix-wrapper",
         ".sticky-container",
         ".watermark",
-        "ad-slot"
+        "ad-slot",
+        "div[data-mol-fe-xpmodule-tim-affiliate]"
     ],
     "thisquality.com": [
         ".code-block"

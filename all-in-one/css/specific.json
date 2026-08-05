@@ -1337,6 +1337,9 @@
         ".gb-sponsored",
         ".productslider"
     ],
+    "anagram-solver.io": [
+        "[data-adbridg-ad-class]"
+    ],
     "analdin.com": [
         ".arrow-up"
     ],
@@ -5008,6 +5011,9 @@
     ],
     "ciclismo.it": [
         ".top"
+    ],
+    "cies.ch": [
+        ".backtotop_component"
     ],
     "cifraclub.com": [
         ".styles_advertising__nZwCO"
@@ -13857,6 +13863,9 @@
         ".ad--articlerectangle",
         ".slot1",
         ".slot4"
+    ],
+    "independentarabia.com": [
+        ".download-app"
     ],
     "independentaustralia.net": [
         ".panelSubscription"
@@ -23160,6 +23169,9 @@
     "radiobielefeld.de": [
         ".scroll-top"
     ],
+    "radioblog.eu": [
+        "#scrollup"
+    ],
     "radiocaroline.co.uk": [
         "#photographsforeverDiv",
         ".home-banner"
@@ -25696,6 +25708,7 @@
         ".displayAdContainer",
         ".frontpageGrid__bannerAd",
         ".frontpageGrid__feedItem:has(.dealCardBadge--promoted)",
+        ".kevelYouMightLikeDealCard:has(.dealCardBadge--promoted)",
         ".extension"
     ],
     "slidehunter.com": [
@@ -29425,6 +29438,7 @@
         ".sticky-container",
         ".watermark",
         "ad-slot",
+        "div[data-mol-fe-xpmodule-tim-affiliate]",
         ".prevNextWrapper-1Vg7e"
     ],
     "thisquality.com": [

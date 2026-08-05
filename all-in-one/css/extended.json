@@ -1473,6 +1473,10 @@
     ],
     "nextdoor.com": [
         {
+            "selector": "[data-testid*=\"searchFeedItem\"]:has-text(Sponsored by)",
+            "type": "extended"
+        },
+        {
             "selector": "[data-v3-view-type=\"V3Wrapper\"]:has(> [data-testid=\"feed-item-visibility-tracker\"]:has-text(Sponsored))",
             "type": "extended"
         },
@@ -1722,6 +1726,10 @@
         }
     ],
     "rome2rio.com": [
+        {
+            "selector": "#hotel-list-wrapper li:has-text(Ad)",
+            "type": "extended"
+        },
         {
             "selector": "[data-testid=\"hotel-list-item\"]:has-text(Ad)",
             "type": "extended"

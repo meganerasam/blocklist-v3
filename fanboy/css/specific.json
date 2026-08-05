@@ -1119,6 +1119,9 @@
     "ciclismo.it": [
         ".top"
     ],
+    "cies.ch": [
+        ".backtotop_component"
+    ],
     "ciiradio.com": [
         ".go-up"
     ],
@@ -3003,6 +3006,9 @@
     ],
     "independent.com.mt": [
         ".subscribe"
+    ],
+    "independentarabia.com": [
+        ".download-app"
     ],
     "independentaustralia.net": [
         ".panelSubscription"
@@ -5282,6 +5288,9 @@
     ],
     "radiobielefeld.de": [
         ".scroll-top"
+    ],
+    "radioblog.eu": [
+        "#scrollup"
     ],
     "radioguetersloh.de": [
         ".scroll-top"
