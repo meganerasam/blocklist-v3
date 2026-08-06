@@ -3680,6 +3680,46 @@
             "type": "block"
         },
         "condition": {
+            "urlFilter": "||av-northern-apps.com/js/agecheckerplus_"
+        }
+    },
+    {
+        "id": 341,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||static.elfsight.com/apps/age-verification/"
+        }
+    },
+    {
+        "id": 342,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||support.xxx/age_check.js"
+        }
+    },
+    {
+        "id": 343,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||zooomyapps.com/age/ZooomyAgeVerify.js"
+        }
+    },
+    {
+        "id": 344,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
             "resourceTypes": [
                 "script"
             ],
@@ -3691,7 +3731,7 @@
         }
     },
     {
-        "id": 341,
+        "id": 345,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3701,7 +3741,7 @@
         }
     },
     {
-        "id": 342,
+        "id": 346,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3711,7 +3751,7 @@
         }
     },
     {
-        "id": 343,
+        "id": 347,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3721,7 +3761,7 @@
         }
     },
     {
-        "id": 344,
+        "id": 348,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3731,7 +3771,7 @@
         }
     },
     {
-        "id": 345,
+        "id": 349,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3741,7 +3781,7 @@
         }
     },
     {
-        "id": 346,
+        "id": 350,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3751,7 +3791,7 @@
         }
     },
     {
-        "id": 347,
+        "id": 351,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3761,7 +3801,7 @@
         }
     },
     {
-        "id": 348,
+        "id": 352,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3771,7 +3811,7 @@
         }
     },
     {
-        "id": 349,
+        "id": 353,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3781,7 +3821,7 @@
         }
     },
     {
-        "id": 350,
+        "id": 354,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3791,7 +3831,7 @@
         }
     },
     {
-        "id": 351,
+        "id": 355,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3801,7 +3841,7 @@
         }
     },
     {
-        "id": 352,
+        "id": 356,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3811,7 +3851,7 @@
         }
     },
     {
-        "id": 353,
+        "id": 357,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3821,7 +3861,7 @@
         }
     },
     {
-        "id": 354,
+        "id": 358,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3831,7 +3871,7 @@
         }
     },
     {
-        "id": 355,
+        "id": 359,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3841,7 +3881,7 @@
         }
     },
     {
-        "id": 356,
+        "id": 360,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3851,7 +3891,7 @@
         }
     },
     {
-        "id": 357,
+        "id": 361,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3861,7 +3901,7 @@
         }
     },
     {
-        "id": 358,
+        "id": 362,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3871,7 +3911,7 @@
         }
     },
     {
-        "id": 359,
+        "id": 363,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3881,7 +3921,7 @@
         }
     },
     {
-        "id": 360,
+        "id": 364,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3891,7 +3931,7 @@
         }
     },
     {
-        "id": 361,
+        "id": 365,
         "priority": 1,
         "action": {
             "type": "block"
@@ -3901,7 +3941,7 @@
         }
     },
     {
-        "id": 362,
+        "id": 366,
         "priority": 1,
         "action": {
             "type": "block"

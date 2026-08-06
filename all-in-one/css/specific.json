@@ -24012,6 +24012,9 @@
     "reformer.com": [
         ".asset-paging-container"
     ],
+    "regex101.com": [
+        "div:has(> div > a > div[style*=\"/static/assets/sponsors/\"])"
+    ],
     "regexlearn.com": [
         ".w-full.mb-3:has(a[href=\"/learn/regex-for-seo\"])"
     ],
@@ -26548,6 +26551,8 @@
         "a[href^=\"https://ww44.affinity.net/\"]",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"M2.31179\"])",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"m6.07067\"])",
+        "div[data-bvs]",
+        "div[data-identifier=\"exoclick-native-impression\"]",
         "div[style=\"display: block; padding: 12px; margin: 0px 0px 10px; border-radius: 4px; border: 1px solid rgb(59, 67, 91);\"]",
         "#block-display",
         "#feedback-button-container",
@@ -26564,6 +26569,8 @@
         "a[href^=\"https://ww44.affinity.net/\"]",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"M2.31179\"])",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"m6.07067\"])",
+        "div[data-bvs]",
+        "div[data-identifier=\"exoclick-native-impression\"]",
         "div[style=\"display: block; padding: 12px; margin: 0px 0px 10px; border-radius: 4px; border: 1px solid rgb(59, 67, 91);\"]",
         "#block-display",
         "#feedback-button-container",

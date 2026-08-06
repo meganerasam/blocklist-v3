@@ -10924,6 +10924,7 @@
                 "webtransport"
             ],
             "excludedInitiatorDomains": [
+                "abendblatt.de",
                 "ads.8designers.com",
                 "ads.ac.uk",
                 "ads.adstream.com.ro",
@@ -10959,7 +10960,6 @@
                 "ads.harvard.edu",
                 "ads.instacart.com",
                 "ads.jiosaavn.com",
-                "ads.julephosting.de",
                 "ads.kaipoke.biz",
                 "ads.kifli.hu",
                 "ads.knuspr.de",
