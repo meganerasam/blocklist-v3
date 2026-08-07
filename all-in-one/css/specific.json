@@ -16956,7 +16956,8 @@
     ],
     "makemytrip.com": [
         ".adtech-desktop",
-        ".hotDeals"
+        ".hotDeals",
+        ".hotelTileDt:has(.icSponsored)"
     ],
     "maketecheasier.com": [
         ".header-widget"
@@ -20058,6 +20059,8 @@
         ".PdpRecommendations-module-scss-module__e4nPqG__recosWrapper",
         ".ProductDetailsDesktop-module-scss-module__AYN9Ya__topSlotWrapper",
         ".visibilitySensorWrapper:has(.adBannerModule)",
+        "[class*=\"container\"]:has(> [class*=\"adModuleWrapper\"])",
+        "[class*=\"container\"]:has([data-qa=\"widget_adBannerModule\"])",
         "[class*=\"topSection\"]:has([class*=\"adText\"])",
         "[data-qa=\"plp-grid\"] [data-qa=\"plp-product-box\"]:has(svg[width=\"20\"] > path[d])",
         "[data-qa=\"plp-product-box\"]:has([class^=\"SponsoredTag\"])",
