@@ -1712,6 +1712,7 @@
                 "script"
             ],
             "initiatorDomains": [
+                "2v2.io",
                 "bigescapegames.com",
                 "brofist.io",
                 "cuberealm.io",
@@ -1746,6 +1747,7 @@
                 "script"
             ],
             "initiatorDomains": [
+                "2v2.io",
                 "cuberealm.io"
             ],
             "urlFilter": "||api.adinplay.com/v4/live/aip/ad-manager.js"
@@ -7854,8 +7856,7 @@
             "resourceTypes": [
                 "image"
             ],
-            "domainType": "firstParty",
-            "urlFilter": "||taipit-mebel.ru/upload/resize_cache/"
+            "urlFilter": "||rollercoin.com/static/img/referral_160-600.png"
         }
     },
     {
@@ -7869,11 +7870,25 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||wavepc.pl/wp-content/*-500x100.png"
+            "urlFilter": "||taipit-mebel.ru/upload/resize_cache/"
         }
     },
     {
         "id": 514,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "resourceTypes": [
+                "image"
+            ],
+            "domainType": "firstParty",
+            "urlFilter": "||wavepc.pl/wp-content/*-500x100.png"
+        }
+    },
+    {
+        "id": 515,
         "priority": 2,
         "action": {
             "type": "allow"

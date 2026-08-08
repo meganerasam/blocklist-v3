@@ -130,6 +130,9 @@
     "2pass.co.uk": [
         ".column_right"
     ],
+    "2v2.io": [
+        ".banner-container"
+    ],
     "338canada.com": [
         ".h-40.bg-gray-300"
     ],
@@ -8119,7 +8122,6 @@
         ".skybanner"
     ],
     "flipkart.com": [
-        "div[data-id][style]:has([width][height][fill])",
         "div[style=\"max-width:1200px;width:100%\"]:has(source[srcset^=\"https://rukminim1.flixcart.com/fk-p-flap/1570/520/image/eb2033142a4a8eab.png\"])"
     ],
     "flipline.com": [
@@ -11038,7 +11040,8 @@
         ".entry__right-rail-width-placeholder",
         ".leaderboard-flex-placeholder",
         ".leaderboard-flex-placeholder-desktop",
-        ".openweb-container"
+        ".openweb-container",
+        ".zone"
     ],
     "hulkshare.com": [
         "#ad_user_banner_2",
@@ -13354,6 +13357,7 @@
         ".sideblock"
     ],
     "linuxjournal.com": [
+        "#block-contentsectionad",
         "a[href*=\"&utm_campaign=\"]"
     ],
     "linuxlookup.com": [
@@ -20321,6 +20325,7 @@
         "[data-native-ad-id=\"container\"]"
     ],
     "sbs.com.au": [
+        ".ArticleBodyAdContainer-module__VCvGGa__articleAdPositioning",
         ".MuiBox-root:has(> .desktop-ads)"
     ],
     "sbstatesman.com": [
@@ -21443,6 +21448,9 @@
         ".main-content-unit-wrapper",
         ".temp-unit"
     ],
+    "sporked.com": [
+        "#sv-video-container"
+    ],
     "sportbible.com": [
         ".floating-video-player_container__u4D9_",
         "div[class*=\"margin-Advert\"]",
@@ -21661,7 +21669,6 @@
         "a[href^=\"https://ww44.affinity.net/\"]",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"M2.31179\"])",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"m6.07067\"])",
-        "div[data-bvs]",
         "div[data-identifier=\"exoclick-native-impression\"]",
         "div[style=\"display: block; padding: 12px; margin: 0px 0px 10px; border-radius: 4px; border: 1px solid rgb(59, 67, 91);\"]"
     ],
@@ -21674,7 +21681,6 @@
         "a[href^=\"https://ww44.affinity.net/\"]",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"M2.31179\"])",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"m6.07067\"])",
-        "div[data-bvs]",
         "div[data-identifier=\"exoclick-native-impression\"]",
         "div[style=\"display: block; padding: 12px; margin: 0px 0px 10px; border-radius: 4px; border: 1px solid rgb(59, 67, 91);\"]"
     ],
