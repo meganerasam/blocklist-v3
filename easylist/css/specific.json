@@ -15739,6 +15739,7 @@
         ".well:has(ins.adsbygoogle)"
     ],
     "neoseeker.com": [
+        "#column_right_top_content",
         "#section-pagetop",
         "[style$=\"min-height:355px;clear:both\"]",
         "div[style*=\"width:300px\"]"
@@ -17760,7 +17761,8 @@
         "#box_300btf",
         "#box_pmc_300btf",
         "#leaderboard_atf",
-        "#ultra_wide"
+        "#ultra_wide",
+        "[data-type=\"advert\"]"
     ],
     "planetofreviews.com": [
         ".widget_custom_html"
@@ -18708,6 +18710,7 @@
     ],
     "queerty.com": [
         ".adb-box-large",
+        ".adb-qt-box",
         ".adb-top-lb"
     ],
     "quickresultshq.com": [
@@ -21219,6 +21222,9 @@
     "softpedia.com": [
         ".ad"
     ],
+    "sofx.com": [
+        ".ad-text"
+    ],
     "solscan.io": [
         ".adsHeaderTextWrapper"
     ],
@@ -21670,6 +21676,7 @@
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"M2.31179\"])",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"m6.07067\"])",
         "div[data-identifier=\"exoclick-native-impression\"]",
+        "div[data-visible=\"true\"][data-identifier]",
         "div[style=\"display: block; padding: 12px; margin: 0px 0px 10px; border-radius: 4px; border: 1px solid rgb(59, 67, 91);\"]"
     ],
     "startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion": [
