@@ -1750,7 +1750,7 @@
                 "2v2.io",
                 "cuberealm.io"
             ],
-            "urlFilter": "||api.adinplay.com/v4/live/aip/ad-manager.js"
+            "urlFilter": "||api.adinplay.com/v4/live/"
         }
     },
     {

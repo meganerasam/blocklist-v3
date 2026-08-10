@@ -3895,6 +3895,7 @@
         ".border-token-border-default.mt-2.border-t:has(button[aria-label=\"Ad options\"])",
         "[class*=\"_assistantAds\"]",
         "[data-testid=\"bazaar-v2-elevated-box\"]",
+        "aside[data-assistant-ads-unit]",
         "div.opacity-100.transition-opacity.ease-out:has(button[aria-label=\"Sponsored options\"], button[aria-label=\"Ad options\"])",
         "div[data-assistant-ads]",
         "div[data-message-supplement]:has(aside[data-partial-island=\"assistant-ads\"])",
@@ -11040,8 +11041,7 @@
         ".entry__right-rail-width-placeholder",
         ".leaderboard-flex-placeholder",
         ".leaderboard-flex-placeholder-desktop",
-        ".openweb-container",
-        ".zone"
+        ".openweb-container"
     ],
     "hulkshare.com": [
         "#ad_user_banner_2",
