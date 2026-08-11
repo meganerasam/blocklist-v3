@@ -3344,6 +3344,9 @@
         ".md\\:min-h-\\[250px\\]",
         ".section-header"
     ],
+    "bmmagazine.co.uk": [
+        ".widget_custom_html"
+    ],
     "bmwblog.com": [
         "#bmwbl-mobileArticleLeaderboardBeforeFirstParagraph",
         ".bmwbl-after-content",
