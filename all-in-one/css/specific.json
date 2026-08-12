@@ -10645,6 +10645,9 @@
     "freesvg.org": [
         ".sponsored-main-detail"
     ],
+    "freetetris.org": [
+        "[style^=\"display\"]:has([onclick][href])"
+    ],
     "freethesaurus.com": [
         "#qk1",
         "#qk2",
@@ -16899,6 +16902,7 @@
         "#filtro"
     ],
     "mail.aol.com": [
+        "[role=\"presentation\"]:has(> div[data-ad-row-id])",
         "div[data-test-id=\"virtual-list\"] > ul[role=\"list\"][aria-label] > li[style]:has(a[href^=\"https://api.taboola.com/\"][href*=\"/yahoo-aol-mail/\"])",
         "li:has(a[data-test-id=\"pencil-ad-messageList\"])"
     ],
@@ -21144,7 +21148,9 @@
         ".dfp"
     ],
     "pastpapers.co": [
-        ".sticky-bottom"
+        ".MuiBox-root:has(> .adsbygoogle)",
+        ".sticky-bottom",
+        "[href=\"https://papafy.com\"]"
     ],
     "pasty.info": [
         "img[aria-label=\"Aliexpress partner network affiliate Link\"]",
@@ -22959,6 +22965,10 @@
     ],
     "puzzlegarage.com": [
         ".banner--inside"
+    ],
+    "puzzleshq.com": [
+        ".advertWrapper_adContainer__RxpbP",
+        ".article_adContainer__qr_Hd"
     ],
     "pv-magazine-australia.com": [
         "#home-top-rectangle-wrap-1",
@@ -28158,6 +28168,9 @@
     "thecompleteuniversityguide.co.uk": [
         ".bnr_out"
     ],
+    "theconsensus.dev": [
+        ".banner"
+    ],
     "theconservativetreehouse.com": [
         "#text-6"
     ],
@@ -31864,7 +31877,8 @@
         ".widget_newspack-ads-widget"
     ],
     "washingtonexaminer.com": [
-        ".ad"
+        ".ad",
+        ".wex-ad-wrap"
     ],
     "washingtonian.com": [
         ".footer"
