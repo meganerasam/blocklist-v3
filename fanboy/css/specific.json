@@ -1737,6 +1737,9 @@
     "diet.mayoclinic.org": [
         ".promotionSingleTile"
     ],
+    "digiday.com": [
+        ".cta-promo-section"
+    ],
     "digit.in": [
         "#qaBox",
         ".rehub_scroll"

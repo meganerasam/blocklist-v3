@@ -7509,7 +7509,8 @@
         ".banner"
     ],
     "digiday.com": [
-        ".ad_960"
+        ".ad_960",
+        ".cta-promo-section"
     ],
     "digit.in": [
         "#cubewrapid",
