@@ -17970,8 +17970,9 @@
         ".owl-carousel:has(.carousel-ad)"
     ],
     "polygon.com": [
-        ".sidebar-default",
-        ".video"
+        ".an-zone-d",
+        ".an-zone-footer-footer",
+        ".sidebar-default"
     ],
     "pons.com": [
         "#pons-ad-footer",
@@ -22392,6 +22393,7 @@
         ".a-wrap"
     ],
     "techcentral.ie": [
+        ".g",
         ".topBanner"
     ],
     "techconnect.com": [
