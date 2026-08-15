@@ -2141,6 +2141,9 @@
         ".active-modal",
         ".modal-wrapper"
     ],
+    "fapcat.com": [
+        "#on-top"
+    ],
     "fark.com": [
         ".custombox-content",
         ".custombox-overlay"
@@ -2659,6 +2662,9 @@
     "gunsandammo.com": [
         ".has-promo",
         ".to-top"
+    ],
+    "gv.com.sg": [
+        ".btn-scroll"
     ],
     "gwaramedia.com": [
         ".banner",

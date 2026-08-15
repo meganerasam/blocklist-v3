@@ -115,6 +115,14 @@
         {
             "selector": ".J-offer-wrapper:has-text(Top sponsor listing)",
             "type": "extended"
+        },
+        {
+            "selector": ".no-divider[style*=\"margin-bottom\"]:has([data-state=\"closed\"]:has-text(Ad))",
+            "type": "extended"
+        },
+        {
+            "selector": "div[data-search-floor] [data-supplier-card]:has-text(Ad)",
+            "type": "extended"
         }
     ],
     "aliexpress.com": [
@@ -412,6 +420,14 @@
     "chatgpt.com": [
         {
             "selector": ".opacity-100.transition-opacity.ease-out:has-text(Sponsored options)",
+            "type": "extended"
+        },
+        {
+            "selector": "[class^=\"border-\"]:not([class*=\"sidebar\"]):has-text(Ad)",
+            "type": "extended"
+        },
+        {
+            "selector": "[class^=\"border-\"]:not([class*=\"sidebar\"]):has-text(Sponsored)",
             "type": "extended"
         },
         {
@@ -2078,6 +2094,12 @@
     "theintercept.com": [
         {
             "selector": ".text-\\[18px\\]:has-text(Support Us)",
+            "type": "extended"
+        }
+    ],
+    "theregister.com": [
+        {
+            "selector": "article.large-12:has-text(SPONSORED FEATURE)",
             "type": "extended"
         }
     ],

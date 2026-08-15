@@ -14748,6 +14748,9 @@
         ".mosaic-banner",
         ".style_k8mr7b-o_O-style_1ts1q2h"
     ],
+    "mlssoccer.com": [
+        ".mls-o-adv-container"
+    ],
     "mma-core.com": [
         "#rrec",
         "#tlbrd",
@@ -18046,6 +18049,9 @@
     "posemaniacs.com": [
         ".h-\\[250px\\]",
         ".tabletL\\:w-\\[728px\\]"
+    ],
+    "poshmark.*": [
+        "div[class^=\"col-\"]:has(> [data-et-prop-promoted_listing_tracking_info])"
     ],
     "post-gazette.com": [
         "#benn-poll-iframe-container",
@@ -24090,6 +24096,9 @@
         "[style*=\"display: block !important; margin-bottom: 20px;\"]",
         "[style*=\"margin-left: auto; margin-right: auto;\"]",
         "[style*=\"min-height:250px;\"]"
+    ],
+    "timeful.app": [
+        "span.tw-border-light-gray-stroke:has(> .tw-tracking-wide)"
     ],
     "timeout.com": [
         "._ad_1elek_1",
