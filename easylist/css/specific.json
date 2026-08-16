@@ -3897,6 +3897,7 @@
     "chatgpt.com": [
         ".border-token-border-default.mt-2.border-t:has(button[aria-label=\"Ad options\"])",
         "[class*=\"_assistantAds\"]",
+        "[data-message-role=\"assistant\"] > section[class] > aside[aria-label]:has(> div[role=\"list\"] a[rel][target=\"_blank\"] + span > button[aria-haspopup])",
         "[data-testid=\"bazaar-v2-elevated-box\"]",
         "aside[data-assistant-ads-unit]",
         "div.opacity-100.transition-opacity.ease-out:has(button[aria-label=\"Sponsored options\"], button[aria-label=\"Ad options\"])",
