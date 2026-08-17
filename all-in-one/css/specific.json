@@ -908,6 +908,9 @@
     "alchetron.com": [
         "#alchetronFreeStarVideoAdContainer"
     ],
+    "alekhbariya.net": [
+        ".scrollTop"
+    ],
     "aleteia.org": [
         "#root > div[class]:has(> .adslot)",
         ".Ad_wrapper__B_hxA"
@@ -1117,6 +1120,9 @@
     ],
     "alphr.com": [
         ".fs-pushdown-sticky"
+    ],
+    "alsharqiya.com": [
+        "#toTop"
     ],
     "alt-codes.net": [
         "#copyModal .modal-body"
@@ -4363,6 +4369,7 @@
         "li[data-phx-id]:has([phx-value-source=\"sponsored_trending_search_card\"])"
     ],
     "carsales.com.au": [
+        ".iompba0.iompba3:has(> .iompba0.iompba3[style=\"min-height: 90px;\"] > div[data-targeting-pos=\"multibanner_1\"])",
         ".page-header",
         ".more-articles-placeholder"
     ],
@@ -4755,7 +4762,7 @@
     "chatgpt.com": [
         ".border-token-border-default.mt-2.border-t:has(button[aria-label=\"Ad options\"])",
         "[class*=\"_assistantAds\"]",
-        "[data-message-role=\"assistant\"] > section[class] > aside[aria-label]:has(> div[role=\"list\"] a[rel][target=\"_blank\"] + span > button[aria-haspopup])",
+        "[data-message-role=\"assistant\"] > section[class]:has(> aside[aria-label] > div[role=\"list\"] a[rel][target=\"_blank\"] + span > button[aria-haspopup])",
         "[data-testid=\"bazaar-v2-elevated-box\"]",
         "aside[data-assistant-ads-unit]",
         "div.opacity-100.transition-opacity.ease-out:has(button[aria-label=\"Sponsored options\"], button[aria-label=\"Ad options\"])",
@@ -10267,6 +10274,8 @@
         ".banner"
     ],
     "forkast.news": [
+        ".fk-ad",
+        ".fk-cta",
         "a[href^=\"https://h5.whalefin.com/landing2/\"]"
     ],
     "formatoedu.com": [
@@ -27278,6 +27287,9 @@
     "tabakguru.de": [
         ".netzp-age-check"
     ],
+    "tabie.net": [
+        "#homeScrollTopBtn"
+    ],
     "tabler.io": [
         ".icon-banner"
     ],
@@ -32482,9 +32494,12 @@
     ],
     "whatismyip.com": [
         "#HP-adbannertop",
+        "#adbannertop",
         "#hp-ad-banner-top",
         "#ip-box-ad",
-        "#tool-what-is-my-ip-ad"
+        "#tool-what-is-my-ip-ad",
+        ".ip-ad-box",
+        ".ip-leaderboard-ad"
     ],
     "whatismyip.net": [
         ".container > .panel[id]"

@@ -206,6 +206,9 @@
     "albertsons.com": [
         ".back-to-top"
     ],
+    "alekhbariya.net": [
+        ".scrollTop"
+    ],
     "algemeiner.com": [
         ".sendtip"
     ],
@@ -263,6 +266,9 @@
     ],
     "allvoices.com": [
         "#scrollingDiv"
+    ],
+    "alsharqiya.com": [
+        "#toTop"
     ],
     "alternet.org": [
         "#expandableDonateButton",
@@ -6129,6 +6135,9 @@
     ],
     "tabakguru.de": [
         ".netzp-age-check"
+    ],
+    "tabie.net": [
+        "#homeScrollTopBtn"
     ],
     "tabler.io": [
         ".icon-banner"

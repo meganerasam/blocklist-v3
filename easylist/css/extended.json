@@ -407,11 +407,7 @@
             "type": "extended"
         },
         {
-            "selector": "[class^=\"border-\"]:not([class*=\"sidebar\"]):has-text(Ad)",
-            "type": "extended"
-        },
-        {
-            "selector": "[class^=\"border-\"]:not([class*=\"sidebar\"]):has-text(Sponsored)",
+            "selector": "#thread [class^=\"border-\"]:not([class*=\"sidebar\"]):has-text(/Ad|Sponsored/)",
             "type": "extended"
         }
     ],
