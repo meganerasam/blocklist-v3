@@ -6779,6 +6779,9 @@
         "#sticky-nav--floating",
         ".scrollUp__button"
     ],
+    "top.gg": [
+        ".h-\\[250px\\]"
+    ],
     "topauto.co.za": [
         "#eltd-back-to-top"
     ],

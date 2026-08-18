@@ -6987,6 +6987,9 @@
     "embed.listcorp.com": [
         "a[href^=\"https://j.moomoo.com/\"]"
     ],
+    "embedsun.cc": [
+        "[id^=\"bg_wrap_\"]"
+    ],
     "emergencyemail.org": [
         ".footer"
     ],
@@ -14829,6 +14832,10 @@
         ".nextmediaboxtop",
         ".supporter"
     ],
+    "modelviewer.lol": [
+        ".hidden.mb-3.md\\:block",
+        ".sticky.top-5.p-3.min-h-0.mr-4"
+    ],
     "modernhealthcare.com": [
         ".ad-container"
     ],
@@ -16459,6 +16466,7 @@
     ],
     "notebookcheck.net": [
         "#contenta",
+        ".nbc-r-float",
         ".nbc-right-float"
     ],
     "notebooks.com": [

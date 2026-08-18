@@ -8599,6 +8599,9 @@
     "embed.listcorp.com": [
         "a[href^=\"https://j.moomoo.com/\"]"
     ],
+    "embedsun.cc": [
+        "[id^=\"bg_wrap_\"]"
+    ],
     "emergencyemail.org": [
         ".footer"
     ],
@@ -18177,6 +18180,10 @@
     "modec.com": [
         "#pagetop"
     ],
+    "modelviewer.lol": [
+        ".hidden.mb-3.md\\:block",
+        ".sticky.top-5.p-3.min-h-0.mr-4"
+    ],
     "modernhealthcare.com": [
         ".ad-container"
     ],
@@ -20206,6 +20213,7 @@
     ],
     "notebookcheck.net": [
         "#contenta",
+        ".nbc-r-float",
         ".nbc-right-float"
     ],
     "notebooks.com": [
@@ -29864,7 +29872,8 @@
         ".flex-col.items-center.justify-center:has(#desktop-aside-video-ad)",
         "[class*=\"__AdContainer-\"]",
         "article.items-start:has(a[rel=\"sponsored\"])",
-        "article.w-full.flex.flex-col:has(a[rel=\"sponsored\"])"
+        "article.w-full.flex.flex-col:has(a[rel=\"sponsored\"])",
+        ".h-\\[250px\\]"
     ],
     "top100token.com": [
         ".swiper_div.right-pad"
