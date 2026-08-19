@@ -865,6 +865,12 @@
             "type": "extended"
         }
     ],
+    "getyarn.io": [
+        {
+            "selector": ".pt3p > div > div:has-text(Advertisement)",
+            "type": "extended"
+        }
+    ],
     "giantfood.com": [
         {
             "selector": ".pdl-generic-content_full:has-text(Sponsored)",

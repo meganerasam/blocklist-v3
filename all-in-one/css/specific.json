@@ -11513,8 +11513,7 @@
         ".a-scroll-top-btn"
     ],
     "getyarn.io": [
-        "#filtered-bottom",
-        ".pt3p > div"
+        "#filtered-bottom"
     ],
     "gevoslijterij.nl": [
         ".modals-wrapper"
@@ -29611,6 +29610,9 @@
         "div[style=\"display:flex;justify-content:center;width:100%;margin-top:20px;height:250px\"]",
         "div[style=\"margin-top:10px;float:right;background:#c35;padding:10px;\"]"
     ],
+    "time.now": [
+        ".ads-container"
+    ],
     "timeanddate.com": [
         "#ad1"
     ],
@@ -33896,6 +33898,9 @@
     "yts.*": [
         "#dontfoid",
         ".home-content > div:has(.blue ~ a img[src*=\"/images/download\"])"
+    ],
+    "yucatanmagazine.com": [
+        ".yucat-entity-placement"
     ],
     "yugatech.com": [
         "#text-69",
