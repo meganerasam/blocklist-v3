@@ -1219,6 +1219,7 @@
         "div[data-csa-c-slot-id^=\"loom-mobile-brand-footer-slot_hsa-id-\"]",
         "div[data-csa-c-slot-id^=\"loom-mobile-top-slot_hsa-id-\"]",
         "div[id^=\"sims-simsContainer_feature_div_\"]:has(.sp_info_link)",
+        "div[id^=\"softlines-btf-substitute-zone-\"]:has(.sp_info_link)",
         "div[id^=\"sp_detail\"]",
         "div[id^=\"typ-recommendations-stripe-\"]:has(div[data-is-sponsored-label-active=\"true\"])",
         "li[role=\"listitem\"]:has(.hybrid-widget-sponsored-label)",
@@ -9116,6 +9117,12 @@
     "evreporter.com": [
         ".widget_media_image:not(:has(a[href^=\"https://evreporter.com/\"]))"
     ],
+    "evtech.news": [
+        ".article-ad-widget",
+        ".article-top-hero-ad",
+        ".home-intel-ad-stack",
+        ".home-rail-banners"
+    ],
     "evzuttya.com.ua": [
         ".product-item:has(.sponsored-label)",
         ".sponsored-slider-wrapper"
@@ -10293,6 +10300,9 @@
     ],
     "fortinos.ca": [
         ".block-wrapper:has(.element-header__sponsoredLabel)"
+    ],
+    "fortnitetracker.com": [
+        ".love-container__content"
     ],
     "fortune.com": [
         "#Leaderboard0",
@@ -13291,6 +13301,7 @@
         "[href^=\"https://www.pcbway.com/\"]"
     ],
     "how2shout.com": [
+        ".ad-wrap",
         ".text-ads"
     ],
     "howlongagogo.com": [
@@ -23878,6 +23889,9 @@
     "realcanadiansuperstore.ca": [
         ".block-wrapper:has(.element-header__sponsoredLabel)"
     ],
+    "realchems.net": [
+        ".wps_wpr_wheel_icon"
+    ],
     "realclearhistory.com": [
         "#warning_empty_div"
     ],
@@ -29032,6 +29046,10 @@
     "therealdeal.com": [
         ".AdUnit_center__H9fGR",
         "[data-testid=\"test-div-id-for-pushdown\"]"
+    ],
+    "therealmediang.com": [
+        ".rm-header-billboard",
+        ".rm-inset-ad-band"
     ],
     "therealnews.com": [
         "#XCSCGNVU"

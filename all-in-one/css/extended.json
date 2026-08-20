@@ -1167,7 +1167,15 @@
             "type": "extended"
         },
         {
+            "selector": "[componentkey*=\"MAIN_FEED_RECENT\"] > div[role=\"listitem\"] > [data-display-contents]:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagov\u00e1no|Promoveret|Gesponsert|Promocionado|\u4fc3\u92b7\u5167\u5bb9|Post sponsoris\u00e9|\ud504\ub85c\ubaa8\uc158|Post sponsorizzato|\u5e7f\u544a|\u30d7\u30ed\u30e2\u30fc\u30b7\u30e7\u30f3|Tre\u015b\u0107 promowana|Patrocinado|Promovat|\u041f\u0440\u043e\u0434\u0432\u0438\u0433\u0430\u0435\u0442\u0441\u044f|Marknadsf\u00f6rt|Nai-promote|\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e42\u0e1b\u0e23\u0e42\u0e21\u0e17|\u00d6ne \u00e7\u0131kar\u0131lan i\u00e7erik|Gepromoot|\u0627\u0644\u062a\u0631\u0648\u064a\u062c/)",
+            "type": "extended"
+        },
+        {
             "selector": "[componentkey*=\"MAIN_FEED_RELEVANCE\"] > [data-display-contents]:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagov\u00e1no|Promoveret|Gesponsert|Promocionado|\u4fc3\u92b7\u5167\u5bb9|Post sponsoris\u00e9|\ud504\ub85c\ubaa8\uc158|Post sponsorizzato|\u5e7f\u544a|\u30d7\u30ed\u30e2\u30fc\u30b7\u30e7\u30f3|Tre\u015b\u0107 promowana|Patrocinado|Promovat|\u041f\u0440\u043e\u0434\u0432\u0438\u0433\u0430\u0435\u0442\u0441\u044f|Marknadsf\u00f6rt|Nai-promote|\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e42\u0e1b\u0e23\u0e42\u0e21\u0e17|\u00d6ne \u00e7\u0131kar\u0131lan i\u00e7erik|Gepromoot|\u0627\u0644\u062a\u0631\u0648\u064a\u062c/)",
+            "type": "extended"
+        },
+        {
+            "selector": "[componentkey*=\"MAIN_FEED_RELEVANCE\"]> div[role=\"listitem\"] > [data-display-contents]:has-text(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagov\u00e1no|Promoveret|Gesponsert|Promocionado|\u4fc3\u92b7\u5167\u5bb9|Post sponsoris\u00e9|\ud504\ub85c\ubaa8\uc158|Post sponsorizzato|\u5e7f\u544a|\u30d7\u30ed\u30e2\u30fc\u30b7\u30e7\u30f3|Tre\u015b\u0107 promowana|Patrocinado|Promovat|\u041f\u0440\u043e\u0434\u0432\u0438\u0433\u0430\u0435\u0442\u0441\u044f|Marknadsf\u00f6rt|Nai-promote|\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e42\u0e1b\u0e23\u0e42\u0e21\u0e17|\u00d6ne \u00e7\u0131kar\u0131lan i\u00e7erik|Gepromoot|\u0627\u0644\u062a\u0631\u0648\u064a\u062c/)",
             "type": "extended"
         },
         {
