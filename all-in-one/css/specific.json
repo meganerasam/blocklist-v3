@@ -6499,6 +6499,8 @@
         ".ad-campaign__aside",
         ".bitdefender-campaign",
         ".partner-content-block",
+        ".partner-content-editorial",
+        ".partner-of-the-month",
         ".scroll-up"
     ],
     "cyberscoop.com": [
@@ -9982,6 +9984,7 @@
         ".skybanner"
     ],
     "flipkart.com": [
+        "div[data-id]:has(a > [data-tkid^=\"ADVIEW\"])",
         "div[style=\"max-width:1200px;width:100%\"]:has(source[srcset^=\"https://rukminim1.flixcart.com/fk-p-flap/1570/520/image/eb2033142a4a8eab.png\"])"
     ],
     "flipline.com": [
@@ -23912,6 +23915,9 @@
         ".styles__Medrec2Container-sc-tc1w4x-1",
         ".survey-cta-card"
     ],
+    "realestate.jpost.com": [
+        ".backtop"
+    ],
     "realestatemagazine.ca": [
         ".caroufredsel_wrapper"
     ],
@@ -25746,6 +25752,7 @@
         "#ai-stud-coding-bar",
         "#aistdo-coding-bar",
         "#announcement",
+        "#auth0-sd",
         "#slashdot_deals",
         ".ad-blocked-newsletter",
         ".banner-wrapper",
@@ -26780,7 +26787,9 @@
     "stocktwits.com": [
         "#bottom-nav-content",
         ".Primis_container__OlMHR",
+        ".\\!min-h-\\[250px\\]",
         ".leading-none",
+        ".min-h-\\[320px\\]",
         ".min-w-\\[300px\\]",
         ".sticky-inner-wrapper"
     ],
