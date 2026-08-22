@@ -325,6 +325,14 @@
     ],
     "bleepingcomputer.com": [
         {
+            "selector": ".bc-heading:has-text(ponsor Posts)",
+            "type": "extended"
+        },
+        {
+            "selector": ".bc-heading:has-text(ponsor Posts) + ul",
+            "type": "extended"
+        },
+        {
             "selector": ".cz-line-heading:has-text(Sponsor Posts)",
             "type": "extended"
         },
@@ -407,7 +415,7 @@
             "type": "extended"
         },
         {
-            "selector": "#thread [class^=\"border-\"]:not([class*=\"sidebar\"]):has-text(/Ad|Sponsored/)",
+            "selector": "#thread [class^=\"border-\"]:has-text(/Ad|Sponsored/):not([class*=\"sidebar\"])",
             "type": "extended"
         }
     ],

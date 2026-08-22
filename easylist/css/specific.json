@@ -641,7 +641,8 @@
         ".pb-las"
     ],
     "aha-music.com": [
-        ".countdown-ad-wrap"
+        ".countdown-ad-wrap",
+        ".vms-ad-wrap"
     ],
     "ahaan.co.uk": [
         ".MuiSnackbar-anchorOriginBottomCenter",
@@ -2622,12 +2623,14 @@
         ".bc_guide",
         ".cz-toa-wrapp",
         ".ia_ad",
+        ".spon_res",
         "[href*=\"https://www.bleepingcomputer.com/mgo/\"]",
         "[href^=\"https://www.adaptivesecurity.com/\"]",
         "[href^=\"https://www.bleepingcomputer.com/go/\"]",
         "[href^=\"https://www.threatlocker.com/\"]",
         "[href^=\"https://ztw.com/\"]",
         "[src*=\"https://www.bleepstatic.com/c/t/threatlocker/\"]",
+        "div[style=\"width:98%; margin:0 auto; padding:5px; text-align:center; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;\"]",
         "div[style=\"width:98%; margin:0 auto; text-align:center; padding:4px; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;\"]",
         "div[style=\"width:98%; margin:0 auto; text-align:center; padding:5px; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;\"]"
     ],
@@ -4942,6 +4945,11 @@
     ],
     "cpstest.org": [
         ".bottomAdsection"
+    ],
+    "cpu-benchmark.org": [
+        ".ad-block",
+        ".bn-hero",
+        "div[style=\"height:100px\"]"
     ],
     "cpu-monkey.com": [
         "#sticky-header-mobile",
@@ -17415,6 +17423,9 @@
     "pep.ph": [
         ".c-ad__item"
     ],
+    "percentagecalculator.net": [
+        ".pc-incontent"
+    ],
     "perchance.org": [
         "#adCtn"
     ],
@@ -24966,6 +24977,7 @@
         "a[data-content=\"promotion\"]"
     ],
     "turtlecute.org": [
+        ".collab_wrap",
         ".sponsor_banner_wrap"
     ],
     "tutiempo.net": [
