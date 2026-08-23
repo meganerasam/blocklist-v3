@@ -5750,6 +5750,10 @@
         ".mega-bar",
         ".popular__section-newsx"
     ],
+    "computer.org": [
+        ".ad-area",
+        "#scrollToTopLink"
+    ],
     "computerhope.com": [
         ".ad",
         "#infobar"

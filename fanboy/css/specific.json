@@ -1272,6 +1272,9 @@
         ".donation_banner",
         ".lead_post_post_body.message-post"
     ],
+    "computer.org": [
+        "#scrollToTopLink"
+    ],
     "computerhope.com": [
         "#infobar"
     ],
