@@ -11505,6 +11505,9 @@
     "get.pixelexperience.org": [
         ".mantine-arewlw"
     ],
+    "getaiperks.com": [
+        "a[href*=\"&utm_\"]"
+    ],
     "getbukkit.org": [
         ".limit"
     ],
@@ -12672,7 +12675,8 @@
         ".banner-add"
     ],
     "headlinesplus.com": [
-        ".aspect-video"
+        ".aspect-video",
+        ".hp-ad"
     ],
     "health.clevelandclinic.org": [
         ".bottom-0.fixed",
@@ -14982,6 +14986,8 @@
     "justjared.com": [
         ".header-container__main",
         ".top_rail_shell",
+        ".tpd-ob-reserve",
+        ".tpd-tcm-widget",
         ".widget_tpd_ad_widget"
     ],
     "justjaredjr.com": [
@@ -33403,6 +33409,7 @@
         "div[data-is-ad=\"1\"]",
         "div[data-is-promoted-hotel-ad=\"true\"]",
         "div[data-section-type=\"ads\"]",
+        "div[data-text-ad]",
         "div[data-tweed-card]:has(a[href^=\"https://www.google.com/aclk?\"])",
         "div[jscontroller=\"DbCX3b\"]:has(a[href^=\"/aclk?\"])",
         "div[jsdata*=\"CarouselPLA-\"][data-id^=\"CarouselPLA-\"]",
