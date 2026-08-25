@@ -1799,6 +1799,9 @@
     "docs.github.com": [
         "[aria-label=\"Scroll to top\"]"
     ],
+    "docs.google.com": [
+        "div[aria-label*=\"Get more from Google Workspace\"]"
+    ],
     "dole.com": [
         "dole-back-to-top"
     ],
@@ -5253,6 +5256,9 @@
     "pureplaymedia.com": [
         "#agp__root"
     ],
+    "pv-magazine.com": [
+        ".pvmagazine-announcement-block"
+    ],
     "pyrexoriginal.com": [
         "#wr-back-top"
     ],
@@ -6198,6 +6204,9 @@
     "tech-camp.in": [
         "a[data-gtm-tcb=\"TCB_CLICK_scrollbanner_default_exp_income\"]",
         "a[data-gtm-tcb^=\"TCB_CLICK_buntyubanner_\"]"
+    ],
+    "tech-insider.org": [
+        ".ct-back-to-top"
     ],
     "tech.co": [
         ".button-scroll-top"

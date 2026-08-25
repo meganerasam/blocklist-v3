@@ -286,6 +286,9 @@
     "8days.sg": [
         ".programtic-ads"
     ],
+    "8gwifi.org": [
+        ".ad-container"
+    ],
     "90min.com": [
         "div[class^=\"ad_\"]",
         "figure:has(> div > #mm-player-placeholder-large-screen)"
@@ -7721,6 +7724,9 @@
     "docs.github.com": [
         "[aria-label=\"Scroll to top\"]"
     ],
+    "docs.google.com": [
+        "div[aria-label*=\"Get more from Google Workspace\"]"
+    ],
     "dodi-repacks.site": [
         "#block-17"
     ],
@@ -8617,6 +8623,9 @@
     "embedsun.cc": [
         "[id^=\"bg_wrap_\"]"
     ],
+    "emblemsbf.com": [
+        "[style=\"margin:10px;background: #f7f7f7;border-radius: 4px;\"]"
+    ],
     "emergencyemail.org": [
         ".footer"
     ],
@@ -9284,6 +9293,11 @@
         "img[alt=\"Amazon\"]"
     ],
     "f95zone.to": [
+        "#bisnre09",
+        ".node--link:has([href^=\"/explore/\"])",
+        ".node--link:has([href^=\"/link-forums/build-your-dream-fucktoy\"])",
+        ".node--link:has([href^=\"/link-forums/camsoda-ai\"])",
+        ".node--link:has([href^=\"/link-forums/more-than-just-a-flirt\"])",
         ".samAlignCenter"
     ],
     "facebook.com": [
@@ -20511,6 +20525,9 @@
     "odishatv.in": [
         "[class$=\"-ad\"]"
     ],
+    "odt.co.nz": [
+        "#odt-article-masthead-band"
+    ],
     "odysee.com": [
         ".nag--helpful"
     ],
@@ -21976,6 +21993,9 @@
     "player.allclassical.org": [
         "#advert"
     ],
+    "player.fm": [
+        ".when-show-ads"
+    ],
     "playingfor90.com": [
         ".header-billboard",
         ".mosaic-banner",
@@ -23050,6 +23070,11 @@
         "#home-top-rectangle-wrap-1",
         "#home-top-rectangle-wrap-2",
         "#home-top-rectangle-wrap-3"
+    ],
+    "pv-magazine.com": [
+        ".advert-block__container",
+        ".pvmagazine-advert-group",
+        ".pvmagazine-announcement-block"
     ],
     "pwinsider.com": [
         ".banner-top",
@@ -26054,16 +26079,29 @@
         ".bottom_600_250_block",
         ".right_ga"
     ],
-    "softonic.com": [
-        ".black-friday-ads",
-        ".rv-di-modal__label",
-        ".rv-di-step__body",
-        ".rv-di-step__container",
-        ".rv-di-step__section-container",
-        ".sam-slot",
-        "[data-meta=\"placeholder-slot\"]:has([data-label=\"Advertisement\"])",
-        "div[data-meta=\"placeholder-slot\"]",
-        "li[id^=\"res-top-downloads-spc-\"]"
+    "softonic-ar.com": [
+        "#pdp-bundle.sponsored",
+        ".is-mobile-hide.j458eK",
+        ".is-premium-hide",
+        "div[data-meta=\"placeholder-slot\"]"
+    ],
+    "softonic-id.com": [
+        "#pdp-bundle.sponsored",
+        ".is-mobile-hide.j458eK",
+        ".is-premium-hide",
+        "div[data-meta=\"placeholder-slot\"]"
+    ],
+    "softonic-th.com": [
+        "#pdp-bundle.sponsored",
+        ".is-mobile-hide.j458eK",
+        ".is-premium-hide",
+        "div[data-meta=\"placeholder-slot\"]"
+    ],
+    "softonic.*": [
+        "#pdp-bundle.sponsored",
+        ".is-mobile-hide.j458eK",
+        ".is-premium-hide",
+        "div[data-meta=\"placeholder-slot\"]"
     ],
     "softpanorama.org": [
         "table[height=\"620\"]"
@@ -27512,6 +27550,9 @@
     "tech-fairy.com": [
         ".custom-html-widget",
         "[href^=\"https://apps.apple.com/gb/app/\"]"
+    ],
+    "tech-insider.org": [
+        ".ct-back-to-top"
     ],
     "tech-latest.com": [
         ".code-block"
