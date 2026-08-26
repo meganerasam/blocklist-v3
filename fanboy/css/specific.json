@@ -7588,6 +7588,7 @@
         ".ytp-pause-overlay"
     ],
     "youtube.com": [
+        "#offer-module",
         "#yt-feedback",
         "#yt-hitchhiker-feedback",
         "#yt-lang-alert-container",
