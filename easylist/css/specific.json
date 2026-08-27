@@ -5889,6 +5889,9 @@
         ".item-sponsored",
         ".slot"
     ],
+    "deltiasgaming.com": [
+        ".vidazoo-player-container"
+    ],
     "demap.info": [
         "#pcad"
     ],

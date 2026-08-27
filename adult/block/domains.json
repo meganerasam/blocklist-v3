@@ -685,11 +685,18 @@
             "type": "block"
         },
         "condition": {
-            "initiatorDomains": [
-                "androidadult.com"
+            "resourceTypes": [
+                "sub_frame"
             ],
+            "domainType": "thirdParty",
             "requestDomains": [
-                "cldup.com"
+                "bongacams.com",
+                "cum.org",
+                "faphouse.com",
+                "games-direct.skynetworkcdn.com",
+                "ifriends.net",
+                "livesexasian.com",
+                "porndeals.com"
             ]
         }
     },
@@ -700,17 +707,11 @@
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "sub_frame"
+            "initiatorDomains": [
+                "androidadult.com"
             ],
-            "domainType": "thirdParty",
             "requestDomains": [
-                "cum.org",
-                "faphouse.com",
-                "games-direct.skynetworkcdn.com",
-                "ifriends.net",
-                "livesexasian.com",
-                "porndeals.com"
+                "cldup.com"
             ]
         }
     },
