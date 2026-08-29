@@ -11373,6 +11373,12 @@
         ".adthrive",
         ".leaderboard"
     ],
+    "gd.games": [
+        "div[style=\"position: relative; display: flex; flex-direction: column; gap: 2px; justify-content: center; align-items: center; padding: 8px;\"]",
+        "div[style=\"position: relative; display: flex; flex-direction: column; gap: 2px; justify-content: center; align-items: center;\"]",
+        "div[style=\"position:relative;display:flex;flex-direction:column;gap:2px;justify-content:center;align-items:center\"]",
+        "div[style=\"position:relative;display:flex;flex-direction:column;gap:2px;justify-content:center;align-items:center;padding:8px\"]"
+    ],
     "gearjunkie.com": [
         ".ldm_ad",
         ".video-jwplayer"
