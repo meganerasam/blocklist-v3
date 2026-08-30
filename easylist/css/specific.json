@@ -6643,9 +6643,6 @@
     "dumbartonreporter.co.uk": [
         ".mpu"
     ],
-    "dump.li": [
-        ".banner"
-    ],
     "dunfermlinepress.com": [
         ".mpu"
     ],
@@ -8913,9 +8910,6 @@
     "futurecurrencyforecast.com": [
         ".cwc-tor-widget"
     ],
-    "futuregaming.io": [
-        ".ez-video-wrap"
-    ],
     "futurism.com": [
         "#pw-iab-leaderboard",
         "#pw-top-right-sidebar-aib"
@@ -8966,9 +8960,6 @@
     ],
     "gadgetinsiders.com": [
         ".code-block"
-    ],
-    "gadgetonhand.com": [
-        ".ads-heading"
     ],
     "gadgets360.com": [
         "#parentDiv0",
@@ -14391,9 +14382,6 @@
         ".GeneralMaterial-module-aside",
         ".UnderTheSun-module-banner"
     ],
-    "megacloud.tv": [
-        "#overlay-center"
-    ],
     "megagames.com": [
         ".block-4"
     ],
@@ -16210,9 +16198,6 @@
     "newswiretoday.com": [
         ".sponsortd"
     ],
-    "newthinking.com": [
-        ".ad-container-mpu"
-    ],
     "newtimes.co.rw": [
         ".header-top",
         ".nt-horizontal-ad",
@@ -17069,9 +17054,9 @@
         ".VdboX[tabindex=\"0\"]:has(img[src=\"https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg\"])",
         "._BAY1XlyQSIe6kyKPlYP",
         "[data-app-section=\"MessageList\"] div[style^=\"position: absolute; left: 0px; top: 0px\"]:has(.ms-Shimmer-container)",
+        "[data-message-ad-id=\"MessageAdKeyOutlookUpSell0\"]",
         "div.customScrollBar > div > div[id][class]:has(img[src$=\"/images/ads-olk-icon.png\"])",
-        "div:has(> div > div.fbAdLink)",
-        "div[data-app-section=\"MessageList\"] div[class][id*=\"-\"]:has(> div:not([class]) > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] + .ms-Button--hasMenu.ms-Button--icon)"
+        "div:has(> div > div.fbAdLink)"
     ],
     "outlookindia.com": [
         "#_snup-rtdx-ldgr1",
@@ -19531,10 +19516,6 @@
         ".advertisement",
         ".mpu"
     ],
-    "readvinlandsaga.com": [
-        ".border-b-0.border-border-primary.overflow-hidden",
-        "[href^=\"https://amzn.to/\"]"
-    ],
     "readwatford.com": [
         ".advertisement",
         ".mpu"
@@ -20972,9 +20953,6 @@
     ],
     "simonwillison.net": [
         "#sponsored-banner"
-    ],
-    "simpasian.net": [
-        ".hideme"
     ],
     "simpledesktops.com": [
         ".ad"
@@ -26369,9 +26347,6 @@
     ],
     "weatherzone.com.au": [
         ".publift-ad-wrapper"
-    ],
-    "web-dev-qa-db-fra.com": [
-        ".adn-ar"
     ],
     "web.telegram.org": [
         ".SponsoredMessage",
