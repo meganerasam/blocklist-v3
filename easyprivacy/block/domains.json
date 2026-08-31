@@ -21982,6 +21982,7 @@
                 "obs.esnlocco.com",
                 "obs.greencolumnblog.com",
                 "obs.jollyoutdoorjogger.com",
+                "obs.sd4823.spglobal.com",
                 "obs.system1onesource.com",
                 "observe-nexus.pointandplace.com",
                 "observe.metarouter.io",
@@ -22928,6 +22929,7 @@
                 "pixel.safe-installation.com",
                 "pixel.sprinklr.com",
                 "pixel.tuko.co.ke",
+                "pixel.uppromote.com",
                 "pixel.veritone-ce.com",
                 "pixel.videohub.tv",
                 "pixel.visitiq.io",
@@ -38149,6 +38151,23 @@
         "condition": {
             "resourceTypes": [
                 "image",
+                "ping"
+            ],
+            "domainType": "firstParty",
+            "requestDomains": [
+                "aplus.aliexpress."
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "image",
                 "script"
             ],
             "requestDomains": [
@@ -38157,7 +38176,7 @@
         }
     },
     {
-        "id": 29,
+        "id": 30,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38172,7 +38191,7 @@
         }
     },
     {
-        "id": 30,
+        "id": 31,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38187,7 +38206,7 @@
         }
     },
     {
-        "id": 31,
+        "id": 32,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38202,7 +38221,7 @@
         }
     },
     {
-        "id": 32,
+        "id": 33,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38254,7 +38273,7 @@
         }
     },
     {
-        "id": 33,
+        "id": 34,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38269,7 +38288,7 @@
         }
     },
     {
-        "id": 34,
+        "id": 35,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38284,7 +38303,7 @@
         }
     },
     {
-        "id": 35,
+        "id": 36,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38304,7 +38323,7 @@
         }
     },
     {
-        "id": 36,
+        "id": 37,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38323,7 +38342,7 @@
         }
     },
     {
-        "id": 37,
+        "id": 38,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38378,7 +38397,7 @@
         }
     },
     {
-        "id": 38,
+        "id": 39,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38395,7 +38414,7 @@
         }
     },
     {
-        "id": 39,
+        "id": 40,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38417,7 +38436,7 @@
         }
     },
     {
-        "id": 40,
+        "id": 41,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38437,7 +38456,7 @@
         }
     },
     {
-        "id": 41,
+        "id": 42,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38452,7 +38471,7 @@
         }
     },
     {
-        "id": 42,
+        "id": 43,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38468,7 +38487,7 @@
         }
     },
     {
-        "id": 43,
+        "id": 44,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38485,7 +38504,7 @@
         }
     },
     {
-        "id": 44,
+        "id": 45,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38502,7 +38521,7 @@
         }
     },
     {
-        "id": 45,
+        "id": 46,
         "priority": 1,
         "action": {
             "type": "block"

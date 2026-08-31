@@ -2986,6 +2986,9 @@
     "bravotv.com": [
         ".advertisement"
     ],
+    "brawlinsights.com": [
+        ".ad-banner-wrap"
+    ],
     "breakingac.com": [
         ".ad-container"
     ],
@@ -17229,6 +17232,10 @@
     "passedoutphotos.com": [
         ".leaderboard"
     ],
+    "passfab.com": [
+        "#seasonal-banner-new",
+        ".bottom"
+    ],
     "passiveincomemd.com": [
         ".passi-pimdcon-ad-placement"
     ],
@@ -22948,6 +22955,11 @@
         ".ai-viewport-1",
         ".code-block"
     ],
+    "theblast.com": [
+        ".tpd-incontent-ad-container",
+        ".tpd-tcm-widget",
+        ".widget_tpd_ad_widget"
+    ],
     "theblaze.com": [
         "[data-category=\"SPONSORED\"]"
     ],
@@ -24567,6 +24579,9 @@
     ],
     "tracker.gg": [
         ".ad"
+    ],
+    "trackinsight.com": [
+        "div[data-nosnippet=\"true\"]:has([id^=\"div-gpt-ad-\"])"
     ],
     "tractorbynet.com": [
         "a[href][target=\"_blank\"] > img[class^=\"attachment-large\"]"
