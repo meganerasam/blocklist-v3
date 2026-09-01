@@ -6370,6 +6370,9 @@
         "#faded",
         ".wrapper-au-popup"
     ],
+    "csrep.gg": [
+        "div[data-ad-placement]"
+    ],
     "css3generator.com": [
         ".gotta-pay-the-bills"
     ],
@@ -7209,6 +7212,9 @@
     ],
     "degruyterbrill.com": [
         ".marketing-banner"
+    ],
+    "dekudeals.com": [
+        "[data-nudge-for]"
     ],
     "delanceyplace.com": [
         "#nekoToTop"
@@ -9675,6 +9681,9 @@
     ],
     "fijivillage.com": [
         "[href=\"https://psh.com.fj/cardiac/\"]"
+    ],
+    "file.io": [
+        ".lw_ad"
     ],
     "filecrypt.cc": [
         ".butt1ns button[onclick*=\"loc.href='/Link/\"]",
@@ -12668,6 +12677,7 @@
         "[onclick^=\"window.open\"]"
     ],
     "haxnode.net": [
+        "[onclick^=\"window.open\"]",
         "a[href*=\"javascript:\"]"
     ],
     "hbr.org": [
@@ -17830,6 +17840,9 @@
     ],
     "mgnetu.com": [
         "[href*=\"bit.ly/\"]"
+    ],
+    "mgtow.tv": [
+        ".fads-placment"
     ],
     "mhi.com": [
         "#pageTop"
@@ -30658,7 +30671,8 @@
     ],
     "turtlecute.org": [
         ".collab_wrap",
-        ".sponsor_banner_wrap"
+        ".sponsor_banner_wrap",
+        "a[href^=\"https://shockvpn.com/?\"]"
     ],
     "tutiempo.net": [
         ".ContBannerTop",
@@ -31016,6 +31030,9 @@
     ],
     "unfinishedman.com": [
         ".ai-viewport-1"
+    ],
+    "ungeek.ph": [
+        ".ungee-entity-placement"
     ],
     "unige.ch": [
         ".unige-topnav"
@@ -34005,6 +34022,7 @@
     "yugatech.com": [
         "#text-69",
         ".ai_widget",
+        ".ygt-ad-slot",
         "[href*=\"bit.ly/\"]",
         "a[href^=\"https://yugatech.ph/\"]"
     ],

@@ -5204,6 +5204,9 @@
         "#faded",
         ".wrapper-au-popup"
     ],
+    "csrep.gg": [
+        "div[data-ad-placement]"
+    ],
     "css3generator.com": [
         ".gotta-pay-the-bills"
     ],
@@ -7862,6 +7865,9 @@
     "fijivillage.com": [
         "[href=\"https://psh.com.fj/cardiac/\"]"
     ],
+    "file.io": [
+        ".lw_ad"
+    ],
     "filecrypt.cc": [
         ".butt1ns button[onclick*=\"loc.href='/Link/\"]",
         ".fiIItheadblockqueue4",
@@ -10470,6 +10476,7 @@
         "[onclick^=\"window.open\"]"
     ],
     "haxnode.net": [
+        "[onclick^=\"window.open\"]",
         "a[href*=\"javascript:\"]"
     ],
     "hbr.org": [
@@ -14573,6 +14580,9 @@
     ],
     "mgnetu.com": [
         "[href*=\"bit.ly/\"]"
+    ],
+    "mgtow.tv": [
+        ".fads-placment"
     ],
     "mi-reporter.com": [
         ".one_by_one_group"
@@ -25032,7 +25042,8 @@
     ],
     "turtlecute.org": [
         ".collab_wrap",
-        ".sponsor_banner_wrap"
+        ".sponsor_banner_wrap",
+        "a[href^=\"https://shockvpn.com/?\"]"
     ],
     "tutiempo.net": [
         ".ContBannerTop",
@@ -25333,6 +25344,9 @@
     ],
     "unfinishedman.com": [
         ".ai-viewport-1"
+    ],
+    "ungeek.ph": [
+        ".ungee-entity-placement"
     ],
     "unilad.com": [
         ".floating-video-player_container__u4D9_",
@@ -27781,6 +27795,7 @@
     "yugatech.com": [
         "#text-69",
         ".ai_widget",
+        ".ygt-ad-slot",
         "[href*=\"bit.ly/\"]",
         "a[href^=\"https://yugatech.ph/\"]"
     ],

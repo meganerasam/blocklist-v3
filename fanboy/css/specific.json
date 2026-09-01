@@ -1651,6 +1651,9 @@
     "degruyterbrill.com": [
         ".marketing-banner"
     ],
+    "dekudeals.com": [
+        "[data-nudge-for]"
+    ],
     "delanceyplace.com": [
         "#nekoToTop"
     ],
