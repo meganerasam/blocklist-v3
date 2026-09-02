@@ -2299,6 +2299,8 @@
         "[data-testid=\"sponsored-listing\"]",
         "[data-testid=\"story-wrapper-row\"] div:has(> [data-story-name=\"sponsored_grid\"])",
         "[id^=\"atwb-ninja-carousel\"]",
+        "div[data-action-name=\"ad_hp_sbb\"]",
+        "div[data-adfoundry-placement]",
         "li.embedded-sponsored-listing"
     ],
     "bestcrazygames.com": [
@@ -12380,6 +12382,7 @@
         ".rd-recommender__tile:has(div.rd-product-tile__badge--ad)",
         ".rd-recommender__tile:has(span.advertiser-info__button-icon)",
         ".spads-recommender",
+        ".sponsored-brand-ads",
         ".sponsored-brand-products-container",
         ".teaser-orchestration__wrapper--online"
     ],
