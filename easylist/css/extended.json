@@ -1901,6 +1901,10 @@
             "type": "extended"
         },
         {
+            "selector": "div[data-test=\"ListingPageProductListing\"]:has(span:has-text(Sponsored))",
+            "type": "extended"
+        },
+        {
             "selector": "div[data-test=\"addToCartSuccessModalRecommendationsTile\"]:has(p.h-text-xs:has-text(Sponsored))",
             "type": "extended"
         }
