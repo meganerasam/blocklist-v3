@@ -432,6 +432,9 @@
         ".taboola",
         "[data-testid=\"prism-sticky-ad\"]"
     ],
+    "abcnews4.com": [
+        "div[class*=\"MidArticleAdUnit_\"]"
+    ],
     "abcya.com": [
         ".a-leader",
         ".a-skyscraper"
@@ -3900,6 +3903,9 @@
     "buickforum.com": [
         "#sidetilewidth",
         "aside > center"
+    ],
+    "buildcores.com": [
+        "li.group\\/menu-item:has(a[href=\"/sponsored\"])"
     ],
     "builtbybit.com": [
         ".resourceSidebar-belowContent > div > .block:has(.block-container a[href=\"https://tebex.io/\"])",
@@ -8564,6 +8570,7 @@
     ],
     "elevenforum.com": [
         ".gads",
+        "[style=\"width:302px;padding-bottom:10px;text-align:center;height:265px;margin-bottom:15px;\"]",
         "div[style=\"width:300px;padding-bottom:10px;text-align:center;height:612px;margin-bottom:15px;\"]"
     ],
     "elfaro.net": [
@@ -31869,6 +31876,9 @@
     "wabetainfo.com": [
         ".adContainer",
         ".widget_custom_html"
+    ],
+    "wach.com": [
+        "div[class*=\"MidArticleAdUnit_\"]"
     ],
     "wackojaco.com": [
         ".ya-slot"
