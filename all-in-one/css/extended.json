@@ -847,6 +847,12 @@
             "type": "extended"
         }
     ],
+    "gamedev.net": [
+        {
+            "selector": ".dark\\:border-gray-700:has-text(Advertisement)",
+            "type": "extended"
+        }
+    ],
     "gamepadla.com": [
         {
             "selector": ".pMain:has-text(Partner)",

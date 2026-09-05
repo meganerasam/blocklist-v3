@@ -10205,6 +10205,9 @@
     "foodrenegade.com": [
         ".top-cta"
     ],
+    "foodrepublic.com": [
+        ".raptive-video-player"
+    ],
     "foodsforbetterhealth.com": [
         "#text-46",
         ".advertisement"
@@ -13525,7 +13528,8 @@
         "aside > center"
     ],
     "hunker.com": [
-        ".component-article-section-jwplayer-wrapper"
+        ".component-article-section-jwplayer-wrapper",
+        ".raptive-video-player"
     ],
     "huntspost.co.uk": [
         ".advert"
@@ -14565,6 +14569,9 @@
     "islandpacket.com": [
         ".zone",
         ".zone-el"
+    ],
+    "islands.com": [
+        ".raptive-video-player"
     ],
     "islingtongazette.co.uk": [
         ".advert"
@@ -17426,7 +17433,8 @@
         "section.mt-4 > div"
     ],
     "mashed.com": [
-        ".before-ad"
+        ".before-ad",
+        ".raptive-video-player"
     ],
     "masslive.com": [
         "#below-toprail",
@@ -20031,6 +20039,9 @@
         ".sticky-parent",
         ".asset-paging-container"
     ],
+    "nickiswift.com": [
+        ".raptive-video-player"
+    ],
     "nicomanga.com": [
         ".max-w-lg.my-6.bg-green-600\\/90",
         ".owl-stage > .owl-item:has([title=\"ADS Support\"])"
@@ -20845,7 +20856,7 @@
     ],
     "openalternative.co": [
         ".duration-100.rounded-lg:has(a[href=\"/advertise\"])",
-        ".relative.rounded-lg:has(a[href=\"/advertise\"])",
+        ".relative.rounded-lg:has(a[href^=\"/advertise\"])",
         "div[class=\"relative flex max-md:order-3\"]:has(a[href=\"/advertise\"])",
         "div[class=\"relative flex\"]:has(a[href=\"/advertise\"])"
     ],
@@ -27067,6 +27078,7 @@
     ],
     "stuff.co.nz": [
         ".between-ad-slot",
+        ".cw-hp-top-banner-container",
         ".header-ads-block",
         ".header-container",
         ".horizontal-ad-slot",
@@ -28815,7 +28827,8 @@
     ],
     "thelist.com": [
         ".before-ad",
-        ".divider-heading-container"
+        ".divider-heading-container",
+        ".raptive-video-player"
     ],
     "theloadout.com": [
         ".advertising_slot_video_player",
