@@ -20508,6 +20508,7 @@
         ".css-wmyc1",
         ".e1xxpj0j1.css-4vtjtj",
         ".g-paid",
+        ".in_rhq_adSpacer",
         "[class]:has(> [id=\"ad-top\"])",
         "[data-ad-element=\"outer_ad_container\"]",
         "[data-testid=\"StandardAd\"]"
