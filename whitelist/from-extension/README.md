@@ -22,9 +22,10 @@ google.com,3398
 - **Producer**: each extension backend deploys the stateless endpoint
   `user-whitelisted-domains.php` (see `ENDPOINT.md` in the extension's backend
   folder). It recomputes from the DB on every call, counts users (never edits),
-  only includes installs active in the last 12 months, and drops any domain
-  with fewer than 5 distinct users (privacy floor) — so these public CSVs never
-  contain personal browsing data.
+  only includes recently active installs (`WL_WINDOW_MONTHS`, currently 6
+  months), and drops any domain below the privacy floor (`WL_MIN_USERS`,
+  currently 20 distinct users) — so these public CSVs never contain personal
+  browsing data.
 - **Consumer**: `fetch_extension_whitelists.php` (this folder) loops over the
   `$EXTENSIONS` config array, calls each endpoint with its token, and stores
   the response as `extension-<id>.csv`. It is run daily (23:00 UTC, before the

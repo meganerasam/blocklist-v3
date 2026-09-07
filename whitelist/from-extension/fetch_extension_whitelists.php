@@ -35,6 +35,11 @@ declare(strict_types=1);
 // ============================================================================
 $EXTENSIONS = [
     [
+        'id'   => '23',
+        'name' => 'Ad Block Wonder',
+        'url'  => 'https://wonderupdates.com/user-whitelisted-domains.php',
+    ],
+    [
         'id'   => '24',
         'name' => 'Stop Ads Now',
         'url'  => 'https://stopads-now.com/user-whitelisted-domains.php',
@@ -43,6 +48,11 @@ $EXTENSIONS = [
         'id'   => '25',
         'name' => 'Ninja Block',
         'url'  => 'https://ninja-block.com/user-whitelisted-domains.php',
+    ],
+    [
+        'id'   => '26',
+        'name' => 'Ad Block Ghost',
+        'url'  => 'https://adblockghost.com/user-whitelisted-domains.php',
     ],
 ];
 
