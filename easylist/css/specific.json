@@ -2423,6 +2423,7 @@
         ".transferwise"
     ],
     "bing.com": [
+        "#b_wt_adepd",
         "#bepfo.popup[style^=\"visibility: visible\"]",
         ".ad_sc",
         ".b_ad",
@@ -4641,6 +4642,10 @@
     ],
     "coloring.ws": [
         "#adBanner"
+    ],
+    "colossus.com": [
+        ".single-sponsor",
+        "a[data-article-sponsor-name]"
     ],
     "colourlovers.com": [
         "#ga-above-footer",
@@ -21815,7 +21820,6 @@
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"M2.31179\"])",
         "div.result[style=\"margin-bottom: 10px;\"]:has(path[d^=\"m6.07067\"])",
         "div[data-identifier=\"exoclick-native-impression\"]",
-        "div[data-visible=\"true\"][data-identifier]",
         "div[style=\"display: block; padding: 12px; margin: 0px 0px 10px; border-radius: 4px; border: 1px solid rgb(59, 67, 91);\"]"
     ],
     "startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion": [
