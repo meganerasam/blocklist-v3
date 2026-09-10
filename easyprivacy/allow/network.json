@@ -309,7 +309,8 @@
                 "espn.com",
                 "goindigo.in",
                 "hungryroot.com",
-                "usa.experian.com"
+                "usa.experian.com",
+                "wirecutterstore.nytimes.com"
             ],
             "requestDomains": [
                 "datadoghq-browser-agent.com"
@@ -7884,7 +7885,8 @@
         "condition": {
             "initiatorDomains": [
                 "lachainemeteo.com",
-                "lefigaro.fr"
+                "lefigaro.fr",
+                "meteoconsult.fr"
             ],
             "urlFilter": "||collector.appconsent.io/hello"
         }

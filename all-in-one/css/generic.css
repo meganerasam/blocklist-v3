@@ -1,7 +1,7 @@
 /*
  * generic.css 
  * Merged from adult, easylist, easyprivacy, fanboy
- * Generated: 2026-09-09 02:05:43 UTC
+ * Generated: 2026-09-10 02:02:32 UTC
  */
 
 #AC_ad,
@@ -13976,6 +13976,7 @@
 .zmgad-right-rail,
 .zone-advertisement,
 .zone.zone--loaded,
+.zone.zone--skeletonEnabled,
 .zoneAds,
 .zox-post-ad-wrap,
 .zox-post-bot-ad,
