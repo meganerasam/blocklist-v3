@@ -7718,6 +7718,17 @@
             "type": "allow"
         },
         "condition": {
+            "domainType": "firstParty",
+            "urlFilter": "||img.cf.47news.jp/static/*/300x250"
+        }
+    },
+    {
+        "id": 503,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
             "resourceTypes": [
                 "image"
             ],
@@ -7726,7 +7737,7 @@
         }
     },
     {
-        "id": 503,
+        "id": 504,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7737,7 +7748,7 @@
         }
     },
     {
-        "id": 504,
+        "id": 505,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7751,7 +7762,7 @@
         }
     },
     {
-        "id": 505,
+        "id": 506,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7765,7 +7776,7 @@
         }
     },
     {
-        "id": 506,
+        "id": 507,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7779,7 +7790,7 @@
         }
     },
     {
-        "id": 507,
+        "id": 508,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7793,7 +7804,7 @@
         }
     },
     {
-        "id": 508,
+        "id": 509,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7807,7 +7818,7 @@
         }
     },
     {
-        "id": 509,
+        "id": 510,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7821,7 +7832,7 @@
         }
     },
     {
-        "id": 510,
+        "id": 511,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7835,19 +7846,6 @@
         }
     },
     {
-        "id": 511,
-        "priority": 2,
-        "action": {
-            "type": "allow"
-        },
-        "condition": {
-            "resourceTypes": [
-                "image"
-            ],
-            "urlFilter": "||rollercoin.com/static/img/referral_160-600.png"
-        }
-    },
-    {
         "id": 512,
         "priority": 2,
         "action": {
@@ -7857,8 +7855,7 @@
             "resourceTypes": [
                 "image"
             ],
-            "domainType": "firstParty",
-            "urlFilter": "||taipit-mebel.ru/upload/resize_cache/"
+            "urlFilter": "||rollercoin.com/static/img/referral_160-600.png"
         }
     },
     {
@@ -7872,11 +7869,25 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||wavepc.pl/wp-content/*-500x100.png"
+            "urlFilter": "||taipit-mebel.ru/upload/resize_cache/"
         }
     },
     {
         "id": 514,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "resourceTypes": [
+                "image"
+            ],
+            "domainType": "firstParty",
+            "urlFilter": "||wavepc.pl/wp-content/*-500x100.png"
+        }
+    },
+    {
+        "id": 515,
         "priority": 2,
         "action": {
             "type": "allow"
