@@ -15512,6 +15512,9 @@
     "klarna.com": [
         "a[href*=\"&clickarea=sponsored&\"]"
     ],
+    "klipy.com": [
+        ".max-w-\\[392px\\]"
+    ],
     "klook.com": [
         ".klook-icon-Top"
     ],
@@ -20091,6 +20094,9 @@
     ],
     "nightingaledvs.com": [
         ".widget-area--below-post"
+    ],
+    "nightlight.gg": [
+        "._adContainer_jdmri_296"
     ],
     "nikktech.com": [
         "#headerbanner",
@@ -25805,6 +25811,11 @@
         "#HeaderAdsenseCLSFix",
         ".adCLS"
     ],
+    "sitepoint.com": [
+        "#takeover-content-1",
+        "#takeover-vertical",
+        ".inline-content"
+    ],
     "siteslike.com": [
         ".rif"
     ],
@@ -30916,6 +30927,9 @@
         "aside[role=\"complementary\"]:has(> a[href=\"/i/premium_sign_up\"])",
         "div[data-testid=\"profileAnalyticsUpsell\"]",
         "div[data-testid=\"verified_profile_upsell\"]"
+    ],
+    "twstalker.com": [
+        "div[style^=\"max-width: 728px; width: 100%;\"]"
     ],
     "twz.com": [
         "#pw-iab-leaderboard",
