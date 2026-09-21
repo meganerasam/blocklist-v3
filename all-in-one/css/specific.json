@@ -11540,7 +11540,8 @@
     ],
     "geo.tv": [
         ".ads",
-        ".mrec"
+        ".mrec",
+        "div[style$=\"min-height: 280px;\"]"
     ],
     "geoawesome.com": [
         ".single-post__extra-info"
@@ -23283,6 +23284,7 @@
     "qz.com": [
         ".ay-ad-slot",
         ".k3mqd",
+        "[style=\"min-height:300px\"]",
         "div[class*=\":block\"]:has(> .ay-ad-slot)",
         "div[class*=\"my-\"]:has(> .ay-ad-slot)",
         "div[class=\"hidden md:block\"]",
@@ -25412,6 +25414,17 @@
         ".sw-bulletin",
         ".sw-home-ads",
         ".zox-post-ad-wrap"
+    ],
+    "sedaily.com": [
+        "#ad-art-2-0",
+        "#ad-art-3-0",
+        "#ad-art-4-0",
+        "#ad-main-1-0",
+        "#ad-main-2-0",
+        "#ad-main-3-0",
+        "#ad-main-4-0",
+        ".justify-center.z-\\[9999\\].inset-0",
+        ".md\\:h-\\[180px\\]"
     ],
     "seechamonix.com": [
         "#ads-inner"
