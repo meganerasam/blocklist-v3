@@ -1270,6 +1270,9 @@
     "collegiatetimes.com": [
         "#toolbar"
     ],
+    "colnect.com": [
+        "[style=\"position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 12000;\"]"
+    ],
     "coloradopolitics.com": [
         ".midtc-article-navigation"
     ],
@@ -2280,6 +2283,9 @@
         ".banner-campaign",
         ".bn-space",
         ".premium-autop"
+    ],
+    "flickr.com": [
+        ".upgrade-to-pro-cta"
     ],
     "flightradar24.com": [
         ".upgrade-button"
@@ -7573,6 +7579,9 @@
     ],
     "xkcdb.com": [
         "#nagbox"
+    ],
+    "xn--gckvb8fzb.com": [
+        "#killjs"
     ],
     "xnxx-deutsch.com": [
         "#dclm_modal_content",
