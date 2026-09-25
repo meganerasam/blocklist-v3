@@ -1,7 +1,7 @@
 /*
  * generic.css 
  * Merged from adult, easylist, easyprivacy, fanboy
- * Generated: 2026-09-24 02:10:18 UTC
+ * Generated: 2026-09-25 02:27:24 UTC
  */
 
 #AC_ad,
@@ -14090,11 +14090,12 @@ a[data-oburl^="https://paid.outbrain.com/network/redir?"],
 a[data-redirect^="https://paid.outbrain.com/network/redir?"],
 a[data-webtrekk="button.scroll_to_top"],
 a[href*="&maxads="],
+a[href*=".adglare.net/"],
 a[href*=".adsrv.eacdn.com/"],
 a[href*=".cfm?domain="][href*="&fp="],
-a[href*=".engine.adglare.net/"],
 a[href*=".foxqck.com/"],
 a[href*=".g2afse.com/"],
+a[href*=".sadbaguette.com/"],
 a[href*="//jjgirls.com/sex/Chaturbate"],
 a[href*="/jump/next.php?r="],
 a[href="#Back to the top of page"],
