@@ -7419,6 +7419,7 @@
         ".ymHyVK__ymHyVK"
     ],
     "destructoid.com": [
+        ".leaderboard_atf",
         ".wp-block-gamurs-ad"
     ],
     "detectiveconanworld.com": [
@@ -12450,7 +12451,6 @@
     ],
     "gulfcoastnewsnow.com": [
         ".css-1cm6ir6:has(.ad-container)",
-        ".css-1tumxm:has(.ad-container)",
         "aside > div:has(> div > div > div.ad-container)",
         "aside > div:has(> div > div.ad-container)"
     ],
@@ -15259,8 +15259,8 @@
         ".ad"
     ],
     "kcra.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "kcrw.com": [
         "#global-message"
@@ -15332,7 +15332,6 @@
     ],
     "ketv.com": [
         ".css-1cm6ir6:has(.ad-container)",
-        ".css-1tumxm:has(.ad-container)",
         "aside > div:has(> div > div > div.ad-container)",
         "aside > div:has(> div > div.ad-container)"
     ],
@@ -15545,9 +15544,9 @@
         ".asset-paging-container"
     ],
     "kmbc.com": [
-        ".ad-track",
         ".article-content--body-wrapper-side-floater",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "kmplayer.com": [
         ".dim-layer",
@@ -15580,15 +15579,15 @@
     ],
     "koat.com": [
         ".ad-container",
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "kob.com": [
         "#Header_1"
     ],
     "koco.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "kodinerds.net": [
         ".boxesSidebarRight"
@@ -15747,8 +15746,8 @@
         ".topWrapper"
     ],
     "ksbw.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "ksdk.com": [
         ".ad"
@@ -19153,9 +19152,9 @@
         ".code-block"
     ],
     "mynbc5.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)",
-        ".listing-page-ad"
+        ".listing-page-ad",
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "mynorthwest.com": [
         ".pagebreak",
@@ -27904,6 +27903,9 @@
     "techrushi.com": [
         ".a-wrap"
     ],
+    "techsideline.com": [
+        "a[href^=\"https://bit.ly/\"]"
+    ],
     "techspot.com": [
         ".billboard_placeholder_min",
         ".cta",
@@ -32123,9 +32125,9 @@
     ],
     "wapt.com": [
         ".ad-rectangle",
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)",
-        ".leaderboard"
+        ".leaderboard",
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "waptrick.one": [
         ".cent_list"
@@ -32312,8 +32314,8 @@
         ".top-link"
     ],
     "wbaltv.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wbdg.org": [
         ".to-top"
@@ -32375,8 +32377,8 @@
         ".asset-paging-container"
     ],
     "wdsu.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wdwmagic.com": [
         ".adthrive-homepage-header",
@@ -32717,7 +32719,8 @@
         ".arcad_feature"
     ],
     "wgal.com": [
-        ".ad-track"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wgbh.org": [
         ".PromoS"
@@ -33127,7 +33130,6 @@
     ],
     "wisn.com": [
         ".css-1cm6ir6:has(.ad-container)",
-        ".css-1tumxm:has(.ad-container)",
         "aside > div:has(> div > div > div.ad-container)",
         "aside > div:has(> div > div.ad-container)"
     ],
@@ -33151,7 +33153,6 @@
     ],
     "wjcl.com": [
         ".css-1cm6ir6:has(.ad-container)",
-        ".css-1tumxm:has(.ad-container)",
         "aside > div:has(> div > div > div.ad-container)",
         "aside > div:has(> div > div.ad-container)"
     ],
@@ -33191,18 +33192,19 @@
         ".ad"
     ],
     "wlwt.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wmtips.com": [
         ".a3f17"
     ],
     "wmtw.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wmur.com": [
-        ".ad-track"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wn.com": [
         ".next-article"
@@ -33543,8 +33545,8 @@
         "#leader_1"
     ],
     "wtae.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wtatennis.com": [
         ".advert",
@@ -33583,8 +33585,8 @@
         ".asset-paging-container"
     ],
     "wvtm13.com": [
-        ".ad-track",
-        ".css-1tumxm:has(.ad-container)"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wwe.com": [
         ".l-hybrid-col-frame_rail-wrap"
@@ -33661,13 +33663,15 @@
         "tp-yt-paper-dialog.ytd-popup-container:has(> .ytd-popup-container > #options[class$=\"survey-renderer\"])"
     ],
     "wxii12.com": [
-        ".ad-track"
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wyff4.com": [
         ".ad",
-        ".ad-track",
         ".leaderboard",
-        ".listing-page-ad"
+        ".listing-page-ad",
+        "[class]:has(>[data-type])",
+        "[data-testid=\"ad-label\"]"
     ],
     "wymondhamandattleboroughmercury.co.uk": [
         ".advert"
