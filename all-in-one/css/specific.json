@@ -3265,6 +3265,7 @@
         ".cz-toa-wrapp",
         ".ia_ad",
         ".spon_res",
+        "[alt=\"ThreatLocker\"]",
         "[href*=\"https://www.bleepingcomputer.com/mgo/\"]",
         "[href^=\"https://www.adaptivesecurity.com/\"]",
         "[href^=\"https://www.bleepingcomputer.com/go/\"]",
@@ -12621,7 +12622,10 @@
         ".has-promo"
     ],
     "hanime.tv": [
-        ".desktop.htvad"
+        ".ad-event",
+        ".desktop.htvad",
+        ".native-ad",
+        ".restricted-free-only"
     ],
     "hannaford.com": [
         ".citrus_ad_banner",
@@ -13925,6 +13929,7 @@
         "div[class$=\"-money\"]"
     ],
     "imgpile.com": [
+        "[href^=\"/cx/click\"]",
         "a[href*=\"&utm_campaign=\"]"
     ],
     "imgsli.com": [
@@ -16412,6 +16417,10 @@
     ],
     "lightnovelworld.co": [
         "div[data-mobid]"
+    ],
+    "lightspeedmagazine.com": [
+        ".sidebar_box:has(.adtext)",
+        "[width=\"300\"]"
     ],
     "liliputing.com": [
         "#custom_html-9"
