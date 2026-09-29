@@ -1,7 +1,7 @@
 /*
  * generic.css 
  * Merged from adult, easylist, easyprivacy, fanboy
- * Generated: 2026-09-28 02:31:29 UTC
+ * Generated: 2026-09-29 03:14:24 UTC
  */
 
 #AC_ad,
@@ -14079,6 +14079,7 @@ DFP-AD,
 [id^="ad_sky"],
 [id^="ad_slider"],
 [id^="div-gpt-ad"],
+[id^="google_ads_iframe_"],
 [id^="section-ad-banner"],
 [name="bridged-flipcard-div"],
 [name^="google_ads_iframe"],
