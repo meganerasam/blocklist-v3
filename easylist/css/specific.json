@@ -6178,6 +6178,9 @@
         ".center-add",
         ".news_adhide_device"
     ],
+    "digitalescapetools.com": [
+        ".det-promo-float-host"
+    ],
     "digitalfoundry.net": [
         "#nn_half",
         "#nn_mast",
@@ -17162,12 +17165,8 @@
         ".ad-container"
     ],
     "outlook.live.com": [
-        ".VdboX[tabindex=\"0\"]:has(img[src=\"https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg\"])",
-        "._BAY1XlyQSIe6kyKPlYP",
-        "[data-app-section=\"MessageList\"] div[style^=\"position: absolute; left: 0px; top: 0px\"]:has(.ms-Shimmer-container)",
         "[data-message-ad-id=\"MessageAdKeyOutlookUpSell0\"]",
-        "div.customScrollBar > div > div[id][class]:has(img[src$=\"/images/ads-olk-icon.png\"])",
-        "div:has(> div > div.fbAdLink)"
+        "[data-viewport-type=\"element\"] > div:not([style]) > div[id*=\"-\"]:has(img[src$=\"/images/ads-olk-icon.png\"])"
     ],
     "outlookindia.com": [
         "#_snup-rtdx-ldgr1",
@@ -26861,7 +26860,8 @@
         "#leader_1"
     ],
     "whec.com": [
-        "#Header_1"
+        "#Header_1",
+        "[style*=\"min-height: 250px;\"]"
     ],
     "wheelofnames.com": [
         ".ad-declaration"
