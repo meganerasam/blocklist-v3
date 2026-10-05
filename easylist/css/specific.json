@@ -26763,6 +26763,11 @@
         "[class]:has(>[data-type])",
         "[data-testid=\"ad-label\"]"
     ],
+    "wgme.com": [
+        "#deeper-dive-container-0",
+        ".StoryPage_taboolaDeeperDive__WKVX7",
+        "[data-testid=\"viewport-buffered-slot\"]"
+    ],
     "wgnsradio.com": [
         ".bw-special-image",
         ".bw-special-image-wrapper"
