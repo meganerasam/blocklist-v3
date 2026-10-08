@@ -8527,10 +8527,11 @@
         "#Leaderboard0",
         "#outbrain-container",
         "#related-video",
+        ".firstInstreamAdContainer",
         ".leaderboard-ad-wrapper-parent",
+        ".min-h-\\[250px\\]",
         ".min-h-\\[404px\\]",
         ".nativo-wrapper",
-        ".z-body-popover",
         "[data-cy=\"hp-in-stream-0\"]"
     ],
     "forum.audiogon.com": [
@@ -13829,6 +13830,10 @@
     ],
     "luzmedia.co": [
         ".iam-ad"
+    ],
+    "lycos.com": [
+        ".home-advertiser-tiles",
+        ".serp-section-ads"
     ],
     "lyngsat-logo.com": [
         "img[width=\"160\"]"
