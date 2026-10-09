@@ -3004,6 +3004,9 @@
     "brandsoftheworld.com": [
         ".seedling"
     ],
+    "brantfordexpositor.ca": [
+        ".pmd-ad-content"
+    ],
     "bravenewcoin.com": [
         ".sevio-ad-wrapper"
     ],
@@ -3786,6 +3789,9 @@
     ],
     "cdrlabs.com": [
         "#topbanner"
+    ],
+    "celeb-stalker.com": [
+        ".custom-html-widget"
     ],
     "celebdigs.com": [
         ".ad"
@@ -11813,6 +11819,9 @@
     "integral-calculator.com": [
         "[style^=\"width: 728px;\"]"
     ],
+    "intelligencer.ca": [
+        ".pmd-ad-content"
+    ],
     "interest.co.nz": [
         "#banner-ad-wrapper",
         "#sidebar-wrapper",
@@ -15977,6 +15986,7 @@
         ".desk_only"
     ],
     "netweather.tv": [
+        ".adholder-1",
         ".billheight",
         ".samsad-Leaderboard2"
     ],
@@ -17177,7 +17187,7 @@
     ],
     "outlook.live.com": [
         "[data-message-ad-id=\"MessageAdKeyOutlookUpSell0\"]",
-        "[data-viewport-type=\"element\"] > div:not([style]) > div[id*=\"-\"]:has(img[src$=\"/images/ads-olk-icon.png\"])"
+        "div[role=\"complementary\"][data-skip-link-name][id] div[id*=\"-\"]:has(> div:not([class]) > div[class] img[src$=\"/images/ads-olk-icon.png\"])"
     ],
     "outlookindia.com": [
         "#_snup-rtdx-ldgr1",
@@ -19768,6 +19778,9 @@
     "recipes.timesofindia.com": [
         ".flipkartbanner"
     ],
+    "recorder.ca": [
+        ".pmd-ad-content"
+    ],
     "redboing.com": [
         ".fw-ad"
     ],
@@ -20514,6 +20527,9 @@
     "saucemagazine.com": [
         ".advert-elem",
         ".advert-elem-1"
+    ],
+    "saultstar.com": [
+        ".pmd-ad-content"
     ],
     "savannahtribune.com": [
         ".g"
@@ -21900,9 +21916,11 @@
     ],
     "staples.com": [
         "#searchResultsContainer [data-id^=\"tile\"]:has(.standard-tile__sponsored_badge_holder)",
+        "#sponsored-sku",
         ".SearchRootUX2__bannerAndSkuContainer",
         ".flexible-banner-configurator__flexibleBannerWrapper:has(a[aria-label*=\"Sponsored by\"])",
         "[role=\"complementary\"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)",
+        "div:has(> div[class*=\"configurator-container__\"] .topsort-video-configurator__monetizationContainer)",
         "div[class^=\"sku-configurator__banner\"]:has([aria-label=\"Sponsored Products\"])"
     ],
     "star-history.com": [
@@ -22064,7 +22082,8 @@
     "stockx.com": [
         "[data-component=\"brand-tile\"]:has([data-testid=\"sponsored-tag\"])",
         "[data-component=\"product-tile\"]:has([data-testid=\"sponsored-tag\"])",
-        "[data-testid=\"banner-collage\"] .chakra-aspect-ratio:has(a[title*=\"Promo\"])"
+        "[data-testid=\"banner-collage\"] .chakra-aspect-ratio:has(a[title*=\"Promo\"])",
+        "div[data-sponsored-listing=\"true\"]"
     ],
     "stokesentinel.co.uk": [
         ".react-loading-skeleton",
@@ -24088,6 +24107,9 @@
     ],
     "thesuburban.com": [
         "#banner_top"
+    ],
+    "thesudburystar.com": [
+        ".pmd-ad-content"
     ],
     "thesun.co.uk": [
         "#article-footer div[id*=\"-ads-\"]",
