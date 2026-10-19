@@ -6793,6 +6793,17 @@
             "type": "allow"
         },
         "condition": {
+            "domainType": "firstParty",
+            "urlFilter": "||zs.com/scripts/analytics/pageview.js"
+        }
+    },
+    {
+        "id": 477,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
             "resourceTypes": [
                 "script",
                 "xmlhttprequest"
@@ -6804,7 +6815,7 @@
         }
     },
     {
-        "id": 477,
+        "id": 478,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -6818,7 +6829,7 @@
         }
     },
     {
-        "id": 478,
+        "id": 479,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -6838,7 +6849,7 @@
         }
     },
     {
-        "id": 479,
+        "id": 480,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7297,7 +7308,7 @@
         }
     },
     {
-        "id": 480,
+        "id": 481,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7346,7 +7357,7 @@
         }
     },
     {
-        "id": 481,
+        "id": 482,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7447,7 +7458,7 @@
         }
     },
     {
-        "id": 482,
+        "id": 483,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7460,7 +7471,7 @@
         }
     },
     {
-        "id": 483,
+        "id": 484,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7481,7 +7492,7 @@
         }
     },
     {
-        "id": 484,
+        "id": 485,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7494,7 +7505,7 @@
         }
     },
     {
-        "id": 485,
+        "id": 486,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7509,7 +7520,7 @@
         }
     },
     {
-        "id": 486,
+        "id": 487,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7522,7 +7533,7 @@
         }
     },
     {
-        "id": 487,
+        "id": 488,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7536,7 +7547,7 @@
         }
     },
     {
-        "id": 488,
+        "id": 489,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7555,7 +7566,7 @@
         }
     },
     {
-        "id": 489,
+        "id": 490,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7573,7 +7584,7 @@
         }
     },
     {
-        "id": 490,
+        "id": 491,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7676,7 +7687,7 @@
         }
     },
     {
-        "id": 491,
+        "id": 492,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7689,7 +7700,7 @@
         }
     },
     {
-        "id": 492,
+        "id": 493,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7716,7 +7727,7 @@
         }
     },
     {
-        "id": 493,
+        "id": 494,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7828,7 +7839,7 @@
         }
     },
     {
-        "id": 494,
+        "id": 495,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7871,7 +7882,7 @@
         }
     },
     {
-        "id": 495,
+        "id": 496,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7896,7 +7907,7 @@
         }
     },
     {
-        "id": 496,
+        "id": 497,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7911,7 +7922,7 @@
         }
     },
     {
-        "id": 497,
+        "id": 498,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7921,7 +7932,7 @@
         }
     },
     {
-        "id": 498,
+        "id": 499,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7934,7 +7945,7 @@
         }
     },
     {
-        "id": 499,
+        "id": 500,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7972,7 +7983,7 @@
         }
     },
     {
-        "id": 500,
+        "id": 501,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8001,7 +8012,7 @@
         }
     },
     {
-        "id": 501,
+        "id": 502,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8040,7 +8051,7 @@
         }
     },
     {
-        "id": 502,
+        "id": 503,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8055,7 +8066,7 @@
         }
     },
     {
-        "id": 503,
+        "id": 504,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8102,7 +8113,7 @@
         }
     },
     {
-        "id": 504,
+        "id": 505,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8118,7 +8129,7 @@
         }
     },
     {
-        "id": 505,
+        "id": 506,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8176,7 +8187,7 @@
         }
     },
     {
-        "id": 506,
+        "id": 507,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8196,7 +8207,7 @@
         }
     },
     {
-        "id": 507,
+        "id": 508,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8209,7 +8220,7 @@
         }
     },
     {
-        "id": 508,
+        "id": 509,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8222,7 +8233,7 @@
         }
     },
     {
-        "id": 509,
+        "id": 510,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8235,7 +8246,7 @@
         }
     },
     {
-        "id": 510,
+        "id": 511,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8254,7 +8265,7 @@
         }
     },
     {
-        "id": 511,
+        "id": 512,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8273,7 +8284,7 @@
         }
     },
     {
-        "id": 512,
+        "id": 513,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8287,7 +8298,7 @@
         }
     },
     {
-        "id": 513,
+        "id": 514,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8297,7 +8308,7 @@
         }
     },
     {
-        "id": 514,
+        "id": 515,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8307,7 +8318,7 @@
         }
     },
     {
-        "id": 515,
+        "id": 516,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8321,7 +8332,7 @@
         }
     },
     {
-        "id": 516,
+        "id": 517,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8337,7 +8348,7 @@
         }
     },
     {
-        "id": 517,
+        "id": 518,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8367,7 +8378,7 @@
         }
     },
     {
-        "id": 518,
+        "id": 519,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8384,7 +8395,7 @@
         }
     },
     {
-        "id": 519,
+        "id": 520,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8398,7 +8409,7 @@
         }
     },
     {
-        "id": 520,
+        "id": 521,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8411,7 +8422,7 @@
         }
     },
     {
-        "id": 521,
+        "id": 522,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8421,7 +8432,7 @@
         }
     },
     {
-        "id": 522,
+        "id": 523,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8439,7 +8450,7 @@
         }
     },
     {
-        "id": 523,
+        "id": 524,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -8452,7 +8463,7 @@
         }
     },
     {
-        "id": 524,
+        "id": 525,
         "priority": 2,
         "action": {
             "type": "allow"

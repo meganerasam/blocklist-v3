@@ -91924,6 +91924,16 @@
             "type": "block"
         },
         "condition": {
+            "urlFilter": "||perplexity.ai/unifyintent.js"
+        }
+    },
+    {
+        "id": 8632,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
             "resourceTypes": [
                 "script"
             ],
@@ -91934,7 +91944,7 @@
         }
     },
     {
-        "id": 8632,
+        "id": 8633,
         "priority": 1,
         "action": {
             "type": "block"
@@ -91944,7 +91954,7 @@
         }
     },
     {
-        "id": 8633,
+        "id": 8634,
         "priority": 1,
         "action": {
             "type": "block"
@@ -91954,7 +91964,7 @@
         }
     },
     {
-        "id": 8634,
+        "id": 8635,
         "priority": 1,
         "action": {
             "type": "block"
@@ -91964,7 +91974,7 @@
         }
     },
     {
-        "id": 8635,
+        "id": 8636,
         "priority": 1,
         "action": {
             "type": "block"
@@ -91974,7 +91984,7 @@
         }
     },
     {
-        "id": 8636,
+        "id": 8637,
         "priority": 1,
         "action": {
             "type": "block"
@@ -91984,7 +91994,7 @@
         }
     },
     {
-        "id": 8637,
+        "id": 8638,
         "priority": 1,
         "action": {
             "type": "block"
@@ -91994,7 +92004,7 @@
         }
     },
     {
-        "id": 8638,
+        "id": 8639,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92004,7 +92014,7 @@
         }
     },
     {
-        "id": 8639,
+        "id": 8640,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92014,7 +92024,7 @@
         }
     },
     {
-        "id": 8640,
+        "id": 8641,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92024,7 +92034,7 @@
         }
     },
     {
-        "id": 8641,
+        "id": 8642,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92038,7 +92048,7 @@
         }
     },
     {
-        "id": 8642,
+        "id": 8643,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92051,7 +92061,7 @@
         }
     },
     {
-        "id": 8643,
+        "id": 8644,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92064,7 +92074,7 @@
         }
     },
     {
-        "id": 8644,
+        "id": 8645,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92077,7 +92087,7 @@
         }
     },
     {
-        "id": 8645,
+        "id": 8646,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92090,7 +92100,7 @@
         }
     },
     {
-        "id": 8646,
+        "id": 8647,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92103,7 +92113,7 @@
         }
     },
     {
-        "id": 8647,
+        "id": 8648,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92116,7 +92126,7 @@
         }
     },
     {
-        "id": 8648,
+        "id": 8649,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92129,7 +92139,7 @@
         }
     },
     {
-        "id": 8649,
+        "id": 8650,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92142,7 +92152,7 @@
         }
     },
     {
-        "id": 8650,
+        "id": 8651,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92155,7 +92165,7 @@
         }
     },
     {
-        "id": 8651,
+        "id": 8652,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92168,7 +92178,7 @@
         }
     },
     {
-        "id": 8652,
+        "id": 8653,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92178,7 +92188,7 @@
         }
     },
     {
-        "id": 8653,
+        "id": 8654,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92188,7 +92198,7 @@
         }
     },
     {
-        "id": 8654,
+        "id": 8655,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92205,7 +92215,7 @@
         }
     },
     {
-        "id": 8655,
+        "id": 8656,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92221,7 +92231,7 @@
         }
     },
     {
-        "id": 8656,
+        "id": 8657,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92234,7 +92244,7 @@
         }
     },
     {
-        "id": 8657,
+        "id": 8658,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92244,7 +92254,7 @@
         }
     },
     {
-        "id": 8658,
+        "id": 8659,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92260,7 +92270,7 @@
         }
     },
     {
-        "id": 8659,
+        "id": 8660,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92273,7 +92283,7 @@
         }
     },
     {
-        "id": 8660,
+        "id": 8661,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92286,7 +92296,7 @@
         }
     },
     {
-        "id": 8661,
+        "id": 8662,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92299,7 +92309,7 @@
         }
     },
     {
-        "id": 8662,
+        "id": 8663,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92313,7 +92323,7 @@
         }
     },
     {
-        "id": 8663,
+        "id": 8664,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92323,7 +92333,7 @@
         }
     },
     {
-        "id": 8664,
+        "id": 8665,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92333,7 +92343,7 @@
         }
     },
     {
-        "id": 8665,
+        "id": 8666,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92346,24 +92356,13 @@
         }
     },
     {
-        "id": 8666,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||amazonaws.com^*/feedback-v2.js"
-        }
-    },
-    {
         "id": 8667,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "domainType": "thirdParty",
-            "urlFilter": "||api.giphy.com^*/related?"
+            "urlFilter": "||amazonaws.com^*/feedback-v2.js"
         }
     },
     {
@@ -92374,7 +92373,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||api.producthunt.com/widgets/"
+            "urlFilter": "||api.giphy.com^*/related?"
         }
     },
     {
@@ -92384,7 +92383,8 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||assets.poool.fr/engage.min.js"
+            "domainType": "thirdParty",
+            "urlFilter": "||api.producthunt.com/widgets/"
         }
     },
     {
@@ -92394,8 +92394,7 @@
             "type": "block"
         },
         "condition": {
-            "domainType": "thirdParty",
-            "urlFilter": "||bing.com*/bootstrap.js"
+            "urlFilter": "||assets.poool.fr/engage.min.js"
         }
     },
     {
@@ -92406,7 +92405,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||bing.com/widget/render/"
+            "urlFilter": "||bing.com*/bootstrap.js"
         }
     },
     {
@@ -92416,7 +92415,8 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||bunnycdn.ru/assets/_bnx/"
+            "domainType": "thirdParty",
+            "urlFilter": "||bing.com/widget/render/"
         }
     },
     {
@@ -92426,7 +92426,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||cdn-1.tstatic.net/js/copy.js"
+            "urlFilter": "||bunnycdn.ru/assets/_bnx/"
         }
     },
     {
@@ -92436,8 +92436,7 @@
             "type": "block"
         },
         "condition": {
-            "domainType": "thirdParty",
-            "urlFilter": "||cdn.to2.net/sdk/"
+            "urlFilter": "||cdn-1.tstatic.net/js/copy.js"
         }
     },
     {
@@ -92448,7 +92447,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||civicscience.com/widget/jspoll/"
+            "urlFilter": "||cdn.to2.net/sdk/"
         }
     },
     {
@@ -92459,7 +92458,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||ctctcdn.com/js/signup-form-widget/"
+            "urlFilter": "||civicscience.com/widget/jspoll/"
         }
     },
     {
@@ -92470,7 +92469,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||diigo.com/images/diigo-icon/"
+            "urlFilter": "||ctctcdn.com/js/signup-form-widget/"
         }
     },
     {
@@ -92481,11 +92480,22 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||discord.com/widget?"
+            "urlFilter": "||diigo.com/images/diigo-icon/"
         }
     },
     {
         "id": 8679,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "domainType": "thirdParty",
+            "urlFilter": "||discord.com/widget?"
+        }
+    },
+    {
+        "id": 8680,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92499,24 +92509,13 @@
         }
     },
     {
-        "id": 8680,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||disqus.com/api/*/listRelated.json?"
-        }
-    },
-    {
         "id": 8681,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "domainType": "thirdParty",
-            "urlFilter": "||donorbox.org/embed/"
+            "urlFilter": "||disqus.com/api/*/listRelated.json?"
         }
     },
     {
@@ -92527,7 +92526,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||download.skype.com/share/"
+            "urlFilter": "||donorbox.org/embed/"
         }
     },
     {
@@ -92538,7 +92537,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||eff.org/bloggers/badges/"
+            "urlFilter": "||download.skype.com/share/"
         }
     },
     {
@@ -92548,7 +92547,8 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||engage.newmode.net/embed/"
+            "domainType": "thirdParty",
+            "urlFilter": "||eff.org/bloggers/badges/"
         }
     },
     {
@@ -92558,8 +92558,7 @@
             "type": "block"
         },
         "condition": {
-            "domainType": "thirdParty",
-            "urlFilter": "||fark.com/js/"
+            "urlFilter": "||engage.newmode.net/embed/"
         }
     },
     {
@@ -92570,11 +92569,22 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||feedbackify.com/f.js"
+            "urlFilter": "||fark.com/js/"
         }
     },
     {
         "id": 8687,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "domainType": "thirdParty",
+            "urlFilter": "||feedbackify.com/f.js"
+        }
+    },
+    {
+        "id": 8688,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92588,7 +92598,7 @@
         }
     },
     {
-        "id": 8688,
+        "id": 8689,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92599,7 +92609,7 @@
         }
     },
     {
-        "id": 8689,
+        "id": 8690,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92613,7 +92623,7 @@
         }
     },
     {
-        "id": 8690,
+        "id": 8691,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92623,7 +92633,7 @@
         }
     },
     {
-        "id": 8691,
+        "id": 8692,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92634,24 +92644,13 @@
         }
     },
     {
-        "id": 8692,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||gstatic.com/shopping/merchant/merchantwidget.js"
-        }
-    },
-    {
         "id": 8693,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "domainType": "thirdParty",
-            "urlFilter": "||identi.ca/js/identica-badge.js"
+            "urlFilter": "||gstatic.com/shopping/merchant/merchantwidget.js"
         }
     },
     {
@@ -92662,7 +92661,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||images.dmca.com/Badges/"
+            "urlFilter": "||identi.ca/js/identica-badge.js"
         }
     },
     {
@@ -92673,7 +92672,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||img.fark.net/pub/"
+            "urlFilter": "||images.dmca.com/Badges/"
         }
     },
     {
@@ -92684,7 +92683,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||instapaper.com/e2"
+            "urlFilter": "||img.fark.net/pub/"
         }
     },
     {
@@ -92695,7 +92694,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||instapaper.com/javascript/"
+            "urlFilter": "||instapaper.com/e2"
         }
     },
     {
@@ -92706,7 +92705,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||jobvite.com/widget20.js"
+            "urlFilter": "||instapaper.com/javascript/"
         }
     },
     {
@@ -92716,7 +92715,8 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||jsdelivr.net/npm/devtools-detector"
+            "domainType": "thirdParty",
+            "urlFilter": "||jobvite.com/widget20.js"
         }
     },
     {
@@ -92726,7 +92726,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||jsdelivr.net/npm/disable-devtool"
+            "urlFilter": "||jsdelivr.net/npm/devtools-detector"
         }
     },
     {
@@ -92736,8 +92736,7 @@
             "type": "block"
         },
         "condition": {
-            "domainType": "thirdParty",
-            "urlFilter": "||kaango.com/feCustomWidgetDisplay/"
+            "urlFilter": "||jsdelivr.net/npm/disable-devtool"
         }
     },
     {
@@ -92748,7 +92747,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||ko-fi.com/cdn/widget/"
+            "urlFilter": "||kaango.com/feCustomWidgetDisplay/"
         }
     },
     {
@@ -92759,7 +92758,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||list-manage1.com/subscriber-count?"
+            "urlFilter": "||ko-fi.com/cdn/widget/"
         }
     },
     {
@@ -92770,7 +92769,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||lpages.co/serve-leadbox/"
+            "urlFilter": "||list-manage1.com/subscriber-count?"
         }
     },
     {
@@ -92781,7 +92780,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||magimg.com/random?"
+            "urlFilter": "||lpages.co/serve-leadbox/"
         }
     },
     {
@@ -92792,7 +92791,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||mailjet.com/statics/js/widget.modal.js"
+            "urlFilter": "||magimg.com/random?"
         }
     },
     {
@@ -92803,7 +92802,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||mailjet.com/widget/"
+            "urlFilter": "||mailjet.com/statics/js/widget.modal.js"
         }
     },
     {
@@ -92814,7 +92813,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||maven.io^*/widget.js"
+            "urlFilter": "||mailjet.com/widget/"
         }
     },
     {
@@ -92825,7 +92824,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||mobj.space/js/appsdiscover/"
+            "urlFilter": "||maven.io^*/widget.js"
         }
     },
     {
@@ -92836,7 +92835,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||mozo.com.au/widgets/"
+            "urlFilter": "||mobj.space/js/appsdiscover/"
         }
     },
     {
@@ -92847,7 +92846,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||my.sendinblue.com/users/subscribe/"
+            "urlFilter": "||mozo.com.au/widgets/"
         }
     },
     {
@@ -92858,7 +92857,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||news.google.com/swg/"
+            "urlFilter": "||my.sendinblue.com/users/subscribe/"
         }
     },
     {
@@ -92869,7 +92868,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||nrcdn.com/custom-script/"
+            "urlFilter": "||news.google.com/swg/"
         }
     },
     {
@@ -92880,7 +92879,7 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||quote.fm/services/button/"
+            "urlFilter": "||nrcdn.com/custom-script/"
         }
     },
     {
@@ -92890,7 +92889,8 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||radioonlinehd.net/ads/"
+            "domainType": "thirdParty",
+            "urlFilter": "||quote.fm/services/button/"
         }
     },
     {
@@ -92900,8 +92900,7 @@
             "type": "block"
         },
         "condition": {
-            "domainType": "thirdParty",
-            "urlFilter": "||raidrush.net/ticker/"
+            "urlFilter": "||radioonlinehd.net/ads/"
         }
     },
     {
@@ -92912,11 +92911,22 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||realclearpolitics.com^*/widget_wrapper_"
+            "urlFilter": "||raidrush.net/ticker/"
         }
     },
     {
         "id": 8718,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "domainType": "thirdParty",
+            "urlFilter": "||realclearpolitics.com^*/widget_wrapper_"
+        }
+    },
+    {
+        "id": 8719,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92930,7 +92940,7 @@
         }
     },
     {
-        "id": 8719,
+        "id": 8720,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92941,7 +92951,7 @@
         }
     },
     {
-        "id": 8720,
+        "id": 8721,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92952,7 +92962,7 @@
         }
     },
     {
-        "id": 8721,
+        "id": 8722,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92962,7 +92972,7 @@
         }
     },
     {
-        "id": 8722,
+        "id": 8723,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92972,7 +92982,7 @@
         }
     },
     {
-        "id": 8723,
+        "id": 8724,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92983,7 +92993,7 @@
         }
     },
     {
-        "id": 8724,
+        "id": 8725,
         "priority": 1,
         "action": {
             "type": "block"
@@ -92993,7 +93003,7 @@
         }
     },
     {
-        "id": 8725,
+        "id": 8726,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93004,7 +93014,7 @@
         }
     },
     {
-        "id": 8726,
+        "id": 8727,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93014,7 +93024,7 @@
         }
     },
     {
-        "id": 8727,
+        "id": 8728,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93024,7 +93034,7 @@
         }
     },
     {
-        "id": 8728,
+        "id": 8729,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93034,7 +93044,7 @@
         }
     },
     {
-        "id": 8729,
+        "id": 8730,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93045,7 +93055,7 @@
         }
     },
     {
-        "id": 8730,
+        "id": 8731,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93055,7 +93065,7 @@
         }
     },
     {
-        "id": 8731,
+        "id": 8732,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93065,7 +93075,7 @@
         }
     },
     {
-        "id": 8732,
+        "id": 8733,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93078,7 +93088,7 @@
         }
     },
     {
-        "id": 8733,
+        "id": 8734,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93088,7 +93098,7 @@
         }
     },
     {
-        "id": 8734,
+        "id": 8735,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93099,7 +93109,7 @@
         }
     },
     {
-        "id": 8735,
+        "id": 8736,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93109,24 +93119,13 @@
         }
     },
     {
-        "id": 8736,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||yimg.com^*/GoldenGate."
-        }
-    },
-    {
         "id": 8737,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "domainType": "thirdParty",
-            "urlFilter": "||youappi.com/widget/"
+            "urlFilter": "||yimg.com^*/GoldenGate."
         }
     },
     {
@@ -93137,11 +93136,22 @@
         },
         "condition": {
             "domainType": "thirdParty",
-            "urlFilter": "||youspacko.com/com/"
+            "urlFilter": "||youappi.com/widget/"
         }
     },
     {
         "id": 8739,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "domainType": "thirdParty",
+            "urlFilter": "||youspacko.com/com/"
+        }
+    },
+    {
+        "id": 8740,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93156,7 +93166,7 @@
         }
     },
     {
-        "id": 8740,
+        "id": 8741,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93169,7 +93179,7 @@
         }
     },
     {
-        "id": 8741,
+        "id": 8742,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93180,7 +93190,7 @@
         }
     },
     {
-        "id": 8742,
+        "id": 8743,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93191,7 +93201,7 @@
         }
     },
     {
-        "id": 8743,
+        "id": 8744,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93201,7 +93211,7 @@
         }
     },
     {
-        "id": 8744,
+        "id": 8745,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93211,7 +93221,7 @@
         }
     },
     {
-        "id": 8745,
+        "id": 8746,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93221,7 +93231,7 @@
         }
     },
     {
-        "id": 8746,
+        "id": 8747,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93231,7 +93241,7 @@
         }
     },
     {
-        "id": 8747,
+        "id": 8748,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93241,26 +93251,13 @@
         }
     },
     {
-        "id": 8748,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||acquire.io/assets/sound/"
-        }
-    },
-    {
         "id": 8749,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "media"
-            ],
-            "urlFilter": "||amazonaws.com/alive5cdn/"
+            "urlFilter": "||acquire.io/assets/sound/"
         }
     },
     {
@@ -93273,7 +93270,7 @@
             "resourceTypes": [
                 "media"
             ],
-            "urlFilter": "||apex.live/media/"
+            "urlFilter": "||amazonaws.com/alive5cdn/"
         }
     },
     {
@@ -93283,7 +93280,10 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||app.chaport.com/sounds/"
+            "resourceTypes": [
+                "media"
+            ],
+            "urlFilter": "||apex.live/media/"
         }
     },
     {
@@ -93293,7 +93293,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||app.onlim.com/app/assets/audios/"
+            "urlFilter": "||app.chaport.com/sounds/"
         }
     },
     {
@@ -93303,7 +93303,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||appspot.com/sounds/chatmsg.mp3"
+            "urlFilter": "||app.onlim.com/app/assets/audios/"
         }
     },
     {
@@ -93313,10 +93313,7 @@
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "media"
-            ],
-            "urlFilter": "||assetscdn-wchat.freshchat.com/static/assets/"
+            "urlFilter": "||appspot.com/sounds/chatmsg.mp3"
         }
     },
     {
@@ -93329,10 +93326,7 @@
             "resourceTypes": [
                 "media"
             ],
-            "initiatorDomains": [
-                "bankofamerica.com"
-            ],
-            "urlFilter": "||bac-assets.com/chat/spa-assets/"
+            "urlFilter": "||assetscdn-wchat.freshchat.com/static/assets/"
         }
     },
     {
@@ -93348,7 +93342,7 @@
             "initiatorDomains": [
                 "bankofamerica.com"
             ],
-            "urlFilter": "||bac-assets.com/spa/widgets/www-chat/"
+            "urlFilter": "||bac-assets.com/chat/spa-assets/"
         }
     },
     {
@@ -93358,7 +93352,13 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||callback24.io/sounds/"
+            "resourceTypes": [
+                "media"
+            ],
+            "initiatorDomains": [
+                "bankofamerica.com"
+            ],
+            "urlFilter": "||bac-assets.com/spa/widgets/www-chat/"
         }
     },
     {
@@ -93368,10 +93368,7 @@
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "media"
-            ],
-            "urlFilter": "||camel1.tv/media/"
+            "urlFilter": "||callback24.io/sounds/"
         }
     },
     {
@@ -93384,7 +93381,7 @@
             "resourceTypes": [
                 "media"
             ],
-            "urlFilter": "||carchat24.com/inpagechat/audio/"
+            "urlFilter": "||camel1.tv/media/"
         }
     },
     {
@@ -93394,7 +93391,10 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||carrotquest.app/sounds/"
+            "resourceTypes": [
+                "media"
+            ],
+            "urlFilter": "||carchat24.com/inpagechat/audio/"
         }
     },
     {
@@ -93404,11 +93404,21 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||cdn-widget.callpage.io/build/sounds/"
+            "urlFilter": "||carrotquest.app/sounds/"
         }
     },
     {
         "id": 8762,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cdn-widget.callpage.io/build/sounds/"
+        }
+    },
+    {
+        "id": 8763,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93421,26 +93431,13 @@
         }
     },
     {
-        "id": 8763,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||cdnapps.avada.io/faq/sounds/"
-        }
-    },
-    {
         "id": 8764,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "media"
-            ],
-            "urlFilter": "||channel.io/plugin/"
+            "urlFilter": "||cdnapps.avada.io/faq/sounds/"
         }
     },
     {
@@ -93453,7 +93450,7 @@
             "resourceTypes": [
                 "media"
             ],
-            "urlFilter": "||chat.octadesk.services/embed/static/media/"
+            "urlFilter": "||channel.io/plugin/"
         }
     },
     {
@@ -93463,11 +93460,24 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||chatango.com/pcache/sounds/"
+            "resourceTypes": [
+                "media"
+            ],
+            "urlFilter": "||chat.octadesk.services/embed/static/media/"
         }
     },
     {
         "id": 8767,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||chatango.com/pcache/sounds/"
+        }
+    },
+    {
+        "id": 8768,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93480,7 +93490,7 @@
         }
     },
     {
-        "id": 8768,
+        "id": 8769,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93490,7 +93500,7 @@
         }
     },
     {
-        "id": 8769,
+        "id": 8770,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93500,7 +93510,7 @@
         }
     },
     {
-        "id": 8770,
+        "id": 8771,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93510,7 +93520,7 @@
         }
     },
     {
-        "id": 8771,
+        "id": 8772,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93523,7 +93533,7 @@
         }
     },
     {
-        "id": 8772,
+        "id": 8773,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93533,7 +93543,7 @@
         }
     },
     {
-        "id": 8773,
+        "id": 8774,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93543,7 +93553,7 @@
         }
     },
     {
-        "id": 8774,
+        "id": 8775,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93553,7 +93563,7 @@
         }
     },
     {
-        "id": 8775,
+        "id": 8776,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93563,7 +93573,7 @@
         }
     },
     {
-        "id": 8776,
+        "id": 8777,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93576,7 +93586,7 @@
         }
     },
     {
-        "id": 8777,
+        "id": 8778,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93586,7 +93596,7 @@
         }
     },
     {
-        "id": 8778,
+        "id": 8779,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93596,26 +93606,13 @@
         }
     },
     {
-        "id": 8779,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||formilla.com/remoteAssets/media/"
-        }
-    },
-    {
         "id": 8780,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "media"
-            ],
-            "urlFilter": "||fxcity.pl/images/mp4/"
+            "urlFilter": "||formilla.com/remoteAssets/media/"
         }
     },
     {
@@ -93628,11 +93625,24 @@
             "resourceTypes": [
                 "media"
             ],
-            "urlFilter": "||goftino.com/static/assets/"
+            "urlFilter": "||fxcity.pl/images/mp4/"
         }
     },
     {
         "id": 8782,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "media"
+            ],
+            "urlFilter": "||goftino.com/static/assets/"
+        }
+    },
+    {
+        "id": 8783,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93646,7 +93656,7 @@
         }
     },
     {
-        "id": 8783,
+        "id": 8784,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93656,7 +93666,7 @@
         }
     },
     {
-        "id": 8784,
+        "id": 8785,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93666,7 +93676,7 @@
         }
     },
     {
-        "id": 8785,
+        "id": 8786,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93676,7 +93686,7 @@
         }
     },
     {
-        "id": 8786,
+        "id": 8787,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93689,7 +93699,7 @@
         }
     },
     {
-        "id": 8787,
+        "id": 8788,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93699,7 +93709,7 @@
         }
     },
     {
-        "id": 8788,
+        "id": 8789,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93709,7 +93719,7 @@
         }
     },
     {
-        "id": 8789,
+        "id": 8790,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93719,7 +93729,7 @@
         }
     },
     {
-        "id": 8790,
+        "id": 8791,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93729,7 +93739,7 @@
         }
     },
     {
-        "id": 8791,
+        "id": 8792,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93739,26 +93749,13 @@
         }
     },
     {
-        "id": 8792,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||js.intercomcdn.com/audio/"
-        }
-    },
-    {
         "id": 8793,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "media"
-            ],
-            "urlFilter": "||kommunicate.io/kommunicate/"
+            "urlFilter": "||js.intercomcdn.com/audio/"
         }
     },
     {
@@ -93771,7 +93768,7 @@
             "resourceTypes": [
                 "media"
             ],
-            "urlFilter": "||leadback.ru/sounds/"
+            "urlFilter": "||kommunicate.io/kommunicate/"
         }
     },
     {
@@ -93784,7 +93781,7 @@
             "resourceTypes": [
                 "media"
             ],
-            "urlFilter": "||leadgenic.ru/production/"
+            "urlFilter": "||leadback.ru/sounds/"
         }
     },
     {
@@ -93794,11 +93791,24 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||live2support.com/uploads/sound/"
+            "resourceTypes": [
+                "media"
+            ],
+            "urlFilter": "||leadgenic.ru/production/"
         }
     },
     {
         "id": 8797,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||live2support.com/uploads/sound/"
+        }
+    },
+    {
+        "id": 8798,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93811,7 +93821,7 @@
         }
     },
     {
-        "id": 8798,
+        "id": 8799,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93821,7 +93831,7 @@
         }
     },
     {
-        "id": 8799,
+        "id": 8800,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93834,26 +93844,13 @@
         }
     },
     {
-        "id": 8800,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||me-talk.ru/support/sounds/"
-        }
-    },
-    {
         "id": 8801,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "media"
-            ],
-            "urlFilter": "||nice-incontact.com/inContact/ChatClient/"
+            "urlFilter": "||me-talk.ru/support/sounds/"
         }
     },
     {
@@ -93866,7 +93863,7 @@
             "resourceTypes": [
                 "media"
             ],
-            "urlFilter": "||phenompeople.com/txm-bot/prod/"
+            "urlFilter": "||nice-incontact.com/inContact/ChatClient/"
         }
     },
     {
@@ -93876,7 +93873,10 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||predict-v4.getwair.com/default/predict.js"
+            "resourceTypes": [
+                "media"
+            ],
+            "urlFilter": "||phenompeople.com/txm-bot/prod/"
         }
     },
     {
@@ -93886,11 +93886,21 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||purechatcdn.com/Content/Audio/"
+            "urlFilter": "||predict-v4.getwair.com/default/predict.js"
         }
     },
     {
         "id": 8805,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||purechatcdn.com/Content/Audio/"
+        }
+    },
+    {
+        "id": 8806,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93903,7 +93913,7 @@
         }
     },
     {
-        "id": 8806,
+        "id": 8807,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93913,7 +93923,7 @@
         }
     },
     {
-        "id": 8807,
+        "id": 8808,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93923,7 +93933,7 @@
         }
     },
     {
-        "id": 8808,
+        "id": 8809,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93933,7 +93943,7 @@
         }
     },
     {
-        "id": 8809,
+        "id": 8810,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93943,7 +93953,7 @@
         }
     },
     {
-        "id": 8810,
+        "id": 8811,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93953,7 +93963,7 @@
         }
     },
     {
-        "id": 8811,
+        "id": 8812,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93963,7 +93973,7 @@
         }
     },
     {
-        "id": 8812,
+        "id": 8813,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93973,7 +93983,7 @@
         }
     },
     {
-        "id": 8813,
+        "id": 8814,
         "priority": 1,
         "action": {
             "type": "block"
@@ -93983,26 +93993,13 @@
         }
     },
     {
-        "id": 8814,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||static.olark.com/jsclient/sounds/"
-        }
-    },
-    {
         "id": 8815,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "media"
-            ],
-            "urlFilter": "||static.widget.trengo.eu/assets/"
+            "urlFilter": "||static.olark.com/jsclient/sounds/"
         }
     },
     {
@@ -94015,7 +94012,7 @@
             "resourceTypes": [
                 "media"
             ],
-            "urlFilter": "||streamwood.ru/img/"
+            "urlFilter": "||static.widget.trengo.eu/assets/"
         }
     },
     {
@@ -94025,7 +94022,10 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||tawk.to/*/audio/"
+            "resourceTypes": [
+                "media"
+            ],
+            "urlFilter": "||streamwood.ru/img/"
         }
     },
     {
@@ -94035,7 +94035,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||userbot.ai/widget-chat/dist/audio/"
+            "urlFilter": "||tawk.to/*/audio/"
         }
     },
     {
@@ -94045,11 +94045,21 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||userway.org/widgetapp/sounds/"
+            "urlFilter": "||userbot.ai/widget-chat/dist/audio/"
         }
     },
     {
         "id": 8820,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||userway.org/widgetapp/sounds/"
+        }
+    },
+    {
+        "id": 8821,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94062,7 +94072,7 @@
         }
     },
     {
-        "id": 8821,
+        "id": 8822,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94072,7 +94082,7 @@
         }
     },
     {
-        "id": 8822,
+        "id": 8823,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94085,7 +94095,7 @@
         }
     },
     {
-        "id": 8823,
+        "id": 8824,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94095,7 +94105,7 @@
         }
     },
     {
-        "id": 8824,
+        "id": 8825,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94108,7 +94118,7 @@
         }
     },
     {
-        "id": 8825,
+        "id": 8826,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94118,7 +94128,7 @@
         }
     },
     {
-        "id": 8826,
+        "id": 8827,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94128,7 +94138,7 @@
         }
     },
     {
-        "id": 8827,
+        "id": 8828,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94141,7 +94151,7 @@
         }
     },
     {
-        "id": 8828,
+        "id": 8829,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94152,7 +94162,7 @@
         }
     },
     {
-        "id": 8829,
+        "id": 8830,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94162,7 +94172,7 @@
         }
     },
     {
-        "id": 8830,
+        "id": 8831,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94172,7 +94182,7 @@
         }
     },
     {
-        "id": 8831,
+        "id": 8832,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94182,7 +94192,7 @@
         }
     },
     {
-        "id": 8832,
+        "id": 8833,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94192,7 +94202,7 @@
         }
     },
     {
-        "id": 8833,
+        "id": 8834,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94202,7 +94212,7 @@
         }
     },
     {
-        "id": 8834,
+        "id": 8835,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94212,7 +94222,7 @@
         }
     },
     {
-        "id": 8835,
+        "id": 8836,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94222,7 +94232,7 @@
         }
     },
     {
-        "id": 8836,
+        "id": 8837,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94232,7 +94242,7 @@
         }
     },
     {
-        "id": 8837,
+        "id": 8838,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94242,7 +94252,7 @@
         }
     },
     {
-        "id": 8838,
+        "id": 8839,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94252,7 +94262,7 @@
         }
     },
     {
-        "id": 8839,
+        "id": 8840,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94268,7 +94278,7 @@
         }
     },
     {
-        "id": 8840,
+        "id": 8841,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94278,7 +94288,7 @@
         }
     },
     {
-        "id": 8841,
+        "id": 8842,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94291,7 +94301,7 @@
         }
     },
     {
-        "id": 8842,
+        "id": 8843,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94304,7 +94314,7 @@
         }
     },
     {
-        "id": 8843,
+        "id": 8844,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94314,7 +94324,7 @@
         }
     },
     {
-        "id": 8844,
+        "id": 8845,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94324,7 +94334,7 @@
         }
     },
     {
-        "id": 8845,
+        "id": 8846,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94334,7 +94344,7 @@
         }
     },
     {
-        "id": 8846,
+        "id": 8847,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94344,7 +94354,7 @@
         }
     },
     {
-        "id": 8847,
+        "id": 8848,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94354,7 +94364,7 @@
         }
     },
     {
-        "id": 8848,
+        "id": 8849,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94364,7 +94374,7 @@
         }
     },
     {
-        "id": 8849,
+        "id": 8850,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94374,7 +94384,7 @@
         }
     },
     {
-        "id": 8850,
+        "id": 8851,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94384,7 +94394,7 @@
         }
     },
     {
-        "id": 8851,
+        "id": 8852,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94394,7 +94404,7 @@
         }
     },
     {
-        "id": 8852,
+        "id": 8853,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94404,7 +94414,7 @@
         }
     },
     {
-        "id": 8853,
+        "id": 8854,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94414,7 +94424,7 @@
         }
     },
     {
-        "id": 8854,
+        "id": 8855,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94424,7 +94434,7 @@
         }
     },
     {
-        "id": 8855,
+        "id": 8856,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94440,7 +94450,7 @@
         }
     },
     {
-        "id": 8856,
+        "id": 8857,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94450,7 +94460,7 @@
         }
     },
     {
-        "id": 8857,
+        "id": 8858,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94460,7 +94470,7 @@
         }
     },
     {
-        "id": 8858,
+        "id": 8859,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94470,7 +94480,7 @@
         }
     },
     {
-        "id": 8859,
+        "id": 8860,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94480,7 +94490,7 @@
         }
     },
     {
-        "id": 8860,
+        "id": 8861,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94490,7 +94500,7 @@
         }
     },
     {
-        "id": 8861,
+        "id": 8862,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94500,7 +94510,7 @@
         }
     },
     {
-        "id": 8862,
+        "id": 8863,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94510,7 +94520,7 @@
         }
     },
     {
-        "id": 8863,
+        "id": 8864,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94520,7 +94530,7 @@
         }
     },
     {
-        "id": 8864,
+        "id": 8865,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94530,7 +94540,7 @@
         }
     },
     {
-        "id": 8865,
+        "id": 8866,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94540,7 +94550,7 @@
         }
     },
     {
-        "id": 8866,
+        "id": 8867,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94550,7 +94560,7 @@
         }
     },
     {
-        "id": 8867,
+        "id": 8868,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94575,7 +94585,7 @@
         }
     },
     {
-        "id": 8868,
+        "id": 8869,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94585,7 +94595,7 @@
         }
     },
     {
-        "id": 8869,
+        "id": 8870,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94595,7 +94605,7 @@
         }
     },
     {
-        "id": 8870,
+        "id": 8871,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94605,7 +94615,7 @@
         }
     },
     {
-        "id": 8871,
+        "id": 8872,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94615,7 +94625,7 @@
         }
     },
     {
-        "id": 8872,
+        "id": 8873,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94625,7 +94635,7 @@
         }
     },
     {
-        "id": 8873,
+        "id": 8874,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94635,7 +94645,7 @@
         }
     },
     {
-        "id": 8874,
+        "id": 8875,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94645,7 +94655,7 @@
         }
     },
     {
-        "id": 8875,
+        "id": 8876,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94655,7 +94665,7 @@
         }
     },
     {
-        "id": 8876,
+        "id": 8877,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94671,7 +94681,7 @@
         }
     },
     {
-        "id": 8877,
+        "id": 8878,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94681,7 +94691,7 @@
         }
     },
     {
-        "id": 8878,
+        "id": 8879,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94691,7 +94701,7 @@
         }
     },
     {
-        "id": 8879,
+        "id": 8880,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94701,7 +94711,7 @@
         }
     },
     {
-        "id": 8880,
+        "id": 8881,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94711,7 +94721,7 @@
         }
     },
     {
-        "id": 8881,
+        "id": 8882,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94721,7 +94731,7 @@
         }
     },
     {
-        "id": 8882,
+        "id": 8883,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94731,7 +94741,7 @@
         }
     },
     {
-        "id": 8883,
+        "id": 8884,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94741,7 +94751,7 @@
         }
     },
     {
-        "id": 8884,
+        "id": 8885,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94751,7 +94761,7 @@
         }
     },
     {
-        "id": 8885,
+        "id": 8886,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94761,7 +94771,7 @@
         }
     },
     {
-        "id": 8886,
+        "id": 8887,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94778,7 +94788,7 @@
         }
     },
     {
-        "id": 8887,
+        "id": 8888,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94788,7 +94798,7 @@
         }
     },
     {
-        "id": 8888,
+        "id": 8889,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94813,7 +94823,7 @@
         }
     },
     {
-        "id": 8889,
+        "id": 8890,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94823,7 +94833,7 @@
         }
     },
     {
-        "id": 8890,
+        "id": 8891,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94833,7 +94843,7 @@
         }
     },
     {
-        "id": 8891,
+        "id": 8892,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94843,7 +94853,7 @@
         }
     },
     {
-        "id": 8892,
+        "id": 8893,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94853,7 +94863,7 @@
         }
     },
     {
-        "id": 8893,
+        "id": 8894,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94863,7 +94873,7 @@
         }
     },
     {
-        "id": 8894,
+        "id": 8895,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94873,7 +94883,7 @@
         }
     },
     {
-        "id": 8895,
+        "id": 8896,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94887,7 +94897,7 @@
         }
     },
     {
-        "id": 8896,
+        "id": 8897,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94897,7 +94907,7 @@
         }
     },
     {
-        "id": 8897,
+        "id": 8898,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94907,7 +94917,7 @@
         }
     },
     {
-        "id": 8898,
+        "id": 8899,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94917,7 +94927,7 @@
         }
     },
     {
-        "id": 8899,
+        "id": 8900,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94927,7 +94937,7 @@
         }
     },
     {
-        "id": 8900,
+        "id": 8901,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94937,7 +94947,7 @@
         }
     },
     {
-        "id": 8901,
+        "id": 8902,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94947,7 +94957,7 @@
         }
     },
     {
-        "id": 8902,
+        "id": 8903,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94957,7 +94967,7 @@
         }
     },
     {
-        "id": 8903,
+        "id": 8904,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94967,7 +94977,7 @@
         }
     },
     {
-        "id": 8904,
+        "id": 8905,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94977,7 +94987,7 @@
         }
     },
     {
-        "id": 8905,
+        "id": 8906,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94987,7 +94997,7 @@
         }
     },
     {
-        "id": 8906,
+        "id": 8907,
         "priority": 1,
         "action": {
             "type": "block"
@@ -94997,7 +95007,7 @@
         }
     },
     {
-        "id": 8907,
+        "id": 8908,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95007,7 +95017,7 @@
         }
     },
     {
-        "id": 8908,
+        "id": 8909,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95017,7 +95027,7 @@
         }
     },
     {
-        "id": 8909,
+        "id": 8910,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95027,7 +95037,7 @@
         }
     },
     {
-        "id": 8910,
+        "id": 8911,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95037,7 +95047,7 @@
         }
     },
     {
-        "id": 8911,
+        "id": 8912,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95047,7 +95057,7 @@
         }
     },
     {
-        "id": 8912,
+        "id": 8913,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95057,7 +95067,7 @@
         }
     },
     {
-        "id": 8913,
+        "id": 8914,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95067,7 +95077,7 @@
         }
     },
     {
-        "id": 8914,
+        "id": 8915,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95077,7 +95087,7 @@
         }
     },
     {
-        "id": 8915,
+        "id": 8916,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95087,7 +95097,7 @@
         }
     },
     {
-        "id": 8916,
+        "id": 8917,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95097,7 +95107,7 @@
         }
     },
     {
-        "id": 8917,
+        "id": 8918,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95107,7 +95117,7 @@
         }
     },
     {
-        "id": 8918,
+        "id": 8919,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95117,7 +95127,7 @@
         }
     },
     {
-        "id": 8919,
+        "id": 8920,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95127,7 +95137,7 @@
         }
     },
     {
-        "id": 8920,
+        "id": 8921,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95137,7 +95147,7 @@
         }
     },
     {
-        "id": 8921,
+        "id": 8922,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95147,7 +95157,7 @@
         }
     },
     {
-        "id": 8922,
+        "id": 8923,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95157,7 +95167,7 @@
         }
     },
     {
-        "id": 8923,
+        "id": 8924,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95167,7 +95177,7 @@
         }
     },
     {
-        "id": 8924,
+        "id": 8925,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95177,7 +95187,7 @@
         }
     },
     {
-        "id": 8925,
+        "id": 8926,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95187,7 +95197,7 @@
         }
     },
     {
-        "id": 8926,
+        "id": 8927,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95197,7 +95207,7 @@
         }
     },
     {
-        "id": 8927,
+        "id": 8928,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95207,7 +95217,7 @@
         }
     },
     {
-        "id": 8928,
+        "id": 8929,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95217,7 +95227,7 @@
         }
     },
     {
-        "id": 8929,
+        "id": 8930,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95227,7 +95237,7 @@
         }
     },
     {
-        "id": 8930,
+        "id": 8931,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95237,7 +95247,7 @@
         }
     },
     {
-        "id": 8931,
+        "id": 8932,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95247,7 +95257,7 @@
         }
     },
     {
-        "id": 8932,
+        "id": 8933,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95257,7 +95267,7 @@
         }
     },
     {
-        "id": 8933,
+        "id": 8934,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95267,7 +95277,7 @@
         }
     },
     {
-        "id": 8934,
+        "id": 8935,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95277,7 +95287,7 @@
         }
     },
     {
-        "id": 8935,
+        "id": 8936,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95287,7 +95297,7 @@
         }
     },
     {
-        "id": 8936,
+        "id": 8937,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95297,7 +95307,7 @@
         }
     },
     {
-        "id": 8937,
+        "id": 8938,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95307,7 +95317,7 @@
         }
     },
     {
-        "id": 8938,
+        "id": 8939,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95317,7 +95327,7 @@
         }
     },
     {
-        "id": 8939,
+        "id": 8940,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95327,7 +95337,7 @@
         }
     },
     {
-        "id": 8940,
+        "id": 8941,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95337,7 +95347,7 @@
         }
     },
     {
-        "id": 8941,
+        "id": 8942,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95347,7 +95357,7 @@
         }
     },
     {
-        "id": 8942,
+        "id": 8943,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95357,7 +95367,7 @@
         }
     },
     {
-        "id": 8943,
+        "id": 8944,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95367,7 +95377,7 @@
         }
     },
     {
-        "id": 8944,
+        "id": 8945,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95377,7 +95387,7 @@
         }
     },
     {
-        "id": 8945,
+        "id": 8946,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95387,7 +95397,7 @@
         }
     },
     {
-        "id": 8946,
+        "id": 8947,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95397,7 +95407,7 @@
         }
     },
     {
-        "id": 8947,
+        "id": 8948,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95407,7 +95417,7 @@
         }
     },
     {
-        "id": 8948,
+        "id": 8949,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95417,7 +95427,7 @@
         }
     },
     {
-        "id": 8949,
+        "id": 8950,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95427,7 +95437,7 @@
         }
     },
     {
-        "id": 8950,
+        "id": 8951,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95437,7 +95447,7 @@
         }
     },
     {
-        "id": 8951,
+        "id": 8952,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95447,7 +95457,7 @@
         }
     },
     {
-        "id": 8952,
+        "id": 8953,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95457,7 +95467,7 @@
         }
     },
     {
-        "id": 8953,
+        "id": 8954,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95467,7 +95477,7 @@
         }
     },
     {
-        "id": 8954,
+        "id": 8955,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95477,7 +95487,7 @@
         }
     },
     {
-        "id": 8955,
+        "id": 8956,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95487,7 +95497,7 @@
         }
     },
     {
-        "id": 8956,
+        "id": 8957,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95497,7 +95507,7 @@
         }
     },
     {
-        "id": 8957,
+        "id": 8958,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95507,7 +95517,7 @@
         }
     },
     {
-        "id": 8958,
+        "id": 8959,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95517,7 +95527,7 @@
         }
     },
     {
-        "id": 8959,
+        "id": 8960,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95542,7 +95552,7 @@
         }
     },
     {
-        "id": 8960,
+        "id": 8961,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95552,7 +95562,7 @@
         }
     },
     {
-        "id": 8961,
+        "id": 8962,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95562,7 +95572,7 @@
         }
     },
     {
-        "id": 8962,
+        "id": 8963,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95572,7 +95582,7 @@
         }
     },
     {
-        "id": 8963,
+        "id": 8964,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95582,7 +95592,7 @@
         }
     },
     {
-        "id": 8964,
+        "id": 8965,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95592,7 +95602,7 @@
         }
     },
     {
-        "id": 8965,
+        "id": 8966,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95602,7 +95612,7 @@
         }
     },
     {
-        "id": 8966,
+        "id": 8967,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95612,7 +95622,7 @@
         }
     },
     {
-        "id": 8967,
+        "id": 8968,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95622,7 +95632,7 @@
         }
     },
     {
-        "id": 8968,
+        "id": 8969,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95632,7 +95642,7 @@
         }
     },
     {
-        "id": 8969,
+        "id": 8970,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95642,7 +95652,7 @@
         }
     },
     {
-        "id": 8970,
+        "id": 8971,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95652,7 +95662,7 @@
         }
     },
     {
-        "id": 8971,
+        "id": 8972,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95662,7 +95672,7 @@
         }
     },
     {
-        "id": 8972,
+        "id": 8973,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95672,7 +95682,7 @@
         }
     },
     {
-        "id": 8973,
+        "id": 8974,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95682,7 +95692,7 @@
         }
     },
     {
-        "id": 8974,
+        "id": 8975,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95692,7 +95702,7 @@
         }
     },
     {
-        "id": 8975,
+        "id": 8976,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95702,7 +95712,7 @@
         }
     },
     {
-        "id": 8976,
+        "id": 8977,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95712,7 +95722,7 @@
         }
     },
     {
-        "id": 8977,
+        "id": 8978,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95722,7 +95732,7 @@
         }
     },
     {
-        "id": 8978,
+        "id": 8979,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95732,7 +95742,7 @@
         }
     },
     {
-        "id": 8979,
+        "id": 8980,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95757,7 +95767,7 @@
         }
     },
     {
-        "id": 8980,
+        "id": 8981,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95767,7 +95777,7 @@
         }
     },
     {
-        "id": 8981,
+        "id": 8982,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95777,7 +95787,7 @@
         }
     },
     {
-        "id": 8982,
+        "id": 8983,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95787,7 +95797,7 @@
         }
     },
     {
-        "id": 8983,
+        "id": 8984,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95797,7 +95807,7 @@
         }
     },
     {
-        "id": 8984,
+        "id": 8985,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95807,7 +95817,7 @@
         }
     },
     {
-        "id": 8985,
+        "id": 8986,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95817,7 +95827,7 @@
         }
     },
     {
-        "id": 8986,
+        "id": 8987,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95827,7 +95837,7 @@
         }
     },
     {
-        "id": 8987,
+        "id": 8988,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95837,7 +95847,7 @@
         }
     },
     {
-        "id": 8988,
+        "id": 8989,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95847,7 +95857,7 @@
         }
     },
     {
-        "id": 8989,
+        "id": 8990,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95857,7 +95867,7 @@
         }
     },
     {
-        "id": 8990,
+        "id": 8991,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95867,7 +95877,7 @@
         }
     },
     {
-        "id": 8991,
+        "id": 8992,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95877,7 +95887,7 @@
         }
     },
     {
-        "id": 8992,
+        "id": 8993,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95887,7 +95897,7 @@
         }
     },
     {
-        "id": 8993,
+        "id": 8994,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95897,7 +95907,7 @@
         }
     },
     {
-        "id": 8994,
+        "id": 8995,
         "priority": 1,
         "action": {
             "type": "block"
@@ -95907,26 +95917,13 @@
         }
     },
     {
-        "id": 8995,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "_backToTop."
-        }
-    },
-    {
         "id": 8996,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "resourceTypes": [
-                "sub_frame"
-            ],
-            "urlFilter": "/banner/videos/player.htm?"
+            "urlFilter": "_backToTop."
         }
     },
     {
@@ -95939,7 +95936,7 @@
             "resourceTypes": [
                 "sub_frame"
             ],
-            "urlFilter": "/plugin/banner/videos/*"
+            "urlFilter": "/banner/videos/player.htm?"
         }
     },
     {
@@ -95949,7 +95946,10 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "/jquery.particleground.js"
+            "resourceTypes": [
+                "sub_frame"
+            ],
+            "urlFilter": "/plugin/banner/videos/*"
         }
     },
     {
@@ -95959,7 +95959,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "/particles-sel.js"
+            "urlFilter": "/jquery.particleground.js"
         }
     },
     {
@@ -95969,7 +95969,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "/particles.min.js"
+            "urlFilter": "/particles-sel.js"
         }
     },
     {
@@ -95979,7 +95979,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||av-northern-apps.com/js/agecheckerplus_"
+            "urlFilter": "/particles.min.js"
         }
     },
     {
@@ -95989,7 +95989,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||static.elfsight.com/apps/age-verification/"
+            "urlFilter": "||av-northern-apps.com/js/agecheckerplus_"
         }
     },
     {
@@ -95999,7 +95999,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||support.xxx/age_check.js"
+            "urlFilter": "||static.elfsight.com/apps/age-verification/"
         }
     },
     {
@@ -96009,11 +96009,21 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||zooomyapps.com/age/ZooomyAgeVerify.js"
+            "urlFilter": "||support.xxx/age_check.js"
         }
     },
     {
         "id": 9005,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||zooomyapps.com/age/ZooomyAgeVerify.js"
+        }
+    },
+    {
+        "id": 9006,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96030,7 +96040,7 @@
         }
     },
     {
-        "id": 9006,
+        "id": 9007,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96040,7 +96050,7 @@
         }
     },
     {
-        "id": 9007,
+        "id": 9008,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96050,7 +96060,7 @@
         }
     },
     {
-        "id": 9008,
+        "id": 9009,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96060,7 +96070,7 @@
         }
     },
     {
-        "id": 9009,
+        "id": 9010,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96070,7 +96080,7 @@
         }
     },
     {
-        "id": 9010,
+        "id": 9011,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96080,7 +96090,7 @@
         }
     },
     {
-        "id": 9011,
+        "id": 9012,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96090,7 +96100,7 @@
         }
     },
     {
-        "id": 9012,
+        "id": 9013,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96100,7 +96110,7 @@
         }
     },
     {
-        "id": 9013,
+        "id": 9014,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96110,7 +96120,7 @@
         }
     },
     {
-        "id": 9014,
+        "id": 9015,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96120,7 +96130,7 @@
         }
     },
     {
-        "id": 9015,
+        "id": 9016,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96130,7 +96140,7 @@
         }
     },
     {
-        "id": 9016,
+        "id": 9017,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96140,7 +96150,7 @@
         }
     },
     {
-        "id": 9017,
+        "id": 9018,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96150,7 +96160,7 @@
         }
     },
     {
-        "id": 9018,
+        "id": 9019,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96160,7 +96170,7 @@
         }
     },
     {
-        "id": 9019,
+        "id": 9020,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96170,7 +96180,7 @@
         }
     },
     {
-        "id": 9020,
+        "id": 9021,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96180,7 +96190,7 @@
         }
     },
     {
-        "id": 9021,
+        "id": 9022,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96190,7 +96200,7 @@
         }
     },
     {
-        "id": 9022,
+        "id": 9023,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96200,7 +96210,7 @@
         }
     },
     {
-        "id": 9023,
+        "id": 9024,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96210,7 +96220,7 @@
         }
     },
     {
-        "id": 9024,
+        "id": 9025,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96220,7 +96230,7 @@
         }
     },
     {
-        "id": 9025,
+        "id": 9026,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96230,7 +96240,7 @@
         }
     },
     {
-        "id": 9026,
+        "id": 9027,
         "priority": 1,
         "action": {
             "type": "block"
@@ -96240,7 +96250,7 @@
         }
     },
     {
-        "id": 9027,
+        "id": 9028,
         "priority": 1,
         "action": {
             "type": "block"
