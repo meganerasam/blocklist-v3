@@ -17373,7 +17373,6 @@
                 "log.hypebeast.com",
                 "log.klook.com",
                 "log.mediacategory.com",
-                "log.nordot.jp",
                 "log.olark.com",
                 "log.outbrain.com",
                 "log.pinterest.com",
@@ -37789,7 +37788,8 @@
                 "xmlhttprequest"
             ],
             "requestDomains": [
-                "automate-prod.s3.amazonaws.com"
+                "automate-prod.s3.amazonaws.com",
+                "log.nordot.jp"
             ]
         }
     },
