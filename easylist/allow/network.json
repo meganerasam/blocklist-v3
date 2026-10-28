@@ -7114,12 +7114,28 @@
             "type": "allow"
         },
         "condition": {
+            "resourceTypes": [
+                "script"
+            ],
+            "initiatorDomains": [
+                "ruutu.fi"
+            ],
+            "urlFilter": "||sf.nm-ovp.nelonenmedia.fi/player/assets/ad/admanager.js"
+        }
+    },
+    {
+        "id": 460,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
             "domainType": "firstParty",
             "urlFilter": "||shikoku-np.co.jp/img/ad/"
         }
     },
     {
-        "id": 460,
+        "id": 461,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7132,7 +7148,7 @@
         }
     },
     {
-        "id": 461,
+        "id": 462,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7145,7 +7161,7 @@
         }
     },
     {
-        "id": 462,
+        "id": 463,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7156,7 +7172,7 @@
         }
     },
     {
-        "id": 463,
+        "id": 464,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7173,7 +7189,7 @@
         }
     },
     {
-        "id": 464,
+        "id": 465,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7183,7 +7199,7 @@
         }
     },
     {
-        "id": 465,
+        "id": 466,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7197,7 +7213,7 @@
         }
     },
     {
-        "id": 466,
+        "id": 467,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7213,7 +7229,7 @@
         }
     },
     {
-        "id": 467,
+        "id": 468,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7223,7 +7239,7 @@
         }
     },
     {
-        "id": 468,
+        "id": 469,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7234,7 +7250,7 @@
         }
     },
     {
-        "id": 469,
+        "id": 470,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7252,7 +7268,7 @@
         }
     },
     {
-        "id": 470,
+        "id": 471,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7268,7 +7284,7 @@
         }
     },
     {
-        "id": 471,
+        "id": 472,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7281,7 +7297,7 @@
         }
     },
     {
-        "id": 472,
+        "id": 473,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7294,7 +7310,7 @@
         }
     },
     {
-        "id": 473,
+        "id": 474,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7304,7 +7320,7 @@
         }
     },
     {
-        "id": 474,
+        "id": 475,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7315,7 +7331,7 @@
         }
     },
     {
-        "id": 475,
+        "id": 476,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7328,7 +7344,7 @@
         }
     },
     {
-        "id": 476,
+        "id": 477,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7344,7 +7360,7 @@
         }
     },
     {
-        "id": 477,
+        "id": 478,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7358,7 +7374,7 @@
         }
     },
     {
-        "id": 478,
+        "id": 479,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7369,7 +7385,7 @@
         }
     },
     {
-        "id": 479,
+        "id": 480,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7380,7 +7396,7 @@
         }
     },
     {
-        "id": 480,
+        "id": 481,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7388,19 +7404,6 @@
         "condition": {
             "domainType": "firstParty",
             "urlFilter": "||yuru-mbti.com/static/css/adsense.css"
-        }
-    },
-    {
-        "id": 481,
-        "priority": 2,
-        "action": {
-            "type": "allow"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "gemini.yahoo.com"
-            ],
-            "urlFilter": "||gemini.yahoo.com/advertiser/"
         }
     },
     {
@@ -7413,7 +7416,7 @@
             "initiatorDomains": [
                 "gemini.yahoo.com"
             ],
-            "urlFilter": "||yimg.com/av/gemini-ui/*/advertiser/"
+            "urlFilter": "||gemini.yahoo.com/advertiser/"
         }
     },
     {
@@ -7423,8 +7426,10 @@
             "type": "allow"
         },
         "condition": {
-            "domainType": "firstParty",
-            "urlFilter": "||2chmatome2.jp/images/sp/320x250.png"
+            "initiatorDomains": [
+                "gemini.yahoo.com"
+            ],
+            "urlFilter": "||yimg.com/av/gemini-ui/*/advertiser/"
         }
     },
     {
@@ -7435,7 +7440,7 @@
         },
         "condition": {
             "domainType": "firstParty",
-            "urlFilter": "||47news.jp/static/special/*/300x250_640x480.webp"
+            "urlFilter": "||2chmatome2.jp/images/sp/320x250.png"
         }
     },
     {
@@ -7445,11 +7450,8 @@
             "type": "allow"
         },
         "condition": {
-            "resourceTypes": [
-                "image"
-            ],
             "domainType": "firstParty",
-            "urlFilter": "||anitasrecipes.com/Content/Images/Recipes/"
+            "urlFilter": "||47news.jp/static/special/*/300x250_640x480.webp"
         }
     },
     {
@@ -7463,7 +7465,7 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||arnhemland-safaris.com/images/made/"
+            "urlFilter": "||anitasrecipes.com/Content/Images/Recipes/"
         }
     },
     {
@@ -7477,7 +7479,7 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||banner-hiroba.com/wp-content/uploads/"
+            "urlFilter": "||arnhemland-safaris.com/images/made/"
         }
     },
     {
@@ -7491,7 +7493,7 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||crystalmark.info/wp-content/uploads/*-300x250."
+            "urlFilter": "||banner-hiroba.com/wp-content/uploads/"
         }
     },
     {
@@ -7505,7 +7507,7 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||crystalmark.info/wp-content/uploads/sites/"
+            "urlFilter": "||crystalmark.info/wp-content/uploads/*-300x250."
         }
     },
     {
@@ -7515,8 +7517,11 @@
             "type": "allow"
         },
         "condition": {
+            "resourceTypes": [
+                "image"
+            ],
             "domainType": "firstParty",
-            "urlFilter": "||esko.cloud^*_300x600_"
+            "urlFilter": "||crystalmark.info/wp-content/uploads/sites/"
         }
     },
     {
@@ -7526,11 +7531,8 @@
             "type": "allow"
         },
         "condition": {
-            "resourceTypes": [
-                "image"
-            ],
             "domainType": "firstParty",
-            "urlFilter": "||government-and-constitution.org/images/presidential-seal-300-250.gif"
+            "urlFilter": "||esko.cloud^*_300x600_"
         }
     },
     {
@@ -7544,11 +7546,25 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||hiveworkscomics.com/frontboxes/300x250_"
+            "urlFilter": "||government-and-constitution.org/images/presidential-seal-300-250.gif"
         }
     },
     {
         "id": 493,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "resourceTypes": [
+                "image"
+            ],
+            "domainType": "firstParty",
+            "urlFilter": "||hiveworkscomics.com/frontboxes/300x250_"
+        }
+    },
+    {
+        "id": 494,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7559,7 +7575,7 @@
         }
     },
     {
-        "id": 494,
+        "id": 495,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7573,7 +7589,7 @@
         }
     },
     {
-        "id": 495,
+        "id": 496,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7584,7 +7600,7 @@
         }
     },
     {
-        "id": 496,
+        "id": 497,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7598,7 +7614,7 @@
         }
     },
     {
-        "id": 497,
+        "id": 498,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7612,7 +7628,7 @@
         }
     },
     {
-        "id": 498,
+        "id": 499,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7626,7 +7642,7 @@
         }
     },
     {
-        "id": 499,
+        "id": 500,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7640,7 +7656,7 @@
         }
     },
     {
-        "id": 500,
+        "id": 501,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7654,7 +7670,7 @@
         }
     },
     {
-        "id": 501,
+        "id": 502,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7668,7 +7684,7 @@
         }
     },
     {
-        "id": 502,
+        "id": 503,
         "priority": 2,
         "action": {
             "type": "allow"
@@ -7682,19 +7698,6 @@
         }
     },
     {
-        "id": 503,
-        "priority": 2,
-        "action": {
-            "type": "allow"
-        },
-        "condition": {
-            "resourceTypes": [
-                "image"
-            ],
-            "urlFilter": "||rollercoin.com/static/img/referral_160-600.png"
-        }
-    },
-    {
         "id": 504,
         "priority": 2,
         "action": {
@@ -7704,8 +7707,7 @@
             "resourceTypes": [
                 "image"
             ],
-            "domainType": "firstParty",
-            "urlFilter": "||taipit-mebel.ru/upload/resize_cache/"
+            "urlFilter": "||rollercoin.com/static/img/referral_160-600.png"
         }
     },
     {
@@ -7719,11 +7721,25 @@
                 "image"
             ],
             "domainType": "firstParty",
-            "urlFilter": "||wavepc.pl/wp-content/*-500x100.png"
+            "urlFilter": "||taipit-mebel.ru/upload/resize_cache/"
         }
     },
     {
         "id": 506,
+        "priority": 2,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "resourceTypes": [
+                "image"
+            ],
+            "domainType": "firstParty",
+            "urlFilter": "||wavepc.pl/wp-content/*-500x100.png"
+        }
+    },
+    {
+        "id": 507,
         "priority": 2,
         "action": {
             "type": "allow"
