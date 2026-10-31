@@ -486,6 +486,9 @@
         ".widget_ai_ad_widget"
     ],
     "adfoc.us": [
+        ".nv-foot-ref",
+        ".nv-phdr-mark",
+        ".nv-root",
         "a[href^=\"https://www.survivalservers.com/\"]"
     ],
     "adgully.com": [
@@ -26023,6 +26026,9 @@
     ],
     "vanguardngr.com": [
         ".ad-container"
+    ],
+    "vanityfair.com": [
+        "[data-testid=\"sticky-hero-ad\"]"
     ],
     "variety.com": [
         "#jwplayer_xH3PjHXT_plsZnDJi_div",
