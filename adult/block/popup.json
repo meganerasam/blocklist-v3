@@ -501,7 +501,7 @@
             "resourceTypes": [
                 "main_frame"
             ],
-            "urlFilter": "||boyfriendtv.com/out/bg-"
+            "urlFilter": "||boyfriendtv.com/o7x/"
         }
     },
     {
@@ -514,7 +514,7 @@
             "resourceTypes": [
                 "main_frame"
             ],
-            "urlFilter": "||clicknplay.to/api/"
+            "urlFilter": "||boyfriendtv.com/out/bg-"
         }
     },
     {
@@ -527,7 +527,7 @@
             "resourceTypes": [
                 "main_frame"
             ],
-            "urlFilter": "||daftporn.com/out.php?"
+            "urlFilter": "||clicknplay.to/api/"
         }
     },
     {
@@ -540,7 +540,7 @@
             "resourceTypes": [
                 "main_frame"
             ],
-            "urlFilter": "||livejasmin.com/pu/"
+            "urlFilter": "||daftporn.com/out.php?"
         }
     },
     {
@@ -553,7 +553,7 @@
             "resourceTypes": [
                 "main_frame"
             ],
-            "urlFilter": "||missav.com/pop?"
+            "urlFilter": "||livejasmin.com/pu/"
         }
     },
     {
@@ -566,11 +566,24 @@
             "resourceTypes": [
                 "main_frame"
             ],
-            "urlFilter": "||nhentai.net/api/_/popunder?"
+            "urlFilter": "||missav.com/pop?"
         }
     },
     {
         "id": 34,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "resourceTypes": [
+                "main_frame"
+            ],
+            "urlFilter": "||nhentai.net/api/_/popunder?"
+        }
+    },
+    {
+        "id": 35,
         "priority": 1,
         "action": {
             "type": "block"
@@ -586,7 +599,7 @@
         }
     },
     {
-        "id": 35,
+        "id": 36,
         "priority": 1,
         "action": {
             "type": "block"
@@ -599,7 +612,7 @@
         }
     },
     {
-        "id": 36,
+        "id": 37,
         "priority": 1,
         "action": {
             "type": "block"
@@ -612,7 +625,7 @@
         }
     },
     {
-        "id": 37,
+        "id": 38,
         "priority": 1,
         "action": {
             "type": "block"

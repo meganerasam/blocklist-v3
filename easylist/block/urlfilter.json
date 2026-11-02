@@ -7310,7 +7310,7 @@
             "resourceTypes": [
                 "script"
             ],
-            "urlFilter": "/pagead/conversion.js"
+            "urlFilter": "/pagead/conversion.js|"
         }
     },
     {
@@ -14466,6 +14466,9 @@
             "type": "block"
         },
         "condition": {
+            "resourceTypes": [
+                "image"
+            ],
             "urlFilter": "/120x600-"
         }
     },
