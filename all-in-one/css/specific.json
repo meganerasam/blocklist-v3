@@ -8750,6 +8750,10 @@
     "elystandard.co.uk": [
         ".advert"
     ],
+    "emag.*": [
+        ".card-item[data-url=\"ref=sponsored_\"]",
+        ".page-section:has([data-tracking-engine=\"rec-ads\"])"
+    ],
     "emailme.at": [
         ".ad-250x250"
     ],
@@ -17275,7 +17279,8 @@
     "makemytrip.com": [
         ".adtech-desktop",
         ".hotDeals",
-        ".hotelTileDt:has(.icSponsored)"
+        ".hotelTileDt:has(.icSponsored)",
+        "li:has(> [class=\"cardInteractive\"] img[src*=\"sponsoredtag\"])"
     ],
     "maketecheasier.com": [
         ".header-widget"
@@ -20681,6 +20686,9 @@
         ".squarblk"
     ],
     "nxbrew.com": [
+        ".code-block"
+    ],
+    "nxbrew.net": [
         ".code-block"
     ],
     "ny.gov": [
@@ -31725,6 +31733,9 @@
     "usports.org": [
         "[style=\"padding-top:20px; text-align:center;\"]",
         ".arrow-up"
+    ],
+    "usps.com": [
+        "#Mailpieces.item:has(.rideAlongLinkImage)"
     ],
     "utahgunexchange.com": [
         ".rev_slider_wrapper",
