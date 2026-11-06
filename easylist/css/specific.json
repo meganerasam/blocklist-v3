@@ -12880,6 +12880,7 @@
     "kohls.com": [
         "#PDP_monetization_HL",
         "#PMP_monetization_HL",
+        "#kmn-brand-spotlight",
         "#kmn-featured-carousel",
         "#kmn-more-to-consider",
         "#kmnbanner-pencil_bottom-anchor",
@@ -18287,6 +18288,7 @@
         ".ad",
         ".adlib-sticky-footer",
         ".border-gray-vulcan-92:has(> #banner-wrap)",
+        ".pt-\\[1\\.25rem\\]",
         ".styles_container__zuzL0",
         "div[class][rowindex]:has(> .ad)"
     ],
@@ -22934,6 +22936,9 @@
         ".header_inner_ads",
         ".techo-adlabel"
     ],
+    "techpartner.news": [
+        ".leaderboard"
+    ],
     "techporn.ph": [
         "a[href][target*=\"blank\"]"
     ],
@@ -26446,7 +26451,8 @@
     "walgreens.com": [
         "#prod-sponsored",
         "#searchSponsoredProductContainer",
-        "li.owned-brands:has(figure.sponsored)"
+        "li.owned-brands:has(figure.sponsored)",
+        "li.product-grid-item:has(.sponsored-badge)"
     ],
     "wallapop.com": [
         "article[class^=\"retrieval-item-card-module_RetrievalItemCard\"]:has(span[class^=\"retrieval-item-card-module_RetrievalItemCard__promoted\"])",
