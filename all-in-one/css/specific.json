@@ -1978,6 +1978,10 @@
     "ask.com": [
         ".PartialKelkooResults"
     ],
+    "askai.glarity.app": [
+        "aside[aria-label=\"Advertisement\"]",
+        "div[aria-label=\"Sponsored\"]"
+    ],
     "askapache.com": [
         ".GAD"
     ],
@@ -8704,6 +8708,7 @@
         ".advert"
     ],
     "emag.*": [
+        ".card-item:has(a[href*=\"ref=sponsored_products\"])",
         ".card-item[data-aid]",
         ".card-item[data-url=\"ref=sponsored_\"]",
         ".page-section:has([data-tracking-engine=\"rec-ads\"])"
@@ -21241,6 +21246,7 @@
         ".cd-top"
     ],
     "pahe.ink": [
+        "[href^=\"https://theshorten.net/\"]",
         "[style=\"padding-top: 0; padding-bottom: 90px;\"]"
     ],
     "pajiba.com": [
@@ -30021,7 +30027,6 @@
         ".paisa-wrapper",
         ".relatedVideoWrapper",
         ".topBand_adwrapper",
-        "[class]:has(> .wdt-taboola)",
         "[data-sp-click=\"stpPgtn(event)\"]",
         "[onclick=\"stpPgtn(event)\"]"
     ],
