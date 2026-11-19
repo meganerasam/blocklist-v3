@@ -519,6 +519,10 @@
         ".master-product-carousel:has([data-carousel-api*=\"search/sponsored-carousel\"])",
         ".master-product-carousel:has([data-carousel-driven=\"sponsored-products\"])"
     ],
+    "acode.app": [
+        ".sponsors-section",
+        ".announcement-banner"
+    ],
     "acronymfinder.com": [
         ".ts",
         "tr:has(.ts)"
@@ -1838,6 +1842,9 @@
         ".sponsorBy"
     ],
     "arkadium.com": [
+        ".footer_ad--bottom",
+        "[data-placement]",
+        "[data-rail-widgets-below-ads]",
         "div[class^=\"Ad-adContainer\"]"
     ],
     "arkadiumhosted.com": [
@@ -8767,6 +8774,7 @@
         ".ad"
     ],
     "emojipedia.org": [
+        ".h-\\[112px\\]",
         ".h-\\[282px\\]",
         ".h-\\[312px\\]",
         "div[class=\"flex flex-col items-center md:order-1\"]",
@@ -8925,6 +8933,9 @@
     ],
     "eprop.co.za": [
         ".bannergroup"
+    ],
+    "eqmusicblog.com": [
+        "#cb-bg-to"
     ],
     "equipmentworld.com": [
         ".ad-container"
@@ -16258,6 +16269,7 @@
         "[style*=\"z-index:\"]"
     ],
     "leetcode.com": [
+        ".announcement-bar__container",
         ".group\\/ads",
         ".lc-ads__241X"
     ],
@@ -20432,6 +20444,11 @@
         ".latacz",
         ".popup-trigger"
     ],
+    "notmeter.com": [
+        ".exitlag-badge",
+        "[class*=\"ad-rail\"]",
+        "[class=\"exitlag-promotion\"]"
+    ],
     "nottinghampost.com": [
         ".div-gpt-ad-vip-slot-wrapper",
         ".topbox-cls-placeholder",
@@ -21533,6 +21550,7 @@
         ".upcoming-releases.home-card:first-child"
     ],
     "pcguide.com": [
+        ".code-block",
         ".rdads",
         ".wepc-takeover-sides",
         ".wepc-takeover-top",
@@ -22238,6 +22256,7 @@
         ".header__right"
     ],
     "pngtree.com": [
+        "[data-ad-status]",
         "#__lazy > astro-island + div[class^=\"_\"][style^=\"color:\"]",
         "[data-huejs=\"couponside-nologin-click\"]"
     ],
@@ -30237,6 +30256,11 @@
     "toofab.com": [
         ".ad-container"
     ],
+    "tools.tracemyip.org": [
+        ".addA.ad_header_cls_top_a",
+        ".addB.ad_header_cls_middle_a",
+        ".addC.ad_header_cls_bottom_a"
+    ],
     "toolslib.net": [
         "#cta-box"
     ],
@@ -30923,6 +30947,9 @@
     ],
     "tucsonweekly.com": [
         ".Ad"
+    ],
+    "tukif.porn": [
+        ".disclaimer_parent_wrapper"
     ],
     "tuko.co.ke": [
         ".c-adv",
@@ -32447,7 +32474,11 @@
         ".advert"
     ],
     "watzatsong.com": [
-        ".ad"
+        ".ad",
+        ".ad_container",
+        ".right-column-why-ads",
+        ".sidebar_lhs",
+        ".sidebar_rhs"
     ],
     "wavepublication.com": [
         "#wpgtr_stickyads_textcss_container"

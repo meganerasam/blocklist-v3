@@ -6521,6 +6521,7 @@
                 "ar.quadient.com",
                 "aragenbio.actonservice.com",
                 "aragonresearch.actonservice.com",
+                "arc.msn.com",
                 "arch.net.jumia.ug",
                 "arch.onjoyri.de",
                 "archiv.promatis.de",
@@ -11786,6 +11787,7 @@
                 "event.ortec.com",
                 "event.platform.autotrader.com.au",
                 "event.platform.tunein.com",
+                "event.prod.asgard.hullabalook.com",
                 "event.raise3d.cn",
                 "event.seatradecruiseevents.com",
                 "event.seatradecruiseglobal.com",
@@ -12539,6 +12541,7 @@
                 "gatan.actonservice.com",
                 "gateway.aimia.com",
                 "gateway.foresee.com",
+                "gator.volces.com",
                 "gawayez.e-postserv.com",
                 "gb-asymbo.m-shop.me",
                 "gb.click.finning.com",
@@ -15420,6 +15423,7 @@
                 "insights.avad3.com",
                 "insights.biallo.de",
                 "insights.bodogaffiliate.com",
+                "insights.builderprofile.aws.dev",
                 "insights.diamond-consultants.com",
                 "insights.golubcapital.com",
                 "insights.goodandprosper.com",
@@ -21810,6 +21814,7 @@
                 "nlf6.vente-unique.pl",
                 "nlgzhd.yoox.com",
                 "nljjem.honeys-onlineshop.com",
+                "nlog.instajob.ai",
                 "nlp-japan.life-and-mind.com",
                 "nltihf.fashiondays.ro",
                 "nltzqx.autodoc.co.uk",
@@ -22623,6 +22628,7 @@
                 "p.sa7eer.com",
                 "p.skimresources.com",
                 "p.spotidownloader.com",
+                "p.teamily.ai",
                 "p.tryretool.com",
                 "p.typekit.net",
                 "p.versacommerce.de",
@@ -23501,6 +23507,7 @@
                 "putphc.zuhre.com.tr",
                 "puzzle.spiriteq.com",
                 "pv-track.pxtrkapp.com",
+                "pv-track.venatus.com",
                 "pv.partenaires-verisure.fr",
                 "pvfbav.sportler.com",
                 "pvn.rewe.de",
@@ -24413,6 +24420,7 @@
                 "s.save.ca",
                 "s.sick.com",
                 "s.simcoe.com",
+                "s.sintra.ai",
                 "s.sporks.space",
                 "s.srvsynd.com",
                 "s.stcatharinesstandard.ca",
@@ -25855,6 +25863,7 @@
                 "sfpc.changehealthcare.com",
                 "sfsinfo.sabic.com",
                 "sftrack.searchforce.net",
+                "sg-fp.apitd.net",
                 "sg-go.experian.com",
                 "sg.carousellmotors.com",
                 "sg.lucanet.com",
@@ -38400,6 +38409,21 @@
         },
         "condition": {
             "initiatorDomains": [
+                "character.ai"
+            ],
+            "requestDomains": [
+                "prodregistryv2.org"
+            ]
+        }
+    },
+    {
+        "id": 36,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
                 "sfist.com"
             ],
             "requestDomains": [
@@ -38408,7 +38432,7 @@
         }
     },
     {
-        "id": 36,
+        "id": 37,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38428,7 +38452,7 @@
         }
     },
     {
-        "id": 37,
+        "id": 38,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38447,7 +38471,7 @@
         }
     },
     {
-        "id": 38,
+        "id": 39,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38502,7 +38526,7 @@
         }
     },
     {
-        "id": 39,
+        "id": 40,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38519,7 +38543,7 @@
         }
     },
     {
-        "id": 40,
+        "id": 41,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38541,7 +38565,7 @@
         }
     },
     {
-        "id": 41,
+        "id": 42,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38561,7 +38585,7 @@
         }
     },
     {
-        "id": 42,
+        "id": 43,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38576,7 +38600,7 @@
         }
     },
     {
-        "id": 43,
+        "id": 44,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38592,7 +38616,7 @@
         }
     },
     {
-        "id": 44,
+        "id": 45,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38609,7 +38633,7 @@
         }
     },
     {
-        "id": 45,
+        "id": 46,
         "priority": 1,
         "action": {
             "type": "block"
@@ -38626,7 +38650,7 @@
         }
     },
     {
-        "id": 46,
+        "id": 47,
         "priority": 1,
         "action": {
             "type": "block"

@@ -426,6 +426,9 @@
         ".master-product-carousel:has([data-carousel-api*=\"search/sponsored-carousel\"])",
         ".master-product-carousel:has([data-carousel-driven=\"sponsored-products\"])"
     ],
+    "acode.app": [
+        ".sponsors-section"
+    ],
     "acronymfinder.com": [
         ".ts",
         "tr:has(.ts)"
@@ -1461,6 +1464,9 @@
         ".sponsorBy"
     ],
     "arkadium.com": [
+        ".footer_ad--bottom",
+        "[data-placement]",
+        "[data-rail-widgets-below-ads]",
         "div[class^=\"Ad-adContainer\"]"
     ],
     "arkadiumhosted.com": [
@@ -7130,6 +7136,7 @@
         ".ad"
     ],
     "emojipedia.org": [
+        ".h-\\[112px\\]",
         ".h-\\[282px\\]",
         ".h-\\[312px\\]",
         "div[class=\"flex flex-col items-center md:order-1\"]",
@@ -7263,6 +7270,9 @@
     ],
     "eprop.co.za": [
         ".bannergroup"
+    ],
+    "eqmusicblog.com": [
+        "#cb-bg-to"
     ],
     "equipmentworld.com": [
         ".ad-container"
@@ -13282,6 +13292,7 @@
         "[style*=\"z-index:\"]"
     ],
     "leetcode.com": [
+        ".announcement-bar__container",
         ".group\\/ads",
         ".lc-ads__241X"
     ],
@@ -16657,6 +16668,11 @@
     "notes.io": [
         ".directMessageBanner"
     ],
+    "notmeter.com": [
+        ".exitlag-badge",
+        "[class*=\"ad-rail\"]",
+        "[class=\"exitlag-promotion\"]"
+    ],
     "nottinghampost.com": [
         ".div-gpt-ad-vip-slot-wrapper",
         ".topbox-cls-placeholder"
@@ -17508,6 +17524,7 @@
         ".upcoming-releases.home-card:first-child"
     ],
     "pcguide.com": [
+        ".code-block",
         ".rdads",
         ".wepc-takeover-sides",
         ".wepc-takeover-top"
@@ -18085,6 +18102,9 @@
     "png2jpg.com": [
         ".ha",
         ".header__right"
+    ],
+    "pngtree.com": [
+        "[data-ad-status]"
     ],
     "pnn.ps": [
         "a[href*=\"/partners/\"]"
@@ -26523,7 +26543,11 @@
         ".advert"
     ],
     "watzatsong.com": [
-        ".ad"
+        ".ad",
+        ".ad_container",
+        ".right-column-why-ads",
+        ".sidebar_lhs",
+        ".sidebar_rhs"
     ],
     "wavepublication.com": [
         "#wpgtr_stickyads_textcss_container"
