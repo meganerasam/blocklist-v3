@@ -921,6 +921,9 @@
     "albernivalleynews.com": [
         ".one_by_one_group"
     ],
+    "albertleatribune.com": [
+        ".ad-indicator-text"
+    ],
     "albertsons.com": [
         ".abs-carousel-proxy > [aria-label=\"Promo or Ad Banner\"]",
         ".master-product-carousel:has([data-carousel-driven=\"sponsored-products\"])",
@@ -2842,6 +2845,9 @@
         ".vm-placement",
         "div[id^=\"ad-container-\"]"
     ],
+    "beloitdailynews.com": [
+        "#sticky-right-rail-spacer"
+    ],
     "bentspokebrewing.com.au": [
         ".splash"
     ],
@@ -3898,6 +3904,9 @@
         ".comp-content-keepfreebannercontent",
         ".fdn-support-us-block",
         ".fundraising-thermometer-block"
+    ],
+    "brownfieldagnews.com": [
+        "#back_to_top"
     ],
     "browserhow.com": [
         ".ai_widget",
@@ -9305,9 +9314,6 @@
         "#inline-top",
         "#sticky-bottom"
     ],
-    "ewn.co.za": [
-        ".bg-surface-03.text-content-secondary.space-y-\\[0\\.1875rem\\].p-spacing-s.flex.flex-col.w-max.mx-auto"
-    ],
     "examiner.com.au": [
         "#billboard-container"
     ],
@@ -14144,6 +14150,14 @@
     "indianhealthyrecipes.com": [
         ".code-block"
     ],
+    "indianmasterminds.com": [
+        ".bodyAds",
+        ".elementor > .elementor-element:has(> div.e-con-inner > div.elementor-widget-html div.bodyAds)",
+        ".elementor-element > .elementor-widget-container > div:not([id]):has(> div.lazyloadads)",
+        ".elementor-widget-html > .elementor-widget-container > div:not([id]):has(> div[id^=\"div-gpt-ad\"][data-adcode])",
+        ".elementor-widget-image > .elementor-widget-container:has(a:not([href^=\"https://indianmasterminds.com/\"])[target=\"_blank\"])",
+        ".ftrstkyad"
+    ],
     "indiatimes.com": [
         "#adslot_wrapper",
         ".ads",
@@ -15348,9 +15362,6 @@
     ],
     "kcrw.com": [
         "#global-message"
-    ],
-    "kcur.org": [
-        ".PromoD"
     ],
     "kdnuggets.com": [
         ".a2t-link",
@@ -18370,6 +18381,9 @@
     "mobiforge.com": [
         "a > img[alt=\"Ad\"]"
     ],
+    "mobile57.com": [
+        ".adc"
+    ],
     "mobilenapps.com": [
         "#vplayer_large"
     ],
@@ -19504,6 +19518,7 @@
         ".ads"
     ],
     "nbcbayarea.com": [
+        ".home-module_ad",
         ".promo"
     ],
     "nbcnews.com": [
@@ -20901,6 +20916,9 @@
     "onlineocr.net": [
         ".d-xl-block",
         ".row[style*=\"text-align:right\"]"
+    ],
+    "onlinepdfedit.com": [
+        ".ad_demo"
     ],
     "onlineradiobox.com": [
         ".banner--header",
@@ -24256,6 +24274,11 @@
     ],
     "recipes.timesofindia.com": [
         ".flipkartbanner"
+    ],
+    "record-eagle.com": [
+        "#ta_background",
+        "#ta_invisible",
+        ".asset-paging-container"
     ],
     "recorder.ca": [
         ".pmd-ad-content"
@@ -31442,7 +31465,8 @@
     ],
     "upday.com": [
         ".AdsSolutionsSlot",
-        ".OutbrainSlotWidget"
+        ".OutbrainSlotWidget",
+        ".bg-subtle"
     ],
     "upfivedown.com": [
         "#block-4",
@@ -31858,6 +31882,7 @@
         ".gam"
     ],
     "victoriabuzz.com": [
+        ".vb-ad-slot",
         ".victo-billboard-desktop"
     ],
     "vidcloud9.me": [
@@ -33044,6 +33069,12 @@
     "whiskysite.nl": [
         ".apopup",
         ".apopup-bg"
+    ],
+    "whispersinthecorridors.in": [
+        ".wh-ad-slot",
+        ".wh-after-header-ad",
+        ".wh-rail-ad",
+        ".wh-slider-banner-ad"
     ],
     "whistleout.com.au": [
         ".has-hover"
