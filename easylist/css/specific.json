@@ -1527,6 +1527,9 @@
         "[href^=\"https://www.artificialintelligence-news.com/go/\"]",
         "[width=\"728\"]"
     ],
+    "artnews.com": [
+        ".boomerang"
+    ],
     "artscanvas.org": [
         ".funders"
     ],
@@ -5882,6 +5885,9 @@
     "dead-frog.com": [
         "#site_top"
     ],
+    "deadline.com": [
+        ".boomerang"
+    ],
     "dealnews.com": [
         ".ad"
     ],
@@ -9184,6 +9190,7 @@
     ],
     "gamepadla.com": [
         ".gpPartnerCard",
+        ".panel-container:has(img[src*=\"/upload/slider/\"])",
         "div:has(> div > div > a[href^=\"/visit/\"][href*=\"cmp=slider\"])"
     ],
     "gamepix.com": [
@@ -9973,7 +9980,8 @@
         ".prom"
     ],
     "goldderby.com": [
-        ".adma"
+        ".adma",
+        ".boomerang"
     ],
     "goldenstateofmind.com": [
         "[data-concert=\"desktop_leaderboard_variable\"]",
@@ -10980,6 +10988,7 @@
     ],
     "hollywoodreporter.com": [
         ".above-header-ad",
+        ".boomerang",
         "[id^=\"jwplayer\"]"
     ],
     "hollywoodunlocked.com": [
@@ -15439,6 +15448,7 @@
         ".gem-display-ad-wrapper",
         ".intra-article-ad-full",
         ".intra-article-ad-half",
+        ".me-stripe-tile-content:has(> a[href^=\"https://temuaffiliateprogram.pxf.io/\"])",
         ".me-stripe-tile-content:has(a[href*=\"?\"] .me-stripe-title-subtitle)",
         ".modernRightRail_stickyTopBannerAd-DS-EntryPoint1-1",
         ".modernRightRail_topAd_container_2col_newRR-DS-EntryPoint1-1",
@@ -17909,10 +17919,13 @@
         "#skinnerAdClosebtn",
         ".skinnerAd"
     ],
+    "pinterest.*": [
+        "[role=\"listitem\"]:has(.rounding0_j.fullWidth_1f .subtle_1h.lineClamp_1q)",
+        "div[data-grid-item]:has([data-test-pin-id] [data-test-id^=\"one-tap-desktop\"] > a[href^=\"http\"][rel=\"nofollow\"]):not(body > div)"
+    ],
     "pinterest.com": [
         "[data-grid-item=\"true\"]:has([data-test-id=\"pinrep-footer\"] a[rel=\"nofollow\"])",
-        "a[href*=\"&epik=\"]",
-        "div[data-grid-item]:has([data-test-pin-id] [data-test-id^=\"one-tap-desktop\"] > a[href^=\"http\"][rel=\"nofollow\"]):not(body > div)"
+        "a[href*=\"&epik=\"]"
     ],
     "pintprice.com": [
         "#adspace"
@@ -21939,6 +21952,9 @@
         "#ad-snigel-4",
         "a[rel^=\"sponsored\"]"
     ],
+    "stackexchange.com": [
+        ".js-zone-container"
+    ],
     "stackoverflow.com": [
         "#hireme",
         ".js-sidebar-zone"
@@ -23347,13 +23363,12 @@
         ".ad"
     ],
     "thedailybeast.com": [
-        ".CheatSheetList__placeholder",
-        ".Cheat__top-ad",
-        ".Footer__coupons-wrapper",
-        ".Sizer",
-        ".ad-container",
-        ".mobiledoc-sizer",
-        ".tdb-ads-block"
+        "#ad--pre-comments",
+        "#header-ad__wrapper",
+        "#outstream-video-ad-wrap",
+        ".ad-slot-shell",
+        ".body-ad",
+        ".tdb-ad"
     ],
     "thedailydigest.com": [
         ".promocion_celda"
@@ -25950,6 +25965,7 @@
     "variety.com": [
         "#jwplayer_xH3PjHXT_plsZnDJi_div",
         "#leaderboard-no-padding",
+        ".boomerang",
         ".vip-banner"
     ],
     "varsity.co.uk": [
@@ -26053,6 +26069,9 @@
     "viamichelin.ie": [
         ".ads"
     ],
+    "vibe.com": [
+        ".boomerang"
+    ],
     "vibilagare.se": [
         ".banner"
     ],
@@ -26084,6 +26103,7 @@
         ".s7k2m9qx",
         ".s7k2m9qx-adhesive",
         "[rel*=\"sponsored\"]",
+        "a[class][href^=\"https://www.amazon.com\"][target]",
         "div[aria-label=\"Shop\"]"
     ],
     "videocelebs.net": [
