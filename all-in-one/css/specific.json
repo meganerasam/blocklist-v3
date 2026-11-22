@@ -1187,8 +1187,11 @@
         ".ad-box-right-pc-1"
     ],
     "amateurphotographer.com": [
+        "#VideoAdContainer",
+        ".c-squirrel-embed",
         ".content-ad",
-        ".cta"
+        ".cta",
+        ".pageskin-ads"
     ],
     "amateursexteens.com": [
         "#modal"
@@ -13883,8 +13886,14 @@
         ".twenty-questions-widget"
     ],
     "igorslab.de": [
+        "#extras > #single-sticky + div:has(img)",
+        ".entry-content > a:has(> img):has(+ aside.ilab-ad-privacy-footer)",
         ".herald-sidebar",
-        "a[href*=\"/linkout/\"]"
+        ".widget_custom_html:has(> .widget-title + .textwidget:empty)",
+        "[data-igorslab-trackid]",
+        "a[href*=\"/linkout/\"]",
+        "body > div:has(> [data-igorslab-trackid])",
+        "div[id^=\"advads_ad_widget-\"]"
     ],
     "igraal.com": [
         "[data-ig-ga-cat=\"Ad\"]"
@@ -14171,6 +14180,7 @@
     ],
     "indiatimes.com": [
         "#adslot_wrapper",
+        "#custom_ad_wrapper_0",
         ".ads",
         ".amazonProductSidebar",
         ".article_first_ad",
@@ -14180,6 +14190,9 @@
         ".ecom-widget",
         ".product-cont",
         ".rmfp",
+        "div:has(> div[id^=\"div-gpt-ad-\"][id*=\"-atf\"])",
+        "div[data-type=\"in_view\"]:has(> span + div .adWrapperPlaceholder > div[id^=\"div-gpt-ad-mrec\"])",
+        "li:has(> .adInv:only-child)",
         "#scrollTop"
     ],
     "indiatoday.in": [
@@ -33949,7 +33962,7 @@
         ".promotion",
         ".stream-item-group-start[label=\"promoted\"]",
         ".tweet:has(.promo)",
-        "[id^=\"urt\"] > ul > li:has([class^=\"group-has-\\[\\[data-ad-disclosure\"])",
+        "[id^=\"urt\"]>ul>li:has([class*=\"data-ad-disclosure\"])",
         "a[href*=\"src=promoted_trend_click\"]",
         "a[href*=\"src=promoted_trend_click\"] + div",
         "div[data-testid=\"UserCell\"]:has(path[d$=\"10H8.996V8h7v7z\"])",
