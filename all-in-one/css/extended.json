@@ -1639,6 +1639,12 @@
             "type": "extended"
         }
     ],
+    "pinterest.com": [
+        {
+            "selector": "div[data-grid-item]:has(a:has-text(/(Ad|Sponsored|Sponsoris\u00e9|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|\u5e83\u544a|\u8d0a\u52a9\u5167\u5bb9|\u8d5e\u52a9\u7684 Pin \u56fe|\ud6c4\uc6d0 \ud540|\u05de\u05de\u05d5\u05de\u05df|\u0642\u064a\u062f \u0627\u0644\u062f\u0639\u0645|\u0110\u01b0\u1ee3c t\u00e0i tr\u1ee3|\u092a\u094d\u0930\u093e\u092f\u094b\u091c\u093f\u0924|\u09b8\u09cd\u09aa\u09a8\u09b8\u09b0 \u0995\u09b0\u09be|\u0c38\u0c4d\u0c2a\u0c3e\u0c28\u0c4d\u0c38\u0c30\u0c4d \u0c1a\u0c47\u0c38\u0c3e\u0c30\u0c41|\u0421\u043f\u043e\u043d\u0441\u043e\u0440\u043e\u0432\u0430\u043d\u0438\u0439)[\\u200B-\\u200D\\uFEFF]*$/))",
+            "type": "extended"
+        }
+    ],
     "positive.news": [
         {
             "selector": ".pb--medium:has-text(Be part of the solution)",
