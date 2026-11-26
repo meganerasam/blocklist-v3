@@ -12299,6 +12299,9 @@
             "type": "block"
         },
         "condition": {
+            "excludedInitiatorDomains": [
+                "hit-counter.info"
+            ],
             "urlFilter": "/hit-counter."
         }
     },
@@ -65112,7 +65115,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||astrologyanswers.com/gtmmetrics/"
+            "urlFilter": "||adobe.com/gtg/"
         }
     },
     {
@@ -65122,7 +65125,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||citi.com^*/fp.js"
+            "urlFilter": "||astrologyanswers.com/gtmmetrics/"
         }
     },
     {
@@ -65132,7 +65135,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||citibank.com.ph/JSO/js/fp.js"
+            "urlFilter": "||box.com/securemetric/"
         }
     },
     {
@@ -65142,7 +65145,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||citibank.com.ph/tmx/js/"
+            "urlFilter": "||canva.com/gtg/"
         }
     },
     {
@@ -65152,7 +65155,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||citibank.com.sg/jso/js/fp.js"
+            "urlFilter": "||citi.com^*/fp.js"
         }
     },
     {
@@ -65162,7 +65165,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||citibank.com.sg/tmx/"
+            "urlFilter": "||citibank.com.ph/JSO/js/fp.js"
         }
     },
     {
@@ -65172,11 +65175,71 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||delt.io/a/nalytic/s.js"
+            "urlFilter": "||citibank.com.ph/tmx/js/"
         }
     },
     {
         "id": 6383,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||citibank.com.sg/jso/js/fp.js"
+        }
+    },
+    {
+        "id": 6384,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||citibank.com.sg/tmx/"
+        }
+    },
+    {
+        "id": 6385,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cloudflare.com/go9u/"
+        }
+    },
+    {
+        "id": 6386,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cursor.com/an/5NFOPZQoiC99Q/"
+        }
+    },
+    {
+        "id": 6387,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||cursor.com/metrics/"
+        }
+    },
+    {
+        "id": 6388,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||delt.io/a/nalytic/s.js"
+        }
+    },
+    {
+        "id": 6389,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65192,7 +65255,7 @@
         }
     },
     {
-        "id": 6384,
+        "id": 6390,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65202,7 +65265,7 @@
         }
     },
     {
-        "id": 6385,
+        "id": 6391,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65212,7 +65275,7 @@
         }
     },
     {
-        "id": 6386,
+        "id": 6392,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65222,7 +65285,7 @@
         }
     },
     {
-        "id": 6387,
+        "id": 6393,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65232,7 +65295,7 @@
         }
     },
     {
-        "id": 6388,
+        "id": 6394,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65242,7 +65305,27 @@
         }
     },
     {
-        "id": 6389,
+        "id": 6395,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||gumgum.com/wvxwa3jtwetcNjllZWU1MzIzMTMzOTYwMDVmM2ExMDFi/"
+        }
+    },
+    {
+        "id": 6396,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||infobae.com/metrics/"
+        }
+    },
+    {
+        "id": 6397,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65252,7 +65335,47 @@
         }
     },
     {
-        "id": 6390,
+        "id": 6398,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||lg.com/m5vgrhz/"
+        }
+    },
+    {
+        "id": 6399,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||lg.com/t54xgrj/"
+        }
+    },
+    {
+        "id": 6400,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||lowes.com/k7x2m9/"
+        }
+    },
+    {
+        "id": 6401,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||mailchimp.com/metrics/"
+        }
+    },
+    {
+        "id": 6402,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65262,7 +65385,17 @@
         }
     },
     {
-        "id": 6391,
+        "id": 6403,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||onesignal.com/f7by/"
+        }
+    },
+    {
+        "id": 6404,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65272,7 +65405,27 @@
         }
     },
     {
-        "id": 6392,
+        "id": 6405,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||poki.com/rmt/"
+        }
+    },
+    {
+        "id": 6406,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||s.dreamhost.com/67ead4DfmU/"
+        }
+    },
+    {
+        "id": 6407,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65282,7 +65435,17 @@
         }
     },
     {
-        "id": 6393,
+        "id": 6408,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||squarespace.com/metrics/"
+        }
+    },
+    {
+        "id": 6409,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65298,17 +65461,37 @@
         }
     },
     {
-        "id": 6394,
+        "id": 6410,
         "priority": 1,
         "action": {
             "type": "block"
         },
         "condition": {
-            "urlFilter": "||tiles.openfreemap.org/planet"
+            "urlFilter": "||ss.partner.life360.com/bwcrqwpxgng.js"
         }
     },
     {
-        "id": 6395,
+        "id": 6411,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||taboola.com/gtm/"
+        }
+    },
+    {
+        "id": 6412,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||theverge.com/metrics/"
+        }
+    },
+    {
+        "id": 6413,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65318,7 +65501,37 @@
         }
     },
     {
-        "id": 6396,
+        "id": 6414,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||weare.kueez.com/nvhc9u4gxsagNjgyMmY4ZDU0ODljNDJhNTU3MmVkN2Q1/"
+        }
+    },
+    {
+        "id": 6415,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||www.hilton.com/gtag"
+        }
+    },
+    {
+        "id": 6416,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||xfinity.com/metricsaw/"
+        }
+    },
+    {
+        "id": 6417,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65328,7 +65541,7 @@
         }
     },
     {
-        "id": 6397,
+        "id": 6418,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65338,7 +65551,7 @@
         }
     },
     {
-        "id": 6398,
+        "id": 6419,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65348,7 +65561,7 @@
         }
     },
     {
-        "id": 6399,
+        "id": 6420,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65358,7 +65571,7 @@
         }
     },
     {
-        "id": 6400,
+        "id": 6421,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65368,7 +65581,7 @@
         }
     },
     {
-        "id": 6401,
+        "id": 6422,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65378,7 +65591,7 @@
         }
     },
     {
-        "id": 6402,
+        "id": 6423,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65388,7 +65601,7 @@
         }
     },
     {
-        "id": 6403,
+        "id": 6424,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65398,7 +65611,7 @@
         }
     },
     {
-        "id": 6404,
+        "id": 6425,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65408,7 +65621,7 @@
         }
     },
     {
-        "id": 6405,
+        "id": 6426,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65422,7 +65635,7 @@
         }
     },
     {
-        "id": 6406,
+        "id": 6427,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65435,7 +65648,7 @@
         }
     },
     {
-        "id": 6407,
+        "id": 6428,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65448,7 +65661,7 @@
         }
     },
     {
-        "id": 6408,
+        "id": 6429,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65461,7 +65674,7 @@
         }
     },
     {
-        "id": 6409,
+        "id": 6430,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65474,7 +65687,7 @@
         }
     },
     {
-        "id": 6410,
+        "id": 6431,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65487,7 +65700,7 @@
         }
     },
     {
-        "id": 6411,
+        "id": 6432,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65500,7 +65713,7 @@
         }
     },
     {
-        "id": 6412,
+        "id": 6433,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65513,7 +65726,7 @@
         }
     },
     {
-        "id": 6413,
+        "id": 6434,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65526,7 +65739,7 @@
         }
     },
     {
-        "id": 6414,
+        "id": 6435,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65539,7 +65752,7 @@
         }
     },
     {
-        "id": 6415,
+        "id": 6436,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65552,7 +65765,7 @@
         }
     },
     {
-        "id": 6416,
+        "id": 6437,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65562,7 +65775,7 @@
         }
     },
     {
-        "id": 6417,
+        "id": 6438,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65572,7 +65785,7 @@
         }
     },
     {
-        "id": 6418,
+        "id": 6439,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65589,7 +65802,7 @@
         }
     },
     {
-        "id": 6419,
+        "id": 6440,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65605,7 +65818,7 @@
         }
     },
     {
-        "id": 6420,
+        "id": 6441,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65618,7 +65831,7 @@
         }
     },
     {
-        "id": 6421,
+        "id": 6442,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65628,7 +65841,7 @@
         }
     },
     {
-        "id": 6422,
+        "id": 6443,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65644,7 +65857,7 @@
         }
     },
     {
-        "id": 6423,
+        "id": 6444,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65657,7 +65870,7 @@
         }
     },
     {
-        "id": 6424,
+        "id": 6445,
         "priority": 1,
         "action": {
             "type": "block"
@@ -65670,7 +65883,7 @@
         }
     },
     {
-        "id": 6425,
+        "id": 6446,
         "priority": 1,
         "action": {
             "type": "block"

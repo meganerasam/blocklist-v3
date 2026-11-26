@@ -6483,6 +6483,9 @@
         "#gg-masthead",
         ".wp-block-gamurs-ad"
     ],
+    "dotnetfiddle.net": [
+        ".container-sponsor"
+    ],
     "douglas.*": [
         ".cms-container:has([data-testid=\"CriteoAdFormatCategoryView\"])",
         ".criteo-product-carousel",
@@ -9202,6 +9205,7 @@
     ],
     "gamepadla.com": [
         ".gpPartnerCard",
+        ".pMain + div:not([class])[style*=\"aspect-ratio\"]",
         ".panel-container:has(img[src*=\"/upload/slider/\"])",
         "div:has(> div > div > a[href^=\"/visit/\"][href*=\"cmp=slider\"])"
     ],
@@ -9597,6 +9601,7 @@
     "geeksforgeeks.org": [
         "#text-15",
         "#text-16",
+        ".saleModalPanel",
         ".textBasedMannualAds_2",
         ".three90RightBarBanner",
         "div[id^=\"GFG_AD_\"]"
@@ -11457,6 +11462,7 @@
     ],
     "ign.com": [
         ".background-image.content-block",
+        ".pgOutstream",
         ".wiki-bobble",
         ".zad"
     ],
@@ -21988,9 +21994,6 @@
         "#ad-snigel-4",
         "a[rel^=\"sponsored\"]"
     ],
-    "stackexchange.com": [
-        ".js-zone-container"
-    ],
     "stackoverflow.com": [
         "#hireme",
         ".js-sidebar-zone"
@@ -22837,7 +22840,9 @@
         "#hiring",
         "#qwdbfwh",
         "#sponsorposts",
-        ".ifsp"
+        "#tdbuacdq",
+        ".ifsp",
+        ".sp_post"
     ],
     "technclub.com": [
         ".wbyqkx-container"
